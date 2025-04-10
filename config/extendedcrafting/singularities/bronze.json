@@ -1,0 +1,7 @@
+{
+  "name": "Bronze",
+  "colors": ["A87544", "A87544"],
+  "ingredient": {
+    "tag": "forge:ingots/bronze"
+  }
+}

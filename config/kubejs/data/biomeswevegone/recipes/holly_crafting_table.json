@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:holly_planks"},
+    "R":{"tag":"biomeswevegone:holly_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:holly_crafting_table"
+  },
+  "show_notification": true
+}

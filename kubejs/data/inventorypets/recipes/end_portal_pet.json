@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "inventorypets:pet_end_portal"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "allthecompressed:diamond_block_2x"
+    },
+    "F": {
+      "item": "powah:ender_core"
+    },
+    "G": {
+      "item": "allthecompressed:gold_block_2x"
+    },
+    "O": {
+     "tag": "forge:nether_stars"
+    }
+  }
+}

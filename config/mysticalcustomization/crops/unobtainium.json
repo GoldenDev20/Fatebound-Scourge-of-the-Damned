@@ -1,0 +1,16 @@
+{
+  "name": "Unobtainium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:magical",
+  "ingredient": {
+    "tag": "forge:storage_blocks/unobtainium"
+  },
+  "color": "CE51E0",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower/unobtainium_flower",
+    "essence": "mysticalagriculture:item/essence/unobtainium_essence",
+    "seeds": "mysticalagriculture:item/seeds/unobtainium_seeds"
+  },
+  "glint": true,
+  "crux": "kubejs:magical_soil"
+}

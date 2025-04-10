@@ -1,0 +1,25 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "thermal:slag"
+    },
+    "result": [
+        {
+            "item": "minecraft:iron_nugget",
+            "chance": 0.04
+        },
+        {
+            "item": "thermal:copper_nugget",
+            "chance": 0.03
+        },
+        {
+            "item": "thermal:tin_nugget",
+            "chance": 0.02
+        },
+        {
+            "item": "thermal:lead_nugget",
+            "chance": 0.02
+        }
+    ],
+    "experience": 0
+}

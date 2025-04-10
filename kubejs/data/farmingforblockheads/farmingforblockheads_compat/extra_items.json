@@ -1,0 +1,18 @@
+{
+  "modId": "farmingforblockheads",
+  "group": {
+    "name": "Extra Items",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "alltheores:sapphire" },
+    "defaultCategory": "farmingforblockheads:other"
+  },
+  "customEntries": [
+    { "output": "minecraft:sugar_cane" },
+    { "output": "minecraft:kelp" },
+    { "output": "minecraft:sea_pickle" },
+    { "output": "minecraft:lily_pad" },
+    { "output": "minecraft:vine" },
+    { "output": "minecraft:bamboo" },
+    { "output": "minecraft:cactus" }
+  ]
+}

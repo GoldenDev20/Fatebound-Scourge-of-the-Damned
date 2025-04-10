@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:jacaranda_planks"},
+    "R":{"tag":"biomeswevegone:jacaranda_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:jacaranda_crafting_table"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Phantom",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "minecraft:phantom_membrane"
+  },
+  "color": "C1B79F",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower/phantom_flower",
+    "essence": "mysticalagriculture:item/essence/phantom_essence",
+    "seeds": "mysticalagriculture:item/seeds/phantom_seeds"
+  }
+}

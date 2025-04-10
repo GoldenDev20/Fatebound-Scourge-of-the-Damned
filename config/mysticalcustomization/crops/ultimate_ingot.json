@@ -1,0 +1,15 @@
+{
+  "name": "Ultimate Ingot",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:magical",
+  "ingredient": {      
+    "item": "extendedcrafting:the_ultimate_block"
+  },
+  "color": "36013F",
+  "textures": {
+  "flower": "mysticalagriculture:block/flower/ultimate_flower",
+  "essence": "mysticalagriculture:item/essence/ultimate_essence",
+  "seeds": "mysticalagriculture:item/seeds/ultimate_seeds"
+  },
+  "crux": "kubejs:magical_soil"
+}

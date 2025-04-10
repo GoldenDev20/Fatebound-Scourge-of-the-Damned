@@ -1,0 +1,1648 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bosses"
+	group: "0191929ABBCAE7CF"
+	icon: "apotheosis:boss_summoner"
+	id: "56C30AAD66E38A2B"
+	images: [
+		{
+			height: 1.7d
+			image: "kubejs:textures/item/boss.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 0.1785714285714306d
+			y: -4.446428571428569d
+		}
+		{
+			height: 2.7d
+			image: "kubejs:textures/item/skull.png"
+			rotation: 0.0d
+			width: 1.9d
+			x: 0.1071428571428612d
+			y: -3.017857142857146d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/firef.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.5357142857142847d
+			y: -1.5178571428571388d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/fire.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			height: 4.1d
+			image: "kubejs:textures/item/skeletonf.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			height: 4.1d
+			image: "kubejs:textures/item/skeleton.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/item/firswo.png"
+			rotation: -2.0d
+			width: 2.3d
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:dragon_head"
+			id: "045A7C6A2B0E8D9D"
+			rewards: [
+				{
+					id: "6BBCC82D0F7AC9A4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "4FF2FEAA873FE8DF"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "098172EEAF963F5C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.3d
+			subtitle: "The Ender dragon is a gigantic flying hostile boss mob found when first entering the End. She is the largest naturally spawning mob in the game and is widely acknowledged as the final boss of &b&oMinecraft."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_egg"
+				id: "4989CF445E225FF4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"This Boss can be baited out of the void by tossing a Mysterious Worm into the End's void."
+				"One can obtain one of these worms by placing a Crimson Mosquito Larva inside an Enderiophage's Capsid."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/voidworm.png"
+				}
+			}
+			id: "76F050E836FA5A71"
+			rewards: [
+				{
+					id: "29EABF32121D3270"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "406117454BC8C557"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0472A534F191E492"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Void Worm is an ancient creature that naturally dwells in the void beneathe the End"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_void_worm"
+					tag: { }
+				}
+				id: "40E6D68371EC8AFA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/elder_guardian.png"
+				}
+			}
+			id: "32BDEB2C50FB1D9F"
+			rewards: [
+				{
+					id: "151745CF00069052"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "78B893FAA77BDBBD"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "00B887D179A7FE97"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.3d
+			subtitle: "An elder guardian is a stronger, larger variant of the guardian that can inflict Mining Fatigue. Three of them spawn inside an ocean monument; one in the penthouse room and one in each wing."
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:elder_guardian_spawn_egg"
+				id: "08FA9CD1FCA05B6E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"It has a base of about 200 health points and unknown damage; however, the health and damage get multiplied depending on the amount of players in the arena. With two, the health is 600. This is a dangerous boss that is very difficult to defeat; this is due to the Guardian's extremely frequent teleporting, almost always after you hit it, and release of Gaia Traps."
+				""
+				"**Must be summoned**"
+			]
+			icon: "botania:gaia_head"
+			id: "44CFA46C0F128BD9"
+			rewards: [
+				{
+					id: "34562A784D23CE01"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "285D9E18170D3FFD"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7D399986F8008335"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "229C9A4B1B4C6615"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "2CC977EA2AD49B97"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "The Gaia Guardian is a hostile boss in Botania. It takes on the appearance of the player, albeit being far darker in color."
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "499443CB235423E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/chimera.png"
+				}
+			}
+			id: "108CD35E863201C1"
+			rewards: [
+				{
+					id: "5E18F6F0D5D1C6EE"
+					type: "xp"
+					xp: 700
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AB044AEE7E70F73"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AD6E44CA98521CD"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "49C68A40EF6B3357"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				icon: {
+					Count: 1
+					id: "ars_nouveau:wilden_tribute"
+					tag: { }
+				}
+				id: "5CA6A2779A32BE7D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/wither.png"
+				}
+			}
+			id: "335EECE2A8A1DF81"
+			rewards: [
+				{
+					id: "6F13610A843146D5"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "7D24B80BC596F367"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "44F3646C5B90828F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2E098FD42E5D0458"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "The wither is an undead hostile boss mob that floats and shoots explosive skulls at players and mobs, that can only be purposely constructed by the player. It is the only source of nether stars, which are used to craft beacons"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "kubejs:textures/item/with_er.png"
+					}
+				}
+				id: "3B179A23F583E826"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/warpmos.png"
+				}
+			}
+			id: "0DA86756ACBD3A5F"
+			rewards: [
+				{
+					id: "7F96AA9151E3F7A9"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "2429201E786571AC"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "4AD267C91B9E1AC5"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "4550AD926B4C519D"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "The Warped Mosco is an aggressive mini-boss version of a Crimson Mosquito that appears if a Crimson Mosquito sucks the blood of a Mungus that is covered in Warped Fungus"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: {
+					Count: 1
+					id: "alexsmobs:spawn_egg_warped_mosco"
+					tag: { }
+				}
+				id: "1BF9E2696C0FB5F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/captain_cornelia.png"
+				}
+			}
+			id: "6BF70EBA5CCBF813"
+			rewards: [
+				{
+					id: "4C1904244BDE4D0A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AEBCDE18B1DA661"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "7232A5EA9A03B884"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Ghost of Captain Cornelia can be summoned with Shell Horn. Cornelia is the only source of Three-Bolt Helmet, Coral Lance and Sweet Lance."
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:captain_cornelia_spawn_egg"
+				id: "5C29BC75363947A7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/eel.png"
+				}
+			}
+			id: "5F0A87FDE169F3F8"
+			rewards: [
+				{
+					id: "1CC15D28986164AC"
+					type: "xp"
+					xp: 700
+				}
+				{
+					exclude_from_claim_all: true
+					id: "535609B619709C88"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					count: 2
+					id: "19FE4B437D88C58B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A large stationary mob that spawns in the Shelter."
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquamirae:eel_spawn_egg"
+				id: "5ADFE5F7A66EDFAD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/mother_maze.png"
+				}
+			}
+			id: "4ED047FDA2CFAE5B"
+			rewards: [
+				{
+					id: "31123589F05463A1"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21ADCA4050B194E9"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "28D4BF0EEE796DD4"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A massive stingray-like creature with a cluster of amethysts on its back and can spawn Underwater."
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:maze_mother_spawn_egg"
+				id: "4D1E84C9692FD3CF"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/warden.png"
+				}
+			}
+			id: "3F5938292409F03B"
+			rewards: [
+				{
+					id: "2863DA82B88560AB"
+					type: "xp"
+					xp: 2000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CB9FD031319C6A1"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BFE8FD9B20F14B3"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60C256B5CFD0A1B1"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "1550192384E9F430"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.7d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:warden_spawn_egg"
+				id: "61C1ED7E405ADEF2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/shriek_worm.png"
+				}
+			}
+			id: "27AE7D1AC4C0BF5D"
+			rewards: [
+				{
+					id: "61B7D4A9FBAD17D1"
+					type: "xp"
+					xp: 700
+				}
+				{
+					exclude_from_claim_all: true
+					id: "735F6B64849341BB"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DC6F6BA37022D05"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7D001ECFC8E037E4"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				id: "2990D9DD46F612B8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/stalder.png"
+				}
+			}
+			id: "191C6A0C58563B5C"
+			rewards: [
+				{
+					id: "43A456B45D210B6A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FA4E309C558F212"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0874005156161BAB"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7C788E18A640C27B"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				id: "612F22940321A503"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Gorgons can be located deep down in Gorgon Temples, gigantic, Greek-style crumbling stone temples which spawn randomly in Beach biomes."
+				""
+				"There are two strategies to defeat a gorgon:"
+				""
+				"- The best way to take a gorgon on is to wear a blindfold, equip decent armor, use a powerful sword, and take her on. In addition to this, it is recommended that one should bring many buckets of milk, should they get poisoned by her attacks. Note that you must be blinded to avoid petrification; having anything that counters the blindfold's effect will not protect you from the Gorgon's gaze."
+				""
+				"- Alternatively, one can take on the gorgon without a blindfold by simply looking down and hitting her tail. However, this is a riskier approach, as one misstep can lead to being one-shot by the petrification. It is important to note that any equipped armor cannot be retrieved if the wearer gets petrified; the items will get \"stuck\" inside the statue instead of dropping on the ground."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/gorgon.png"
+				}
+			}
+			id: "03BA2D6A60BB32E0"
+			min_width: 300
+			rewards: [
+				{
+					id: "04A2CF5388B8C87F"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F91594EEB1753DE"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "2809014C057EE124"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Gorgons are minibosses that lurk in coastal underground lairs and kill anything that looks at them with a petrifying gaze."
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				icon: "iceandfire:spawn_egg_gorgon"
+				id: "1E07C0A981151C02"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Trolls will spawn deep underground in Forest, Mountain, and Snowy Tundra biomes, with each variant spawning in their respective biomes. They often spawn in caves, but have also been known to spawn in underground dragon caves."
+				""
+				"Since arrows are ineffective against trolls, it is suggested that one should wear decent armor and carry a hardhitting melee weapon before fighting a troll."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/troll.png"
+				}
+			}
+			id: "3854EC58DC411423"
+			min_width: 300
+			rewards: [
+				{
+					id: "6068761C834997AB"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A56E4162FB8D502"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "708D4D03DFF97A7E"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Trolls are grotesque beasts that hide in caves and relentlessly belabor any explorers looking to mine ores."
+			tasks: [{
+				entity: "iceandfire:troll"
+				icon: "iceandfire:spawn_egg_troll"
+				id: "025462EEB32CB9ED"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Cyclopes can mainly be located in Cyclops Coves, large, round, stony coves with sheep pens which spawn randomly in Beach biomes; however, they can also very rarely be found wandering through Plains and Savanna biomes."
+				""
+				"Cyclopes don't chase players into the water, making nearby rivers and lakes as save haven against chasing cyclopes."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/cyclops.png"
+				}
+			}
+			id: "5E5CA4286760D69F"
+			min_width: 300
+			rewards: [
+				{
+					id: "0CC0FA0D9E11DBEA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "787B8552B02D22AA"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "6D46E14FD5595C95"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Cyclopes are minibosses that tend to flocks of sheep inside large, stony coves."
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				icon: "iceandfire:spawn_egg_cyclops"
+				id: "4D62E707FB80979C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Hydras can be located in Hydra Lairs, small, roofless mounds of dirt with a few chests which spawn randomly in Swamp biomes."
+				""
+				"It is suggested that one bring many buckets of milk and potions of regeneration, wear decent armor, and carry a Fire Dragonsteel Sword, a Flamed Dragon Bone Sword or any other sword enchanted with Fire Aspect when fighting a hydra; depending on combat preferences, a bow enchanted with Flame may also make the fight go a bit more smoothly."
+				""
+				"The best way to take on a hydra is to lure it out of its lair during clear weather and keep it on dry land, and sprint away from its jaw strikes, run back to land a hit on it or light it on fire, and repeat until it dies; alternatively, one can simply keep their distance and pelt the hydra with flaming arrows until it dies."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/hydra.png"
+				}
+			}
+			id: "64BCC41335A02217"
+			min_width: 300
+			rewards: [
+				{
+					id: "2DE0267E7D5A538E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56297643A49CC5EB"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "78B349FB0832F0E5"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Hydras are minibosses that kill their prey with a deadly venom and regenerate any of their heads if they get severed."
+			tasks: [{
+				entity: "iceandfire:hydra"
+				icon: "iceandfire:spawn_egg_hydra"
+				id: "77928C1171EBB1AD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Lightning dragons can spawn in Jungle, Savanna, and Badlands biomes. Younger dragons are found on small roosts on the surface (Stages 1-3), whereas older ones (Stage 4 and rarely Stage 5) lurk in caverns beneath the ground."
+				""
+				"Like fire dragons and ice dragons, lightning dragons have nine natural attacks that can decimate players effortlessly. They also progress through five stages of development, where they grow larger, stronger, and more terrifying."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/lightning_dragon.png"
+				}
+			}
+			id: "6CFED389CA28EA72"
+			min_width: 300
+			rewards: [
+				{
+					id: "76D14ED4F4009082"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "507BFCCD47C91AA3"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4DF400816E80C2D5"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Lightning Dragons are one of the three dragon species that roam the Overworld. They are most famously known for their ability to breathe streams of lightning, as well as their flight abilities."
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				icon: "iceandfire:spawn_egg_lightning_dragon"
+				id: "464DA5102AAA178A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Ice dragons can spawn in any biome that has a temperature of -0.5 or below, such as any snowy biome, ice spikes or deep sea/cold sea. They can also spawn in modded biomes, as long as they are cold. Younger dragons (Stages 1-3) are found on small roosts on the surface, whereas older ones (Stage 4 and rarely Stage 5) lurk in subterranean caverns."
+				""
+				"Like fire dragons and lightning dragons, ice dragons have several formidable attacks that can end players in seconds. They also progress through five stages of development, where they grow larger, stronger, and more terrifying."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/ice_dragon.png"
+				}
+			}
+			id: "306AFE150EEBA99D"
+			min_width: 300
+			rewards: [
+				{
+					id: "1CB66C526027CB4A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "648D9465C51AAE32"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "63C55F11A29DCBD5"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Ice Dragons are one of the three dragon species that roam the Overworld. They are known for their ability to breathe an icy breath."
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				icon: "iceandfire:spawn_egg_ice_dragon"
+				id: "6B510790F3A69A3B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Fire dragons can spawn in any biome that has a temperature above -0.5, save for Jungles, Savannas, and Badlands. Younger dragons are found on small roosts on the surface (Stages 1-3), whereas older ones (Stage 4 and rarely Stage 5) lurk in caverns beneath the ground. After the threshold of 10-15 species being killed, all fire dragons grow stronger based on number of invocations of the rule mentioned above."
+				""
+				"Fire dragons have nine natural attacks, all of which can dispatch a player with ease. As well as this, they progress through five stages of development, where they grow larger, stronger, and more terrifying."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/fire_dragon.png"
+				}
+			}
+			id: "4A734CA884153331"
+			min_width: 300
+			rewards: [
+				{
+					id: "7CB1580A5154998B"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C60D0FC43FFDA11"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "6AF9B049D548578A"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Fire Dragons are one of the three species of dragons that roam the Overworld. They are most famously known for their deadly fire and flight abilities, as well as their formidable reputation."
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				icon: "iceandfire:spawn_egg_fire_dragon"
+				id: "6FE62C8B1949CB81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Queen is the largest of the Myrmex castes, and bears a resemblance to the Worker, but with a pair of horns on top of her head, and with a long, pulsating, sac-like abdomen."
+				""
+				"Myrmex can be located in Myrmex Hives, vast, labyrinthine, underground nests that are made of resin and bioluminescence, and can be found in Desert and Jungle biomes."
+				""
+				"Usually, there will be only one Queen in a hive, and without her, reproduction will stop, and the other members of the hive will stop working as efficiently as they usually do, leaving them vulnerable to predation; thus, if you kill the Queen, the entire colony crumbles."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/myrmex.png"
+				}
+			}
+			id: "2950119127896F9B"
+			min_width: 300
+			rewards: [
+				{
+					id: "1CD15C4A5FDEEC5B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F75311B882D8888"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5700AC10D6B6A660"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Myrmex are cantankerous arthropods that dwell in underground hives and maintain an elaborate caste system."
+			tasks: [{
+				entity: "iceandfire:myrmex_queen"
+				icon: "iceandfire:spawn_egg_myrmex_queen"
+				id: "30A4319DA05D6D47"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Amphitheres can be found gliding through Jungle biomes."
+				""
+				"Amphitheres are neutral, and will not attack players unless provoked; in fact, they are relatively skittish, and will always stay away from players, no matter how hard they try to reach them, only turning back to fight when provoked."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/amphithere.png"
+				}
+			}
+			id: "177E2E12D90190F3"
+			min_width: 300
+			rewards: [
+				{
+					id: "36A2BFD630684D1E"
+					type: "xp"
+					xp: 150
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39A6CC1634676309"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "43EEF87D726C1FCA"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Amphitheres are mystical feathered serpents that soar through the dense jungle that can be tackled and cowed into fast flying mounts."
+			tasks: [{
+				entity: "iceandfire:amphithere"
+				icon: "iceandfire:spawn_egg_amphithere"
+				id: "4EBFE5ABFBB6F7D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Sea serpents commonly spawn on world generation in Ocean and Deep Ocean biomes."
+				""
+				"Sea serpents are hostile, and will attack everything that comes nearby, including players and dragons. When attacking, sea serpents will usually take a bite out of their prey, dealing a considerable amount of damage."
+				""
+				"Since most arrows are ineffective in water, it is suggested that one should use a powerful sword before taking on a sea serpent. Depending on its size and bts, decent armor, potions of water breathing, and a shield may be necessary; since the serpent's leap attack can destroy boats, it is advised that one should ride an armored hippocampus should they need any fast aquatic transportation. The best way to take on a large sea serpent is to lure it a little below the surface with a hippocampus, swim away from its rushing bite attack, swim back to land a hit on it, and repeat until it dies."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/sea_serpent.png"
+				}
+			}
+			id: "0FF59AAC8DA8B7E3"
+			min_width: 300
+			rewards: [
+				{
+					id: "328ACB372B172213"
+					type: "xp"
+					xp: 750
+				}
+				{
+					exclude_from_claim_all: true
+					id: "127C3F480C8AA4D6"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "579A03A108089493"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Sea Serpents are ferocious reptilian marine predators that terrorize the vast oceans and attack any smaller creatures they see."
+			tasks: [{
+				entity: "iceandfire:sea_serpent"
+				icon: "iceandfire:spawn_egg_sea_serpent"
+				id: "41B7B1AA87B45F8A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Death worms can be found burrowing through Desert biomes."
+				""
+				"If a block of TNT is dropped near a death worm, it will eat the TNT, only to explode and die a few seconds later."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/death_worm.png"
+				}
+			}
+			id: "1BF0D2A5C25CC21F"
+			min_width: 300
+			rewards: [
+				{
+					id: "356491DD39B27242"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6544630AD34098D5"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "63E91B5FB31C611E"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Death Worms are edacious desert-dwelling worms that burrow through the sands and eat anything they come across."
+			tasks: [{
+				entity: "iceandfire:deathworm"
+				icon: "iceandfire:spawn_egg_death_worm"
+				id: "70DF2F639933BDBD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Sirens can be located on top of Siren Islands, small, rocky islands which spawn randomly in ocean biomes."
+				""
+				"Wearing earplugs can nullify the attracting qualities of the sirens' songs, allowing a player to pass by without having to worry about being led to their demise."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/siren.png"
+				}
+			}
+			id: "0C3BEB1466689FDB"
+			min_width: 300
+			rewards: [
+				{
+					id: "1D67A047F057ED72"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "370ED9CE12D7BEA7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6A2132E3D2C97284"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Sirens are dangerous coastal seductresses that sit on seaside rocky islands and sing enchanting songs that could potentially spell doom for sailors."
+			tasks: [{
+				entity: "iceandfire:siren"
+				icon: "iceandfire:spawn_egg_siren"
+				id: "2C6742C8330102F6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			description: ["Naga acid is deadly, but can actually be used to neutralize other poisons. The fangs they drop upon death can be used to brew poison antidotes and preventatives."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/naga.png"
+				}
+			}
+			id: "7D8F76B7566ECA63"
+			min_width: 300
+			rewards: [
+				{
+					id: "76371335AB5A60C8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68B173E2229A16A2"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "796EAE22503CBA9E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "46ADC32A3C426001"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Coastal cliffs are dangerous places. Adventurers tell of winged serpents called nagas with impressive speed and menacing acid venom. Though these drakes are evasive, a well-placed arrow can knock a naga right out of the sky; time your shots to hit when the naga is preparing an attack, and you can defeat it with ease."
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:naga_spawn_egg"
+					tag: { }
+				}
+				id: "177248AF4C2E5962"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			description: ["The beast guards a precious ice crystal that can unleash pure winter energy when wielded."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/frostmaw.png"
+				}
+			}
+			id: "05C7DF310A6EB8F6"
+			min_width: 300
+			rewards: [
+				{
+					id: "475C18A838E7DA37"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 12
+					id: "1425F90F5650CC48"
+					item: {
+						Count: 1
+						id: "thermal:frost_melon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EDEB6E2E974D921"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "7F9C53A158BF77EE"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Frostmaws are dangerous beasts found rarely in snowy areas. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents. If, on your travels, you encounter one sleeping in your path, it's likely best to take a different route and let it lay."
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:frostmaw_spawn_egg"
+					tag: { }
+				}
+				id: "158F056729EED689"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			description: ["Upon defeat, the Wroughtnaut will drop its Wrought Helm and its Axe of a Thousand Metals for the victor. Right clicking with the axe attacks in a large arc, and shift-right clicking will create a shockwave that brings targets closer to you."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/wrought.png"
+				}
+			}
+			id: "342D61363208BECA"
+			min_width: 300
+			rewards: [
+				{
+					id: "3319AC075AB84AAB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 15
+					id: "5716AEC3A5D5F5EF"
+					item: {
+						Count: 1
+						id: "minecraft:iron_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23AC7C3F0F9F4FE5"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "66B17D9EBFBBDE84"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Lost underground many years ago, these heavily armored knights are not men nor are they statues. Are they guarding something? Only the bravest of adventurers would dare to challenge a Ferrous Wroughtnaut."
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wroughtnaut_spawn_egg"
+				id: "2F63A50C53CB2031"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"He can also create Umvuthana followers - including healers called Umvuthana Cranes - from masks to defend him during combat. As such, his masked children revere him as a god. Unequipped travelers should keep their distance from his grove, lest they be smitten by his heliomancy."
+				""
+				"Those strong enough to face and defeat him, however, are rewarded with his mask: the Sol Visage. This mask allows its wearers to breathe life into masks to create Umvuthana followers. Unfortunately, the mask does not bestow heliomancy upon its bearer; this power is innately carried by Umvuthi, and thus dies with him. Perhaps there is another way...?"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/umvuthi.png"
+				}
+			}
+			id: "24FD9711A8E9864E"
+			min_width: 300
+			rewards: [
+				{
+					id: "7752C5EFAB52A5A8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 25
+					id: "7075A1EE80F8B41F"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1B5B3EC8DECEDEB0"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6908D46CA559AED4"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "4D841A02382CE3D5"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Umvuthi is the creator of the Abavuthana, residing in a stationary seat upon a throne in savanna groves. He draws his power from the sun, calling forth sunstrikes, solar flares, and massive solar beams."
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:umvuthi_spawn_egg"
+				id: "5622994E9B61538C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["**Only found in &bVampire Forests**"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/vampire_baron.png"
+				}
+			}
+			id: "47639DAAB95980B3"
+			min_width: 300
+			rewards: [
+				{
+					id: "5C2B225037226CA0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "168F393C8AD9DC18"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "550011B84F7B6ECD"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "1B476585C3C830AF"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "5E28A12DF8308219"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "Vampire barons can spawn from levels 1-5, however a level 6 baron can be created by using a vampire book on a level 5 baron. Pure blood, which is used for leveling up in both hunter and vampire paths can be obtained by killing Barons. The purity of the blood depends on the level of the Baron (level 1 Barons drop purity level 1/5, level 2 Barons drop purity level 2/5 etc.)."
+			tasks: [{
+				entity: "vampirism:vampire_baron"
+				id: "4A8B4B1309D2C304"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&2Night Lich&r can be discovered in rare towers located in cold biomes. "
+				""
+				"Find the towers by tracking &o&bSoul Stars&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/nigh_lich"
+				}
+			}
+			id: "6AEA7D0FA0A020C8"
+			min_width: 300
+			rewards: [
+				{
+					id: "1AC0E0195AEB2C3A"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "069E820E7D3882A7"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F22612E15111DDC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "659CDC0BC2EF93AE"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "0A6916BAE9B96C4F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			description: ["&dObsidilith&r is found in rare structures in the End islands."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/obsidilith"
+				}
+			}
+			id: "6C2BF1DA13F25F0B"
+			min_width: 300
+			rewards: [
+				{
+					id: "2E620DCD0350BDB4"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3522B7544BD4B072"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56EAEB82802AD0B9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5875D28180212B33"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "55EF4F2A69900A84"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: ["&cNether Gauntlet&r can be found in rare structures throughout the Nether."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/nether_gauntlet"
+				}
+			}
+			id: "19C78BD9F479210A"
+			min_width: 300
+			rewards: [
+				{
+					id: "31A7D7AD587B6862"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "708DCC79ECAACB21"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "351E1FDE92770097"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2C7598A847355BBA"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "51DEDDA120A6F468"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&5Void Blossom&r can be found in rare caves at the world's depths. "
+				""
+				"&o&bVoid Lilies&r will guide the way."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/void_blossom"
+				}
+			}
+			id: "5C5DD9C80AE55E41"
+			min_width: 300
+			rewards: [
+				{
+					id: "4744DC942E24A9CC"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B72583EF3712B81"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20B9D3D7301A8B94"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1837FF042EF10703"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "7E7A50B2711D7795"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+	]
+	title: "&6&oBosses"
+}

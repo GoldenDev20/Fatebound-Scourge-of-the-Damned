@@ -1,0 +1,1890 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "lets_begin_the_adventure"
+	group: ""
+	icon: {
+		Count: 1
+		id: "enchantwithmob:mob_enchant_book"
+		tag: {
+			Damage: 0
+			StoredMobEnchants: [{
+				EnchantLevel: 4
+				MobEnchant: "enchantwithmob:protection"
+			}]
+		}
+	}
+	id: "59FB9740D5BFC784"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -4.107142857142861d
+			y: -1.0892857142857153d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/item/steve.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/apples.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/item/myhouse.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 2.4d
+			image: "kubejs:textures/item/cow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dev: true
+			height: 1.0d
+			hover: ["Join to my &9&oDiscord&r community"]
+			image: "kubejs:textures/item/discord_logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			click: "https://github.com/GoldenDev20/Fatebound-Scourge-of-the-Damned/issues"
+			height: 1.0d
+			hover: ["Any Issues? Report on my &d&oGithub&r!"]
+			image: "kubejs:textures/item/github_logo2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&n&9Welcome to Fatebound: Scourge of the Damned !&r"
+				""
+				"The &4Fatebound: Scourge of the Damned&r is a Minecraft modpack brimming with thrilling adventures, treasure hunting, exploration, and a seamless fusion of magic, fantasy, and technology."
+				""
+				"You'll begin your adventure in an unknown world of danger and horror. From dragons and witches to vampires, werewolves, and unseen creatures lurking in the shadows, this unforgiving terrain will test your courage and resolve."
+				""
+				"Fighting the forces of evil, you must have a purpose; that purpose is to create the legendary &6Crystal of Creation&r."
+				""
+				"{@pagebreak}"
+				""
+				"&n&bThe Journey to the Crystal of Creation&r"
+				""
+				"Your adventure begins with the quest for the &2Stone of Transcendence&r, the cornerstone of your journey. This mystical artifact is essential for crafting the &dEssence of Fate&r, a key component in the creation of the &6Crystal of Creation&r."
+				""
+				"The &2Stone of Transcendence&r is a legendary relic capable of exceeding ordinary limits. It unlocks its full potential when combined with &o&b20&r unique and rare stones, each imbued with distinct and magical properties."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"To gather these extraordinary stones, you must venture into incredible and perilous dimensions, each brimming with its unique dangers, riddles, and treasures."
+				""
+				"Braving these realms is essential to retrieve each invaluable ingredient needed to craft the &2Stone of Transcendence&r."
+				""
+				"&n&bThe Creation of the Essence of Fate&r"
+				""
+				"Once you’ve fused the &o&b20&r rare stones with the &2Stone of Transcendence&r, the result is the &dEssence of Fate&r. This artifact embodies the ultimate harmony of magical energies and symbolizes limitless potential to shape your destiny."
+				""
+				"{@pagebreak}"
+				""
+				"&n&bCombining the Essence of Fate and Lightning Crystals&r"
+				""
+				"The journey doesn’t end with the &dEssence of Fate&r. To forge the &6Crystal of Creation&r, you must combine the Essence with &o&b8&r &eLightning-Empowered Crystals&r, each pulsating with unique energy."
+				""
+				"These &eLightning-Empowered Crystals&r are similarly scattered across the dimensions, demanding further courage and skill to gather. Only by navigating these realms' challenges can you collect the rarest materials to complete your creation."
+				""
+				"{@pagebreak}"
+				""
+				"&n&bThe Crystal of Creation&r"
+				""
+				"When the &o&b8&r &eLightning-Empowered Crystals&r are skillfully fused with the &dEssence of Fate&r, they create the &6Crystal of Creation&r. This artifact is not just a relic of immense power; it unlocks infinite possibilities, enabling the crafting of &9Creative&r items and technology fueled by pure imagination and mastery."
+				""
+				"The &6Crystal of Creation&r symbolizes the triumph of courage, persistence, and creativity. With it, you can mold not only your destiny but also the very fabric of the reality around you."
+				""
+				"So, brave soul, do you dare to embark on this perilous journey?"
+				"The &4Fatebound: Scourge of the Damned&r is calling, and your destiny awaits."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/contract.png"
+				}
+			}
+			id: "31F65F523E4DB7A7"
+			min_width: 400
+			rewards: [{
+				id: "2323A963C6CF39AB"
+				item: "villagertools:forget"
+				title: "Your copy of the contract"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&oSing the contract to start the &b&oQuests"
+			tasks: [{
+				icon: "villagertools:contract"
+				id: "071125FC42EBEAB9"
+				title: "Sign the contract"
+				type: "checkmark"
+			}]
+			title: "&c&nWelcome brave warrior of fate!"
+			x: -4.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Oops, did I forget to mention that the crafting recipe was &o&bchanged&r, didn't I?"
+				""
+				"How on earth am I supposed to get a &9Crafting Table&r!?"
+				""
+				"It's not as complicated as it seems, just follow these steps:"
+				"&o&b1&r) You'll need a bunch of &3Sticks&r. To get sticks... yeah... just punch some &aLeaves&r."
+				"&o&b2&r) With &o&b4&r sticks you'll be able to craft &eImprovised Planks&r."
+				"&o&b3&r) Use those planks to make an &2Oak Log&r."
+				"&o&b4&r) &o&b2x&r &eImprovised Planks&r + &o&b2x&r &2Oak Log&r = &9Crafting Table&r"
+				""
+				"See? That wasn't so bad! "
+			]
+			id: "19B4AF80C4E96C64"
+			min_width: 420
+			rewards: [
+				{
+					id: "456BFE017A8316DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0D04A1418D0AA790"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
+			subtitle: "&oI know, everybody knows that"
+			tasks: [{
+				id: "01FF27DF600E4541"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "&6The Crafting Table"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["19B4AF80C4E96C64"]
+			description: [
+				"Instead of immediately sprinting to your nearest tree and &npunching&r it, you now have to start with sprinting to your nearest &nmob&r."
+				""
+				"After murdering these mobs for their &bbones&r, you can gather some sticks by breaking &aleaves&r."
+			]
+			id: "6D37151EC650DF0D"
+			min_width: 300
+			rewards: [
+				{
+					id: "570F93417F0408F0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1CECB441C68E6E16"
+					item: "minecraft:bone"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "&oStart with primitive ones"
+			tasks: [{
+				id: "7A53E12B06AD358D"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "primitivestart:bone_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primitivestart:bone_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primitivestart:bone_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primitivestart:bone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "primitivestart:bone_shears"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Any of Primitive Basic Tools"
+				type: "item"
+			}]
+			title: "&ePrimitive Basic Tools"
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&6Culinary Construct&r is a mod that lets you make custom sandwiches or &nbowls&r/&nstews&r out of &nany&r food items you have lying around."
+				""
+				"&n&bThat's right, any of them&r!"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/meal.png"
+				}
+			}
+			id: "3A7FC41CC5B51F5F"
+			min_width: 250
+			rewards: [
+				{
+					id: "0F33C23A0A61AD90"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 32
+					id: "7D9006F1EC4EF382"
+					item: {
+						Count: 1
+						id: "minecraft:cooked_beef"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&oDo you like sandwiches?"
+			tasks: [{
+				id: "474F8281519C3469"
+				item: "culinaryconstruct:culinary_station"
+				type: "item"
+			}]
+			title: "&6The Food"
+			x: -1.5714285714285765d
+			y: -1.0892857142857153d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"To change what percentage of players are required to sleep in order to skip the night enter followed command:"
+				""
+				"&b&o/gamerule playersSleepingPercentage <value>&r (without &3angle brackets&r)"
+				""
+				"You may set a percentage value between 0 - 100 (Default: 100)."
+			]
+			id: "2D4EE2B866D8CE35"
+			min_width: 300
+			rewards: [
+				{
+					id: "66B0380C07157770"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "50CD6FFB44D9D5B9"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+			]
+			subtitle: "&oIt's quite convenient to have a bed"
+			tasks: [{
+				id: "4E4539EA9C7C200F"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Craft any bed"
+				type: "item"
+			}]
+			title: "&6Sweet Dreams"
+			x: -9.25d
+			y: 1.2678571428571388d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "27C2B59611A27ABE"
+			rewards: [
+				{
+					id: "7B931E3670540F32"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B3693263717C8F"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			subtitle: "&oCooking Time"
+			tasks: [{
+				id: "23AEFD8250BB4EEA"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "&eFurnace"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "2F75111FF8C7FEE5"
+			rewards: [
+				{
+					id: "040A57A5B73F53C3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57AC111D9066E497"
+					item: "minecraft:chest"
+					type: "item"
+				}
+			]
+			subtitle: "&oTemporary storage solution ;)"
+			tasks: [{
+				id: "4AECEB9E367EEB22"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "balm:wooden_chests"
+					}
+				}
+				title: "Any Chest"
+				type: "item"
+			}]
+			title: "&fChest"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"If you are not familiar with &6Doggy Talents&r mod to watch those two tutorials by &aclicking&r those two &o&blinks&r below:"
+				""
+				"{\"text\":\"Doggy Talents: Pt 1 - Everything but Skills!\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=8YhjHd--2Ow\"}}"
+				""
+				"{\"text\":\"Doggy Talents: Pt 2 - Skills!\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=8YhjHd--2Ow\"}}"
+			]
+			id: "41AABD2060E95538"
+			min_width: 300
+			rewards: [
+				{
+					id: "4EE23FD373D2C7F3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2DF3456E366CB55D"
+					item: "doggytalents:doggy_charm"
+					type: "item"
+				}
+				{
+					id: "66BF9E8B2700AF98"
+					item: "doggytalents:treat_bag"
+					type: "item"
+				}
+				{
+					id: "4EE3BCFDD3E02D9B"
+					item: {
+						Count: 1
+						id: "minecraft:stick"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Training Stick\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&oMy Best Friend Forever"
+			tasks: [{
+				id: "083FC96065A72A08"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^doggytalents:.*bed.*"
+					}
+				}
+				title: "Dog Bad"
+				type: "item"
+			}]
+			title: "&9Companion for Life"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"In your &9Eccentric Tome&r are all books included."
+				""
+				"&6Right-click&r while holding Tome to open the book selection screen."
+				"&6Left-click&r on air to revert a book back into the Tome."
+				""
+				"If you lose it you can always craft it back with a regular minecraft book using any crafting grid."
+			]
+			icon: {
+				Count: 1
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			id: "3A72B0E6AAF8F2C0"
+			min_width: 250
+			rewards: [
+				{
+					id: "7C81BEFBE08B8AE9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1BF78BCCAD9B4E56"
+					item: "minecraft:book"
+					type: "item"
+				}
+			]
+			subtitle: "&oYour personal portable library"
+			tasks: [{
+				id: "624E1FE4F9278ED5"
+				title: "Akashic Tome"
+				type: "checkmark"
+			}]
+			title: "&eThe Eccentric Tome"
+			x: -3.142857142857146d
+			y: -2.982142857142854d
+		}
+		{
+			dependencies: ["6D37151EC650DF0D"]
+			description: [
+				"You can now make &3Stone&r tools, however, stone isn't as strong as you'd like it to be, and it sadly &ncan't&r mine &7Iron&r."
+				""
+				"You can mine a different metal though, &eCopper&r. "
+				""
+				"You can use &eCopper&r to make a &dSmithing Table&r, which can then be used to &nreinforce&r your bone tools."
+				""
+				"&6Reinforced Bone Tools&r are on par with &7Iron&r tools, so you can now continue into the midgame as normal."
+			]
+			id: "4407A832E90678D3"
+			min_width: 300
+			rewards: [
+				{
+					id: "0789E45A891A576A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "15218B50CF126A32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:copper_ingot"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "&oImprove you tools"
+			tasks: [
+				{
+					id: "0E56558CF610ACC7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "primitivestart:reinforced_bone_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:reinforced_bone_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:reinforced_bone_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:reinforced_bone_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:reinforced_bone_shears"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any of Reinforced Primitive Tools"
+					type: "item"
+				}
+				{
+					id: "3E649F6DA6ECA17B"
+					item: "primitivestart:reinforcement_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&eReinforced Primitive Tools"
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3A7FC41CC5B51F5F"]
+			id: "4EA94E2F6636AE31"
+			rewards: [
+				{
+					id: "4B3BD61F5ACA03F1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 3
+					id: "08C2A0B80D708B77"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "082233CBE0F5687E"
+					item: "minecraft:cooked_chicken"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "103D5A66F75235D7"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			subtitle: "&oFair Trade!"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "1729570EB2FF60A5"
+					item: "minecraft:porkchop"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "502D0C6472984D71"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1CF6E587662C0B34"
+					item: "minecraft:beef"
+					type: "item"
+				}
+			]
+			title: "&bLet's hunt"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: ["&aHealing Campfire&r creates an area around the campfire where players and/or passive mobs receive the &bregeneration&r effect in a configurable radius."]
+			icon: "minecraft:campfire"
+			id: "7AF9B28AE6B073A8"
+			min_width: 300
+			rewards: [
+				{
+					id: "34831E50AA7008F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4226A195EA4B5E99"
+					item: "croptopia:strawberry_smoothie"
+					type: "item"
+				}
+			]
+			subtitle: "&oAs the title says, it heals you"
+			tasks: [{
+				id: "54DED3429053F896"
+				type: "checkmark"
+			}]
+			title: "&2Healing Campfire"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["19B4AF80C4E96C64"]
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			id: "0BD3F155C9D1C37B"
+			rewards: [
+				{
+					id: "03D0DACD60212459"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "128D12B272174C0F"
+					item: "minecraft:bone"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "23E77D1CA3F8AD8E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Crafting Table"
+			tasks: [{
+				id: "288A7935F55450EF"
+				item: "crafting_on_a_stick:crafting_table"
+				type: "item"
+			}]
+			x: -10.892857142857146d
+			y: -3.374999999999993d
+		}
+		{
+			dependencies: ["1AFBBB797AE2F644"]
+			hide_until_deps_complete: true
+			id: "5046740F388E9B57"
+			optional: true
+			rewards: [
+				{
+					id: "4FBCB3BCC26F21B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "444DEBAC25B2ECD2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:raw_copper"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "74D76F052AB945CB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Grindstone"
+			tasks: [{
+				id: "0D7D33F911F432F6"
+				item: "crafting_on_a_stick:grindstone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Welcome to &6Age of Fate&r Quests!"
+				""
+				"The Quest book is included in your &9Eccentric Tome&r. If you prefer you can also create a key binding to open the &cQuest Book&r."
+				""
+				"To get started with questing, check out the tabs on the left. The Quests are divided into groups and each group has chapters."
+				""
+				"Mods in the pack are not gated by quests. Quests are optional but &nfully&r recommended."
+				""
+				"To view &aDependencies&r to unlock the particular quest, click on little &cred&r blinking arrow on top left corner. By clicking on the text will bring you on the dependency quest."
+				""
+				"To view Dependants to the quest, click on little &bwhite&r arrow on top right corner."
+				""
+				"There are also &nhidden&r &2Quests&r. In this chapter are &o&b22&r hidden &2Quests&r. So... can you find them?"
+			]
+			icon: "ftbquests:book"
+			id: "45E783F0D8A1736D"
+			min_width: 300
+			rewards: [{
+				id: "39B2495887531663"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1F2C60A442F7BB52"
+				type: "checkmark"
+			}]
+			title: "&cThe Quests"
+			x: -8.464285714285715d
+			y: 2.232142857142861d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "58C741E44DF06E15"
+			rewards: [
+				{
+					id: "5AEC9F087203D40F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C05626E2D77ED3D"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			subtitle: "&oNice portable storage"
+			tasks: [{
+				id: "26F03BF1288E1C4F"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			title: "&cThe Bundle"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D4EE2B866D8CE35"]
+			hide_until_deps_complete: true
+			id: "403527DC1B8E4FBC"
+			optional: true
+			rewards: [
+				{
+					id: "0A97318B64006AB5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E5A712C41D7449D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			subtitle: "&oEven better than a bed"
+			tasks: [{
+				id: "485F212D67216803"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "Any #comforts:sleeping_bags"
+				type: "item"
+			}]
+			title: "&1The Sleeping Bag"
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D4EE2B866D8CE35"]
+			hide_until_deps_complete: true
+			id: "78D285EF0AC46A6B"
+			optional: true
+			rewards: [
+				{
+					id: "3A07EC38D2D2FFCD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "710EE3FC698E86E9"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			subtitle: "&oIt can be helpful to skip the daytime if you need to"
+			tasks: [
+				{
+					id: "6ACA003932DAB01B"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					title: "Any #comforts:hammocks"
+					type: "item"
+				}
+				{
+					id: "7B683D3EEAACEF43"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+			]
+			title: "&3The Hammocks"
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27C2B59611A27ABE"]
+			hide_until_deps_complete: true
+			id: "6192897387317260"
+			rewards: [
+				{
+					id: "0B5C75E99C932581"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62DB1A6832023333"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+			]
+			subtitle: "&oIt is more efficient than a furnace for processing raw ore"
+			tasks: [{
+				id: "46C82B6807989BB0"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "&dBlast Furnace"
+			x: -7.714285714285715d
+			y: 4.910714285714292d
+		}
+		{
+			dependencies: ["27C2B59611A27ABE"]
+			hide_until_deps_complete: true
+			id: "61DF41B4BDFB0904"
+			rewards: [
+				{
+					id: "614B8D257B414EB6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41BB4AA166D1E898"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			subtitle: "&oMore efficient than a furnace for cooking food"
+			tasks: [{
+				id: "3412A539C9203CB6"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			title: "&fSmoker"
+			x: -8.07142857142857d
+			y: 3.6607142857142847d
+		}
+		{
+			dependencies: ["19B4AF80C4E96C64"]
+			hide_until_deps_complete: true
+			id: "24FB12C77B8D5BF9"
+			rewards: [
+				{
+					id: "510BBCCAE2FF88AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "18FDC21CD5D309BE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:lapis_lazuli"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0E72D366FBFD5DF2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:book"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "&oTime to enchant stuff"
+			tasks: [{
+				id: "6A154B5C2BF6E816"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "&4The Enchanting Table"
+			x: -9.714285714285715d
+			y: -4.339285714285712d
+		}
+		{
+			dependencies: ["19B4AF80C4E96C64"]
+			hide_until_deps_complete: true
+			id: "68693BFBFF578320"
+			rewards: [
+				{
+					id: "374A30DC5987AEC5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "396C8444E7C8E3EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:blaze_powder"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 6
+					id: "010DCDD655E9F0F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&oLet's try some cool potions"
+			tasks: [{
+				id: "287C12AC5924EB5E"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			title: "The Potion Maker: &a&oApprentice"
+			x: -8.07142857142857d
+			y: -4.232142857142854d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			id: "0C696C02464BD69E"
+			rewards: [
+				{
+					id: "1117A14C90999C19"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29EC215592E235C0"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5A16454016C73CD8"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "&5Smithing Table"
+			x: 0.3571428571428612d
+			y: 0.9464285714285694d
+		}
+		{
+			dependencies: ["0C696C02464BD69E"]
+			hide_until_deps_complete: true
+			id: "1AFBBB797AE2F644"
+			rewards: [
+				{
+					id: "1432756D88DC0C3A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "399F997B1E4844B1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4CC01F806C34DBF3"
+				item: "minecraft:grindstone"
+				type: "item"
+			}]
+			title: "&eGrindstone"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0C696C02464BD69E"]
+			hide_until_deps_complete: true
+			id: "3FF285B77B20C7D8"
+			rewards: [
+				{
+					id: "3E378ECDCA78F43D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0825092A197FE7CC"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "33A934EF7F779A56"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "&9Anvil"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4407A832E90678D3"]
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			id: "11D60840DA1FB603"
+			optional: true
+			rewards: [
+				{
+					id: "3F6EBBDDFB0AFAF4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "255241256AEA63AF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "ironfurnaces:gold_furnace"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7C7BBA1A1148C8A2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "primitivestart:plated_bone_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:plated_bone_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:plated_bone_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:plated_bone_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "primitivestart:plated_bone_shears"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Any of Plated Primitive Tools"
+					type: "item"
+				}
+				{
+					id: "1026EB90A132F8D8"
+					item: "primitivestart:plating_upgrade_smithing_template"
+					type: "item"
+				}
+			]
+			title: "&ePlated Primitive Tools"
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: ["The &dStore Chapter Group&r offers you &b&n8 Shops&r where you can buy rare items, equip yourself with powerful stuff, get some food, books... even creative items are optainable in &0The Pirate Bay&r shop."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/store_ores.png"
+				}
+			}
+			id: "0852A72E87C76289"
+			min_width: 250
+			rewards: [
+				{
+					id: "7876CE6ACCE090A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "404F157056A75347"
+					item: "croptopia:cherry"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A05592D6BC3C187"
+				type: "checkmark"
+			}]
+			title: "&cThe Store"
+			x: -0.2857142857142847d
+			y: -0.2321428571428612d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Don't forget to set your home first."
+				""
+				"Use command &d/sethome&r for setting home."
+				""
+				"Use command &d/home&r to teleport your back to home."
+				""
+				"Use command &d/back&r to teleport your to previous location. Can be used multiple times."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/home.png"
+				}
+			}
+			id: "750DC72FD4D075B8"
+			min_width: 250
+			rewards: [{
+				id: "0413F11DB3B0BD9B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "07508401EE912F59"
+				type: "checkmark"
+			}]
+			title: "&6Home Sweet Home!"
+			x: -0.4642857142857153d
+			y: -2.6964285714285694d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: ["The &9Personal ID Card&r is a key component in certain recipes."]
+			icon: "kubejs:personal_id"
+			id: "66A364380D3AA7B5"
+			min_width: 250
+			rewards: [
+				{
+					id: "33C4A70013F124C1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7482F149EC7D86C5"
+					item: "kubejs:personal_id"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "176FB21603F3CC30"
+				type: "checkmark"
+			}]
+			title: "&9Personal ID Card"
+			x: -4.714285714285715d
+			y: -3.803571428571427d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"The money can be earned by completing &2Quests&r or by &o&bselling&r certain materials in the &9Player Shop&r."
+				""
+				"It won't be easy, there are many &2Quests&r."
+			]
+			icon: "kubejs:note_100"
+			id: "5EF0BA900A68FF54"
+			min_width: 260
+			rewards: [
+				{
+					id: "234833165C1ACA3D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6532CDAB8F14C922"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D897A5E18C17BCB"
+				type: "checkmark"
+			}]
+			title: "&aCurrency System"
+			x: -8.428571428571423d
+			y: -1.2678571428571388d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"Once forged by antediluvian &4God&r, it beckons mortals and higher beings alike with promise of untold riches and immeasurable might..."
+				""
+				"Be it &o&barrogance&r or &o&bignorance&r that leads them to believe they can harness ring's power, both are paid for in &o&bsuffering&r the extent of which defies description."
+				""
+				"Once it is put on, it &ccannot be removed&r. Wearing it &o&bsignificantly&r and &o&bpermanently&r changes gameplay to be &o&6extremely challenging&r."
+				""
+				"Are you brave enough to wear it?"
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "23AA20F16618CF1F"
+			min_width: 300
+			rewards: [
+				{
+					id: "44CA0E07CD6A11AB"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "2641118F2672C552"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+				{
+					id: "0C41073A5E9F3576"
+					item: "enigmaticlegacy:astral_fruit"
+					type: "item"
+				}
+			]
+			subtitle: "Once worn, it becomes a part of you, and only with the power of god, you can unequip it"
+			tasks: [{
+				id: "52D21064D8DC4282"
+				title: "The Ring of the Seve Curses"
+				type: "checkmark"
+			}]
+			title: "&cThe Ring of the Seven Curses"
+			x: -8.607142857142861d
+			y: -0.1607142857142847d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&2The Mining Dimension&r is useful to set up &o&bquarries to mine in&r. It is also useful to use as a testing area since it is a &o&bsuperflat dimension&r."
+				""
+				"The &6Teleport Pad&r is used to teleport to &2The Mining Dimension&r, and &4The Other&r you need to &eShift+Right-click&r with both an &o&bempty hand&r and &o&boff hand&r."
+			]
+			id: "750C0E2628CDE2EB"
+			min_width: 310
+			rewards: [
+				{
+					id: "28F6D6AE356DAC49"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C70C0FE88634F87"
+					table_id: 5351675120932028234L
+					type: "loot"
+				}
+				{
+					id: "4458FCBBBD181F48"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			subtitle: "The Mining Dimension \\& The Other"
+			tasks: [{
+				id: "609A7DC216070FCC"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["68693BFBFF578320"]
+			hide_until_deps_complete: true
+			id: "364E3307FC50AA87"
+			rewards: [
+				{
+					id: "48AB675A2611FBAB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					count: 4
+					id: "077DE59144528F7C"
+					item: "minecraft:blaze_powder"
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					count: 8
+					id: "12FA1A38ADCA090B"
+					item: "minecraft:nether_wart"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4F920E99C22652C9"
+					item: "minecraft:glass_bottle"
+					random_bonus: 10
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "797F6890D2AE0610"
+				item: "davespotioneering:compound_brewing_stand"
+				type: "item"
+			}]
+			title: "The Potion Maker: &9&oAdvanced"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["364E3307FC50AA87"]
+			hide_until_deps_complete: true
+			id: "43CD8F07A1EC697D"
+			rewards: [
+				{
+					id: "2A430F4EF5132506"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64E8629C9E07CF44"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B65D4B5CBF72A0C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2BEC29040C1692F0"
+				item: "davespotioneering:potion_injector"
+				type: "item"
+			}]
+			title: "The Potion Maker: &d&oMaster"
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43CD8F07A1EC697D"]
+			hide_until_deps_complete: true
+			id: "2855DE3BE2A3E3F0"
+			rewards: [
+				{
+					id: "5BA3FE5E77269FF9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54C78859BDC7F1EE"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "3EE7E7336FA13CDA"
+				item: {
+					Count: 1
+					id: "davespotioneering:rudimentary_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2855DE3BE2A3E3F0"]
+			hide_until_deps_complete: true
+			id: "0F8DA9304DA8E2FE"
+			rewards: [
+				{
+					id: "0703F7C112294923"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E6DE44D1C7D6A24"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1595ACA59A036D2C"
+				item: {
+					Count: 1
+					id: "davespotioneering:netherite_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0F8DA9304DA8E2FE"]
+			hide_until_deps_complete: true
+			id: "6FD9EDF3ABF0D65D"
+			rewards: [
+				{
+					id: "6B2350C5D2FE59F5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "257FBE98E634EA64"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "74FE6519ADC2CC00"
+				item: {
+					Count: 1
+					id: "davespotioneering:potioneer_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"To &b&oclaim chunks&r, the default key to open the &6Claim Map&r is &9M&r."
+				""
+				"To &o&bclaim a chunk&r, &eLeft-click&r and &ndrag&r to claim."
+				""
+				"To &o&bforce load a chunk&r, &eShift+Left-click&r the chunk. If done properly, you'll see &o&blines&r across the chunk."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "1B348B6A015BB8BA"
+			min_width: 300
+			rewards: [{
+				id: "544C88D34FDF474B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0F1596C2D7B2E323"
+				type: "checkmark"
+			}]
+			title: "&bClaiming Chunks"
+			x: -1.642857142857146d
+			y: -3.3035714285714306d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: ["If you want to create a &2Team&r for you and your friends, use the command &d/ftbteams party create (name of team)&r to create the team!"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "09E4C52DDB0B463F"
+			min_width: 300
+			rewards: [{
+				id: "0E7190219BBD75AD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "249F0A73AAE6B183"
+				type: "checkmark"
+			}]
+			title: "&dCreating a Team"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C696C02464BD69E"]
+			hide_until_deps_complete: true
+			id: "25D027C1F80069CB"
+			optional: true
+			rewards: [
+				{
+					id: "64628D4ACB20F9DC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "4D1FFCC664F37124"
+					item: "alltheores:raw_tin"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "012F602502EC1ABC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Smithing Table"
+			tasks: [{
+				id: "2CB84C68F4C66AB2"
+				item: "crafting_on_a_stick:smithing_table"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FF285B77B20C7D8"]
+			hide_until_deps_complete: true
+			id: "761D541ACE6F3DA4"
+			optional: true
+			rewards: [
+				{
+					id: "29B86643F4AFE6CA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "7B88BFB6DAA2F542"
+					item: "minecraft:raw_gold"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "64E2F08D6C8293BC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Anvil"
+			tasks: [{
+				id: "0658F4A0CEDAD7FE"
+				item: "crafting_on_a_stick:anvil"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BD3F155C9D1C37B"]
+			hide_until_deps_complete: true
+			id: "2AD3A92C9E75DE91"
+			rewards: [
+				{
+					id: "48FF8B16A0E5C495"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "69D0AB27701C79A1"
+					item: "alltheores:raw_silver"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "02B7CF5160750773"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Bench Saw"
+			tasks: [{
+				id: "48E6BD005CC10871"
+				item: "crafting_on_a_stick:stonecutter"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BD3F155C9D1C37B"]
+			hide_until_deps_complete: true
+			id: "66574BBD190F5CDF"
+			optional: true
+			rewards: [
+				{
+					id: "52473AF87DCAA9EE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "1AE71A5116D88DCF"
+					item: "alltheores:raw_lead"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "388281EB9F78119F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Cartography Table"
+			tasks: [{
+				id: "17691136B01F918D"
+				item: "crafting_on_a_stick:cartography_table"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BD3F155C9D1C37B"]
+			hide_until_deps_complete: true
+			id: "6693F6F5712B816E"
+			optional: true
+			rewards: [
+				{
+					id: "66BAE7672C6CAA81"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "0A18DDAB3F0F619D"
+					item: "alltheores:raw_nickel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "580786011A948BEC"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "&oPortable Loom"
+			tasks: [{
+				id: "39487FB0388720F4"
+				item: "crafting_on_a_stick:loom"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&6GoProne&r adds a keybind (default \"&o&bC&r\") which sets the player to the &o&bcrawling pose&r, allowing them to sneak through &o&b1-block high gaps&r, without needing to squash something on top of them."
+				""
+				"Also adds a second keybind (&o&bnot bound to anything&r by default) which allows you to toggle being prone."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/prone.png"
+				}
+			}
+			id: "423E9BC3ED8807E3"
+			min_width: 300
+			rewards: [{
+				id: "37A47F8032D0BE3C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5A4382CC9FF4C2DD"
+				type: "checkmark"
+			}]
+			title: "&7GoProne"
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&6Passive Skill Tree&r mod, mostly inspired by &o&bPath of Exile&r game."
+				""
+				"To get started, gather some &eExperience&r to acquire &o&byour first skill point&r."
+				"Then press &o&bKeypad 1&r (if it doesn't work - check your key bindings)."
+				"Then select your &9Class&r but &nchoose carefully&r, you cannot change it."
+				"You can &o&bpath to other classes&r later if you think it is worth it."
+				""
+				"&2Maximum&r skill points are &b85&r, so plan your tree carefully."
+			]
+			icon: "create:experience_nugget"
+			icon_scale: 1.5d
+			id: "66B842C2774CAE2C"
+			min_width: 400
+			rewards: [{
+				id: "43BA7ADB1184642D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "70AB8F7785F5A645"
+				type: "checkmark"
+			}]
+			title: "Passive Skill Tree"
+			x: -5.535714285714285d
+			y: -2.8035714285714306d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"• &aKeypad 0&r &o&b==>&r Jade settings"
+				"• &aKeypad 1&r &o&b==>&r Skill Tree"
+				"• &aKeypad 2&r &o&b==>&r Quest Book"
+				"• &aKeypad 3&r &o&b==>&r Quest Journal"
+				"• &aKeypad 4&r &o&b==>&r Shaders on/off"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/sprites/toast/movement_keys.png"
+				}
+			}
+			id: "23C1BA0ABA579331"
+			min_width: 300
+			rewards: [{
+				id: "170128A24EDFD251"
+				type: "xp"
+				xp: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "63DE490B37579ECF"
+				type: "checkmark"
+			}]
+			title: "&bKeybinds you might need!"
+			x: -12.5d
+			y: 3.5d
+		}
+	]
+	title: "&fLet's begin the adventure"
+}

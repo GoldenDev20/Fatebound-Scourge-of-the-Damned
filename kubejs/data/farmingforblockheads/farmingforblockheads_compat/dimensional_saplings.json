@@ -1,0 +1,31 @@
+{
+  "modId": "farmingforblockheads",
+  "group": {
+    "name": "Dimensional Saplings",
+    "enabledByDefault": true,
+    "defaultPayment": { "item": "minecraft:diamond", "count": 7 },
+    "defaultCategory": "farmingforblockheads:saplings"
+  },
+  "customEntries": [
+    { "output": "twilightforest:twilight_oak_sapling" },
+    { "output": "twilightforest:canopy_sapling" },
+    { "output": "twilightforest:mangrove_sapling" },
+    { "output": "twilightforest:darkwood_sapling" },
+    { "output": "twilightforest:hollow_oak_sapling" },
+    { "output": "twilightforest:time_sapling" },
+    { "output": "twilightforest:transformation_sapling" },
+    { "output": "twilightforest:mining_sapling" },
+    { "output": "twilightforest:sorting_sapling" },
+    { "output": "twilightforest:rainbow_oak_sapling" },
+    { "output": "blue_skies:starlit_sapling" },
+		{ "output": "blue_skies:lunar_sapling" },
+		{ "output": "blue_skies:maple_sapling" },
+		{ "output": "blue_skies:crescent_fruit_sapling" },
+		{ "output": "blue_skies:dusk_sapling" },
+		{ "output": "blue_skies:frostbright_sapling" },
+		{ "output": "blue_skies:bluebright_sapling" },
+    { "output": "undergarden:wigglewood_sapling" },
+    { "output": "undergarden:grongle_sapling" },
+    { "output": "undergarden:smogstem_sapling" }
+  ]
+}

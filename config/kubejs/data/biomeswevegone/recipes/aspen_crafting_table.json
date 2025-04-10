@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key": {
+    "P":{"item":"biomeswevegone:aspen_planks"},
+    "R":{"tag":"biomeswevegone:aspen_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:aspen_crafting_table"
+  },
+  "show_notification": true
+}

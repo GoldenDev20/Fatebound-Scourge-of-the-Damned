@@ -1,0 +1,134 @@
+{
+	hide_tooltip: true
+	id: "098AAEC5028B8277"
+	loot_crate: {
+		color: 16753920
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "rare_crate"
+	}
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "apotheosis:weapon_tome", weight: 2.0f }
+		{ item: "immersiveengineering:shader_bag_rare", weight: 2.0f }
+		{ count: 4, item: "minecraft:diamond", random_bonus: 2, weight: 2.0f }
+		{ item: "minecraft:netherite_block", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "undergarden:forgotten_battleaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{ count: 2, item: "refinedstorage:speed_upgrade", random_bonus: 2, weight: 2.0f }
+		{ count: 2, item: "mekanism:upgrade_energy", random_bonus: 2, weight: 2.0f }
+		{ item: "mininggadgets:upgrade_magnet", weight: 2.0f }
+		{ count: 2, item: "functionalstorage:diamond_upgrade", random_bonus: 2, weight: 2.0f }
+		{ item: "refinedstorage:4k_storage_disk", weight: 2.0f }
+		{ item: "mysticalagriculture:imperium_furnace", weight: 2.0f }
+		{ item: "allthemodium:allthemodium_ingot", weight: 2.0f }
+		{ count: 4, item: "botania:mana_pearl", weight: 2.0f }
+		{ item: "mekanismgenerators:advanced_solar_generator", weight: 2.0f }
+		{ item: "industrialforegoing:pink_slime", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "botania:magnet_ring"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{ item: "darkutils:charm_sleep", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "cyclic:charm_void"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2.0f
+		}
+		{ item: "cyclic:ghost", weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "thermal:flux_drill"
+				tag: { }
+			}
+			weight: 2.0f
+		}
+		{ item: "extrastorage:gold_crafter", weight: 2.0f }
+		{ item: "extrastorage:diamond_crafter" }
+		{ item: "cyclic:disenchanter", weight: 2.0f }
+		{ count: 8, item: "mysticalagriculture:witherproof_glass", random_bonus: 4, weight: 2.0f }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:rare_material"
+				tag: { }
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				id: "apotheosis:gem_dust"
+				tag: { }
+			}
+		}
+		{ count: 2, item: "minecraft:totem_of_undying", random_bonus: 1 }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:diamond_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			random_bonus: 2
+		}
+		{ item: "waystones:waystone" }
+		{ item: "enigmaticlegacy:soul_compass" }
+		{
+			item: {
+				Count: 1
+				id: "thermal:satchel"
+				tag: { }
+			}
+		}
+		{ item: "minecraft:ender_chest" }
+		{ item: "functionalstorage:armory_cabinet" }
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:bronze"
+					Throttle: 1.0d
+				}
+			}
+		}
+		{ item: "ironfurnaces:diamond_furnace" }
+		{ item: "generatorgalore:obsidian_generator" }
+		{
+			item: {
+				Count: 1
+				id: "mekanismtools:refined_obsidian_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "&6Rare Crate"
+	use_title: true
+}

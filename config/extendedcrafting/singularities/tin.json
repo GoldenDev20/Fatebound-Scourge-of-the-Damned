@@ -1,0 +1,7 @@
+{
+  "name": "Tin",
+  "colors": ["7690A5", "7690A5"],
+  "ingredient": {
+    "tag": "forge:ingots/tin"
+  }
+}

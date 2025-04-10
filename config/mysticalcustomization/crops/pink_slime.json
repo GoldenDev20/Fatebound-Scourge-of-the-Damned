@@ -1,0 +1,14 @@
+{
+  "name": "Pink Slime",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:4",
+  "ingredient": {
+    "item": "industrialforegoing:pink_slime"
+  },
+  "color": "B232B2",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower/pink_slime_flower",
+    "essence": "mysticalagriculture:item/essence/pink_slime_essence",
+    "seeds": "mysticalagriculture:item/seeds/pink_slime_seeds"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:palm_planks"},
+    "R":{"tag":"biomeswevegone:palm_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:palm_crafting_table"
+  },
+  "show_notification": true
+}

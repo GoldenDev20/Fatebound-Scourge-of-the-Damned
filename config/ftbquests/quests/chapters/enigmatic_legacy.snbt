@@ -1,0 +1,2313 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "enigmatic_legacy"
+	group: "37D24E36044B603B"
+	icon: "enigmaticlegacy:astral_dust"
+	id: "5A4525EE85A001DD"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -0.2857142857142847d
+			y: -7.160714285714285d
+		}
+		{
+			height: 1.2d
+			image: "kubejs:item/enigmatic_legacy"
+			order: 1
+			rotation: 0.0d
+			width: 8.5d
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:item/living_flame"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.107142857142875d
+			y: -7.562500000000014d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:item/void_stone"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:item/void_stone"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:item/void_stone"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 0.7d
+			image: "enigmaticlegacy:item/void_stone"
+			rotation: 0.0d
+			width: 0.7d
+			x: -5.9642857142857295d
+			y: -7.45535714285716d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:item/enigmatic_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: -7.0d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["When worn in the Ring slot, it will move any dropped items within 8 blocks radius towards the wearer, leaving trail of violet particles behind them."]
+			id: "05EA6848C4510FAB"
+			rewards: [
+				{
+					id: "33E5C14302281082"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3979F0475B43854C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "5B935FEED71C746C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "141BC1716851C4D2"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "You see, I am a very magnetic personality..."
+			tasks: [{
+				id: "3D80D0B72EDCBC9B"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["05EA6848C4510FAB"]
+			description: ["When worn in the Ring slot, it will collect any dropped items within 16 blocks radius from the wearer of the ring."]
+			id: "07912BA915367ECC"
+			rewards: [
+				{
+					id: "17F6BA5CCC8ADA14"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "46A73AD2F90E9A77"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "339F7F06AC566471"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5F60C320A03D716B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7967ED7DB2DA3D15"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Don't get any close to cesspools when wearing it. You won't be happy to see what happens."
+			tasks: [{
+				id: "0043CA3C784C1AA1"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07912BA915367ECC"]
+			description: ["When worn in the Ring slot, it allows the player to open their Ender Chest inventory, by pressing related keybind (default: I)."]
+			id: "6C5F93AFCF8CACB0"
+			rewards: [
+				{
+					id: "6D2D4F0E32F884FF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "63A405BEAD345A3F"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "43EFD6D278E4EAE2"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1387BE73DF62FAF0"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Handshake with the cosmic abyss. How romantic."
+			tasks: [{
+				id: "17D12FD831E2FB68"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["It can be relatively rarely found in chests generated within End Cities."]
+			id: "5AEDAD2BA20FB750"
+			rewards: [
+				{
+					id: "7845B2C59FAD60F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F90293E28CA4C43"
+					item: "enigmaticlegacy:etherium_ore"
+					type: "item"
+				}
+				{
+					id: "60B13242E5AC442B"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:ultimate_potion_lingering"
+						tag: {
+							EnigmaticPotion: "ultimate_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06EDA5DA7A9C6246"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "It's truly curious how it came to existence, given that it never appears naturally across any of the reaches of The End."
+			tasks: [{
+				id: "29C59FD32EE013E1"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5AEDAD2BA20FB750"]
+			description: ["Etherium represents \"better than diamond\" tier of equipment, available in endgame stages of progression, after reaching the Outer Islands in The End. Tools and armor made of Etherium not only have high durability and effectiveness on their own, but also possess unique abilities that make them incomparably more powerful than anything vanilla Minecraft has to offer."]
+			id: "5298FDCB080C6BA0"
+			rewards: [
+				{
+					id: "06EA24DEA7FAB190"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "58E14871E94F2C77"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:corrupted_tome"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "495ED027964077B7"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "0F13A84E4AAF4165"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Don't let this name confuse you. It is physically solid. Very."
+			tasks: [{
+				id: "124A53818176B966"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5298FDCB080C6BA0"]
+			description: ["When worn, etherium armor will provide the player with high defensive stats and unlike other armor, will not be visible on them."]
+			id: "26F5882C2D317741"
+			rewards: [
+				{
+					id: "093F6F04E24DC621"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "2CA13CE1A89A5852"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2E6CAE43ABB33286"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "60F52E110894E529"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26F5882C2D317741"]
+			description: ["Etherium gear has exceptionally high durability as for armor, with the helmet having 1452 durability points, cuirass having 2112, greaves having 1980 and boots having 1716. It has protection stats noticeably better than that of a diamond armor, an is also not displayed on a player when they are wearing it, providing additional advantage in PvP encounters."]
+			id: "25EB996570D15909"
+			rewards: [
+				{
+					id: "0B85AF0D915CFB60"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "39FAA21A88DCCC7A"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "6F70FE22FBBCA15E"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "5B5F73850E03FA65"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["25EB996570D15909"]
+			description: ["But the greatest power of etherium armor lies in it's set bonus. Set bonus is activated when wearing all four pieces of the armor simultaneously. When that happens, additional text describing it will be seen when viewing the tooltip of any of those pieces."]
+			id: "4BB85B3AB0C08772"
+			rewards: [
+				{
+					id: "13D20BEC4748C790"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "12D58070463A6826"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "111DB37C5FB2AB9A"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "6EC376345519D1BB"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4BB85B3AB0C08772"]
+			description: ["The bonus will generate a shield around the player, whenever their health drops below 40%. Health calculations consider maximum amount of health player can have at the moment, so if they have any effects that increase or decrease maximum health they can have, the amount of health required to generate a shield will change respectively."]
+			id: "50FA8E9AB010689B"
+			rewards: [
+				{
+					id: "0765C70E1A057D2C"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "341CE086BD886D6C"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "6A359752320A7952"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Next generation of bikini armor."
+			tasks: [{
+				id: "2EBB01E46492ED4A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5298FDCB080C6BA0"]
+			description: ["When mining a block that pickaxe is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "0141B118123EC39B"
+			rewards: [
+				{
+					id: "69587AB1BF4554E1"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "4529B93C92AF20A1"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7B5CFC2884CD0A12"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Classic of all classics."
+			tasks: [{
+				id: "2646E39F279CFDDC"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0141B118123EC39B"]
+			description: ["When mining a block that waraxe is effective on, it will break additional such blocks in 3x3x3 area centered around the broken block. This effect will not trigger if player is holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "77B80530F8609F7B"
+			rewards: [
+				{
+					id: "5F6BFBCF38276F0E"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "1D2594DAFF09C226"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0A865B5DDC81D9BC"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "A weapon worthy of true viking... or a true lumberjack. One of these guys should suffice."
+			tasks: [{
+				id: "28D619FDB6A04B77"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77B80530F8609F7B"]
+			description: ["When mining a block that shovel is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "178168F4134EB8E5"
+			rewards: [
+				{
+					id: "12E09B30F1F69839"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "6E3F5D7D51E663D7"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "3963010647CF308F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "That's one compact and portable excavator."
+			tasks: [{
+				id: "26F96596A1BFAB20"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["178168F4134EB8E5"]
+			description: ["Pressing Right-Click while holding Etherium Broadsword in mainhand will throw it's user back a few blocks. This ability could be used again after 2 seconds cooldown expires."]
+			id: "2C4CD7394763E782"
+			rewards: [
+				{
+					id: "649B7B813541FF6B"
+					type: "xp"
+					xp: 2500
+				}
+				{
+					id: "02B160E61B9AB052"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1D0E4C5A7EE908C1"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "A big blade for a big boy... Oh, wait, you're a girl?"
+			tasks: [{
+				id: "03134621A662CFF0"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:etherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"51687C4372CEB98B"
+				"0141B118123EC39B"
+				"178168F4134EB8E5"
+				"77B80530F8609F7B"
+			]
+			description: ["When mining a block that breaker is effective on, it will break additional such blocks in 3x3x1 area centered around the broken block, orientated respectively to the player's sight. This effect will not trigger if they are holding Shift, however, allowing to mine individual blocks if it's required."]
+			id: "6575317D05AF48EC"
+			rewards: [
+				{
+					id: "713CA718D0BE58F0"
+					type: "xp"
+					xp: 10000
+				}
+				{
+					id: "3978918B078391A6"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4DE19FE1CB1A6902"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "05FEAB40EFC2C9A9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			subtitle: "Insert overthinked lore stuff here."
+			tasks: [{
+				id: "1742FB1C43F2B626"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["It can be commonly found in chests generated within End Cities."]
+			id: "51687C4372CEB98B"
+			rewards: [
+				{
+					id: "775002E5404FDA34"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03CC4CCABAB918C2"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					id: "55FD49CC8F5694CA"
+					item: "croptopia:taco"
+					type: "item"
+				}
+				{
+					id: "0578F74A77291DA8"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Shamelessly stolen from the very depths of cosmic well of time."
+			tasks: [{
+				id: "31A76014F139F449"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["After being bound to a location, it will teleport any entity the player Left-Clicks on to that location, vanishing from their inventory right after."]
+			id: "5D85DD83E65824E4"
+			rewards: [
+				{
+					id: "65EDF4718ECB66FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0BDA5EB22C199182"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "5863AD97DFDD5FB3"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "3E0FDD946E348FAF"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4CFB0602EA528819"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5D12239A51656DD9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Yes, it stares right in your eyes. Always."
+			tasks: [{
+				id: "682D6E6C95726C19"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D85DD83E65824E4"]
+			description: ["When worn in the Charm slot, it will consume the water in a radius and shape similar to that of a regular Sponge, if you come in contact with any water block."]
+			id: "5416535E697BDB2D"
+			rewards: [
+				{
+					id: "2879634CB68F5F51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7E340CA77B556206"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "40C84EE83185635A"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "1C0F566846432959"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1E085582ABF6D92E"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "47D787FFF8988FAC"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Don't leave this thing unattended. Given enough time, it will drain entire oceans."
+			tasks: [{
+				id: "6F63514EBED396EE"
+				item: "enigmaticlegacy:mega_sponge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3AE2C846449A901E"]
+			description: ["Has a 10% chance to behead monsters slain with this weapon. Each level of Looting enchantment applied to it increases the probability by another 5%."]
+			id: "037F874922352A48"
+			rewards: [
+				{
+					id: "467F78E35350C9B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1C04A60BFE8B86DA"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "55DD5588BDC1D77A"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "3B63B3FB9566C278"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "516F2B572578E6D6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2D4DDB4794FF2441"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Evil weapon against evil creatures. I bet this will work perfectly."
+			tasks: [{
+				id: "357BFF7F6F286FCF"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["When equipped in the Arcane Scroll slot and activated, it will quickly consume or retreive player's experience, depending on the mode chosen. It will also collect any experience orb in the radius of 16 blocks from it's bearer. If deactivated, all of it's effects will be disabled."]
+			id: "34B1CC13B5B096EA"
+			rewards: [
+				{
+					id: "0CC97A414D812718"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2712407B57949D75"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "14E831DB554D83FF"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "464D25B51A37FC92"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4997C3A5269764F8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "40FDF9361CADB854"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Where do I put this scroll?.. I can't remember where I put this scroll!"
+			tasks: [{
+				id: "3CED048E00B39131"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63ACC29415D94F54"]
+			description: ["When equipped in the Arcane Scroll slot, it will provide the bearer with an ability to freely fly, at the cost of slowly consuming their experience. When flying, it will also compensate mining speed penalty, boosting block breaking rate back to regular value."]
+			id: "58A625A699579D89"
+			rewards: [
+				{
+					id: "2948ED3E67017F3F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2922F837BC954A7A"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "6ACD63170840C2B4"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "448A2357508FAC22"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2E8E0787E74E9952"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7594541AF3C18FA4"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Looks like they've made sure that the wings won't meltdown in the sunlight this time."
+			tasks: [{
+				id: "33FE3EB6B5C5218C"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34B1CC13B5B096EA"]
+			description: ["When equpped in the Arcane Scroll slot, it will return the bearer to their respawn point within the current world in an instant of their death. The scroll itself will be dropped at the initial position of death."]
+			id: "63ACC29415D94F54"
+			rewards: [
+				{
+					id: "32AF48D567169765"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "34ED2E4521C95826"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "0DE9392CB857EB7A"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "6940A9C29CB4E936"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "597E03635B5AD781"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2C0FB8908831E91B"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "There is a special advancement for dying while having it equipped in a hardcore world. I am sure."
+			tasks: [{
+				id: "41B4947C4F921117"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58A625A699579D89"]
+			description: ["Flying will quickly drain your experience. Flying within the range of the beacon does not drain experience. Compensates for the loss of mining speed while flying."]
+			id: "6B0DF7364F9B5DCE"
+			rewards: [
+				{
+					id: "369574373574F71A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5291825EDEF5BB38"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "2DE5BAE058B0038B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "7DD12ADE5780657C"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "00CD915A33C8937C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4A64599DD5E91408"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Grants you the ability to fly."
+			tasks: [{
+				id: "5F4CFC8434CD920E"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5416535E697BDB2D"]
+			description: [
+				"Allows you to transfer enchantments from any item, by combining the tome with it in a crafting grid."
+				"Item which enchantments are absorbed by the book remains intact within the grid after crafting, besides having all of it's enchantments removed."
+			]
+			id: "3AE2C846449A901E"
+			rewards: [
+				{
+					id: "21A11EC6D211B1BF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5055E1EE3D5C0AB7"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "5263CD585F686C01"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "4EC783188AA2B4E7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "6491B18FF79738A8"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2A80C69B878B53E0"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Insert overthinked lore stuff here."
+			tasks: [{
+				id: "7489C06F99A7304D"
+				item: "enigmaticlegacy:enchantment_transposer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C5F93AFCF8CACB0"]
+			description: ["Piglins become neutral when equipped, increasing luck by one."]
+			id: "517EAF56950207E4"
+			rewards: [
+				{
+					id: "1121F7B2D5CD5A61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C40A0F35F055B0E"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "28D14D43CA97D92B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "69B999A2EC42D9BB"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Useful thing to protect your finger from being cut off some day. Perhaps."
+			tasks: [{
+				id: "216DE3E3BD32511C"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: ["This mod is designed to provide tools that will aid you in exploring seemingly endless reaches of Minecraft's worlds."]
+			icon: "enigmaticlegacy:the_acknowledgment"
+			id: "3ABFE29062852FD6"
+			min_width: 300
+			rewards: [
+				{
+					id: "383B3A30FA21132B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D16769CE1A070CD"
+					item: "enigmaticlegacy:recall_potion"
+					type: "item"
+				}
+				{
+					id: "7E4E54F37C95985A"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:common_potion"
+						tag: {
+							EnigmaticPotion: "haste"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18757AB4CF1B45BC"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:ultimate_potion"
+						tag: {
+							EnigmaticPotion: "ultimate_night_vision"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "742FF89D0A5F36B9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				id: "353D92FB5AA053CE"
+				type: "checkmark"
+			}]
+			title: "Welcome to &5Enigmatic Legacy"
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			description: ["The Ring of Seven curses is a wearable item that can be equipped in the Curios ring slot. Once it is put on, it cannot be removed. Wearing it significantly and permanently changes gameplay to be extremely challenging."]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "1FF431078E9F14E9"
+			min_width: 300
+			rewards: [
+				{
+					id: "7F65E89DD06BBA2C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "2051C932F0B3E97D"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:darkest_scroll"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "775473B842B0408E"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:astral_fruit"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5403513670A9528A"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "\"Once forged by an antediluvian god, it beckons mortals and higher beings alike with promise of untold riches and immeasurable might... Be it arrogance or ignorance that leads them to believe they can harness ring's power, both are paid for in suffering the extent of which defies description.\""
+			tasks: [{
+				id: "499D3936E0549DD4"
+				type: "checkmark"
+			}]
+			title: "&5Ring of the Seven Curses"
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"Basic bonus:"
+				"+4% Attack Damage"
+				"+7% Mining Speed"
+				"+4% Health Regeneration"
+				"The base bonus above will be multiplied by the number of cursed enchantments in all your equipment items  (note the number of items). The seven curses of the Ring of Seven Curses are also counted."
+				"Only those who bear the seven curses are worthy of carrying this item."
+			]
+			hide_dependency_lines: true
+			id: "3349BD306A590085"
+			rewards: [
+				{
+					id: "6C8049BFE7FF5A0B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C6F24908C43CC69"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C8565198DD2A5FE"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "56753B63BD857116"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D14E7F8D6C601F5"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5534CE96B133FC59"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "3009BAA3EA75806F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Arcane Scroll"
+			tasks: [{
+				id: "17D313B12A5C7549"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"Only those who bear the Seven Curses can use this item."
+				"+1 Fortune Level."
+				"Piglins are neutral to you , even if there is a second curse, supplies will increase the yield by 100% ."
+				"Killing any mob provides an additional 15% chance to drop an emerald."
+				"Villager trading offers a 35% discount, and if you feel good, you have to suffer seven negative effects."
+			]
+			hide_dependency_lines: true
+			id: "51115C97C6CDFADD"
+			rewards: [
+				{
+					id: "153601DDF1978784"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F843ED47D900B7"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "256B6BC8450D9796"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52D6975A72402BE4"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03F52E71A61E3D7C"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05099F486E833F80"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "4D1656086FCB778E"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Arcane Scroll"
+			tasks: [{
+				id: "40059F17005D5735"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"The only way to take off the Ring of Seven Curses is to go to the Nether with this stone and a soul crystal and jump into a lava lake big enough to consume this stone and soul crystal to destroy the Ring of Seven Curses."
+				""
+				"If the lava lake is not big enough, even if you jump into it and die, it will not destroy the Ring of Seven Curses and it will also consume the evil stone (does not consume the soul crystal)."
+				""
+				"When all goes well, the player will hear the roar of wither death upon death and find that the Ring of Seven Curses has permanently disappeared from the accessories slot upon resurrection. This process is irreversible!"
+				""
+				"Since the Ring of Seven Curses cannot be crafted, when the Ring of Seven Curses is destroyed, players can no longer obtain it except by cheating. It would be boring if you did that, wouldn't it?"
+			]
+			hide_dependency_lines: true
+			id: "041DF7D0D016B0C3"
+			min_width: 300
+			rewards: [
+				{
+					id: "4C9B7D452D2C0FE9"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "542DE23635DBCE43"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "130D37AD3D173823"
+					item: {
+						Count: 1
+						id: "extendedcrafting:the_ultimate_block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5E4965E56973E4EC"
+					item: {
+						Count: 1
+						id: "extendedcrafting:ultimate_singularity"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "395AE78CB260A7CB"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "393BBC1F03DE0A75"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "The Cure"
+			tasks: [{
+				id: "0771636F7C00DC8B"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"Basic bonus:"
+				"+1% Attack Damage"
+				"+1% Attack Speed"
+				"+0.5% Movement Speed"
+				"+0.5% Damage Resistance"
+				"These attributes are multiplied by the total of all your gear/effects."
+				"Only those who bear the seven mantras have the ability to obtain this thing."
+				"This item can only be crafted/used by players wearing the Ring of Seven Curses in the Ring Bar."
+			]
+			hide_dependency_lines: true
+			id: "216383A1EA42CFDE"
+			rewards: [
+				{
+					id: "244434683096C7CC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3937983C9BE1D218"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FD43106FA0D931D"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26A3F6EE2C59711F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07E756009ACC7F61"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C0360686DF12836"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "2D2141C14F540020"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Talisman"
+			tasks: [{
+				id: "279D5BC30DECE3E4"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			description: [
+				"When equipped in the Charm slot or in your inventory, the player receives greater amount and power of enchantments when using an Enchanting Table. Enchanting has the chance to produce both treasure and curse enchants."
+				"This is a cursed item, meaning that can only be used when the Ring of Seven Curses is equipped."
+				"Due to the ability to get curse enchants with this item, it works well in conjunction with the Scroll of a Thousand Curses"
+			]
+			hide_dependency_lines: true
+			id: "6C775AF4D9F399EF"
+			rewards: [
+				{
+					id: "2FBE3C7B7CAB4D48"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EF4AB9321BFC50F"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "793ACBB0CD6B00DB"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "737A48FC33ACD7DE"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71A49CD20281A3E4"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F15E9836ABC319A"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "1B7699B28ADEF490"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "This item cannot burn in fire or lava."
+			tasks: [{
+				id: "13615751FF502579"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			hide_dependency_lines: true
+			id: "5A31D0CCD2360586"
+			rewards: [
+				{
+					id: "7549BAC5B8FBCA51"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "054C5E6AAD221C48"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "69A4C1D590F482BE"
+					item: {
+						Count: 1
+						id: "vampirism:sunscreen_beacon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3376DDB8AEF228E7"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4AA49A3B50EBEBBF"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			hide_dependency_lines: true
+			id: "443D11965967B122"
+			rewards: [
+				{
+					id: "4358785FED473E66"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5E4E87E40E230B08"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "12263D8B65C989BC"
+					item: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "ars_nouveau:spell_damage_potion_strong"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4329DFFD434BE2E2"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5DE080B409458C2A"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3ABFE29062852FD6"]
+			hide_dependency_lines: true
+			id: "34E45EE36B4BCA90"
+			rewards: [
+				{
+					id: "054F50E4C7D5BEBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0518C3D857E3EDED"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					count: 12
+					id: "52734EF6374E8E5D"
+					item: "buildersaddition:bookshelf_dark_oak"
+					type: "item"
+				}
+				{
+					id: "206A3B6D4BA77E9F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1EA2FA4796FF962E"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51687C4372CEB98B"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "53C3418F36947BDD"
+			rewards: [
+				{
+					id: "12569320F8AE2676"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70D779EF3880669D"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C051B4F7FB7E0E6"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1169619B0A68152A"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "7739EA6DEBAA6E8D"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "02A7547207C5D765"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51687C4372CEB98B"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0710CD0A10741258"
+			rewards: [
+				{
+					id: "74081200AF82D74E"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B755794896DAF1B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31368C91EA758646"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76CCEB0432E202BB"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "536A4211458FD4BD"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5DA44BC686D5C641"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51687C4372CEB98B"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "76D958C317879242"
+			rewards: [
+				{
+					id: "5A5923CC09DEE48A"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "49503410A7F6A6D1"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FAEE52942DE1F64"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "450BAEEBD40299BC"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "2BB9DB1B2CC71CB1"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3D81CBF770FBE612"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_potato"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "51B98B47B615A40F"
+			rewards: [
+				{
+					id: "6EBC6E5A439AA48D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D4A1D377FFC15AD"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2174305347F0AB0E"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FC16E9AE541DCD9"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "638DF5974FF04A4E"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "239B5D8DB2F3EE82"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "7A9FBA98C3F42353"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58F55C7450B6100D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:the_infinitum"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0A5E009D37A67DD4"
+			rewards: [
+				{
+					id: "724730F558B61794"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "021F9798C6A474C8"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6703EA902D1CD4FC"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E8E207C57A708D9"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0DE8228188427541"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5297AA707B668F38"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "60484F1C296854E4"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23D5E5C78D784F5C"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:soul_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "446EC9001D51F4CA"
+			rewards: [
+				{
+					id: "5793DA0FB1D4B257"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09D1DFF979355EF2"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "600A3B136FD118DB"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5631B505B8432835"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1689C8CC95F940F8"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FF4A272AD0B31D2"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "03772715A63328ED"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "18CD23B0622A0434"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "2FC752AD1DCF1DB0"
+			rewards: [
+				{
+					id: "55CD0B0E98D017F4"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "271A554EE2BA434A"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "704E694372F011E8"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "569A9C4CBB4845AB"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7532292DAD4013A4"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34C464F1A7C5F93C"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "6A8DB2D72800C29A"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C4DB3B0783133B7"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "667C87AD2C55D3C4"
+			rewards: [
+				{
+					id: "24BBFD3106133BDC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "433AFCD78CA1C225"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B8469DBB0833913"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "649D9E3D7500F9E1"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C7FC16974EE6804"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C9174B7E12C47F8"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "581D9D06BAAAFB82"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A70CE42E6A2FA37"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:evil_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "391C419A602944F7"
+			rewards: [
+				{
+					id: "67B16AA660F3B512"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77833A752090F43E"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6ACEEAA171650424"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3AC0DB179FAF7060"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CF73E04A2D1C8D7"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5180551D87765E48"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "52F9921D1E3E3EFF"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4BFED83FE26B64E8"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:desolation_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "57947EB8B3D2370F"
+			rewards: [
+				{
+					id: "13680EE33DC573A9"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "116CD6D9ECFCB550"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3432931CD7DC11CA"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24DE497556737A10"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A42168F05E34751"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BFCD1612A1A7C87"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "13F2D2872FA1DE5A"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E8E13E8BB90FD62"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:curse_transposer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5298FDCB080C6BA0"]
+			hide_dependency_lines: true
+			id: "4A9F93181E031F6B"
+			rewards: [
+				{
+					id: "3118BAAD65532B0B"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62C87F3805A01639"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D1DAE2C3E4D4551"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "556CDBE29457278D"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "770CD30530A1C8AA"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "0B74A14465EFC204"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			id: "0A94A6D7D5151BB1"
+			rewards: [
+				{
+					id: "36579BF195EC5BBC"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11A84C4976389176"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BEB4EDEAC9F494F"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E3D880AA6D44905"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57F6DBB55DECBD37"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "454D8573C007B5F8"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "7384DCD7F78C4827"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A0C1546DADFD1F7"
+				item: "enigmaticlegacy:abyssal_heart"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FF431078E9F14E9"]
+			hide_dependency_lines: true
+			id: "53FE2C339E3CA7A4"
+			rewards: [
+				{
+					id: "5DBF31D0B799A626"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70C4FC8B1A5FE6F2"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C4961A3103A797C"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A7E0EFB73F7DDE7"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15C31350541A75A5"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A0EFD908252E314"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "0C90C833F6F2DBEE"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F10D769CF7A920E"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+	]
+	title: "&9&oEnigmatic Legacy"
+}

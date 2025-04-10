@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:baobab_planks"},
+    "R":{"tag":"biomeswevegone:baobab_logs"}
+  },
+  "pattern":["PR","PR"],
+  "result": {
+    "item": "biomeswevegone:baobab_crafting_table"
+  },
+  "show_notification": true
+}

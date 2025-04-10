@@ -1,0 +1,14 @@
+{
+  "name": "Livingrock",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "botania:livingrock"
+  },
+  "color": "FFFFEA",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower/livingrock_flower",
+    "essence": "mysticalagriculture:item/essence/niter_flower",
+    "seeds": "mysticalagriculture:item/seeds/livingrock_seeds"
+  }
+}

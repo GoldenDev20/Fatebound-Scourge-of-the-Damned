@@ -1,0 +1,122 @@
+{
+	hide_tooltip: true
+	id: "6A12F01DB889BA00"
+	loot_crate: {
+		color: 0
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "pirate_crate"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "cyclic:charm_magicdefense"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{ item: "mekanism:personal_chest", weight: 70.0f }
+		{
+			item: {
+				Count: 1
+				id: "botania:monocle"
+				tag: { }
+			}
+			weight: 85.0f
+		}
+		{ item: "aquaculture:neptunes_bounty", weight: 70.0f }
+		{ item: "twilightforest:magic_map_focus", weight: 85.0f }
+		{
+			item: {
+				Count: 1
+				id: "redstone_arsenal:flux_wrench"
+				tag: { }
+			}
+			weight: 50.0f
+		}
+		{ count: 2, item: "mekanismgenerators:solar_generator", weight: 50.0f }
+		{ count: 16, item: "quark:gold_bars", weight: 85.0f }
+		{ count: 8, item: "minecraft:gold_block", weight: 85.0f }
+		{ count: 100, item: "thermal:gold_coin", weight: 85.0f }
+		{ item: "apotheosis:lucky_foot", weight: 85.0f }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:netherite_backpack"
+				tag: {
+					contentsUuid: [I;
+						1484819483
+						-1778430673
+						-1358144405
+						-974027055
+					]
+					inventorySlots: 120
+					upgradeSlots: 7
+				}
+			}
+			weight: 85.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:unholy_cloak"
+				tag: { }
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:packing_tape"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 60.0f
+		}
+		{ item: "torchmaster:dreadlamp", weight: 85.0f }
+		{ count: 3, item: "botania:terrasteel_ingot", weight: 40.0f }
+		{ count: 3, item: "botania:endoflame", weight: 85.0f }
+		{
+			item: {
+				Count: 1
+				id: "cyclic:ghost"
+				tag: { }
+			}
+			weight: 85.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "immersiveengineering:toolupgrade_revolver_electro"
+				tag: { }
+			}
+			weight: 85.0f
+		}
+		{ count: 4, item: "botania:rune_wrath", weight: 50.0f }
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 80.0f
+		}
+		{ item: "buildinggadgets2:gadget_destruction", weight: 75.0f }
+		{ item: "alexscaves:nuclear_bomb", weight: 50.0f }
+		{ item: "botania:lens_magnet", weight: 70.0f }
+	]
+	title: "&4Pirate Crate"
+	use_title: true
+}

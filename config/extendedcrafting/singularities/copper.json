@@ -1,0 +1,7 @@
+{
+  "name": "Copper",
+  "colors": ["CE7201", "CE7201"],
+  "ingredient": {
+    "tag": "forge:ingots/copper"
+  }
+}

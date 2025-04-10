@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:blue_enchanted_planks"},
+    "R":{"tag":"biomeswevegone:blue_enchanted_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:blue_enchanted_crafting_table"
+  },
+  "show_notification": true
+}

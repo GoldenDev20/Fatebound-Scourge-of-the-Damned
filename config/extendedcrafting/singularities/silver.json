@@ -1,0 +1,7 @@
+{
+  "name": "Silver",
+  "colors": ["83AAB2", "83AAB2"],
+  "ingredient": {
+    "tag": "forge:ingots/silver"
+  }
+}

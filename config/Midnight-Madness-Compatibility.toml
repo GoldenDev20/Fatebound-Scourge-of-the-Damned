@@ -1,0 +1,9 @@
+
+["Nonexistent+"]
+	"Enable Dark Souls drop from Astral Being [default=true]" = true
+
+["Born in Chaos"]
+	"Enable Souls drop from certain Born in Chaos  mobs [default=true]" = true
+	"Enable Dark Souls drop from certain Born in Chaos  mobs [default=true]" = true
+	"Enable Horrifying Souls drop from certain Born in Chaos  mobs [default=true]" = true
+

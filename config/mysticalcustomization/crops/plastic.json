@@ -1,0 +1,14 @@
+{
+  "name": "Plastic",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "industrialforegoing:plastic"
+  },
+  "color": "E5E4E2",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower/plastic_flower",
+    "essence": "mysticalagriculture:item/essence/plastic_essence",
+    "seeds": "mysticalagriculture:item/seeds/plastic_seeds"
+  }
+}

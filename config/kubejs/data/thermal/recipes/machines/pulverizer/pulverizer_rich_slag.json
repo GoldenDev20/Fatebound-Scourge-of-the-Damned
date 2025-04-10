@@ -1,0 +1,25 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+        "item": "thermal:rich_slag"
+    },
+    "result": [
+        {
+            "item": "thermal:niter_dust",
+            "chance": 0.04
+        },
+        {
+            "item": "thermal:nickel_nugget",
+            "chance": 0.03
+        },
+        {
+            "item": "thermal:silver_nugget",
+            "chance": 0.02
+        },
+        {
+            "item": "minecraft:gold_nugget",
+            "chance": 0.02
+        }
+    ],
+    "experience": 0
+}

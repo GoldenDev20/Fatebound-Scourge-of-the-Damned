@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:ebony_planks"},
+    "R":{"tag":"biomeswevegone:ebony_logs"}
+      
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:ebony_crafting_table"
+  },
+  "show_notification": true
+}

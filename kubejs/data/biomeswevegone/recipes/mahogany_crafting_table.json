@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:mahogany_planks"},
+    "R":{"tag":"biomeswevegone:mahogany_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:mahogany_crafting_table"
+  },
+  "show_notification": true
+}

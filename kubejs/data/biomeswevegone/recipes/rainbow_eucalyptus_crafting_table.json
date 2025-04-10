@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:rainbow_eucalyptus_planks"},
+    "R":{"tag":"biomeswevegone:rainbow_eucalyptus_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:rainbow_eucalyptus_crafting_table"
+  },
+  "show_notification": true
+}

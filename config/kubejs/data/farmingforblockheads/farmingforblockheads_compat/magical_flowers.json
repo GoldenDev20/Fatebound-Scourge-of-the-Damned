@@ -1,0 +1,27 @@
+{
+    "modId": "farmingforblockheads",
+    "group": {
+        "name": "Common Seeds",
+        "enabledByDefault": true,
+        "defaultPayment": { "item": "minecraft:amethyst_shard", "count": 10 },
+        "defaultCategory": "farmingforblockheads:seed_exchange"
+    },
+    "customEntries": [
+        { "output": "botania:lime_mystical_flower" },
+        { "output": "botania:yellow_mystical_flower" },
+        { "output": "botania:black_mystical_flower" },
+        { "output": "botania:white_mystical_flower" },
+        { "output": "botania:green_mystical_flower" },
+        { "output": "botania:brown_mystical_flower" },
+        { "output": "botania:light_gray_mystical_flower" },
+        { "output": "botania:pink_mystical_flower" },
+        { "output": "botania:red_mystical_flower" },
+        { "output": "botania:purple_mystical_flower" },
+        { "output": "botania:magenta_mystical_flower" },
+        { "output": "botania:orange_mystical_flower" },
+        { "output": "botania:blue_mystical_flower" },
+        { "output": "botania:gray_mystical_flower" },
+        { "output": "botania:cyan_mystical_flower" },
+        { "output": "botania:light_blue_mystical_flower" }
+    ]
+}

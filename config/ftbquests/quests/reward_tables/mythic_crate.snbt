@@ -1,0 +1,108 @@
+{
+	hide_tooltip: true
+	id: "40FE31199ED4693C"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "mythic_crate"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:mythic_material"
+				tag: { }
+			}
+			weight: 60.0f
+		}
+		{ count: 8, item: "minecraft:nether_star", random_bonus: 4, weight: 70.0f }
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:allthemodium_sword"
+				tag: { }
+			}
+			weight: 80.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:allthemodium_pickaxe"
+				tag: { }
+			}
+			weight: 80.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:allthemodium_axe"
+				tag: { }
+			}
+			weight: 80.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:allthemodium_shovel"
+				tag: { }
+			}
+			weight: 80.0f
+		}
+		{ count: 8, item: "mekanism:pellet_antimatter", weight: 3.0f }
+		{
+			item: {
+				Count: 1
+				id: "constructionwand:infinity_wand"
+				tag: {
+					wand_options: { }
+				}
+			}
+			weight: 10.0f
+		}
+		{
+			count: 12
+			item: {
+				Count: 1
+				id: "mekanism:alloy_atomic"
+				tag: { }
+			}
+			random_bonus: 12
+			weight: 40.0f
+		}
+		{ count: 4, item: "mysticalagradditions:insanium_block", random_bonus: 4, weight: 5.0f }
+		{ count: 12, item: "mysticalagradditions:insanium_apple", weight: 7.0f }
+		{ count: 32, item: "minecraft:netherite_block", weight: 7.0f }
+		{
+			item: {
+				Count: 1
+				id: "redstone_arsenal:flux_sword"
+				tag: { }
+			}
+			weight: 80.0f
+		}
+		{ count: 64, item: "minecraft:totem_of_undying", weight: 10.0f }
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:netherite_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			weight: 70.0f
+		}
+		{ count: 16, item: "mysticalagradditions:insanium_coal_block", weight: 50.0f }
+		{ count: 2, item: "extendedcrafting:nether_star_block", random_bonus: 4, weight: 70.0f }
+		{ count: 12, item: "allthemodium:piglich_heart" }
+	]
+	title: "&5Mythic Crate"
+	use_title: true
+}

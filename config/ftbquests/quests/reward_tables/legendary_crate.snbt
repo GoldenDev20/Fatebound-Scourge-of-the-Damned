@@ -1,0 +1,195 @@
+{
+	hide_tooltip: true
+	id: "6CD701C34D387D2F"
+	loot_crate: {
+		color: 65535
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "legendary_crate"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 8, item: "minecraft:nether_star", random_bonus: 2, weight: 20.0f }
+		{ count: 2, item: "mysticalagradditions:insanium_essence", random_bonus: 2, weight: 25.0f }
+		{ item: "allthemodium:unobtainium_allthemodium_alloy_ingot", weight: 70.0f }
+		{ item: "allthemodium:unobtainium_vibranium_alloy_ingot", weight: 70.0f }
+		{ item: "allthemodium:vibranium_allthemodium_alloy_ingot", weight: 70.0f }
+		{ count: 64, item: "minecraft:quartz", weight: 80.0f }
+		{ item: "immersiveengineering:shader_bag_ie_masterwork", weight: 25.0f }
+		{ item: "mysticalagriculture:master_infusion_crystal" }
+		{ count: 8, item: "mekanism:ultimate_universal_cable", random_bonus: 8, weight: 70.0f }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 9s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:looting"
+						lvl: 7s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 8s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 9s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 8s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:fortune"
+						lvl: 7s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "cofh_core:holding"
+						lvl: 11s
+					}]
+				}
+			}
+			weight: 70.0f
+		}
+		{ count: 32, item: "minecraft:diamond", weight: 75.0f }
+		{ item: "botania:life_essence" }
+		{
+			item: {
+				Count: 1
+				id: "sophisticatedbackpacks:diamond_backpack"
+				tag: {
+					contentsUuid: [I;
+						302235985
+						-621001482
+						-1179968606
+						-1059442516
+					]
+					inventorySlots: 108
+					upgradeSlots: 5
+				}
+			}
+			weight: 75.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "extradisks:256k_storage_disk"
+				tag: { }
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "mekanism:ultimate_energy_cube"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "256000000"
+						}]
+					}
+				}
+			}
+			weight: 10.0f
+		}
+		{ count: 2, item: "mekanismgenerators:advanced_solar_generator", weight: 20.0f }
+		{
+			item: {
+				Count: 1
+				id: "botania:dice"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:piglich_heart"
+				tag: { }
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{ item: "sophisticatedbackpacks:netherite_backpack", weight: 30.0f }
+		{ count: 16, item: "minecraft:totem_of_undying", weight: 25.0f }
+		{ count: 16, item: "voidtotem:totem_of_void_undying" }
+	]
+	title: "&bLegendary Crate"
+	use_title: true
+}

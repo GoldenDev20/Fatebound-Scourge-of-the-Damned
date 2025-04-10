@@ -1,0 +1,14 @@
+{
+  "name": "Niter",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "thermal:niter"
+  },
+  "color": "E8E8E8",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower/niter_flower",
+    "essence": "mysticalagriculture:item/essence/niter_essence",
+    "seeds": "mysticalagriculture:item/seeds/niter_seeds"
+  }
+}

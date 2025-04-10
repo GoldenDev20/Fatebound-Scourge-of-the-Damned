@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_midnight"
+	group: "5B1FD5CFBA160ABA"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle4.png"
+		}
+	}
+	id: "70BAB73D3AEAC0E0"
+	images: [
+		{
+			height: 1.7d
+			image: "kubejs:item/coming_soon"
+			rotation: 0.0d
+			width: 7.5d
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/quest"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.2142857142857153d
+			y: -5.049999999999997d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/midnight_logo.png"
+			rotation: 0.0d
+			width: 8.192708333333334d
+			x: -0.5d
+			y: -7.0d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "560B8B697E12B2B9"
+		shape: "rsquare"
+		tasks: [{
+			dimension: "midnight:the_midnight"
+			id: "7B4AF2919BDB9C32"
+			type: "dimension"
+		}]
+		title: "Visit Dimension: &2The Midnight"
+		x: -0.5d
+		y: -5.0d
+	}]
+	title: "&3&oThe Midnight"
+}

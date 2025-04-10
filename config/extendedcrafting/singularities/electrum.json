@@ -1,0 +1,7 @@
+{
+  "name": "Electrum",
+  "colors": ["A79135", "A79135"],
+  "ingredient": {
+    "tag": "forge:ingots/electrum"
+  }
+}

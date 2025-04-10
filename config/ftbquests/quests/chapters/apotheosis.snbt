@@ -1,0 +1,2920 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: ""
+	id: "6693050B0EE71CEB"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:item/quest"
+			rotation: 0.0d
+			width: 0.3d
+			x: -2.857142857142854d
+			y: -0.5714285714285658d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/quest"
+			rotation: 0.0d
+			width: 0.3d
+			x: 9.642857142857139d
+			y: -1.107142857142854d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/quest"
+			rotation: 0.0d
+			width: 0.3d
+			x: 2.4285714285714235d
+			y: 3.5714285714285694d
+		}
+		{
+			height: 1.5d
+			image: "kubejs:item/apotheosis"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/4"
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "rftoolspower:block/endergenic/floatingsphere"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.0d
+			y: 0.5d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A0305BB1F8EA932"]
+			description: [
+				"To get &9Gem Dust&r you need an &dApotheosis Gem&r and an &7Anvil&r."
+				""
+				"Once you get your gems, &o&brecommended&r only &3Common&r and &aUncommon&r, smash them with a falling anvil!"
+				""
+				"To make this easier make a &6Salvaging Table&r."
+			]
+			id: "40926361B5A17F74"
+			min_width: 300
+			rewards: [
+				{
+					id: "300D90FD8244E7EF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "69ED7308965F1E25"
+					item: "apotheosis:gem_dust"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "077809C5C9AFC316"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2610766334068246"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: [
+				"&7Sigils&r are items used to &o&bchange&r your &dApotheosis Affixed&r items whether it be &o&bclearing&r sockets, &o&badding more&r sockets, or &o&bremoving&r the name."
+				""
+				"All are used with your item in a &2Smithing Table&r, &9Reforging Table&r, or &6Augementing Table&r."
+			]
+			id: "6BB9490E23CBD287"
+			min_width: 250
+			rewards: [
+				{
+					id: "545A176F661A9550"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77F458CF7CA0B6D0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "4CB60F642D59915E"
+				item: "apotheosis:gem_fused_slate"
+				type: "item"
+			}]
+			title: "Sigils"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [
+				"&7Sigil of Unnaming&r does as it suggests."
+				""
+				"When you have an &o&baffixed item&r with a long name, you can combine it with the &7Sigil&r in a &2Smithing Table&r to get rid of most of the name. It means that only the &o&bmaterial&r and &o&bweapon type&r as with the &o&brarity color&r &nwill stay&r."
+			]
+			id: "1124A964E1B8E0EE"
+			min_width: 250
+			rewards: [
+				{
+					id: "253E64C5756F2859"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2607045BCA890C95"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "6B5F3AFA4E2ABCEA"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "05850580F87C8745"
+				item: "apotheosis:sigil_of_unnaming"
+				type: "item"
+			}]
+			title: "&7Sigil of Unnaming"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [
+				"Your &3Weapons&r and &7Armor&r need sockets to use &9Gems&r with it. But if it doesn't have a socket then you'll need a &5Sigil of Socketing&r!"
+				""
+				"Combine your item and &5Sigil&r in a &2Smithing Table&r and you can get up to &o&b3&r sockets."
+			]
+			id: "482190A9DBE834BE"
+			min_width: 250
+			rewards: [
+				{
+					id: "1C1CE5CCBF07AD5E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5548FFFA4D08A4AD"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "355BAF5541222E3B"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "1354E0A2E840D42D"
+				item: "apotheosis:sigil_of_socketing"
+				type: "item"
+			}]
+			title: "&5Sigil of Socketing"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"&dApotheosis&r is a content mod that allows you &o&bto become stronger&r than ever before, while trying to stay true to vanilla mechanics at heart."
+				""
+				"Features range from simple changes, like &ntaller&r &2Sugarcane&r, to &nmassive&r overhauls of &o&bcore systems&r such as &5Enchanting&r."
+				""
+				"&dApotheosis&r is divided into &o&6Modules&r, each of which has a specific focus."
+				""
+				"For detailed information, refer to the &o&bin-game guidebook&r, the &9Chronicle of Shadows&r.  You have one in your &3Eccentric Tome&r."
+			]
+			id: "5A0305BB1F8EA932"
+			min_width: 250
+			progression_mode: "flexible"
+			rewards: [
+				{
+					id: "511148A1AF7A2608"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A560F35591AAFCF"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			tasks: [{
+				advancement: "apotheosis:affix/gem"
+				criterion: ""
+				id: "61A0FDFECECB6FFF"
+				type: "advancement"
+			}]
+			title: "Welcome to &2Apotheosis"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: [
+				"The &2Salvaging Table&r can finally get you materials and &dGem Dust&r without using &3Anvils&r."
+				""
+				"You can &aRecycle&r &o&btools&r and &o&barmor&r with &o&baffixes&r to get their &cMaterials&r."
+			]
+			icon_scale: 1.5d
+			id: "1A507E77BF750F60"
+			min_width: 250
+			rewards: [
+				{
+					id: "16E05F2BEBF9153D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21BAEFFF3A0FD12A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "193C86CEFDCA68B6"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "14B79330933FD83E"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "70D60687AAB145FE"
+			rewards: [
+				{
+					id: "5E78D1BFE14A06E0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1E495B5DAC27CAEE"
+					item: "apotheosis:common_material"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3067EBF87EC88682"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "&f&oCommon"
+			tasks: [{
+				count: 3L
+				id: "650CAE5254152FB9"
+				item: "apotheosis:common_material"
+				type: "item"
+			}]
+			title: "&7Mysterious Scrap Metal"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "0A70CC1A0F4F1CD1"
+			rewards: [
+				{
+					id: "606BCC25D53DC3F5"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "13EACABD2446A02D"
+					item: "apotheosis:uncommon_material"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "&f&oUncommon"
+			tasks: [{
+				count: 3L
+				id: "70594E0D8666EB60"
+				item: "apotheosis:uncommon_material"
+				title: "&2Timeworn Fabric"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "40C8A9DF4581FF8C"
+			rewards: [
+				{
+					id: "4B0AF0D2873102D6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "152B2722AE49645A"
+					item: "apotheosis:rare_material"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3C18B25DC042D53B"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "&f&oRare"
+			tasks: [{
+				count: 3L
+				id: "71D7450548341CEB"
+				item: "apotheosis:rare_material"
+				type: "item"
+			}]
+			title: "&9Luminous Crystal Shard"
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "061244C38F05CBFE"
+			rewards: [
+				{
+					id: "3FC4D894B1E8BC73"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "148690CB788A6E6D"
+					item: "apotheosis:epic_material"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "15F456859AC5902F"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.0d
+			subtitle: "&f&oEpic"
+			tasks: [{
+				count: 3L
+				id: "6BED70FB7EF343B8"
+				item: "apotheosis:epic_material"
+				type: "item"
+			}]
+			title: "&5Arcane Sands"
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1A507E77BF750F60"]
+			id: "738FB4AC92679507"
+			rewards: [
+				{
+					id: "728DA7477EC95CFF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "3B0A17D798BABC9A"
+					item: "apotheosis:mythic_material"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "252216C4BED3505F"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "&f&oMythic"
+			tasks: [{
+				count: 3L
+				id: "68C43D5FAB4FB1FB"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			title: "&6Godforged Pearl"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A70CC1A0F4F1CD1"]
+			description: [
+				"The &7Simple Reforging Table&r is used like an &dEnchantment Table&r but with &eAffixes&r."
+				""
+				"With &9Gem Dust&r, &3Rarity Materials&r, &dSigils of Riebirth&r, and an &eAffixed Item&r you can &nreroll&r the affixes for a cost of &o&bXP&r."
+				""
+				"This can also be used &o&bto change&r the &3Riarity&r of the &eAffixed&r item up to &9Rare&r."
+			]
+			id: "375359043E71349C"
+			min_width: 250
+			rewards: [
+				{
+					id: "565C72DDFE0A1136"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2E0C8F90BD245CF0"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7249702A8618E3AC"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "51F62785D5167D56"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2D2CA0A0899233C5"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "&7Simple Reforging Table"
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"375359043E71349C"
+				"061244C38F05CBFE"
+			]
+			description: ["The &9Reforging Table&r does &o&beverything&r a &7Simple&r one does &nbut better&r, it can do &dEpic&r and &6Mythic Affixes&r!"]
+			id: "166DF03D93BC11F1"
+			min_width: 250
+			rewards: [
+				{
+					id: "70C20F24B52B5889"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D3C7055D60007A5"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F14C72DFC379E30"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "17F5E576EC0751D2"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "34D325EA464BEEEC"
+				item: "apotheosis:reforging_table"
+				type: "item"
+			}]
+			title: "&9Reforging Table"
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["359E1FFAB18FE50F"]
+			description: [
+				"With the &2Gem Cutting Tabl&re you can &o&bchange&r the &eRarity&r of your &dGem&r."
+				""
+				"By using &o&b2&r of the same &dGem&r and &eRiarity Materials&r you can &o&bincrease&r your &dGems&r rarity and that &o&bincreases&r its power."
+			]
+			id: "544011D1C48D8E65"
+			min_width: 250
+			rewards: [
+				{
+					id: "46B89522CC8F1460"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5800A1E7114B451B"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "052E3180DB33EC16"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4241A0F3897E9DF0"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: ["You can combine your &eTool&r and &9Gem&r in a &2Smithing Table&r."]
+			id: "359E1FFAB18FE50F"
+			min_width: 250
+			rewards: [
+				{
+					id: "46BFB54D7B517219"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6707590C05FC98D9"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "0E0A87D308C7D8C0"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "69CF59A7A4E03D1F"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["544011D1C48D8E65"]
+			description: ["The &o&bbetter&r the &dGem&r, the better the &eStats&r! &5Flawless&r is &o&bsecond best&r while &6Perfect&r is &nthe best&r."]
+			id: "47317516A98016C0"
+			min_width: 250
+			rewards: [
+				{
+					id: "1835C2DCB446B605"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D951640D5FA3978"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4D782F3DB3F9AA8E"
+					item: "kubejs:note_500"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "apotheosis:affix/mythic_gem"
+				criterion: ""
+				id: "2CA5B077B6357FB0"
+				type: "advancement"
+			}]
+			title: "&5Flawless Gems!"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["40926361B5A17F74"]
+			description: [
+				"&eAffixed Weapons&r can be found plenty of ways."
+				""
+				"&eAffixed Weapons&r will always have &o&blong names&r usually with the &o&btype&r of weapon and name of &o&bwho may have previously owned it&r."
+				""
+				"It will also be colored the &6Rarity&r it is, &agreen&r for &o&bUncommon&r &9blue&r for &o&bRare&r and so on, and it will also have &o&bbonus stats&r or atleast &dEnchantability&r increase."
+			]
+			id: "67422A235EBAD4CF"
+			min_width: 250
+			rewards: [
+				{
+					id: "540A016909E5C266"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41DBACD0535FAD53"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+				{
+					id: "1FB4E3F8E4B92BCB"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				id: "1129E77C7FCEC1CA"
+				type: "advancement"
+			}]
+			title: "Affixed Items"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["67422A235EBAD4CF"]
+			description: ["&5Mythical Affixes&r are &o&bthe best stats you can get&r so &6Mythical Weapons&r are what you want to aim for."]
+			id: "68DD99B788216006"
+			min_width: 260
+			rewards: [
+				{
+					id: "73D583B6F20DB6EF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7FC5C8309A4E1638"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7EA9B25A9915D35B"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				advancement: "apotheosis:affix/mythic"
+				criterion: ""
+				id: "2FF1889B361964B9"
+				type: "advancement"
+			}]
+			title: "&6Simply the Best!"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [
+				"Instead of having &o&bto choice&r whether to save the &9Tool&r or &dGem&r you can now &nkeep both&r."
+				""
+				"Use the &aSigil of Withdrawal&r with an &6Affixed Tool&r in a &2Smithing Table&r and you'll separate the &dGem&r."
+			]
+			id: "12FF7B644D595DB8"
+			min_width: 250
+			rewards: [
+				{
+					id: "49F78709759A3846"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72455889CFF073F7"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "1C689ABFA7DA00BA"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "05BB4B9BC2AD334E"
+				item: "apotheosis:sigil_of_withdrawal"
+				type: "item"
+			}]
+			title: "&aSigil of Withdrawal"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: ["&eAugmenting Table&r needs different &o&3Fuel&r to work, and that Fuel is &6Sigils of Enhancement&r."]
+			id: "0DE2806193C95C76"
+			min_width: 250
+			rewards: [
+				{
+					id: "2538277FC18A8F85"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B75C9A240E3B865"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "3CD39FEBE1A730D4"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "79C38B2C3E81465D"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			title: "&6Sigil of Enhancement"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BB9490E23CBD287"]
+			description: [
+				"The &dSigil of Rebirth&r is &o&3Fuel&r for the &7Simple&r and &9Better Reforging Table&r."
+				""
+				"They &o&bstill need&r the other &nMaterial&r and obviously the item it'll change to work though."
+			]
+			id: "46429C82843C6433"
+			min_width: 250
+			rewards: [
+				{
+					id: "34CB092C24E67B53"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0760CB26498EE726"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "6E707DE54EB4730C"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "57897C809F49C7D9"
+				item: "apotheosis:sigil_of_rebirth"
+				type: "item"
+			}]
+			title: "&dSigil of Riebirth"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"738FB4AC92679507"
+				"0DE2806193C95C76"
+			]
+			description: [
+				"&eAugmenting Table&r is what you really need for &6Perfect Affixes&r."
+				""
+				"First you need the &o&bTable&r, a &o&bTool&r, and &o&6Sigils of Enhancement&r. Once you have all those, you'll become the &9Master of the Universe&r."
+				""
+				"You can &o&breroll&r affixes, &o&bchoose a specific&r affix, or &o&bupgrade set&r affixes!"
+			]
+			id: "19D0D7433C5B43EE"
+			min_width: 250
+			rewards: [
+				{
+					id: "66B865337F73AFEA"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78F3F8EB15B0A225"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E2840B2A4836A04"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "1308C6C284D6FF67"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "622924E5D10096F1"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			title: "&6Augmenting Table"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: ["There's a few ways of obtaining &dSpawn Eggs&r but once you do, &eRight-click&r it on a &9Spawner&r to &nchange&r the &o&bmobs&r it spawns."]
+			icon: "cataclysm:coralssus_spawn_egg"
+			id: "3FCF7F6531A9F32A"
+			min_width: 270
+			rewards: [
+				{
+					id: "3756ADF438C72730"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51E7C18750B64808"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "234D449D23589496"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "45B23953C2C43613"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "spawn_egg"
+					}
+				}
+				title: "Spawn Eggs"
+				type: "item"
+			}]
+			title: "&eSpawn Eggs"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FCF7F6531A9F32A"]
+			description: [
+				"&6Capturing&r is an &dApotheosis Enchantment&r for &3Swords&r to &o&bmake mobs rarely drop&r their &cSpawn Eggs&r."
+				""
+				"Every level gives you a &o&b0.4%&r chance at getting an spawn egg each kill."
+				""
+				"The highest level of &6Capturing&r is &o&bVII&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:capturing"
+						lvl: 6s
+					}]
+				}
+			}
+			id: "3D1B18B5AA8AE800"
+			min_width: 270
+			rewards: [
+				{
+					id: "1BD096803E4636D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D28543A2BA4B9AD"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "446B53E4C4E24F28"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "22491ADB3E806A38"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:enchanted_book"
+								tag: {
+									StoredEnchantments: [{
+										id: "apotheosis:capturing"
+										lvl: 1s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:enchanted_book"
+								tag: {
+									StoredEnchantments: [{
+										id: "apotheosis:capturing"
+										lvl: 2s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:enchanted_book"
+								tag: {
+									StoredEnchantments: [{
+										id: "apotheosis:capturing"
+										lvl: 3s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:enchanted_book"
+								tag: {
+									StoredEnchantments: [{
+										id: "apotheosis:capturing"
+										lvl: 4s
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:enchanted_book"
+								tag: {
+									StoredEnchantments: [{
+										id: "apotheosis:capturing"
+										lvl: 5s
+									}]
+								}
+							}
+						]
+					}
+				}
+				title: "Capturing"
+				type: "item"
+			}]
+			title: "&dCapturing"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FCF7F6531A9F32A"]
+			description: [
+				"&2Charm Fragments&r can be made either into &9Charms&r or &aSpaun Eggs&r."
+				""
+				"They are &nrarely drop&r from their &o&brespective mobs&r. Some can even be crafted!"
+			]
+			icon: {
+				Count: 1
+				id: "reliquary:mob_charm_fragment"
+				tag: {
+					entity: "minecraft:warden"
+				}
+			}
+			id: "64F9FF0B94467E35"
+			min_width: 270
+			rewards: [
+				{
+					id: "6AD6A1F3362EE16D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2F859F58487351DC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "211E65A1506D9171"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "55BA422C269F1D71"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^reliquary:.*charm_fragment*."
+					}
+				}
+				title: "Charms"
+				type: "item"
+			}]
+			title: "&3Charms"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"Using a &6Golden Apple&r on a &eSpawner&r it will &o&bsuck the souls out&r the mobs that will be spawned."
+				""
+				"The mobs will lose all &2AI&r. They can't &nhit you&r, can't &nteleport&r, can't &nmove&r on their own."
+			]
+			hide_dependency_lines: true
+			id: "42D7C8CD8E6F5CD7"
+			min_width: 250
+			rewards: [
+				{
+					id: "32D87A3EFCE14C76"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30974580EE3912DC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7E4D3908EE26C9C7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "7CA847C78EB1B215"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			title: "&6No AI"
+			x: 1.3357142857142845d
+			y: 6.278571428571437d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"By using a &dTurtle Egg&r on a &eSpawner&r, it will &nonly&r spawn in &o&bbaby versions&r of the mobs in it. "
+				""
+				"This only works with &aVanilla&r baby versions of mobs, &nnot modded&r."
+			]
+			hide_dependency_lines: true
+			id: "6F71FD826C29C31A"
+			min_width: 250
+			rewards: [
+				{
+					id: "468802D0C1CFBCFD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11F2275629C62528"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0A46D15A40533E3F"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "65FF566B862C7211"
+				item: "minecraft:turtle_egg"
+				type: "item"
+			}]
+			title: "&dYouthful"
+			x: 0.9857142857142848d
+			y: 6.978571428571437d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"The &6Spawn Range&r is the area of where mobs &o&bcan spawn&r."
+				""
+				"The &nbigger&r the area, the &o&bmore room&r for them to spawn in."
+			]
+			hide_dependency_lines: true
+			id: "186593EBCE3FE8D8"
+			min_width: 250
+			rewards: [
+				{
+					id: "58308F5957DD9E63"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72FF54CA197635E4"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "533B6AD6DDFC0B81"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "5E1D4330184C7E38"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			title: "&eSpawn Range"
+			x: 3.0857142857142845d
+			y: 6.978571428571437d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"&9Wool&r only does one thing to the &eSpawner&r and that's to &nshut it up&r."
+				""
+				"You can use wool in &o&bany color or design&r!"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:white_wool"
+			id: "1AD87CB3226ED224"
+			min_width: 250
+			rewards: [
+				{
+					id: "6FBFBBC15855DDFE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E4489FDE6E316B2"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1A65F2CEA68E4CA1"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "39702880D9133E3E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			title: "&eSilence"
+			x: 2.7357142857142844d
+			y: 6.278571428571437d
+		}
+		{
+			dependencies: ["5A0305BB1F8EA932"]
+			description: [
+				"&9Spawners&r can be mined with &6Silk Touch&r."
+				""
+				"There's also many &dModifications&r you can add to &9Spawners&r by &eRight-clicking&r any of these items."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:spawner"
+				tag: {
+					BlockEntityTag: {
+						Delay: 159s
+						ForgeCaps: { }
+						MaxNearbyEntities: 6s
+						MaxSpawnDelay: 800s
+						MinSpawnDelay: 200s
+						RequiredPlayerRange: 16s
+						SpawnCount: 4s
+						SpawnData: {
+							entity: {
+								id: "minecraft:axolotl"
+							}
+						}
+						SpawnPotentials: [{
+							data: {
+								entity: {
+									id: "minecraft:axolotl"
+								}
+							}
+							weight: 1
+						}]
+						SpawnRange: 4s
+						baby: 0b
+						ignore_conditions: 0b
+						ignore_light: 0b
+						ignore_players: 0b
+						no_ai: 0b
+						redstone_control: 0b
+						silent: 0b
+					}
+				}
+			}
+			icon_scale: 1.52d
+			id: "310969B8FE0A94DE"
+			min_width: 250
+			rewards: [
+				{
+					id: "4E9E25E0FE970079"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3289EB75C3D2970F"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "645C65BBFCA5A413"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "apotheosis:spawner/root"
+				criterion: ""
+				id: "256BA7F05A23110F"
+				type: "advancement"
+			}]
+			title: "&2Spawners"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"Some mobs need certain &eLight Levels&r to spawn. &4Hostile&r ones needing &o&blower levels&r and &2Passive&r needing &o&bhigher levels&r."
+				""
+				"The &dSoul Lantern&r ignores &eLight Levels&r, but &ndoes not ignore&r other requirements for spawning like livestock animals needing &aGrass&r."
+			]
+			hide_dependency_lines: true
+			id: "0F89BFD4A3F63A48"
+			min_width: 250
+			rewards: [
+				{
+					id: "0CCD2D26FC4FDE25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75B633B42FF73EDE"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "63F7F4A8CC53E42D"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "5F16431DBEAF97B0"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			title: "&bIgnore Light"
+			x: 2.0357142857142847d
+			y: 8.02857142857144d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"&4Redstone Activation&r gives your &eSpawner&r an &9on&r/&coff&r switch."
+				""
+				"Without &cRedstone Power&r it &nwill not&r spawn."
+			]
+			hide_dependency_lines: true
+			id: "0E02CE4469FCA4C9"
+			min_width: 250
+			rewards: [
+				{
+					id: "73C02E0E1109AC3E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57C29CDE45A790FA"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1A9461DEE24426B7"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "39E60F2CA2EFAB9E"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			title: "&4Redstone Active"
+			x: 2.7357142857142844d
+			y: 7.678571428571438d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"The &9Conduit&r will do what the &bPrismarine Shards&r do but &nmuch better&r. Players no longer need &o&bto be near&r the &eSpawner&r."
+				""
+				"As long as its &o&bChunk loaded&r it will spawn."
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "30EB438C66324213"
+			min_width: 250
+			rewards: [
+				{
+					id: "360958EB1ED50D74"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E78EA80657E776"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4B3192E1A92AC6CE"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "211FBEB0E4FF1FD6"
+				item: "minecraft:conduit"
+				type: "item"
+			}]
+			title: "&2Ignore Players"
+			x: 2.0357142857142847d
+			y: 5.928571428571438d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"The &5must-need&r for all &eSpawners&r. Ignores light levels, blocks needing for spawning, and biomes."
+				""
+				"Space conditions are &o&bstill needed though&r, like &aSlimes&r needing &o&b3x3&r area to spawn, and same goes with &nplayers needing&r to be nearby."
+			]
+			id: "40096ED0B04C3EC5"
+			min_width: 250
+			rewards: [
+				{
+					id: "1F0EE610DB1844FE"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "090DFD0B52794BAF"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "50439FB51B3CA54F"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "74B1D74F1C52D05C"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "&5Ignore All Conditions"
+			x: 2.0d
+			y: 6.95d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"The &9Quartz&r makes whatever the other item does, the &nopposite&r for the &eSpawner&r."
+				""
+				"With &9Quartz&r in your &o&boffhand&r and the other &6Spawner Modification&r item in your &o&bmainhand&r it will do the &nopposite&r of its role."
+				""
+				"With &9Quartz&r and &6Blaze Rods&r instead of &nincreasing&r &dSpawn Range&r it will &ndecrease&r it."
+				""
+				"With &9Quartz&r and &3Ghast Tears&r it'll &ndecrease&r &dMax Entities&r."
+			]
+			hide_dependency_lines: true
+			id: "167E1474644C9908"
+			min_width: 250
+			rewards: [
+				{
+					id: "7F29B561C44CC9DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0458265DD7B54902"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4FA7AEA3285A86D8"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "20D72B07EE11DDCB"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "&7Opposite Role"
+			x: 1.3357142857142845d
+			y: 7.678571428571438d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"&9Activation Range&r is &o&bhow close the player&r must be to the &eSpawner&r."
+				""
+				"It can be between &o&b1&r block and &o&b48&r blocks away. They go in a &ncircle&r around the spawner &o&binstead of bdirect blocks&r."
+				""
+				"The &3Condiut&r and &0Dragon Egg&r will &nignore&r these."
+			]
+			hide_dependency_lines: true
+			id: "3E2A411FF5B4B0E7"
+			min_width: 250
+			rewards: [
+				{
+					id: "6CF49F4DCC880DBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20B15CB0B6F6FC8D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5BC51F96F931D923"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "75FE61AB74C39108"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			title: "&3Activation Range"
+			x: 0.2857142857142847d
+			y: 6.978571428571437d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			description: [
+				"&9Max Entities&r is the amount of mobs that &o&bcan be spawned&r by a &eSpawner&r and kept. If it's only &o&b5&r &nmax entities&r when &o&b5&r mobs are already spawned &nno more&r will spawned until they're &o&bdead or moved&r."
+				""
+				"Each &dGhast Tear&r brings it &2up&r or &cdown&r &o&b2&r entities."
+				""
+				"Max of &o&b16&r entities and minimum of &o&b1&r."
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.3d
+			id: "4D07B0A4A2E77CDA"
+			min_width: 250
+			rewards: [
+				{
+					id: "095BD7F64F95DAC4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B98551C2539B0B0"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "7E1B5E20DF135291"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "4DA7AE7F61B1FC05"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "&bMax Entities"
+			x: 3.7857142857142847d
+			y: 6.978571428571437d
+		}
+		{
+			dependencies: ["5A0305BB1F8EA932"]
+			description: [
+				"&dEnchanting&r gets a few changes with &6Apotheosis&r. The &o&b15&r bookshelves won't be enough."
+				""
+				"There's &nnew&r bookshelves and actions you can do with &dEnchantment Tables&r."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:enchanting_table"
+			id: "0EB5B926E1FBAF0E"
+			rewards: [{
+				id: "19F07A5840032306"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5F3840C53DAFA3A2"
+				type: "checkmark"
+			}]
+			title: "Enchanting with Apotheosis"
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0EB5B926E1FBAF0E"]
+			description: [
+				"&9Bookshelves&r are your &o&bstarting point&r, but not your &o&bend point&r."
+				""
+				"With normal bookshelves you can only get &aEterna&r up and to a max of &o&b15&r."
+			]
+			icon: "minecraft:bookshelf"
+			id: "7F042DED357DEF3C"
+			rewards: [
+				{
+					id: "116887C8F5C7D44E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A614CFB5B94A72B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "70ED1EE5957CEDE7"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1CC9EA4FD2BF3DB0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:bookshelves"
+					}
+				}
+				title: "Any #forge:bookshelves"
+				type: "item"
+			}]
+			title: "Bookshelves"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"218803812A9C332B"
+				"076DFB0B39A4259F"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"An &9Enchantment Library&r is a storage system for &dEnchantments&r."
+				""
+				"Simply insert &o&benchanted books&r, and every enchantment on the book will be stored as &o&bpoints&r. Each library has a &eLevel Capacity&r, representing the &nhighest level&r of enchantment it can store. Excess enchantments are &nvoided&r."
+				""
+				"Clicking on a stored enchantment will &o&bextract one level&r of that enchantment. &eShift-clicking&r a stored enchantment will &o&bextract as many levels as possible&r. Books are generated in the &o&boutput slot&r as necessary."
+				""
+				"You may also place a book in the output slot to &o&badd enchantments&r to it. The library records the &o&bmax level&r that has ever been inserted for each enchantment, and can only &o&bextract up to that level&r."
+				""
+				"The standard &9Enchantment Library&r has a &eLevel Capacity&r of &o&b16&r (&o&bXVI&r)."
+			]
+			hide_dependency_lines: true
+			id: "314E41B84C8DD464"
+			min_width: 360
+			rewards: [
+				{
+					id: "18CD171646AEAF82"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "19EE659A1B3F02EC"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "1847E193761CB3DD"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "324CAB864D37604A"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"44D1B410550B6C28"
+				"314E41B84C8DD464"
+			]
+			description: [
+				"The &6Library of Alexandria&r has a &aLevel Capacity&r of &b31&r&o (&o&bXXXI&r). It &ncan not&r be crafted directly, and must be created using &o&bInfusion Enchanting&r."
+				""
+				"It needs exactly &o&b50&r &aEterna&r, between &o&b45%-50%&r &cQuanta&r, and &o&b100%&r &5Arcana&r."
+				""
+				"This can be done with &o&b7&r &3Echoing Deepshelves&r, &o&b2&r &9Soul-Touched Deepshelves&r, and &o&b3&r &2Draconic Shelves&r."
+			]
+			id: "5FD4F40CEC37D9FD"
+			min_width: 300
+			rewards: [
+				{
+					id: "6870453662D1D329"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20B3929F63FBF0FD"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "626DCC91F880CB38"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "21E8F3E04CA2BA93"
+				item: "apotheosis:ender_library"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44D1B410550B6C28"]
+			description: [
+				"&9Apotheosis Charms&r allows you to get &dPotion Effects&r for &o&bmuch longer&r."
+				""
+				"You can &6Infuse&r them to make them &2Unbreakable&r. It needs &o&b50&r &aEterna&r, between &o&b8.5%&r and &o&b13.5%&r &cQuanta&r, and between &o&b32.5%&r to &o&b37.5%&r &5Arcana&r."
+				""
+				"For Example you can use &35 Draconic Endshelves&r, &e2 Echoing Deepsehlves&r, &d1 Endshelf&r, and &21 Melonshelf&r."
+				""
+				"Only &9Apotheosis Charms&r can be made &dUnbreakable&r."
+			]
+			icon: {
+				Count: 1
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "potionsmaster:allthemodium_sight"
+				}
+			}
+			id: "12282CBB658F1132"
+			min_width: 270
+			rewards: [
+				{
+					id: "16FF6B9DAE05D6C9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "573FBC2F842D04E5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "3FC9DEA68FBA5102"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "20A7865E2BA4D9B3"
+				item: {
+					Count: 1
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "^apotheosis:.*charm.*"
+					}
+				}
+				title: "Any Charm"
+				type: "item"
+			}]
+			title: "Unbreakable Charms"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D06097B6206BA60"]
+			description: ["Besides the &2Bookshelves&r, there are &o&bmore stuff&r that can be &dInfused&r!"]
+			id: "44D1B410550B6C28"
+			rewards: [
+				{
+					id: "7597B55FF8FBB7EA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B096AE1B7DF4619"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "31A6C0F4003DA0CD"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				count: 3L
+				id: "1ACDB5822E2F5713"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			title: "&9Lapis Lazuli"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44D1B410550B6C28"]
+			description: [
+				"You can make an &6Inert Trident&r and &dInfuse&r it. The &6Trident&r requires between &o&b20-30&r &aEterna&r, &o&b20%-50%&r &cQuanta&r, and atleast &o&b35%&r &5Arcana&r."
+				""
+				"You oan get this with &94 Echoing Skulkshelves&r or &32 Crystalline Seashelves&r and &26 Heart-Forged Seashelves&r."
+			]
+			id: "24526FFBA093805A"
+			min_width: 300
+			rewards: [
+				{
+					id: "3459D7A07F464930"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4412399B6077BF8B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2E5F79E4BB9AF1CF"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "2C0F85A4868C5C20"
+				item: "apotheosis:inert_trident"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F042DED357DEF3C"]
+			description: [
+				"&6Infusion&r is a special version of &5Enchanting&r which is used for &o&bbetter enchantments&r. "
+				""
+				"When the right amount of &aEterna&r, &cQuanta&r, and &dArcana&r is reached the enchantments will offer &6Infusion&r."
+				""
+				"To know the &eLevels&r needed you can check &o&bJEI&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "createaddition:block/tesla_coil/lightning_new"
+				}
+			}
+			id: "1D06097B6206BA60"
+			min_width: 300
+			rewards: [{
+				id: "5A82D4BA67B4A3A3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "0EE3A88719BB0221"
+				title: "Infusion"
+				type: "checkmark"
+			}]
+			title: "&dInfusion Enchanting"
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"7234CB42AEF6C941"
+				"4F4B2A6997F25A5A"
+				"353C7440B32F0A5E"
+			]
+			description: [
+				"Some infusions need &nvery exact amounts&r of &aEterna&r, &cQuanta&r, or &5Arcana&r, to get these you might need one of &o&bthese shelves&r."
+				""
+				"Each &nlowers&r the amount of its respective amounts."
+			]
+			icon_scale: 2.0d
+			id: "5C56452BE7879D0A"
+			min_width: 250
+			rewards: [
+				{
+					id: "2CAD260D23CFE8E6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00F06D55D1097027"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "10A3F5B510B2E185"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [
+				{
+					id: "437272DA5D788836"
+					item: "apotheosis:melonshelf"
+					type: "item"
+				}
+				{
+					id: "64B547185F213F62"
+					item: "apotheosis:beeshelf"
+					type: "item"
+				}
+				{
+					id: "36AD2AE569D8F729"
+					item: "apotheosis:stoneshelf"
+					type: "item"
+				}
+			]
+			title: "&3Negative amounts"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D06097B6206BA60"]
+			description: [
+				"&aEterna&r sets the &dEnchantment&r level which determines what &o&benchantments you can get&r."
+				""
+				"&aEterna&r default is &o&b0&r and max is &o&b50&r."
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "353C7440B32F0A5E"
+			min_width: 250
+			rewards: [
+				{
+					id: "12B81A6B7C2F3BBE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E092382636F1612"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "42C0901A23455FEE"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "1ADAC994F5D57FE1"
+				item: "apotheosis:dormant_deepshelf"
+				type: "item"
+			}]
+			title: "&aEterna"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D06097B6206BA60"]
+			description: [
+				"&cQuanta&r sets how random the &dEnchants&r you get will be. It can be used against you though depending on &6Rectification&r. If the &cQuanta&r is high and &6Rectification&r is low, you're more likely to get &o&bbad enchantments and curses&r."
+				""
+				"&cQuanta&r default IS &o&b15%&r and max is &o&b100%&r."
+				"&6Rectification&r default is &o&b0%&r and max is &o&b100%&r."
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "7234CB42AEF6C941"
+			min_width: 250
+			rewards: [
+				{
+					id: "552C6BEEC8B0AB8C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3756C38D6B8D4958"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "675C048CF4C987D4"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "533AE884035F8511"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			title: "&cQuanta"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D06097B6206BA60"]
+			description: [
+				"&5Arcana&r is &o&bvery&r important quantity, it &o&bincreases&r the amount of &dEnchantments&r you get and makes &o&brare Enchantments more common&r. "
+				""
+				"For example with &7Swords&r, &cSmite&r is a &o&bvery common&r enchantment but &6Looting&r is &o&bmuch more rare&r."
+				""
+				"&5Arcana&r default is &o&b0%&r and max is &o&b100%&r."
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "4F4B2A6997F25A5A"
+			min_width: 250
+			rewards: [
+				{
+					id: "02360F01D08CB13C"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63CF06B6C1D4C650"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "57E1A68A1838BF18"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.7d
+			tasks: [{
+				id: "604BADA98AB8F19B"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			title: "&5Arcana"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D06097B6206BA60"]
+			description: [
+				"&4Hellshelves&r is &o&bone route&r you can take toward &6Perfect Enchanting&r."
+				""
+				"&4Hellshelves&r are your introduction to &cQuanta&r, they give &o&b3%&r &cQuanta&r and &o&b1.5&r &aEterna&r, which makes them &o&bbetter than normal shelves&r right? You're going to need &o&b15&r for the &nnext step&r!"
+			]
+			id: "50EEDDDE129D2742"
+			min_width: 300
+			rewards: [
+				{
+					id: "17561E45F91CFCE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BAAD6A90A8F5E91"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7BC03363DFE93613"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 10L
+				id: "4511597A84EF2A40"
+				item: "apotheosis:hellshelf"
+				type: "item"
+			}]
+			title: "&4Hellshelves"
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["50EEDDDE129D2742"]
+			description: [
+				"In order to get higher max &dEnchantments&r and levels you'll need &4Infused Hellshelves&r. To get them you will need &o&b22.5&r &aEterna&r and &o&b30%&r &cQuanta&r."
+				""
+				"You can get that with &o&b15&r regular shelves and &o&b5&r &4Hellshelves&r or &njust&r &o&b15&r &4Hellshelves&r. And of course you'll need a &nspare&r &4Hellshelf&r to actually be &dInfused&r."
+				""
+				"You can &o&bkeep replacing&r the &4Hellshelves&r with their &dInfused&r counterparts but it will &nincrease&r &o&bXP&r needed to do so."
+			]
+			id: "218803812A9C332B"
+			min_width: 300
+			rewards: [
+				{
+					id: "632F056798F0214A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "75551D87F4E68959"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "44C5714EA3A9BAF2"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 5L
+				id: "6AA52E3ABC6B3EE1"
+				item: "apotheosis:infused_hellshelf"
+				type: "item"
+			}]
+			title: "&4Infused Hellshelf"
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["218803812A9C332B"]
+			description: ["Each &9Enchanting Clue&r will tell you &o&b1&r &dEnchantment&r before you actually use it."]
+			id: "12F4980CB3BFCE0D"
+			min_width: 300
+			rewards: [
+				{
+					id: "1063A448A3D0EE0E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ECC2D0146D5DAEB"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "15D8EF9213B51FC1"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "125517255CFAF0EE"
+					item: "apotheosis:sightshelf"
+					type: "item"
+				}
+				{
+					id: "448DFB347B07F8C6"
+					item: "apotheosis:sightshelf_t2"
+					type: "item"
+				}
+			]
+			title: "&3Enchanting Clues"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["218803812A9C332B"]
+			description: [
+				"The &6Blazing Hellshelf&r is an &o&bupgrade&r to the &4Infused Hellshelf&r."
+				""
+				"It &o&bincreases&r max &aEterna&r to &o&b30&r. The negative &9Enchanting Clues&r makes it a little &o&bworse&r for normal &dEnchanting&r but the &cQuanta&r is incredible for how cheap it is. Do you &nreally&r have to know which &dEnchantments&r you'll get?"
+			]
+			id: "6C76AB8A6110C0C7"
+			min_width: 320
+			rewards: [
+				{
+					id: "6FE80F1F29FACD44"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DEB8C79A4A47634"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "6E4BD36418FBDF13"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "4EE21647F4434CB5"
+				item: "apotheosis:blazing_hellshelf"
+				type: "item"
+			}]
+			title: "&6Blazing Hellshelf"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["218803812A9C332B"]
+			description: [
+				"The &4Glowing Hellshelf&r is an &o&bupgrade&r to the &4Infused Hellshelf&r. It also &o&bincreases&r the &aMax Eterna&r and decent stats for everything else."
+				""
+				"We can use these for the &nnext step&r, &9Infusing Dormant Deepshelves&r to &9Deepshelves&r. You'll need &o&b10&r &4Glowing Hellshelves&r and &o&b6&r &4Infused Hellshelves&r to get it."
+			]
+			id: "0F77A9AD1F422537"
+			min_width: 300
+			rewards: [
+				{
+					id: "09B33B151D77B939"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1884977B92CAB0EB"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "50307E92F3AB4BE6"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 10L
+				id: "0396FE7CF6AAF222"
+				item: "apotheosis:glowing_hellshelf"
+				type: "item"
+			}]
+			title: "&4Glowing Hellshelf"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0F77A9AD1F422537"
+				"751189465F91B353"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The &1Deepshelf&r is your &nnext step&r to &dEnchanting&r."
+				""
+				"The &1Deepshelf Infusion&r needs &o&b30&r &aEterna&r, &o&b40%&r &cQuanta&r, and &o&b40%&r &5Arcana&r. Hopefully you took one of the &o&bPathways&r here and use those to &dInfuse&r for your &1Deepshelf&r."
+			]
+			id: "62B2C1A24AE245EA"
+			min_width: 300
+			rewards: [
+				{
+					id: "1879829AC7539937"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "208EB4836BD7498B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "730C3CAD523DC668"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "639976E0D4F898DD"
+				item: "apotheosis:deepshelf"
+				type: "item"
+			}]
+			title: "&1Deepshelf"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["076DFB0B39A4259F"]
+			description: [
+				"The &9Seashelf&r way to &6Perfect Enchanting&r is &o&bdifferent&r from &4Hellshelf&r way."
+				""
+				"Here you will need &o&bboth upgraded versions&r of the &9Infused Seasehelf&r."
+				""
+				"To get next &dInfusion&r you need &o&b9&r &9Crystalline Seashelves&r, &o&b2&r &9Heart-Forged Seashelves&r, and &o&b4&r &9Infused Seashelves&r."
+			]
+			icon: "apotheosis:crystal_seashelf"
+			id: "751189465F91B353"
+			min_width: 300
+			rewards: [
+				{
+					id: "6D1A33603B3FCA30"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68878349CADDFB2B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2238FE6A0874A0EC"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					count: 9L
+					id: "5FE3BF20BB4ABFFB"
+					item: "apotheosis:crystal_seashelf"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "398CE6B12CC89712"
+					item: "apotheosis:heart_seashelf"
+					type: "item"
+				}
+			]
+			title: "&9Crystalline Seashelf"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B3CC3F66F2C3DE5"]
+			description: [
+				"For higher &aEterna&r and &5Arcana&r you'll need &9Infused Seashelves&r."
+				""
+				"To get them you need atleast &o&b22.5&r &aEterna&r, &o&b15%&r &cQuanta&r, and &o&b10%&r &5Arcana&r. You can use &o&b15&r bookshelves and &o&b5&r &9Seashelves&r or &njust&r &o&b15&r &9Seashelves&r."
+				""
+				"Because the &cQuanta&r is &o&b15%&r by default you won't need &4Hellshelves&r for this."
+			]
+			id: "076DFB0B39A4259F"
+			min_width: 330
+			rewards: [
+				{
+					id: "25694F7376D9EA41"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29EAA67EED0F3D9B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "16E63046205BD15C"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 5L
+				id: "44BA467C008ACDEB"
+				item: "apotheosis:infused_seashelf"
+				type: "item"
+			}]
+			title: "&9Infused Seashelf"
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["076DFB0B39A4259F"]
+			description: [
+				"&eRiectification&r is a &o&bquantity&r that works with &cQuanta&r, it &o&bdetermines&r if the &dEnchantments&r will be &ngood&r or &nbad&r."
+				""
+				"The more &eRiectification&r the &nbetter&r the &dEnchantments&r."
+			]
+			id: "001B11C3773022DE"
+			min_width: 300
+			rewards: [
+				{
+					id: "060A990A4237256C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CEFAFE035B2C675"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "0742ED1706CA26CD"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "1EFAEC3A3DC32971"
+					item: "apotheosis:rectifier"
+					type: "item"
+				}
+				{
+					id: "177529E5546E2043"
+					item: "apotheosis:rectifier_t2"
+					type: "item"
+				}
+				{
+					id: "1ADE62474D302F6C"
+					item: "apotheosis:rectifier_t3"
+					type: "item"
+				}
+			]
+			title: "&eRiectification"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["076DFB0B39A4259F"]
+			description: [
+				"These little &dHearts of the Sea&r are &o&bvery important&r for &9Apotheosis&r."
+				""
+				"You can craft them with &2Mystical Agriculture&r or &eMekanism&r. Or the normal &3Minecraft&r way of &nkilling&r &7Elder Guardians&r! The only problem is that the sky &ndoesn't have&r &9Oceans&r to spawn &7Elder Guardians&r. However the &4Occultism&r mod can be pretty handy for this! You can &o&bConjure&r an &7Elder Guardian&r with a ritual, check &o&bJEI&r!"
+			]
+			id: "5FD95ABA63C56BD5"
+			min_width: 310
+			rewards: [
+				{
+					id: "3241B8ECD3745D41"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "455CE0E21F180B85"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "461CACAAE5E0FDC7"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "01254EDBBAC8A7BE"
+				item: "apotheosis:heart_seashelf"
+				type: "item"
+			}]
+			title: "&dHearts of the Books"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62B2C1A24AE245EA"]
+			description: ["Like an improved &4Hellshelf&r, the &1Soul Touched Deepshelf&r gives a lot of &cQuanta&r, it does give higher &aEterna&r max to &o&b37.5&r though! Which means better &dEnchants&r!"]
+			id: "0C596CB7C7C24615"
+			min_width: 300
+			rewards: [
+				{
+					id: "048410BDF2EB3028"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4FF27831BC12FE0B"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "2A3802A0378AD49A"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2E5979DF454E401A"
+				item: "apotheosis:soul_touched_deepshelf"
+				type: "item"
+			}]
+			title: "&1Soul-Touched Deepshelf"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0C596CB7C7C24615"]
+			description: [
+				"You &o&bdon't need&r infusion for these! You just need to kill the &o&bmost powerful boss&r in vanilla &3Minecraft&r!"
+				""
+				"The &1Skulk Shelves&r increase &aEterna&r to &o&b40&r which will allow us to &dInfuse&r the next item."
+			]
+			id: "10C527C66EE4E95A"
+			min_width: 300
+			rewards: [
+				{
+					id: "09D63A15A441C7C1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "325CD0811165E3B9"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "272C9DF48D5B5201"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "2AE7BBE870F24DCB"
+				item: "apotheosis:soul_touched_sculkshelf"
+				type: "item"
+			}]
+			title: "&1Soul-Touched Sculkshelf"
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["405369118613F935"]
+			description: [
+				"You need to kill a few &0Wardens&r for these!"
+				""
+				"&1Echoing Sculkshelf&r is mostly for &5Arcana&r but it's a good source for &nall quantities&r. However, it will be needed for next &dInfusion&r."
+			]
+			id: "606780E5B8CF83BE"
+			min_width: 300
+			rewards: [
+				{
+					id: "66F503B8E6A5FC57"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "70C0D15C9257DB69"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4D1B2CC9B6D6A588"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1C69BDCD5499805F"
+				item: "apotheosis:echoing_sculkshelf"
+				type: "item"
+			}]
+			title: "&1Echoing Sculkshelf"
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["62B2C1A24AE245EA"]
+			description: [
+				"A little expensive but the &1Echoing Deep Shelf&r is like a &nmuch better&r &9Seashelf&r, but you'll need to kill a few &0Wardens&r to advance more in &dEnchanting&r."
+				""
+				"Also &nincreases&r max &aEterna&r to &o&b37.5&r."
+			]
+			id: "405369118613F935"
+			min_width: 300
+			rewards: [
+				{
+					id: "256032475796622B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DDEA6633E5E006F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "5BB677A4051E34DF"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "47499C2393356F89"
+				item: "apotheosis:echoing_deepshelf"
+				type: "item"
+			}]
+			title: "&1Echoing Deepshelf"
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"606780E5B8CF83BE"
+				"10C527C66EE4E95A"
+			]
+			description: [
+				"The &o&blast sets of Shelves&r you'll need are &dEndshelves&r, to get them you need &5Infused Dragon's Breath&r."
+				""
+				"This one was &nhard&r to get but you need atleast &o&b40%&r &aEterna&r, &o&b15%-25%&r &cQuanta&r, and atleast &o&b60%&r &5Arcana&r."
+				""
+				"It has to be between &c15%-25%&r &cQuanta&r and to get that you can use &o&b5&r &1Echoing Skulkshelves&r, &o&b5&r &1Soul-Touched Skulkshelves&r, and &o&b10&r &aMelonshelves&r."
+			]
+			icon: "apotheosis:infused_breath"
+			id: "21EE522DDBF0BF72"
+			min_width: 300
+			rewards: [
+				{
+					id: "0FC2A5C617612143"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "051A156CB95647BA"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73789F726F1D1DC2"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "277F4EB46E0B4854"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "6436AFC23A51F495"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+				{
+					id: "1D07057D04625570"
+					item: "apotheosis:infused_breath"
+					type: "item"
+				}
+			]
+			title: "&dEndshelf"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["21EE522DDBF0BF72"]
+			description: [
+				"The &dPearlescent Endshelf&r is &o&bthe best&r all-around shelf."
+				""
+				"It also gives a max &aEterna&r of &o&b45&r, but this is not the shelf for our &o&bperfect set-up&r."
+			]
+			id: "4A59DF02128DA9F3"
+			min_width: 300
+			rewards: [
+				{
+					id: "6D01838E8C43CB66"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1272B0F1D907E854"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18046CD97E3D615F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "63B1611317D7DEA3"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "7AB6761EB41B1E07"
+				item: "apotheosis:pearl_endshelf"
+				type: "item"
+			}]
+			title: "&dPearlescent Endshelf"
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["21EE522DDBF0BF72"]
+			description: [
+				"The &dDraconic Shelf&r is &o&bthe last Shelf&r we'll need for our &o&bperfect set up&r."
+				""
+				"It gives only &aEterna&r but it has the max &aEterna&r of &o&b50&r."
+			]
+			id: "6244032FE2E5F1E1"
+			min_width: 300
+			rewards: [
+				{
+					id: "341CA9D16401E0C6"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "325E59C17ED03B38"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D67761214B02BC4"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "62DBC6DF7611C92E"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "1F41FD294030AE04"
+				item: "apotheosis:draconic_endshelf"
+				type: "item"
+			}]
+			title: "&dDraconic Endshelf"
+			x: 8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6244032FE2E5F1E1"]
+			description: [
+				"This is &6the Best setup&r you need, for &o&b100%&r &neverything&r."
+				""
+				"Using &o&b5&r &3Echoing Skulkshelves&r,  &o&b5&r &7Soul-Touched Sculkshelves&r, &o&b1&r &2Draconic Shelf&r will get you &o&b50&r &aEterna&r, &o&b100%&r &cQuanta&r, &o&b100%&r &5Arcana&r and &o&b6&r &9Enchanting Clues&r. Using &o&b3&r &eShelves of End Fused Rectification&r will give &o&b100%&r &6Rectification&r. And &dDeepshelf of Arcane Treasures&r will &ntop it all&r off with &dTreasure Enchantments&r."
+			]
+			hide_dependency_lines: true
+			icon: "apotheosis:treasure_shelf"
+			icon_scale: 1.52d
+			id: "4C446F22771E2B53"
+			min_width: 350
+			rewards: [
+				{
+					id: "0630551B0466F1F0"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26E1967FF8541424"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2761C4C0A2170036"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "3025211F8C5C6A4F"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 5L
+					id: "288C65CA52CA78B9"
+					item: "apotheosis:echoing_sculkshelf"
+					type: "item"
+				}
+				{
+					id: "1ED6ED03BCF4B5F5"
+					item: "apotheosis:draconic_endshelf"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2E6B0A322132B9FC"
+					item: "apotheosis:rectifier_t3"
+					type: "item"
+				}
+				{
+					id: "78831B3CE3EE431C"
+					item: "apotheosis:treasure_shelf"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "00BB332C3BC31EF3"
+					item: "apotheosis:soul_touched_sculkshelf"
+					type: "item"
+				}
+			]
+			title: "&6Best Enchanting set-up"
+			x: 9.000000000000007d
+			y: 8.285714285714285d
+		}
+		{
+			dependencies: ["1D06097B6206BA60"]
+			description: [
+				"You can use &9Seashelves&r as a path to &6Perfect Enchanting&r."
+				""
+				"&9Seashelves&r are your introduction to &5Arcana&r, they give &o&b2%&r &5Arcana&r and &o&b1.5&r &aEterna&r. That's &o&bmuch better than normal shelves&r right? You're going to need &o&b15&r for the &nnext step&r!"
+			]
+			id: "5B3CC3F66F2C3DE5"
+			min_width: 300
+			rewards: [
+				{
+					id: "295746523C3B19A0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41A0B2DC8F19D665"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "4730832A9D481D9A"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				count: 10L
+				id: "01AAFC6ADF0C8844"
+				item: "apotheosis:seashelf"
+				type: "item"
+			}]
+			title: "&9Seashelves"
+			x: 7.5d
+			y: 3.5d
+		}
+	]
+	title: "&fApotheosis"
+}

@@ -1,0 +1,3511 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "refined_storage"
+	group: "4764DDDD84D4A3BB"
+	icon: "refinedstorage:crafting_grid"
+	id: "372634F2F65A999C"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: -8.332142857142856d
+			y: -8.592857142857138d
+		}
+		{
+			height: 1.3d
+			image: "kubejs:item/refined_storage_logo"
+			rotation: 0.0d
+			width: 3.5d
+			x: -6.296428571428571d
+			y: -9.164285714285707d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&9Refined Storage&r is a mass storage mod that offers the player a network-based storage system, allowing them to store items and fluids on a massively expandable device network."
+				""
+				"Items and fluids can be stored in one of the many storage capabilities that the mod offers. Any storage devices connected to the same network are accessible to the player through one simple Grid interface, allowing the player to access the inventories of many devices through a single unified &9GUI&r."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/rs.png"
+				}
+			}
+			id: "34C6AE4B8382A490"
+			min_width: 300
+			rewards: [
+				{
+					id: "60455644B28AABA8"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 3
+					id: "6F3D572F831467EC"
+					item: "refinedstorage:quartz_enriched_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "*Unlocked by completing the &b&n&oStorage Request Table&r quest*"
+			tasks: [{
+				count: 16L
+				id: "0CDCDF15E33EFE1B"
+				item: "refinedstorage:quartz_enriched_iron"
+				type: "item"
+			}]
+			title: "Welcome to &eRefined Storage"
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["34C6AE4B8382A490"]
+			description: [
+				"&9Cable&r is used to connect devices to the &6Controller&r."
+				""
+				"&9Cables&r are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."
+			]
+			hide_dependency_lines: true
+			id: "7F3705767153FE11"
+			rewards: [
+				{
+					id: "4A3A758F992D9DB8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "32485707DFBF0842"
+					item: "refinedstorage:cable"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "3DB5C1D79BC40FD2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "32CF1733A3C67574"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			title: "Cables"
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Controller&r is the core of the &dRefined Storage&r network. You need to connect all the &dRefined Storage&r devices to this block."
+				""
+				"You are supposed to connect every device that depends on the storage network connection to the &6Controller&r."
+				""
+				"You can connect devices with &5Cables&r. "
+				""
+				"&5Cables&r are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."
+				""
+				"The &6Controller&r accepts and consumes &cForge Energy&r (FE). If the &6Controller&r runs out of energy, the network will be turned off until there is sufficient energy provided again."
+				""
+				"When the &6Controller&r is broken, it will maintain its energy."
+				""
+				"Each &dRefined Storage&r network can only have a single &6Controller&r. If you connect another &6Controller&r to an already existing network, the &6Controller&r will &n&bbreak&r."
+			]
+			id: "751EE40D0D827E2A"
+			min_width: 300
+			rewards: [
+				{
+					id: "6F11644E27ADBF72"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "05E88C2852637BDF"
+					item: "refinedstorage:silicon"
+					type: "item"
+				}
+				{
+					id: "0F72E3C498723362"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7573262B3A84CC32"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5AE9A3DA55E5A0BE"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["13A383F8F11B1C35"]
+			description: [
+				"The &dGrid&r allows access to the items and fluids in the storage network."
+				""
+				"The player can extract items or fluids from the central &nGUI&r."
+				""
+				"Useful controls:"
+				"- &bLeft Click&r takes at most 64 items"
+				"- &bRight Click&r takes at most 32 items"
+				"- &bMiddle Mlick&r takes 1 item "
+				"- &bSHIFT+Mouse Scroll&r in the &ePlayer&r inventory pushes 1 item to or from the &ePlayer’s&r inventory"
+				"- &bSHIFT+Mouse Scroll&r in the &eGrid&r inventory pushes 1 item to or from the &eGrid&r inventory"
+				"- &bCTRL+Mouse Scroll&r pushes 1 item to or from the &ePlayer’s&r mouse"
+				"- &bSHIFT&r pushes the items to the &ePlayer’s&r inventory"
+				"- &bSHIFT+CTRL&r forces the crafting window to open &oeven if the item or fluid is available&r"
+				"- &bCTRL+X&r clears crafting matrix"
+				"- &bRight Click&r on search bar clears the search query"
+				"- &bTab&r selects the search bar when the &eGrid&r isn’t in autoselection mode"
+				"- When in the crafting start &nGUI&r, pressing &bSHIFT&r skips the crafting preview window"
+			]
+			id: "3B052108DAD029F3"
+			min_width: 400
+			rewards: [
+				{
+					id: "48406B1A23FDA08B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "737A0CD6A0F9B5FC"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "3565585AB0CAB7B3"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4111CC031948C92C"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Crafting Grid&r is the same as a regular &eGrid&r, but has a crafting inventory."
+				""
+				"When an item is crafted, it won’t just clear the crafting slots, but it’ll try to retrieve the same items from the storage network again."
+				""
+				"The &6Crafting Grid&r integrates with &bJEI&r so the player can use recipe transferring."
+				""
+				"If you don’t have some required items, but autocrafting is available for said items, you can press &bCTRL+CLICK&r to start autocrafting for said items. Note that you need a &7Pattern&r configured for these items."
+			]
+			id: "238560B94FCB5858"
+			min_width: 300
+			rewards: [
+				{
+					id: "7F988A67CEC1E052"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F72B28DFB600AE5"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "170E2C224B07A5F4"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2AA4678146FC99C8"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["751EE40D0D827E2A"]
+			description: [
+				"The &4Disk Drive&r is the block in which you store storage disks or fluid storage disks."
+				""
+				"A &n&bnegative&r or &n&bpositive&r priority can be chosen where a higher priority gets higher precedence to place items in."
+				""
+				"There is also a &n&bwhitelist&r and &n&0blacklist&r to only allow or forbid some items or fluids from entering the storage disks or fluid storage disks respectively."
+				""
+				"The &n&bwhitelist&r or &n&0blacklist&r can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+			]
+			id: "4F6B8F1E46496251"
+			min_width: 300
+			rewards: [
+				{
+					id: "16305EBE654B5B60"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "301AB088C141764A"
+					item: "refinedstorage:quartz_enriched_iron"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2A9BB52766A92FEF"
+					item: "refinedstorage:processor_binding"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "428FE25A42474FEE"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48B9DC98B0DBAC29"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			id: "7B449448A6B419AB"
+			rewards: [
+				{
+					id: "64D9ADC7EEBA87FB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "795313619AA0BDDA"
+					item: "refinedstorage:1k_storage_part"
+					type: "item"
+				}
+				{
+					id: "6ABD2A12C1A31247"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "005912177D6288AD"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			x: 1.05d
+			y: -8.4d
+		}
+		{
+			dependencies: ["7B449448A6B419AB"]
+			id: "59BAED982A758B11"
+			rewards: [
+				{
+					id: "4AEA0513A032A2D7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3B1F7066704F3479"
+					item: "refinedstorage:4k_storage_part"
+					type: "item"
+				}
+				{
+					id: "42EF5A61B49A372E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0ACF705A29899152"
+				item: "refinedstorage:4k_storage_disk"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -8.4d
+		}
+		{
+			dependencies: ["59BAED982A758B11"]
+			id: "39CA620DBAA4BB46"
+			rewards: [
+				{
+					id: "360F30262AFE7D73"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C929DB39818FA8B"
+					item: "refinedstorage:16k_storage_part"
+					type: "item"
+				}
+				{
+					id: "047CEE71B69D1F69"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2B51BABBB82B9B18"
+				item: "refinedstorage:16k_storage_disk"
+				type: "item"
+			}]
+			x: 2.4499999999999997d
+			y: -8.4d
+		}
+		{
+			dependencies: ["39CA620DBAA4BB46"]
+			id: "323FC67EF4744102"
+			rewards: [
+				{
+					id: "5E33B746C3689EB4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DE91C65EDA086FE"
+					item: "refinedstorage:64k_storage_part"
+					type: "item"
+				}
+				{
+					id: "44D52451C805323C"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3BC8A51D8B6D1645"
+				item: "refinedstorage:64k_storage_disk"
+				type: "item"
+			}]
+			x: 3.15d
+			y: -8.4d
+		}
+		{
+			dependencies: ["323FC67EF4744102"]
+			id: "79AAA7606992C5BC"
+			rewards: [
+				{
+					id: "642093BCF58C90F8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "2DB7E28D8002F405"
+					item: "extradisks:256k_storage_part"
+					type: "item"
+				}
+				{
+					id: "3327AFDC5DD7D231"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "683E6ABC1EB93FBE"
+				item: {
+					Count: 1
+					id: "extradisks:256k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.2d
+			y: -8.4d
+		}
+		{
+			dependencies: ["79AAA7606992C5BC"]
+			id: "2E0E0880D10A3185"
+			rewards: [
+				{
+					id: "5E5914C9E95A8C9C"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "26F456AA96FE2CED"
+					item: "extradisks:1024k_storage_part"
+					type: "item"
+				}
+				{
+					id: "0F002DB718283533"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4E5C5AD46C01055D"
+				item: {
+					Count: 1
+					id: "extradisks:1024k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -8.4d
+		}
+		{
+			dependencies: ["2E0E0880D10A3185"]
+			id: "3CC2A9A753015DD0"
+			rewards: [
+				{
+					id: "3D844775B9A272B1"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "471880ABCA5CE5C2"
+					item: "extradisks:4096k_storage_part"
+					type: "item"
+				}
+				{
+					id: "17126A10AD456ECC"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "7D073B49F1B92A58"
+				item: {
+					Count: 1
+					id: "extradisks:4096k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -8.4d
+		}
+		{
+			dependencies: ["3CC2A9A753015DD0"]
+			id: "6408C889100DD050"
+			rewards: [
+				{
+					id: "4EDEED664315356C"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "147FD42B187DF113"
+					item: "extradisks:16384k_storage_part"
+					type: "item"
+				}
+				{
+					id: "781FE311431350F9"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6D29B8FADECEC672"
+				item: {
+					Count: 1
+					id: "extradisks:16384k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.3d
+			y: -8.4d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "1303C22577B51875"
+			rewards: [
+				{
+					id: "3BB70DF6CEB65AF2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "64AA891466BD42EF"
+					item: "refinedstorage:silicon"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1B835408A8808207"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AA801E108A50BE3"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "1E9AA00A54C7954E"
+			rewards: [
+				{
+					id: "076A2A4A874078A0"
+					type: "xp"
+					xp: 70
+				}
+				{
+					count: 3
+					id: "5CC2559DBAF6CFA8"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0B671B7E0BE12358"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C729B14DA0DFFF8"
+				item: "refinedstorage:improved_processor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "271745798EAA6DB7"
+			rewards: [
+				{
+					id: "0DE03FE1D9292A91"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "135CBF22EC4F385C"
+					item: "minecraft:diamond"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "25409877FB3A6128"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39C96C66AE816D36"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			description: [
+				"A &cNetwork Transmitter&r sends a network signal to a &9Network Receiver&r that is specified in the given &2Network Card&r."
+				""
+				"In order for the &cNetwork Transmitter&r to work the &6Controller&r where the &cNetwork Transmitter&r is connected to has to be &nchunkloaded&r."
+				""
+				"The &cNetwork Transmitter&r can work in the current dimension or across different dimensions."
+			]
+			id: "64F7C68943AD30E2"
+			rewards: [
+				{
+					id: "62714FCDF836F568"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5A22DCF0184B0DA6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "05CC245085A166E7"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B48E15B3C2940D0"
+				item: "refinedstorage:network_transmitter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64F7C68943AD30E2"]
+			description: [
+				"The &9Network Receiver&r receives a signal from the &cNetwork Transmitter&r."
+				""
+				"In order for the &9Network Receiver&r to work reliably the &9Network Receiver&r has to be &nchunkloaded&r."
+			]
+			id: "31D5150198BF3854"
+			rewards: [
+				{
+					id: "49437049BE931B3F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "652A9B409E521163"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "52DAD6AA5D41BCC3"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "17709CA6CCD12C64"
+				item: "refinedstorage:network_receiver"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["31D5150198BF3854"]
+			description: [
+				"The &5Wireless Transmitter&r is used to send signals to wireless network items in &bRefined Storage&r."
+				""
+				"The default range is &n&b16 blocks&r, but can be upgraded with &eRange Upgrades&r. Keep in mind, you are not limited to &n&b1 Wireless Transmitter&r! You can spread multiple around in your world, each maximally upgraded with &eRange Upgrades&r."
+				""
+				"Note that every &5Wireless Transmitter&r needs to be connected to the network through a &3Cable&r or &9Network Receiver&r."
+				""
+				"The wireless signal starts from the &5Wireless Transmitter’s&r position, so, if you place &l2&r transmitters next to each other you’ll only have a net gain of &n1 block&r."
+				""
+				"Instead, you have to spread your wireless transmitters around."
+			]
+			id: "3928133420A9BA6F"
+			min_width: 300
+			rewards: [
+				{
+					id: "41FF78E48834836B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "58AA24ACF1888D27"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "74072084C78273D1"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60E65DDBF9C25926"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &9Importer&r imports items or fluids from an inventory in front of the block and inserts it in the storage network (if there is space)."
+				""
+				"By default, it will import all accessible slots (place the &9Importer&r on the correct side, where the slot or fluid tank is reachable) but the player can use the &n&bwhitelist&r or &n&0blacklist&r as well."
+			]
+			id: "1AFBE843D9AA37F8"
+			rewards: [
+				{
+					id: "48AECB44BD11C7D1"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "012F97DE65564A1A"
+					item: "refinedstorage:importer"
+					type: "item"
+				}
+				{
+					id: "261498C5F37D1D23"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "075CE7D9989A7673"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &5Exporter&r extracts items or fluids from the storage network and inserts it in the inventory or tank in front of it."
+				""
+				"Before being able to export anything, the player has to choose the items or fluids to export."
+				""
+				"The chosen items can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+				""
+				"The &5Exporter&r should face the block it’s exporting to in a way that the wanted slot or fluid tank is possible to reach from that side."
+			]
+			id: "22E06C03B43EAC2F"
+			rewards: [
+				{
+					id: "6A43079AF66DDF7D"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "6A74662C448C3C15"
+					item: "refinedstorage:exporter"
+					type: "item"
+				}
+				{
+					id: "4099694ACB28A95A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "400909A2EDD79B6E"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &dExternal Storage&r provides the storage network with storage of the inventory or fluid tank in front of the device."
+				""
+				"A &n&bnegative&r or &n&bpositive&r priority can be chosen, where a higher priority gets higher precedence to place items in."
+				""
+				"There is also a &n&bwhitelist&r and &n&0blacklist&r option to only allow or forbid some items or fluids from entering the connected inventory."
+				""
+				"The &n&bwhitelist&r or &n&0blacklist&r can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+			]
+			id: "31D9FC9FE28C5D4B"
+			rewards: [
+				{
+					id: "6D9B4F3F546EAE15"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3A0A9F83FE61B49A"
+					item: "refinedstorage:external_storage"
+					type: "item"
+				}
+				{
+					id: "5B1BDD5D7DD69D6F"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33FE161C9E3F60A4"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			description: [
+				"The &6Crafter&r crafts items with patterns. It can take &2Speed Upgrades&r to increase the crafting speed."
+				""
+				"With processing patterns, the &6Crafter&r has to face the correct input side of the machine."
+				""
+				"A &6Crafter&r can be chained by letting them face each other. This is useful when connecting a &6Crafter&r to a single machine. When you run out of slots in your first &6Crafter&r, the one facing the machine, you can put another &6Crafter&r behind the first &6Crafter&r to get additional &7Pattern&r slots."
+				""
+				"The Crafter has 4 modes:"
+				"- &o&bIgnore redstone signal (default)&r"
+				"- &o&bRedstone signal unlocks autocrafting&r"
+				"- &o&bRedstone signal locks autocrafting&r"
+				"- &o&bRedstone pulse inserts next set&r"
+				""
+				"The (un)locking mechanism is used to block the &6Crafter&r, so it can’t insert items or fluids into the connected inventory."
+				""
+				"“&nBlocking mode&r” can be achieved with the “&nRedstone pulse inserts next set&r” mode."
+			]
+			hide_dependency_lines: true
+			id: "6C2F805FED9B1B4D"
+			min_width: 400
+			rewards: [
+				{
+					id: "77ADF58E1CF163EB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3415F53D65A2F11E"
+					item: "refinedstorage:security_card"
+					type: "item"
+				}
+				{
+					id: "3A0531DC14467668"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "52352B64B4E4C082"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "11F69D5825667CB6"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1303C22577B51875"]
+			description: [
+				"The &2Wrench&r is a tool that can do two things:"
+				""
+				"- Rotate blocks"
+				"- Break Refined Storage covers"
+				""
+				"Simply &n&bsneak+right click&r when using the &2Wrench&r."
+			]
+			id: "2AB06C9BCCC878DF"
+			rewards: [
+				{
+					id: "57FC8572FD21B5D1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A59FBDCC94CB48B"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "39E54AF3F2E7099D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5FD4C5F99673FE13"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["23A5BD1206C9DA71"]
+			description: [
+				"The &dSecurity Manager&r can store security cards."
+				""
+				"From it’s &bGUI&r, you can configure what permissions each player (that is bound with a &9Security Card&r) has."
+				""
+				"Once the &9Security Card&r is inserted in the top slots, the permissions for that player will be restricted to the ones configured."
+			]
+			id: "5041D32679CA118B"
+			rewards: [
+				{
+					id: "4116F48ED78E2107"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "020F8FDA6EC7192D"
+					item: "minecraft:diamond"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1B4E17A3DE5718AE"
+					item: "farmersdelight:honey_cookie"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "785A10D75F57FC7A"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					id: "0B4A1B218E971301"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6708EA1EEAB5BC54"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			id: "5E1D127D8ADF4C03"
+			rewards: [
+				{
+					id: "46FB9165B0729B26"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AA6A16F1D8B8179"
+					item: "refinedstorage:pattern"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3BE1554C45509A8D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3250D4ECB343F93A"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			title: "Pattern"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			description: [
+				"The &eInterface&r acts as a combination of the &dImporter&r and the &9Exporter&r."
+				""
+				"The &dImporter&r needs to be connected to an inventory to import items or fluids. It has no internal inventory and you can’t insert items directly to the &dImporter&r."
+				""
+				"In comparison with the &dImporter&r the &eInterface&r has an internal inventory to receive items and import them (through piping, hoppers, etc)."
+				""
+				"The &eInterface&r does &lNOT&r extract items from adjacent inventories automatically, you have to actually insert them in the Interface through piping, hoppers, etc."
+				""
+				"There is also an option for exporting items from the system. These items can be piped out through a piping system from another mod, hoppers, etc. and can be configured to be &nNBT&r or &ndamage&r sensitive."
+				""
+				"&bClick&r an item in the export slots to configure that to be exported. Use left or right &bclick&r on the item to change the amount. Use &bshift&r to clear the slot."
+			]
+			id: "4CA8D19FCE537859"
+			min_width: 300
+			rewards: [
+				{
+					id: "4E135777A050363C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2A3D626B2A095E14"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+				{
+					id: "4620989A27AF66F6"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "0D0A2C58986B4876"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "62E5CE0BDEFCBBC6"
+				item: "refinedstorage:interface"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1E9AA00A54C7954E"]
+			description: ["The &cUpgrade&r is the base item used for every type of &nupgrade&r."]
+			hide_dependency_lines: true
+			id: "248C80D834309577"
+			rewards: [
+				{
+					id: "52D5B65698D6096B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "6123AB543E00CB88"
+					item: "refinedstorage:quartz_enriched_iron"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7E7B9C99B1FE769A"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6B0415A95AEA0930"
+				item: "refinedstorage:upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Speed Upgrade&r will increase the speed of the device that it is being inserted to."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "7DB39218E8B03474"
+			rewards: [
+				{
+					id: "0CA469236DC449A8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "2037FF2176503872"
+					item: "refinedstorage:processor_binding"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7CB1E14EBFAE9EDA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "441B938657D152D1"
+				item: "refinedstorage:speed_upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Range Upgrade&r increases the range of the &eWireless Transmitter&r."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "686E3FDCD3EEA72D"
+			rewards: [
+				{
+					id: "3E872709DD9B4778"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 10
+					id: "4951723E90F368FA"
+					item: "minecraft:sugar"
+					random_bonus: 6
+					type: "item"
+				}
+				{
+					id: "3F1E3CF0824B62DD"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "5AD45D7EAC68458C"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "64D76A17FBC34BAE"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Crafting Upgrade&r will schedule a crafting task when the item being used in a device is needed but not available."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "09E9D4243A52B968"
+			rewards: [
+				{
+					id: "12A20034795107FF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "272DE9FDAC99AFE3"
+					item: "refinedstorage:silicon"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "618DBE147056F8A9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "40832888B2D73AAF"
+				item: "refinedstorage:crafting_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7DB39218E8B03474"]
+			description: [
+				"The &2Stack Upgrade&r will improve item or fluid transfer speeds by using a whole stack (64 items) instead of 1 item at a time."
+				""
+				"It can be combined with &bSpeed Upgrades&r to let the device go to the next slot quicker."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "4463E8EFD952B475"
+			rewards: [
+				{
+					id: "258AD5A1F4CB57A1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "17FAE040985DB5F4"
+					item: "refinedstorage:1k_storage_part"
+					type: "item"
+				}
+				{
+					id: "2CA05BCB42B750F8"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "04E6085612AE5E0B"
+				item: "refinedstorage:stack_upgrade"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1303C22577B51875"]
+			id: "0BA00C5545282571"
+			rewards: [
+				{
+					id: "14525D2CE168B568"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "1DB840286631D78E"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "52B13A40BC27B527"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53811755FD5D668E"
+				item: "refinedstorage:destruction_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1303C22577B51875"]
+			id: "4BB571A75E50C307"
+			rewards: [
+				{
+					id: "5493BAB28A145ECC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "415F26AA6783C8EA"
+					item: "refinedstorage:basic_processor"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "61D9A90DA6E08604"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E9723791D125AFD"
+				item: "refinedstorage:construction_core"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			id: "2B707F3AAD089BFC"
+			rewards: [
+				{
+					id: "1D65E6C213E798AB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "30F36C8BD6B574B6"
+					item: "refinedstorage:basic_processor"
+					type: "item"
+				}
+				{
+					id: "3E423371EA4B35D1"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2D97E7A2A4119D29"
+				item: "extrastorage:iron_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2B707F3AAD089BFC"]
+			id: "2FC82AE5DCCF9E5B"
+			rewards: [
+				{
+					id: "5082A67B4C95BE24"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "30A53B5B4296CAF1"
+					item: "refinedstorage:improved_processor"
+					type: "item"
+				}
+				{
+					id: "3F33AABB5D4AB25D"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04F1093070CCD9A8"
+				item: "extrastorage:gold_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FC82AE5DCCF9E5B"]
+			id: "435A8A6E546DDFB9"
+			rewards: [
+				{
+					id: "4FB0F52157F4FDD0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "1C4A0C633513A6F4"
+					item: "refinedstorage:advanced_processor"
+					type: "item"
+				}
+				{
+					id: "258F126D295885FF"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "57D8A46CC20FE1C4"
+				item: "extrastorage:diamond_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["435A8A6E546DDFB9"]
+			id: "38C693695D270B8B"
+			rewards: [
+				{
+					id: "19198DF9E7857ABF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 8
+					id: "453B99CB62586FEE"
+					item: "extradisks:withering_processor"
+					type: "item"
+				}
+				{
+					id: "2E6B5A9A39B7AADC"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5D248494BC8215A1"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1370A6B90E1B70E8"
+				item: "extrastorage:netherite_crafter"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "65DB695B84418794"
+			optional: true
+			rewards: [
+				{
+					id: "4F8B8DE4ECD11BA0"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "6032F3930F31DC30"
+					item: "extendedcrafting:ender_star"
+					type: "item"
+				}
+				{
+					id: "4240B88B73053D8D"
+					table_id: 4056905653150789257L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "479D5186C3C1F1D0"
+				item: "extradisks:withering_processor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D87A1C6831BE313"]
+			id: "30667B72A059A8EE"
+			rewards: [
+				{
+					id: "537DA2966A81235E"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "1D597CB2DACB9217"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "45FC1BD4D1D15264"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "44EA35EF95EED696"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "3E58AD26485E9FC9"
+				item: "extradisks:infinite_storage_disk"
+				type: "item"
+			}]
+			x: 9.45d
+			y: -8.4d
+		}
+		{
+			dependencies: ["686E3FDCD3EEA72D"]
+			description: [
+				"Using the &aAdvanced Wireless Transmitter&r the &dInfinity Range Booster&r won't work properly, use the regular &eWireless Transmitter&r instead."
+				""
+				"But of course using the &6Creative Wireless Transmitter&r, the &dInfinity Range Booster&r won't be needed at all."
+			]
+			id: "072A61CA0618DBFA"
+			min_width: 250
+			rewards: [
+				{
+					id: "41DEC0953C657D07"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "74115575EA0E059C"
+					item: "extendedcrafting:flux_star"
+					type: "item"
+				}
+				{
+					id: "77FB85A167051E0C"
+					item: "alltheores:platinum_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0290FAE6223D5EE7"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "748F82FBFFBD7A94"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "22EE5BADB98DE8BA"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["686E3FDCD3EEA72D"]
+			id: "408B09DB8D15C6DE"
+			min_width: 250
+			rewards: [
+				{
+					id: "145440C0E7ABC5B0"
+					type: "xp"
+					xp: 500
+				}
+				{
+					count: 10
+					id: "1FF9FE5CEBBE6E89"
+					item: "refinedstorage:cable"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0A68724A3E2D9F81"
+					item: "refinedstorage:quartz_enriched_iron"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2147C6108641CB76"
+					item: "refinedstorage:64k_storage_part"
+					type: "item"
+				}
+				{
+					id: "15B86644E4E8313B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2F07C6547E610B70"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "66FE61ADCF95285B"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "1971AF5095DCA121"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1AFBE843D9AA37F8"]
+			id: "3F14B7FCEBE82944"
+			rewards: [
+				{
+					id: "739E25FE5EADDE50"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "7C01A097711CA17F"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "25D263B7F24F1492"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DB37A39C627D011"
+				item: "extrastorage:advanced_importer"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["22E06C03B43EAC2F"]
+			id: "1E937D3ECBE9EC25"
+			rewards: [
+				{
+					id: "7F968FB2C81D3998"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "390592CC2B731C41"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2961B0452E12DDC8"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B545D194696B50E"
+				item: "extrastorage:advanced_exporter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			id: "670FA77EB5E9DF57"
+			rewards: [
+				{
+					id: "40E183D3AB362020"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2C3B5039DD067819"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "26E4E3CAC32DB06A"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "16DC4BD909093C1E"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F14B7FCEBE82944"]
+			id: "21468923B4AC54B6"
+			rewards: [
+				{
+					id: "623716CACD606812"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F7F986DA4669DA2"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "2ACAE8F276AD7640"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45AD675CFED54BFB"
+				item: "cabletiers:elite_importer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21468923B4AC54B6"]
+			id: "3A13EB2FE752A76D"
+			rewards: [
+				{
+					id: "44773C9829B508D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "37B28A5D2CEE421D"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "7524F5F3687A8D95"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "403EA48D6C94B1D2"
+				item: "cabletiers:ultra_importer"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1E937D3ECBE9EC25"]
+			id: "5F36FB5D7E53F089"
+			rewards: [
+				{
+					id: "766CF40655E96682"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5268B27B8C039841"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "3DCBF87BCDAF2C2A"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73048EA18C5D8AA9"
+				item: "cabletiers:elite_exporter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F36FB5D7E53F089"]
+			id: "356A5A087C5CF524"
+			rewards: [
+				{
+					id: "5A6F5E2E81CEFFFC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C05A6D543A7510E"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "4E381DA229FDF6B9"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77908217651C7A7C"
+				item: "cabletiers:ultra_exporter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &2Constructor&r places items or fluids from the storage network in the world."
+				""
+				"No other blocks can be in front of the &2Constructor&r (&nexcept fluids&r) and it should be possible for the block to be placed (for example: &nsaplings need dirt&r)."
+				""
+				"The &2Constructor&r can also drop items in the world instead of placing actual blocks. When provided with a &aStack Upgrade&r, it’ll drop stacks of items at a time."
+			]
+			id: "7E2B119FF3B42555"
+			rewards: [
+				{
+					id: "46756590D6392ABF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4CA841822361630F"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2D415351B38A7844"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &8Destructor&r destroys blocks or fluids in front of it and puts the drops in the storage network."
+				""
+				"The &8Destructor&r has the ability to only break certain blocks or fluids, with the &n&bwhitelist&r and &n&0blacklist&r option. Said &n&bwhitelist&r and &n&0blacklist&r can be &n&bNBT&r or &n&bdamage&r sensitive."
+				""
+				"The &8Destructor&r can also pick up items in the world instead of destroying blocks."
+			]
+			id: "1582D0B1B524191D"
+			rewards: [
+				{
+					id: "6468B6A0244AC6FB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D2F43697F534ACF"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "1CCD9316770CA73D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40AD906EF67E04FB"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E2B119FF3B42555"]
+			id: "7260BCAB482AEB3D"
+			rewards: [
+				{
+					id: "6900D971A741B4FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "39AF02F7F31D9834"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "7BA8F4402EE68E63"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "61E63709F93F11CB"
+				item: "cabletiers:elite_constructor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7260BCAB482AEB3D"]
+			id: "05100041F9E45823"
+			rewards: [
+				{
+					id: "3AD13E3702BFDAE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2D71BA4ADBF51D28"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "171C89B8D2AE7364"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2730F360EDC3A5BE"
+				item: "cabletiers:ultra_constructor"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1582D0B1B524191D"]
+			id: "455B31F4458AF9DC"
+			rewards: [
+				{
+					id: "45FF3F658CFC74B9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4D42EE093154BCA2"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "0B1825D17E463236"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EB59277FC6D22CB"
+				item: "cabletiers:elite_destructor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["455B31F4458AF9DC"]
+			id: "34A0F5B254E7DEC5"
+			rewards: [
+				{
+					id: "0A1D0A1D7799DBE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1576CF088266E506"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1AD3F77DEA19247F"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "035E7804202D5018"
+				item: "cabletiers:ultra_destructor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CA8D19FCE537859"]
+			id: "151C3F2EECCDA5A9"
+			rewards: [
+				{
+					id: "52FCDE36CF18CB44"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4068C8144A05F6FE"
+					item: "refinedstorage:interface"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "50D17A19FAD012EA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0A621A231AD6A41E"
+				item: "rsrequestify:requester"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["151C3F2EECCDA5A9"]
+			id: "1BDF58A8F7126333"
+			rewards: [
+				{
+					id: "4993D28EBCC82995"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4DCB20A349C8D444"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0F0E678F82B8CF47"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20B36167A4AC8133"
+				item: "cabletiers:elite_requester"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1BDF58A8F7126333"]
+			id: "24974D2779619EDF"
+			rewards: [
+				{
+					id: "6F88AC10041FE8D5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6187A9E432187FB8"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "1FC4F98DD4DCDB42"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "744920A0FC40D63A"
+				item: "cabletiers:ultra_requester"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"670FA77EB5E9DF57"
+				"671F9D5C29A934C0"
+				"6A06FCDD5338B755"
+			]
+			id: "296A00BE06DA9BF7"
+			rewards: [
+				{
+					id: "2E474E8AF1758E88"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "07F33C7F6C325E44"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "05977B6B75DD483C"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "1B463F465D6288F2"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "3EDAEA5506439F58"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7DEAED5034D6B827"
+				item: "universalgrid:wireless_universal_grid"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			description: [
+				"The &5Disk Manipulator&r adds a fast way of transferring items between &n&bstorage&r disks or &n&bfluid&r storage disks and the &n&bstorage network&r."
+				""
+				"The player can configure the &5Disk Manipulator&r to have a certain &n&bwhitelist&r or &0&nblacklist&r of items that can be transferred."
+				""
+				"The &n&bwhitelist&r or &n&0blacklist&r can be configured to be &n&bNBT&r or &n&bdamage&r sensitive."
+				""
+				"The player can also choose whether to &n&binsert&r items to the storage network or &n&bextract&r items from the storage network."
+			]
+			id: "318FF6E869BC41B1"
+			min_width: 300
+			rewards: [
+				{
+					id: "0C44E3907C923A58"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51B1440B91C3CA24"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "476E85DA904F413B"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "010D0463756C2A4E"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			id: "16373BCA95F4800F"
+			rewards: [
+				{
+					id: "500031BE4280CFDF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7B70F8C51461066D"
+					item: "refinedstorage:64k_fluid_storage_part"
+					type: "item"
+				}
+				{
+					id: "21F0B1472008C6CA"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2AA63CC341E438B7"
+				item: "refinedstorage:64k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 1.05d
+			y: -7.35d
+		}
+		{
+			dependencies: ["16373BCA95F4800F"]
+			id: "1106FC7CD11A9227"
+			rewards: [
+				{
+					id: "588B3F5085CBA068"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6C82CBFADDFF1EAB"
+					item: "refinedstorage:256k_fluid_storage_part"
+					type: "item"
+				}
+				{
+					id: "77462751BEED7B39"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "04F431E652B3148E"
+				item: "refinedstorage:256k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -7.35d
+		}
+		{
+			dependencies: ["1106FC7CD11A9227"]
+			id: "258014F5AF79D6E9"
+			rewards: [
+				{
+					id: "4575C400D53C1893"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "71875F026BF5877B"
+					item: "refinedstorage:1024k_fluid_storage_part"
+					type: "item"
+				}
+				{
+					id: "0C07702BA36D38D6"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "43D38189988A646F"
+				item: "refinedstorage:1024k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 2.4499999999999997d
+			y: -7.35d
+		}
+		{
+			dependencies: ["258014F5AF79D6E9"]
+			id: "7BF7F8BFBB497449"
+			rewards: [
+				{
+					id: "0A7A94D5E536AD4B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0B744D3A83E1A578"
+					item: "refinedstorage:4096k_fluid_storage_part"
+					type: "item"
+				}
+				{
+					id: "2EEB46455611A498"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "058909C2471C131E"
+				item: "refinedstorage:4096k_fluid_storage_disk"
+				type: "item"
+			}]
+			x: 3.15d
+			y: -7.35d
+		}
+		{
+			dependencies: ["7BF7F8BFBB497449"]
+			id: "25C183A2F9F2DF8B"
+			rewards: [
+				{
+					id: "4C3108A6FA342868"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "1201C2FA4B8DEBB1"
+					item: "extradisks:16384k_fluid_storage_part"
+					type: "item"
+				}
+				{
+					id: "2E1E1EE3A7E5F3A6"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1EE924BE9564E4AB"
+				item: {
+					Count: 1
+					id: "extradisks:16384k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.2d
+			y: -7.35d
+		}
+		{
+			dependencies: ["25C183A2F9F2DF8B"]
+			id: "03F1264432CD200D"
+			rewards: [
+				{
+					id: "6A5EC71203DF3D00"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "030EF656270C36E2"
+					item: "extradisks:65536k_fluid_storage_part"
+					type: "item"
+				}
+				{
+					id: "5DCEC50BC766B86C"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "0FA017D0B1A4D0E0"
+				item: {
+					Count: 1
+					id: "extradisks:65536k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.8999999999999995d
+			y: -7.35d
+		}
+		{
+			dependencies: ["03F1264432CD200D"]
+			id: "4A1159DBBEE2793D"
+			optional: true
+			rewards: [
+				{
+					id: "4C8EE97E37BE6B54"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "1B1FA5AAFDDB5F64"
+					item: "extradisks:262144k_storage_part"
+					type: "item"
+				}
+				{
+					id: "376656BB536847C1"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5C6BA65B17D1A073"
+				item: {
+					Count: 1
+					id: "extradisks:262144k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.6d
+			y: -7.35d
+		}
+		{
+			dependencies: ["4A1159DBBEE2793D"]
+			id: "028E0B778EE2A256"
+			rewards: [
+				{
+					id: "3FE345D2588DF3B9"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "78B98336ABE51F2C"
+					item: "extradisks:1048576k_fluid_storage_part"
+					type: "item"
+				}
+				{
+					id: "2CA78B9CB7F7F81D"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "1AB5783F51F694D4"
+				item: {
+					Count: 1
+					id: "extradisks:1048576k_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.3d
+			y: -7.35d
+		}
+		{
+			dependencies: ["028E0B778EE2A256"]
+			id: "271C48310803A824"
+			rewards: [
+				{
+					id: "1DCBC1DB07C59616"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E60C0765FE8F958"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F05496A18BEBA16"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4ADB4D4AD7878CD1"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "2CEAB9B0038039E3"
+				item: {
+					Count: 1
+					id: "extradisks:infinite_fluid_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.35d
+			y: -7.35d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "12DD335832256B5A"
+			rewards: [
+				{
+					id: "4DA50156603D39CF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "3E1C2C00A3DEAE56"
+					item: "thermal_extra:dragonsteel_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1F2CE674CADC9B67"
+					item: "kubejs:note_20"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2478266965FFF480"
+				item: "extrastorage:neural_processor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5B86A9C08F2F2E8F"]
+			id: "550A3E2F952A2526"
+			rewards: [
+				{
+					id: "57180E3C1390C3D0"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "15086ECE4BEB9554"
+					item: "minecraft:netherite_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "26ACA9FDEE5B9086"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5876347EC3781134"
+				item: "rebornstorage:super_advanced_processor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Fluid Grid&r is the same as a regular &eGrid&r, but is used for viewing fluids in the fluid storage of your storage network."
+				""
+				"To insert a fluid, players can &bShift+Click&r on a fluid container like a bucket in their player inventory while in the &6Fluid Grid&r &bGUI&r."
+				""
+				"The player can also click the fluid container in the &bGUI&r to insert it."
+				""
+				"Players can extract the fluid by clicking on it. The &6Fluid Grid&r will then fill a bucket with the selected fluid."
+				""
+				"&dRefined Storage&r will first search an empty bucket in your inventory. If none is found, a bucket will be searched in your storage network."
+				""
+				"Some fluids cannot be filled in a bucket, then the only way to extract those fluids is by using an &aExporter&r."
+			]
+			id: "13FFBFD61A86BB4F"
+			min_width: 300
+			rewards: [
+				{
+					id: "54DF30CACEE55B2B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12378DFCA97DE163"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "33067F8665C78CEC"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3966F9B0B226C9AE"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &6Pattern Grid&r is the same as a regular &eGrid&r, but also allows for the creation of patterns."
+				""
+				"By default, the &6Pattern Grid&r creates regular crafting patterns."
+				""
+				"To create processing patterns, toggle the “&nprocessing&r” checkbox."
+				""
+				"To create oredict sensitive patterns, toggle the “&noredict&r” checkbox."
+				""
+				"To define valid alternatives for an item or fluid, use &bCTRL+CLICK&r on the input slot and specify the allowed tags that can be used during autocrafting. Items or fluids from that tag are then marked as valid alternatives if the original item or fluid can’t be found in the storage network."
+				""
+				"You can also define valid alternatives by clicking on the item or fluid and then clicking on “&nAlternatives&r”."
+				""
+				"You can re-insert a &3Pattern&r in the output slot to modify and (possibly) &noverride&r it."
+				""
+				"The &6Pattern Grid&r integrates with &bJEI&r so the player can use recipe transferring."
+				""
+				"You don’t necessarily need the actual items in your storage network to create a &aPattern&r for it."
+			]
+			id: "4C1079E3C126054C"
+			min_width: 400
+			rewards: [
+				{
+					id: "2E520F43BE8AFC6C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CEBC7B587AFBC23"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+				{
+					id: "18FA40F708ACEB8B"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "534356BE2B1B4BAC"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3928133420A9BA6F"]
+			id: "3E2EFE5EE594FB4D"
+			rewards: [
+				{
+					id: "6681973AF45407A8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34491EC5990BC5DD"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "540E5303CC6BD76A"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2142D374610BF1B7"
+				item: "rebornstorage:advanced_wireless_transmitter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			id: "671F9D5C29A934C0"
+			rewards: [
+				{
+					id: "0A4EE5AF50FBF2FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54AD5197A0BD6A2F"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31DCF4985FAB731C"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "671DC8D5B13668F8"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			id: "6A06FCDD5338B755"
+			rewards: [
+				{
+					id: "473239B9CCA9F21E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DE266B596DE6B56"
+					table_id: 6468877635738169977L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EFC3B90185B9D70"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0AA748EDBEB12829"
+				item: "refinedstorage:wireless_crafting_monitor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["296A00BE06DA9BF7"]
+			id: "4628D5373AA80FE0"
+			rewards: [
+				{
+					id: "74860393F52CAEB6"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "108543E02F76C948"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "164DB5EB4C1161E7"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4600A510C45ED16F"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "503E9C2D89CE502C"
+				item: {
+					Count: 1
+					id: "rebornstorage:super_wireless_crafting_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34C6AE4B8382A490"]
+			hide_dependency_lines: true
+			id: "5B86A9C08F2F2E8F"
+			rewards: [
+				{
+					id: "3190DB22F446BD2F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "4DA07E87498AED20"
+					item: "minecraft:slime_ball"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71E38F2286D605FD"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				count: 16L
+				id: "68628AF936507F26"
+				item: "refinedstorage:processor_binding"
+				type: "item"
+			}]
+			title: "Processor Binding"
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["62E3FB695EC3FFB9"]
+			description: ["The &3Machine Casing&r is used to craft the various &dRefined Storage&r devices."]
+			id: "13A383F8F11B1C35"
+			rewards: [
+				{
+					id: "3E836CD1F787EE00"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3264B4B14FD4E2A4"
+					table_id: 4432288867142743846L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "109B6B800964B625"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34C6AE4B8382A490"]
+			description: ["Silicon can be obtained by smelting &3Quartz&r or &bCertus Quartz&r dust from &nAE2&r."]
+			id: "62E3FB695EC3FFB9"
+			rewards: [
+				{
+					id: "7EE4489274001875"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "76005F0DAF842606"
+					item: "refinedstorage:silicon"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "48ED5F4C7AF4509D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:silicon"
+					}
+				}
+				title: "Silicon"
+				type: "item"
+			}]
+			title: "Silicon"
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["38C693695D270B8B"]
+			description: [
+				"&1The Multiblock Crafter&r is used to supplement or replace &bCrafters&r by allowing you to place &b&n78&r crafting Patterns per Reborn Storage &eCrafting Storage&r block, instead of the normal 9 Patterns per Refined Storage &2Crafter&r."
+				""
+				"To increase speed of the multiblock crafter, you need to add more &dCrafting CPUs&r, and to increase the amount of stored Patterns, you need to add more &9Crafting Storages&r."
+				""
+				"The multiblock crafter has a minimum size of &n&b3x3x4&r and a maximum size of &n&b16x16x16&r."
+				""
+				"To create a multiblock crafter, the outside edges must consist of &6Crafting Frames&r, the outside walls must consist of &8Heat Conductors&r, and the center must consist of at least 1 &5Crafting CPU&r and 1 &cCrafting Storage&r."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/item/rebornstorage.png"
+				}
+			}
+			id: "1177E0D6D6488D80"
+			min_width: 300
+			rewards: [
+				{
+					id: "634B499D167356E0"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D046A39A1167C77"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12C2AA176C3FB919"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0C75A81BD6C5EE9F"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [
+				{
+					count: 24L
+					id: "7502606A45C1FB9F"
+					item: "rebornstorage:multiblock_frame"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "37C391502002F247"
+					item: "rebornstorage:multiblock_heat"
+					type: "item"
+				}
+				{
+					id: "66C19FF6586F5A0F"
+					item: "rebornstorage:multiblock_cpu"
+					type: "item"
+				}
+				{
+					id: "0D0C22DD471840CF"
+					item: "rebornstorage:multiblock_storage"
+					type: "item"
+				}
+			]
+			title: "The Multiblock Crafter"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &cPortable Grid is&r a portable storage that isn’t connected to a network. It allows you to interact with a &aStorage Disk&r while not being connected to a network."
+				""
+				"As soon as you insert a &aStorage Disk&r, you can access the contents of your &aStorage Disk&r in the grid view."
+				""
+				"It’s essentially a &5Disk Drive&r and &dGrid&r in one block or item. It can be placed in the world, or, be used as a handheld device as well."
+				""
+				"To place it in the world hold the &cPortable Grid&r while &n&bsneaking&r."
+			]
+			id: "24FF3C75636F197F"
+			min_width: 300
+			rewards: [
+				{
+					id: "61BA96BD6771CE3F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "399BDDD701C579F2"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "5782525354992AAB"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3ECB1D3DB00CAD66"
+				item: {
+					Count: 1
+					id: "refinedstorage:portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"A &6Cover&r is used to hide &bCables&r."
+				""
+				"You can also hide blocks that have a cable on them, like the &9Importer&r or &dExporter&r."
+				""
+				"It will block network connections, cables can’t pass through the “&ohidden&r” side."
+				""
+				"A &5Hollow Cover&r is the same as a &6Cover&r but has a hole so you can pass cables through it."
+				""
+				"You can also put it on the front of an &9Importer&r or &dExporter&r to hide part of the block."
+				""
+				"It will let a network signal through."
+				""
+				"&6Covers&r and &5Hollow Covers&r can be removed by &n&bsneaking+right-clicking&r them with the &2Wrench&r."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "refinedstorage:cover"
+				tag: {
+					Item: {
+						Count: 1b
+						id: "minecraft:stone_bricks"
+					}
+				}
+			}
+			id: "31FA4DE3C3079632"
+			rewards: [
+				{
+					id: "329728D71B6A7039"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "7D68862A664F6273"
+					item: "minecraft:iron_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "40B4820CA89AEE49"
+				type: "checkmark"
+			}]
+			title: "The Covers"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7F3705767153FE11"]
+			description: [
+				"The &4Relay&r acts as &3Cable&r, but can be turned on or off depending on the redstone configuration."
+				""
+				"Devices connected after the &4Relay&r will be on or off depending if the &4Relay&r is on."
+			]
+			id: "0054D586610CC752"
+			rewards: [
+				{
+					id: "08622D089EB15995"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 4
+					id: "49061AEDC02680BD"
+					item: "minecraft:redstone_torch"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2194C7053E11ED74"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5EBD86DF2D3963D1"
+				item: "refinedstorage:relay"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4CA8D19FCE537859"]
+			description: [
+				"The &1Fluid Interface&r is the same as an &eInterface&r but for fluids."
+				""
+				"It has 2 internal tanks, one for &ninput&r and one for &noutput&r."
+				""
+				"The &1Fluid Interface&r has an input slot to import the contents of fluid containers (like a filled bucket). You can also interact with the input tank by using pipes from other mods."
+				""
+				"Click a fluid container (like a filled bucket) in the “&oOut&r” slot to configure the output fluid."
+				""
+				"Use &nleft&r or &nright&r &bclick&r on the fluid to change the mB amount. Use &nshift&r to clear the fluid slot."
+				""
+				"You can also interact with the output tank by using pipes from other mods."
+			]
+			hide_until_deps_complete: true
+			id: "7BB366BDAA2E786B"
+			min_width: 300
+			rewards: [
+				{
+					id: "1A5848DC3000107B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "38B31D084C78D818"
+					item: "refinedstorage:machine_casing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24D6157B198EDE80"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "4E3D7B32665B75D9"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "686FBC075B1B8947"
+				item: "refinedstorage:fluid_interface"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C2F805FED9B1B4D"]
+			description: [
+				"The &aDetector&r emits a redstone signal if an item, or fluid, count matches a given amount. It is also possible to be &nNBT&r or &ndamage&r sensitive."
+				""
+				"Types of criteria:"
+				"- Criteria &o&l&6<&r Emits a signal when lower than the given amount."
+				"- Criteria &o&l&6>&r Emits a signal when higher than the given amount."
+				"- Criteria &o&l&6=&r Emits a signal when equal to the given amount."
+				""
+				"When no item/fluid, is specified, the criteria won’t care about the count of a specific item/fluid, but rather the count of all items/fluids, in the storage."
+				""
+				"When the &aDetector&r is in fluid mode, the amount given is in &bmillibuckets&r (mB). If you want to check for &n1 bucket&r of a fluid, use &o1000&r, not &o1&r."
+			]
+			id: "7407982A0C66B69F"
+			min_width: 300
+			rewards: [
+				{
+					id: "0FB266911C68EC42"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "1E6DC07FB00737BF"
+					item: "minecraft:comparator"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "68D4B368A432E068"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23DEC8A031E91437"
+				item: "refinedstorage:detector"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5041D32679CA118B"]
+			description: [
+				"The &6Storage Monitor&r displays the current amount of a certain &bitem&r or &bfluid&r in your storage system."
+				""
+				"Use &n&bSHIFT+right click&r on the block to open a &nGUI&r to configure the item or fluid being displayed."
+			]
+			id: "569A93903C89051A"
+			rewards: [
+				{
+					id: "6CAF8F8FBF1A95B6"
+					type: "xp"
+					xp: 35
+				}
+				{
+					id: "15F1C477B6E269CC"
+					item: "refinedstorage:construction_core"
+					type: "item"
+				}
+				{
+					id: "4EFDFBB23589CE08"
+					item: "refinedstorage:destruction_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B7B418A12A5E70D"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["271745798EAA6DB7"]
+			description: [
+				"A &1Network Card&r stores the coordinates of a &dNetwork Receiver&r."
+				""
+				"The player has to insert the &1Network Card in&r a &eNetwork Transmitter&r."
+			]
+			hide_until_deps_complete: true
+			id: "4DE55B68AB69EFC7"
+			rewards: [
+				{
+					id: "04A289AF14B9B493"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 2
+					id: "07BB66E76547875C"
+					item: "refinedstorage:quartz_enriched_iron"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AB172E68375DC68"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "336CCFC764A3AA2C"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4F6B8F1E46496251"]
+			description: [
+				"The &8Security Card&r is bound to a player by &bright clicking&r."
+				""
+				"The &8Security Card&r has to be inserted into a &cSecurity Manager&r, and can be configured from there as well."
+			]
+			id: "23A5BD1206C9DA71"
+			rewards: [
+				{
+					id: "3B5B54CA15EE21CB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "188E67FA765BCD6D"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "24F332C55849D239"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "785DABAACCAD6938"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B052108DAD029F3"]
+			description: [
+				"The &7Filter&r is an item that can be used in any &eGrid&r."
+				""
+				"In the &8Filter’s&r &bGUI&r, which can be opened by pressing &bRight+Click&r while holding the filter in hand, the player can specify which items and fluids can be visible."
+				""
+				"The &eGrid&r can filter fluids in the &9Fluid Grid&r and items in any other &6Grid&r by toggling between item and fluid mode."
+				""
+				"The &8Filter&r can be set in a &b&nwhitelist&r or &n&0blacklist&r mode, too."
+			]
+			id: "4CD2762D5F14616E"
+			min_width: 300
+			rewards: [
+				{
+					id: "096612C64C24F59B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0C8DF2FC5C013572"
+					item: "refinedstorage:filter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08EA1B983B665675"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1EEA93B81B8711EF"
+				item: "refinedstorage:filter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Regulator Upgrade&r is an upgrade that can be inserted into an &eExporter&r to keep certain items or fluids in stock in the connected inventory."
+				""
+				"It will try to keep the connected inventory stocked by using items or fluids from the storage network."
+				""
+				"As soon as the upgrade is inserted, you can &bRight+Click&r on a filtered item or fluid in the &eExporter&r &bGUI&r to configure the amount to keep in stock."
+				""
+				"Additionally, the &2Regulator Upgrade&r can be combined with a &bCrafting Upgrade&r to start autocrafting tasks when the stock from the storage network runs out."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			id: "0FF90163DE483308"
+			min_width: 300
+			rewards: [
+				{
+					id: "6230247DB58D396B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "420FCA47FFE126C7"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17D204AC2AEA1159"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "47D6A72DA2DBB493"
+				item: "refinedstorage:regulator_upgrade"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Fortune Upgrade&r will make the &eDestructor&r use a certain fortune level (depending on which &2Fortune Upgrade&r you have) on the block it is breaking."
+				""
+				"This upgrade has 3 versions:"
+				"- &o&bFortune I&r"
+				"- &o&bFortune II&r"
+				"- &o&bFortune III&r"
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "0392CD3A3ACA67B6"
+			rewards: [
+				{
+					id: "227F2BB08657A0AF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "1C20B082DBE896AB"
+					item: "refinedstorage:storage_housing"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ABDDF8556B8EFB4"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0717C9D96928927E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "refinedstorage:fortune_1_upgrade"
+							}
+							{
+								Count: 1b
+								id: "refinedstorage:fortune_2_upgrade"
+							}
+							{
+								Count: 1b
+								id: "refinedstorage:fortune_3_upgrade"
+							}
+						]
+					}
+				}
+				title: "Fortune Upgrade"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["248C80D834309577"]
+			description: [
+				"The &2Silk Touch Upgrade&r makes the &eDestructor&r use &bSilk Touch&r on the blocks that it is breaking."
+				""
+				"By using this upgrade, the amount of &cFE&r/t that this device draws will increase."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "55233C139BCB0E61"
+			rewards: [
+				{
+					id: "36E39EB28FFF7063"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1BDC63D7DB5E4D7C"
+					item: "refinedstorage:1k_storage_part"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0686D8F82D389D54"
+					item: "refinedstorage:upgrade"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D41E531D4198F29"
+					table_id: 3256304039117744465L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "545E7FE2A38D4A1F"
+				item: "refinedstorage:silk_touch_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6408C889100DD050"]
+			id: "09620DD595AC74C4"
+			rewards: [
+				{
+					id: "5BE5343E294EC171"
+					type: "xp"
+					xp: 600
+				}
+				{
+					id: "4C920426CB4FCCED"
+					item: "extradisks:65536k_storage_part"
+					type: "item"
+				}
+				{
+					id: "64CD360E536E1E76"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "4C20EAF5C64FBF78"
+				item: {
+					Count: 1
+					id: "extradisks:65536k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -8.4d
+		}
+		{
+			dependencies: ["09620DD595AC74C4"]
+			id: "35C0D0CA4B31913C"
+			rewards: [
+				{
+					id: "4114FA01D10BC25D"
+					type: "xp"
+					xp: 700
+				}
+				{
+					id: "2262D993A67A95BE"
+					item: "extradisks:262144k_storage_part"
+					type: "item"
+				}
+				{
+					id: "1D9F314235A147CB"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3F7587DB7BDA3603"
+				item: {
+					Count: 1
+					id: "extradisks:262144k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.7d
+			y: -8.4d
+		}
+		{
+			dependencies: ["35C0D0CA4B31913C"]
+			id: "6D87A1C6831BE313"
+			rewards: [
+				{
+					id: "744260B5B8B88707"
+					type: "xp"
+					xp: 800
+				}
+				{
+					id: "6964299D37C5DC1B"
+					item: "extradisks:1048576k_storage_part"
+					type: "item"
+				}
+				{
+					id: "1F225130D72B5F82"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "39194984ECCA870C"
+				item: {
+					Count: 1
+					id: "extradisks:1048576k_storage_disk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.4d
+			y: -8.4d
+		}
+	]
+	title: "&e&oRefined Storage"
+}

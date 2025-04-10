@@ -1,0 +1,16 @@
+{
+    "modId": "farmingforblockheads",
+    "group": {
+        "name": "Mythical Saplings",
+        "enabledByDefault": true,
+        "defaultPayment": { "item": "minecraft:nether_star" },
+        "defaultCategory": "farmingforblockheads:saplings"
+    },
+    "customEntries": [
+        { "output": "hexerei:witch_hazel_sapling" },
+        { "output": "hexerei:willow_sapling" },
+        { "output": "hexerei:mahogany_sapling" },
+        { "output": "evilcraft:undead_sapling" },
+        { "output": "naturesaura:ancient_sapling" }
+    ]
+}

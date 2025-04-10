@@ -1,0 +1,30 @@
+#O Mod Infinity Nexus Machines esta istalado?
+as_infinity_mod_installed = false
+#Define ao minerar o componente de perderá durabilidade (se o componente não for um item duravel ele será consumido)
+miner_mining_cost_component_durability = false
+#Lista de Blocos de estrutura para a Mineradora do Level 1 ao 9
+list_of_structures = ["infinity_nexus_miner:wood_structure", "infinity_nexus_miner:stone_structure", "infinity_nexus_miner:copper_structure", "infinity_nexus_miner:iron_structure", "infinity_nexus_miner:gold_structure", "infinity_nexus_miner:quartz_structure", "infinity_nexus_miner:diamond_structure", "infinity_nexus_miner:emerald_structure", "infinity_nexus_miner:netherite_structure"]
+#Define o nivel maximo de fortuna da Mineradora
+#Range: 1 ~ 9
+max_fortune_level = 9
+#Define a quantidade de energia que a Mineradora vai armazenar
+#Range: > 1
+miner_energy_capacity = 150000
+#Define a quantidade de energia que a Mineradora vai transferir
+#Range: > 1
+miner_energy_transfer = 100000
+#Define o valor que a Mineradora vai multiplicar a geração de combustível. Ex: Carvão == 1600 * miner_fuel_multiplier = Energia que um caravão vai gerar
+#Range: > 1
+miner_fuel_multiplier = 5
+#Define a quantidade de energia que a Mineradora consumirá por operação (a base para os calculos)
+#Range: > 1
+miner_energy_per_operation = 100
+#Define a se a Mineradora pode ou não pegar minerios com Toque Suave
+miner_can_be_use_silk_touch = false
+#Define o delay maximo de progresso da Mineradora
+#Range: > 1
+max_progress = 120
+#Fator de chance de um cristal ser gerado. Padrão = 100.
+#Range: > 1
+crystal_chance = 100
+

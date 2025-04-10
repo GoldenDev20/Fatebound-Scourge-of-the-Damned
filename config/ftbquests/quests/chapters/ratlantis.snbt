@@ -1,0 +1,1275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ratlantis"
+	group: "5B1FD5CFBA160ABA"
+	icon: "rats:idol_of_ratlantis"
+	id: "1712A9E37EA4ACCC"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:item/rats_logo"
+			rotation: 0.0d
+			width: 5.7d
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			height: 5.0d
+			image: "kubejs:textures/item/auto_maton.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:textures/item/ne_ra.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/quest.png"
+			rotation: 0.0d
+			width: 0.3d
+			x: 1.607142857142854d
+			y: -5.089285714285715d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Lore says that &bRatlantis&r was Millenia ago home to a civilization known as the &eRatlanteans&r."
+				""
+				"The &eRatlanteans&r were great builders, engineers and even wizards. It seems that they had a greek/\\roman lifestyle and probably worshiped the same gods that the romans/\\greeks did. However, due to their dark magic, marvelous tech and natural selection, their people turned into monsters and beasts, which marked the downfall of the &eRatlantean&r society."
+				""
+				"One fact to note is that &aRatlantean Officer&r hats create Rat \\& Sickle banners pattern, which are a clear spoof of the Hammer \\& Sickle communist symbol, this may suggest that they were communists probably, or at one point abandoned their greek/roman lifestyle to a more modern tech one."
+				""
+				"{@pagebreak}"
+				"&9Pirats&r and their &2Deceased Counterparts&r along with their &3Captain&r are probably indicating that once the downfall began, some smaller rats decided to sail the seas and abandon their crazed brothers, and since they have &eRatlantean&r blood, the beasts of &eRatlantis&r are friendly."
+				""
+				"However, since Dutchrat ships are way bigger than a average Pirat's one, it may suggest that the Dutchrat crew(s) had a different goal in mind, or they simply had larger boats at their disposal. While yes, The &dFlying Dutchrat&r is a clear reference to &6Spongebob&r, it can still be assumed that he was simply a dutch rat who sailed the seas, and died."
+				""
+				"{@pagebreak}"
+				"Runways are always generating with air-raid sirens, suggesting some kind of conflict was going on and the &eRatlanteans&r used these incase any-rats come bombarding their lands."
+				""
+				"Another interesting fact is that &bMarbled Cheese&r requires nether quartz, a material only obtainable in the nether, which isn't accessible in &bRatlantis&r, suggesting some kind of other method to marble cheese."
+			]
+			id: "232C41BE4D00C0D2"
+			min_width: 300
+			rewards: [
+				{
+					id: "22DCE1E0A98A72A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "37BBB5A314A35552"
+					item: "rats:rat_arrow"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "rats:ratlantis"
+				id: "14F1E798342763F7"
+				title: "Visit Dimension: &2Ratlantis"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["232C41BE4D00C0D2"]
+			description: [
+				"This item is dropped from the Ratlantean Spirit in the Ratlantis dimension."
+				""
+				"This item is used to craft Avatar of Ratlantis and the Vial of Consciousness."
+			]
+			id: "6877A4C4A7961AC4"
+			rewards: [
+				{
+					id: "7F8E450C9938B340"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "45EB1FE46CC8C912"
+					item: "rats:ratlantean_flame"
+					type: "item"
+				}
+				{
+					id: "1B641CE441CC41E9"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "58B53715C3A544CF"
+					item: "kubejs:note_2"
+					type: "item"
+				}
+			]
+			subtitle: "A Ratlantean Spirit Flame is imbued with the ancient souls of a Ratlantean... and Cheese"
+			tasks: [{
+				id: "0399D5C8B234818D"
+				item: "rats:ratlantean_flame"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["232C41BE4D00C0D2"]
+			description: ["Cheese is used to tame rats. On average, it takes anywhere from 11 to 32 pieces of cheese to tame a wild rat. Cheese is used in a multitude of crafting recipes, most notably the Cheese Staff and Rat Upgrade: Basic. As a food item, Cheese can be eaten for 3 hunger points and 0.5 saturation. It can also be given to a rat with a Rat Upgrade: Chef in order to cook String Cheese."]
+			id: "2174D18A7EE6C797"
+			min_width: 250
+			rewards: [
+				{
+					id: "1A54245DFB5E7920"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "32A98DD5EF766CCB"
+					item: "rats:nether_cheese"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0189221D131F782C"
+					item: "rats:blue_cheese"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7F2A1974D75F61BD"
+					item: "rats:rat_burger"
+					type: "item"
+				}
+				{
+					id: "59F7475961218066"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "A Block of Cheese can be made by interacting with an empty cauldron using a Bucket of Milk"
+			tasks: [{
+				count: 64L
+				id: "1DCBA95C067E61F4"
+				item: "rats:cheese"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7BA35EAD7C7EE96F"]
+			description: [
+				"On death, the Feral Ratlantean drops:"
+				"- 10% chance to drop a Ratlantean Automaton Head when killed by a player"
+				"- 50% chance to drop Rat Claws"
+				"- 25% chance to drop it's Toga"
+			]
+			id: "108DCEF11F2844FC"
+			rewards: [
+				{
+					id: "4B004333AAF0189D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "022BE1FA0B09BE11"
+					item: "rats:plague_essence"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5FBFBE120FFEAEE1"
+					item: "rats:feral_rat_claw"
+					type: "item"
+				}
+				{
+					id: "68F7BF2730916190"
+					table_id: 6813199617749196115L
+					type: "loot"
+				}
+				{
+					id: "558CFD579A1ADDF5"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6554D87F6BC641A7"
+				item: {
+					Count: 1
+					id: "rats:feral_bagh_nakhs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["232C41BE4D00C0D2"]
+			description: ["The automaton must be created using Ratlantean Automaton Core and a Ratlantean Automaton Head. It also requires 3 Marbled Cheese, of any kind. It is assembled in the same way a vanilla Iron Golem is."]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "rats:ratlantean_automaton"
+				}
+			}
+			icon_scale: 2.0d
+			id: "78443AC7F9126438"
+			rewards: [
+				{
+					id: "385597B6AB967EC8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0C51884CFC4D0666"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "1D12223AA3123715"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E6F9643E64E65A8"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Ratlantean Automatons are ancient machines created by the Ratlanteans"
+			tasks: [
+				{
+					id: "5E511AB1F8FCC5C4"
+					item: "rats:marbled_cheese_rat_head"
+					type: "item"
+				}
+				{
+					id: "197E6D3D4DA01859"
+					item: "rats:marbled_cheese_golem_core"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "420DDBDE5DD7B4BF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_raw"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_brick"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_brick_cracked"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_brick_mossy"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_chiseled"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_brick_chiseled"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_pillar"
+								}
+								{
+									Count: 1b
+									id: "rats:marbled_cheese_tile"
+								}
+								{
+									Count: 1b
+									id: "rats:black_marbled_cheese"
+								}
+							]
+						}
+					}
+					title: "Any Marbled Cheese"
+					type: "item"
+				}
+			]
+			title: "&6Ratlantean Automaton"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6877A4C4A7961AC4"]
+			description: ["This item is used to craft Rat Upgrade: Nonbeliever, Rat Upgrade: Ratinator."]
+			id: "79C314AE44ABC6DD"
+			rewards: [
+				{
+					id: "7CF9FE1D54096817"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "095FCD98D0C469EC"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "1DCDC53CB7424FD3"
+					item: {
+						Count: 1
+						id: "rats:piper_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38508965990EC4B3"
+					item: "rats:treacle"
+					type: "item"
+				}
+				{
+					id: "572C9B06B31A2E79"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03832841557BF01B"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "306B3E27727FC014"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			subtitle: "The Avatar of Ratlantis is the power incarnate of Ratlantis... or so the lore says"
+			tasks: [{
+				id: "7B310BE047763749"
+				item: "rats:idol_of_ratlantis"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["78443AC7F9126438"]
+			description: ["The Arcane Technology can be used in crafting the Rat upgrade: Ratinator, Rat Upgrade: Nonbeliever, and the Avatar of Ratlantis."]
+			id: "4969D6B8EC97FA2C"
+			rewards: [
+				{
+					id: "6518A93223AFF28D"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "6B828E07BDB31379"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55A082FEFD0A7C99"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "32FD8D77F47C634A"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			subtitle: "The Arcane Technology drops from the Ratlantean Automaton"
+			tasks: [{
+				id: "1DACA0DF1F419FFA"
+				item: "rats:arcane_technology"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4969D6B8EC97FA2C"]
+			description: ["Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu."]
+			id: "48917C9DC6805895"
+			rewards: [
+				{
+					id: "6C0FD47EFA774701"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67B797881DE591EB"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52367D0E506365E4"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "4941903EEBDC5A99"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			subtitle: "It lets the rat with the upgrade shoot lasers"
+			tasks: [{
+				id: "2E43ACA96493B62B"
+				item: "rats:rat_upgrade_ratinator"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6877A4C4A7961AC4"
+				"69D6C276F3758FB8"
+			]
+			description: [
+				"A serum that can, In Theory, Reverse the De-Evolution of a Ratlantean."
+				"To craft a Vial Of Consciousness, you will need 1 Feral Rat Claw, 1 Ratglove Petals, 1 Glass Bottle, and 6 Ratlantean Spirit Flames."
+			]
+			hide_until_deps_complete: true
+			id: "42F7FC3E28CDC014"
+			rewards: [
+				{
+					id: "7D592284F769E7D3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "215BF8950CCB5A3A"
+					item: "rats:crimson_liquid"
+					type: "item"
+				}
+				{
+					id: "1579E7F15D435E51"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5D2DDCFDDACDC3D3"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "The Vial Of Consciousness is an Item used to summon the Neo-Ratlantean"
+			tasks: [{
+				id: "58328145E9661B86"
+				item: "rats:vial_of_sentience"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78443AC7F9126438"]
+			description: [
+				"&o\"The inner machinations of my mind are an enigma.\""
+				"                                                           &d&o- Patrick Star"
+				""
+				"This powerful and capable mind is used in the crafting recipe for the &eAvatar of Ratlantis&r and Rat Upgrade: &5Neo-Ratlantean&r."
+			]
+			id: "171B5F004CBE64D9"
+			min_width: 300
+			rewards: [
+				{
+					id: "0591018095FE763E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "1E1C128075AF092B"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "44A362398400F6B5"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0FE6E67F0EDDA20E"
+					item: "kubejs:note_100"
+					type: "item"
+				}
+			]
+			subtitle: "A Psionic Rat Brain is a powerful mind capable of tinkering with the very fabric of reality"
+			tasks: [{
+				id: "6588CDD1802D1764"
+				item: "rats:psionic_rat_brain"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["79C314AE44ABC6DD"]
+			description: [
+				"Put a rat upgrade: combined in the left side and the upgrade you wish to combine it with on the right side. This crafting station uses the Gem of Ratlantis as fuel, and consumes two to add a single upgrade together."
+				""
+				"Note:"
+				"- Rat upgrades that you must use to be effective (eg. blacklist or whitelist) must be used before combining, as they cannot be changed after."
+				"- Leaving rat upgrades within the upgrade combiner when breaking the table may cause the upgrades left inside to be destroyed."
+			]
+			id: "6DE0E4A333B0B51F"
+			rewards: [
+				{
+					id: "4EE397FAD35C0684"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DB3FB62DDFA1750"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "673D3095D78A30D9"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "7284198C93914271"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			subtitle: "This is a crafting station that combines rat upgrades"
+			tasks: [{
+				id: "623950EAAB4ED519"
+				item: "rats:upgrade_combiner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["79C314AE44ABC6DD"]
+			id: "45C4878ACA41BF50"
+			rewards: [
+				{
+					id: "59C140BDE06C4909"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "460AF10E0553CB80"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4CBC65926E0AC9B4"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "51BD1D0121E1D78C"
+					item: "kubejs:note_50"
+					type: "item"
+				}
+			]
+			subtitle: "Rat Upgrade Separator can be used to split combined rat upgrades"
+			tasks: [{
+				id: "6BC4FD8D9EE3F2C9"
+				item: "rats:upgrade_separator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69D6C276F3758FB8"]
+			id: "4DFC74254456ADCA"
+			rewards: [
+				{
+					id: "1B0AAE0403BFF043"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "6847AFFE9B6A1759"
+					item: "rats:tiny_coin"
+					type: "item"
+				}
+				{
+					id: "492DD368FD1401B1"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "23FAA42B12C1EE44"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "336250163DAEBE12"
+				item: "rats:gem_of_ratlantis"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4DFC74254456ADCA"]
+			description: [
+				"The result has the same properties of all of the components."
+				""
+				"Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu."
+			]
+			id: "773655D8BE9E1119"
+			rewards: [
+				{
+					id: "2AE7FEA0A6167FD5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "1902A2E5E1B2782D"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "6BCA59969A92C5BD"
+					table_id: 687554054301909623L
+					type: "loot"
+				}
+				{
+					id: "2CE43798A79B871D"
+					item: "kubejs:note_10"
+					type: "item"
+				}
+			]
+			subtitle: "This is an upgrade used in the Rat Upgrade Combiner to combine upgrades with this one"
+			tasks: [{
+				id: "6857AEACC4250422"
+				item: "rats:rat_upgrade_combined"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: ["To get the hat that craft The Rat Upgrade: Archeologist, you need to find either a Skeleton (Jungle and Desert Spawn) or Husk with the hat on them, and kill it so you may have a very rare chance to get it. It is noted that husks in the desert seem to be easier to get the hat from due to the sheer amount of them."]
+			id: "62310038A83B9367"
+			rewards: [
+				{
+					id: "78FAD42B5694C388"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "0A7EB540DD9E1859"
+					item: {
+						Count: 1
+						id: "rats:gilded_rat_flute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4616A33FB4577641"
+					item: {
+						Count: 1
+						id: "rats:piper_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DE1357BAF56472F"
+					table_id: 6363515282471183984L
+					type: "loot"
+				}
+				{
+					id: "2D96274E2A355718"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "The Rat Upgrade: Archeologist allows rats to research a held item and possibly transforms it into Ratlantian artifact"
+			tasks: [{
+				id: "0891C10BAD17A25F"
+				item: "rats:rat_upgrade_archeologist"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2174D18A7EE6C797"]
+			description: ["Rat Upgrade: Basicis is used as a crafting ingredient to make more advanced Rat Upgrades."]
+			id: "2A0F6CB2C5526960"
+			rewards: [
+				{
+					id: "5D9A14E47A880D3D"
+					type: "xp"
+					xp: 60
+				}
+				{
+					id: "50030B0D105E48AA"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "5F5998072793C38E"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "Rat Upgrade: Basic is a Rat Upgrade with no unique abilities"
+			tasks: [{
+				id: "1F076D0D1E08EE7E"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: ["This upgrade allows the rat to act as a sped up furnace and allows you to cook 3 new foods, Confit Byaldi, Potato Knishes and String Cheese."]
+			id: "3EDAB5C2997F2CA6"
+			rewards: [
+				{
+					id: "4E6279E1CE2E83FA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0869772D8C95F5D2"
+					item: "thermal:carrot_cake"
+					type: "item"
+				}
+				{
+					id: "01EF1AC505E10D16"
+					item: "thermal:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "5B1672BA8355D8F6"
+					item: "bakery_villager_trader:chocolate_cake"
+					type: "item"
+				}
+				{
+					id: "2AC65FA3F8A21CF5"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "00115E673AA45933"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu"
+			tasks: [{
+				id: "57B4CE492998D734"
+				item: "rats:rat_upgrade_chef"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: [
+				"Must be used in conjunction with White List upgrade to function."
+				""
+				"To fall oak tree, insert Oak Log into white list. Setting deposit point will also cause Lumberjack to gather the harvested logs into any containers."
+			]
+			id: "5A3C83556D6CC4B4"
+			rewards: [
+				{
+					id: "5BA10314F375222A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "56FF4F124DE57724"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					id: "4B5675C44D0D9033"
+					item: "rats:rat_breeding_lantern"
+					type: "item"
+				}
+				{
+					id: "105C31EBA8A36444"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "0DB4209C5C2D0665"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu"
+			tasks: [{
+				id: "5D3A3C514C11FB57"
+				item: "rats:rat_upgrade_lumberjack"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: ["A rat with this upgrade will dig a quarry beneath a quarry block."]
+			id: "287D821317275C82"
+			rewards: [
+				{
+					id: "6109FF9FBABF3AF3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "521AD3F63FF1D248"
+					table_id: 4248343337893973070L
+					type: "loot"
+				}
+				{
+					id: "5123E344F8996B6B"
+					item: "rats:rat_trap"
+					type: "item"
+				}
+				{
+					id: "20B46620F3804A0C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "4A9DE3CEFFA46B0F"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Them AtomicStryker Minions Vibes Tho"
+			tasks: [{
+				id: "5767C509F493025E"
+				item: "rats:rat_upgrade_quarry"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: [
+				"Must be use in conduction with the White List upgrade to function."
+				""
+				"Ex: White list Oak Sapling will cause Planter to plant the sapling. Multiple items can be planted."
+			]
+			id: "55CD001123B32A75"
+			rewards: [
+				{
+					id: "4EBC9BC322B7F527"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4BEED4DE5C690C83"
+					table_id: 8533451183250182354L
+					type: "loot"
+				}
+				{
+					id: "1684BF25999F0BE9"
+					item: "rats:rat_hammock_white"
+					type: "item"
+				}
+				{
+					id: "3F481E8E7518292B"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "2773070D2415DEA9"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu."
+			tasks: [{
+				id: "518C7D3AD6E6FE7C"
+				item: "rats:rat_upgrade_farmer"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: [
+				"The rat's command needs to set to \"Harvest\" in the Rat Menu to breed animals. Rats will pickup food items from chests or like storage that it is bound to using a Cheese Staff. Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu."
+				"Rats with the Rat Upgrade: Animal Breeder will attempt to feed the closest animal with the corresponding food."
+			]
+			id: "4659EF6FE4354E9B"
+			rewards: [
+				{
+					id: "77DDE9789E7E65C5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "49EB884AB6D8A6E6"
+					table_id: 4915960327715244389L
+					type: "loot"
+				}
+				{
+					id: "0B1F537F20DA302D"
+					item: "rats:rat_paw"
+					type: "item"
+				}
+				{
+					id: "35F1830788DC3665"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "6EF201FF769EA634"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "The Rat Upgrade: Animal Breeder will allow a rat holding food to breed animals"
+			tasks: [{
+				id: "7E9333199498A889"
+				item: "rats:rat_upgrade_breeder"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: ["Make sure your rat is near water. Use the cheese staff to give the rat a home chest. Once the rat has a home chest, you can set the rat to \"Harvest\" and the rat will begin to fish. Once the rat catches a fish, it will insert the fish into its' home chest."]
+			id: "120B9DD9C238A345"
+			rewards: [
+				{
+					id: "2E010896DC607965"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3EE68C9DC6BD0949"
+					table_id: 3168213399534062586L
+					type: "loot"
+				}
+				{
+					id: "0C31D62F8E863E2A"
+					item: "rats:rat_sack"
+					type: "item"
+				}
+				{
+					id: "6BC4A1BD38A7F55C"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "5C28773F4F7F59C3"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu"
+			tasks: [{
+				id: "1C198CEBF11E910D"
+				item: "rats:rat_upgrade_fisherman"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A0F6CB2C5526960"]
+			description: [
+				"A rat can enchant any item it holds."
+				"Nearby bookshelves can increase the level."
+			]
+			id: "06CEB017314D56EC"
+			rewards: [
+				{
+					id: "03368700AF7CABDB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "647619682F7D6939"
+					table_id: 1375643567800692047L
+					type: "loot"
+				}
+				{
+					id: "4A9A4F9069085110"
+					item: {
+						Count: 1
+						id: "rats:black_death_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E169BFE61CFBD06"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "11E5856049A2EB5C"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			subtitle: "Like all Rat Upgrades, it can be applied to a rat by placing it in the upgrade slot in the Rat Menu"
+			tasks: [{
+				id: "77DED51AFAFB7FFB"
+				item: "rats:rat_upgrade_enchanter"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2174D18A7EE6C797"]
+			description: ["Clicking with the Rat flute will make a flute noise and command all rats within the local area. Sneak+Clicking will cycle through and change the command the flute gives."]
+			id: "066C370EB4531BF0"
+			rewards: [
+				{
+					id: "20C715D715D7E685"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6EC4C238F13FD954"
+					item: "rats:rat_igloo_white"
+					type: "item"
+				}
+				{
+					id: "5818CE6EEDDDDCDE"
+					item: "rats:rat_water_bottle"
+					type: "item"
+				}
+				{
+					id: "687CDE6F127B8C56"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "The Rat flute primary purpose is to command multiple rats at once"
+			tasks: [{
+				id: "096814B155E18D37"
+				item: "rats:rat_flute"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2174D18A7EE6C797"]
+			description: [
+				"In order to use the Cheese Staff, it must be \"bound\" to a rat. This is done by &l&oRight-Clicking&r the rat with the cheese staff in hand. Once bound to a rat, the cheese staff can then be clicked on any block."
+				""
+				"Click on a chest or container block with the bound staff in hand to open up the Cheese Staff Menu. Here the player can mark the container as either a pick-up or drop off a container for the rat's various commands."
+				""
+				"The Staff can also be used to set a home point for the rat. The home point is the block that the rat will wander around when set to \"Wander\" command."
+			]
+			id: "2E5A218963C056E0"
+			min_width: 300
+			rewards: [
+				{
+					id: "35C433AFA8D22063"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "40954B18B56761B5"
+					item: "rats:rat_tube_white"
+					type: "item"
+				}
+				{
+					id: "0FD8E36BC853553D"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			subtitle: "The Cheese Staff purpose is to configure Rat commands and behavior"
+			tasks: [{
+				id: "45791D82372D7666"
+				item: "rats:cheese_stick"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["232C41BE4D00C0D2"]
+			id: "69D6C276F3758FB8"
+			rewards: [
+				{
+					id: "3F7C141A5DCABDEE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "506C95A0DAC737FD"
+					table_id: 2136994266140185172L
+					type: "loot"
+				}
+				{
+					id: "39451A27BC34DFD2"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "104B8A5BC191C7AA"
+				item: "rats:ratglove_petals"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["232C41BE4D00C0D2"]
+			description: ["&2Feral Ratlanteans&r are &o&bgiant rats&r with tattered &cTogas&r and big &o&bglowing eyes&r."]
+			icon: {
+				Count: 1
+				id: "draconicevolution:mob_soul"
+				tag: {
+					EntityName: "rats:feral_ratlantean"
+				}
+			}
+			icon_scale: 2.0d
+			id: "2BFC794FF1529CD4"
+			min_width: 300
+			rewards: [
+				{
+					id: "42B48CF097699CA5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04FDFE6785C25ED6"
+					table_id: 5351675120932028234L
+					type: "random"
+				}
+				{
+					id: "1CB9079BE2118DE2"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "rats:feral_ratlantean"
+				icon: "rats:feral_ratlantean_spawn_egg"
+				id: "320388B2F5CD9F42"
+				type: "kill"
+				value: 3L
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2BFC794FF1529CD4"]
+			id: "7BA35EAD7C7EE96F"
+			rewards: [
+				{
+					id: "154887B9A74405A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F6F9B7A33E24743"
+					item: "kubejs:note_1"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "179E4076258173D8"
+				item: "rats:feral_rat_claw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BA35EAD7C7EE96F"]
+			id: "7FBED61EFE649A8C"
+			rewards: [
+				{
+					id: "628C5D8EC275CB84"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D80767E8D496639"
+					table_id: 4056905653150789257L
+					type: "choice"
+				}
+				{
+					id: "252A43650536D9B2"
+					item: "kubejs:note_5"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7419D801DF0FB943"
+				item: "rats:rat_upgrade_feral_bite"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+	]
+	title: "&3&oRatlantis"
+}

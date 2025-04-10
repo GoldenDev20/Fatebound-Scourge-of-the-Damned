@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "kubejs:block/obsidian_with_iron_block"
+    }
+  }
+}

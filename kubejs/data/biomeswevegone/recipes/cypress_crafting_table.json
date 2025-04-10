@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "crafting_table",
+  "key":{
+    "P":{"item":"biomeswevegone:cypress_planks"},
+    "R":{"tag":"biomeswevegone:cypress_logs"}
+  },
+  "pattern":["PR","RP"],
+  "result": {
+    "item": "biomeswevegone:cypress_crafting_table"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Lead",
+  "colors": ["484F67", "484F67"],
+  "ingredient": {
+    "tag": "forge:ingots/lead"
+  }
+}

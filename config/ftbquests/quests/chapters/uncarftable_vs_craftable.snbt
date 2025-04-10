@@ -1,0 +1,1180 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "uncarftable_vs_craftable"
+	group: "0191929ABBCAE7CF"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "kubejs:item/crystal_of_creation"
+		}
+	}
+	id: "51029530A810C21E"
+	images: [
+		{
+			height: 1.7d
+			image: "kubejs:textures/item/creative.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			height: 3.3d
+			image: "kubejs:textures/item/hand.png"
+			rotation: -3.0d
+			width: 2.0d
+			x: 1.4642857142857153d
+			y: -2.092857142857156d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:textures/item/spark.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 3.0d
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			height: 7.0d
+			image: "rftoolsutility:block/effects/floatingsphere"
+			rotation: 0.0d
+			width: 7.0d
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			height: 2.0d
+			image: "alexscaves:block/abyssmarine_pillar_top_glow"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.410714285714299d
+			y: 0.5214285714285722d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3FB3609ECD8921D5"
+				"38456685E346E62C"
+				"506A7AB33C0C1B14"
+				"707BAFA2F2579E09"
+				"4567BE5B82685366"
+				"0423C14A7E770B3A"
+				"2E637835C8B33902"
+				"254FCD17ECC2C228"
+				"69D3172AC4BB00D3"
+			]
+			description: [
+				"The &6Crystal of Creation&r is finally in your possession."
+				""
+				"When the &eLightning-Empowered Crystals&r are skillfully fused with the &dEssence of Fate&r, they create the &6Crystal of Creation&r."
+				""
+				"This artifact is not just a relic of immense power; it unlocks infinite possibilities, enabling the crafting of &9Creative&r items."
+			]
+			id: "241B3F1396430F43"
+			min_width: 300
+			rewards: [
+				{
+					id: "3BBCD5650137A719"
+					type: "xp"
+					xp: 5000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2BBC33EAFCEC0C6E"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3621DAE5716C691B"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40B2472FAAED0427"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "2056D007F8CD575D"
+					item: "kubejs:1m_card"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 3.0d
+			tasks: [{
+				id: "7DB8A5B165A2C5A8"
+				item: "kubejs:crystal_of_creation"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.51428571428572d
+		}
+		{
+			hide_dependent_lines: true
+			id: "506A7AB33C0C1B14"
+			rewards: [
+				{
+					id: "7ABCB3335BD72FBD"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C8A197C852F4EC9"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "228283392413A855"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "29876036BE4909F2"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EDC7FE6F9A3B2E7"
+				item: "kubejs:crystal_of_wild_spirit_empowered"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "3FB3609ECD8921D5"
+			rewards: [
+				{
+					id: "67818A851304B896"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10947949A686FC92"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13FDC1DDDEAA899F"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "2CD563F35B65FCBE"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "712D2855618B8C2B"
+				item: "kubejs:kyanite_of_the_depth_empowered"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "707BAFA2F2579E09"
+			rewards: [
+				{
+					id: "74B489F096924DD2"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FEC52873A76CB0A"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02526ED448A41ECC"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "57EBAC6385F4AF47"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7F13653D1195E132"
+				item: "kubejs:jewel_of_the_deepdark_empowered"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "4567BE5B82685366"
+			rewards: [
+				{
+					id: "4FD9E6946BC2604F"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "01C49B32F053428B"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F2751257BBB2032"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "478D80F82B78EF22"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A54A1DD8A01BA80"
+				item: "kubejs:void_tears_empowered"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "0423C14A7E770B3A"
+			rewards: [
+				{
+					id: "034F8449FB5AF82F"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "295DC7CA38B186B8"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3784DA92A3C884E9"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "22AE0E758BFF5B99"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A9807D69DC50BAE"
+				item: "kubejs:stone_of_fear_empowered"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "2E637835C8B33902"
+			rewards: [
+				{
+					id: "1CF99CBA5E971EEA"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FE0E6D6E9C19C19"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74E699F320898A08"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "669024E4DF55AF6D"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F2F4B44A3AF4F50"
+				item: "kubejs:emerald_of_the_lost_soul_empowered"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "38456685E346E62C"
+			rewards: [
+				{
+					id: "5B84A85AB29E0AC9"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3324C22A5501782F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F3E58C75D37C35B"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "234BE03FDE849C9C"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "591C297027968A4C"
+				item: "kubejs:skydust_amethyst_empowered"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			hide_dependent_lines: true
+			id: "254FCD17ECC2C228"
+			rewards: [
+				{
+					id: "413A28F0EC7494F7"
+					type: "xp"
+					xp: 3000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B1734905ADC3634"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F57E0E40ED46A72"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "2D810DBADAF1C1C4"
+					item: "kubejs:note_1000"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C5AEF34E4AAE36E"
+				item: "kubejs:heart_of_hell_empowered"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"654F87CC7F175FA2"
+				"2F04F12C72849978"
+				"311449A2DC775B1C"
+				"06CE26D35C4C7043"
+				"2EABCF08391E2884"
+				"7F5E5C282A174F52"
+				"571D35244C90A01F"
+				"7FD0FDBC0E1BE2E7"
+				"6A0604F9A3457ADD"
+				"2F44834BACCEE476"
+				"17698F547B9BED1D"
+				"0CDDB4977598B1B6"
+				"323EA5261078159E"
+				"3C13BE5C7788C4A2"
+				"2ABA5620E97D3A4E"
+				"763CC14893F65618"
+				"2B65FDCEA60F1494"
+				"74EB94F1D2834799"
+				"238F2DDB34D5751D"
+				"78445DE1857DA83E"
+				"4F9C3DF88BD587F2"
+			]
+			description: [
+				"When the &o&b20&r stones are brought together with the &5Stone of Transcendence&r, they form the &dEssence of Fate&r. "
+				""
+				"This powerful artifact signifies the unification of the universe’s most potent energies, brought together in harmony and balance. The &dEssence&r symbolizes extraordinary effort and represents the wielder’s transformational power, capable of shaping their destiny and the world around them."
+				""
+				"The &5Essence of Fate&r is a key ingredient for crafting the &6Crystal of Creation&r and is consumed simultaneously during the creation process. Therefore, be wise and prepare a few of these before using the last one."
+			]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "69D3172AC4BB00D3"
+			min_width: 400
+			rewards: [
+				{
+					id: "0A8BCFB6577820DB"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F59D1B133308C7C"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6C3057D3AB4D74BD"
+					table_id: 4683234648620558652L
+					type: "loot"
+				}
+				{
+					id: "666706BB6E64CD5F"
+					item: "kubejs:10k_card"
+					type: "item"
+				}
+			]
+			size: 0.7d
+			tasks: [{
+				id: "7B4F16BD082654B7"
+				item: "mysticalagradditions:creative_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.678571428571452d
+		}
+		{
+			description: [
+				"The &5Stone of Transcendence&r is a legendary relic capable of exceeding ordinary limits."
+				""
+				"It unlocks its full potential when combined with &o&b20&r unique and rare stones, each imbued with distinct and magical properties."
+				""
+				"These stones converge through the &5Stone of Transcendence&r, forming the transcendent &dEssence of Fate&r."
+			]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "17698F547B9BED1D"
+			min_width: 300
+			rewards: [
+				{
+					id: "1054DC72872AB3A8"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21F82896624457FB"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73DF990F14298560"
+					table_id: 7643435528041904640L
+					type: "loot"
+				}
+				{
+					id: "32752873AA05BDE5"
+					item: "kubejs:5k_card"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "66CA267EFEBAF320"
+				item: "kubejs:stone_of_transcendence"
+				type: "item"
+			}]
+			x: 1.4642857142857153d
+			y: 0.48571428571428044d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "2F44834BACCEE476"
+			rewards: [
+				{
+					id: "4FD88799BA70B4FF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37679CFD29D12EA1"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "771DF878EF424665"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Represents dreams and boundless creativity"
+			tasks: [{
+				id: "6FA7BB69B8073D44"
+				item: "kubejs:dreamweaver_moonstone"
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "6A0604F9A3457ADD"
+			rewards: [
+				{
+					id: "3038E10A29B14673"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "345F328D5C025039"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "7887B46207FAE23A"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Embodies passion and fiery determination"
+			tasks: [{
+				id: "03505B6211F876EC"
+				item: "kubejs:radiant_ruby"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.25d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "7FD0FDBC0E1BE2E7"
+			rewards: [
+				{
+					id: "18A1A46D9C3DA695"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0258109080A137A2"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "07CCA2F52D5A9A40"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Symbolizes growth and transformation"
+			tasks: [{
+				id: "41E4F760CC3BDDA8"
+				item: "kubejs:elysian_malachite"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "571D35244C90A01F"
+			rewards: [
+				{
+					id: "06194FCB4434BF33"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29439B01D018613D"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "6BABF46DCCA063EB"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Harnesses twilight energy for balance"
+			tasks: [{
+				id: "6F2FEF43434ED756"
+				item: "kubejs:dusk_citrine"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -0.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "7F5E5C282A174F52"
+			rewards: [
+				{
+					id: "184C0648CBDB9745"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BA55EC0DC1BA357"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "0C82FC820112EAE9"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Infused with deep magical energy"
+			tasks: [{
+				id: "791F009614813A90"
+				item: "kubejs:arcane_bloodstone"
+				type: "item"
+			}]
+			x: 5.25d
+			y: -1.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "2EABCF08391E2884"
+			rewards: [
+				{
+					id: "2F809C5A9618BF01"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C33D63603947F97"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "320E8AC3885004B5"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "A gem of vitality and protection"
+			tasks: [{
+				id: "66E026728FB6D172"
+				item: "kubejs:glimmering_garnet"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -1.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "06CE26D35C4C7043"
+			rewards: [
+				{
+					id: "5D54E305E71916FD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0D257027DFC10BB1"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "67E0882BA51DB501"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Tied to mystery and the unseen"
+			tasks: [{
+				id: "5459B0F2B2B60A54"
+				item: "kubejs:veil_of_shadows"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.25d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "311449A2DC775B1C"
+			rewards: [
+				{
+					id: "703A6B94F620C505"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E2E9B43D6BEE56A"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "2F0BAE8AB018C401"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Channels harmony and renewal"
+			tasks: [{
+				id: "570A61665FEFFBC9"
+				item: "kubejs:luminous_peridot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "2F04F12C72849978"
+			rewards: [
+				{
+					id: "75EF6B54D36E97ED"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C58596022A81490"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "7AD9FECAC1F9ECC6"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "A rare gem of strength and clarity"
+			tasks: [{
+				id: "5A7EAC2A71AB7D38"
+				item: "kubejs:twilight_diamond"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -3.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "654F87CC7F175FA2"
+			rewards: [
+				{
+					id: "2EBA6693CEB7A449"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22A4A37E13D3F33D"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "1019098057B78F54"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Reflects courage and brilliance"
+			tasks: [{
+				id: "0448D02A857A665A"
+				item: "kubejs:crimson_sunstone"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -3.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "0CDDB4977598B1B6"
+			rewards: [
+				{
+					id: "7F697910E36C2536"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28E23E0D8CA3435F"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "5F683E9D38324352"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "A stone of spectral energy and allure"
+			tasks: [{
+				id: "6869F174724F30B5"
+				item: "kubejs:wraithstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "323EA5261078159E"
+			rewards: [
+				{
+					id: "790AEA6D28EE5ED8"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "525A4D3F5ADC0540"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "685BAE914C7A122F"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Resonates with subtle and hidden truths"
+			tasks: [{
+				id: "4099FC17D63A61C2"
+				item: "kubejs:whispering_quartz"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.25d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "3C13BE5C7788C4A2"
+			rewards: [
+				{
+					id: "7CA00878548ACF3D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31539D2AC4025DB8"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "234EABE0A83927DC"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "A divine symbol of purity and serenity"
+			tasks: [{
+				id: "1B60D2D57C0359BB"
+				item: "kubejs:seraphic_jade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "2ABA5620E97D3A4E"
+			rewards: [
+				{
+					id: "740DE918085B8C47"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "708E3C739016E8B8"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "40E6A3CB1023B88B"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Represents resilience and grounded focus"
+			tasks: [{
+				id: "1A4F2E1FA4D8336F"
+				item: "kubejs:enchanted_onyx"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "763CC14893F65618"
+			rewards: [
+				{
+					id: "513C2F3F9548ACFD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "039BEAF7518A6248"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "60E0514B70999C85"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Conveys ethereal wisdom and insight"
+			tasks: [{
+				id: "3DAE3DE6FA43B936"
+				item: "kubejs:celestial_sapphire"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "2B65FDCEA60F1494"
+			rewards: [
+				{
+					id: "688E2E9C7204479D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4D8E6B3E97380DFF"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "159BAEDEFAAD2966"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "A gem of calm and icy resolve"
+			tasks: [{
+				id: "5737C6F4E27F6BE9"
+				item: "kubejs:frosted_topaz"
+				type: "item"
+			}]
+			x: -2.75d
+			y: -1.75d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "74EB94F1D2834799"
+			rewards: [
+				{
+					id: "1585B9EFE58AA00D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D73400DF91AE71C"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "6EEE9F3339260A70"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Known for its otherworldly properties"
+			tasks: [{
+				id: "5B8E5BFF32F494F9"
+				item: "kubejs:phantom_tourmaline"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "238F2DDB34D5751D"
+			rewards: [
+				{
+					id: "509F0818A5486A04"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59DAE53EA3D84BBE"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "01E8CE88D648600E"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Marries shadows with iridescent beauty"
+			tasks: [{
+				id: "358B6492EEA921B4"
+				item: "kubejs:shadow_opal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.25d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "78445DE1857DA83E"
+			rewards: [
+				{
+					id: "2F5F8B4893CFF177"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6E9C33B759619843"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "63BDC20033318F41"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Holds celestial wonder and serenity"
+			tasks: [{
+				id: "72890216DD6CF425"
+				item: "kubejs:starlit_aquamarine"
+				type: "item"
+			}]
+			x: -1.25d
+			y: -3.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "4F9C3DF88BD587F2"
+			rewards: [
+				{
+					id: "488F391B22381BF3"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45F3EDC005FF03FC"
+					table_id: 7842739214414806319L
+					type: "loot"
+				}
+				{
+					id: "75F85695FC2AD8D2"
+					item: "kubejs:note_200"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "Signifies spiritual depth and enlightenment"
+			tasks: [{
+				id: "58E881A9AA5A330C"
+				item: "kubejs:mystic_amethyst"
+				type: "item"
+			}]
+			x: -0.25d
+			y: -3.5d
+		}
+	]
+	title: "&6&oThe Final Quest"
+}

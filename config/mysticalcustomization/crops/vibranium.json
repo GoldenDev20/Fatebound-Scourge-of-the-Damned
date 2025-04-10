@@ -1,0 +1,16 @@
+{
+  "name": "Vibranium",
+  "type": "mysticalagriculture:resource",
+  "tier": "mysticalcustomization:magical",
+  "ingredient": {
+    "tag": "forge:storage_blocks/vibranium"
+  },
+  "color": "26DB86",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower/vibranium_flower",
+    "essence": "mysticalagriculture:item/essence/vibranium_essence",
+    "seeds": "mysticalagriculture:item/seeds/vibranium_seeds"
+  },
+  "glint": true,
+  "crux": "kubejs:magical_soil"
+}

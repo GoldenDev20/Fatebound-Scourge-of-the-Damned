@@ -1,0 +1,237 @@
+{
+	hide_tooltip: true
+	icon: {
+		Count: 1
+		id: "blue_skies:loot_bag_starlit_crusher"
+		tag: {
+			LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+			Rarity: 0
+		}
+	}
+	id: "3AF525C1D3114C4E"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 8, item: "minecraft:gold_ore" }
+		{ count: 8, item: "minecraft:iron_ore" }
+		{ count: 8, item: "minecraft:coal_ore" }
+		{ count: 8, item: "minecraft:nether_gold_ore" }
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "minecraft:lapis_ore"
+				tag: { }
+			}
+		}
+		{ count: 8, item: "minecraft:diamond_ore" }
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "minecraft:redstone_ore"
+				tag: { }
+			}
+		}
+		{ count: 8, item: "minecraft:emerald_ore" }
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "minecraft:nether_quartz_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:uranium_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:sapphire_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "powah:uraninite_ore_dense"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:allthemodium_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:tin_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "thermal:apatite_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "thermal:cinnabar_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "thermal:niter_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "thermal:sulfur_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "minecraft:copper_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:lead_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:silver_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:nickel_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:zinc_ore"
+				tag: { }
+			}
+		}
+		{ count: 8, item: "mysticalagriculture:prosperity_ore" }
+		{ count: 8, item: "mysticalagriculture:inferium_ore" }
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:ruby_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:aluminum_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:osmium_ore"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:vibranium_ore"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:unobtainium_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:platinum_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "alltheores:iridium_ore"
+				tag: { }
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				id: "mekanism:fluorite_ore"
+				tag: { }
+			}
+		}
+		{ item: "allthemodium:allthemodium_ore" }
+		{ count: 8, item: "tconstruct:cobalt_ore" }
+		{ count: 2, item: "majruszsdifficulty:enderium_shard_ore" }
+		{ count: 2, item: "create_new_age:thorium_ore" }
+		{ item: "the_deep_void:onyx_ore" }
+		{ item: "the_deep_void:lavendite_ore" }
+		{ item: "the_deep_void:bismuth_ore" }
+		{ item: "the_deep_void:sulfur_ore" }
+		{ item: "the_deep_void:voidrium_ore" }
+		{ item: "the_deep_void:cinnabar_ore" }
+		{ item: "undead_revamp2:bostroxore" }
+		{ item: "draconicevolution:overworld_draconium_ore" }
+		{ item: "midnight:dark_pearl_ore" }
+		{ item: "midnight:virilux_ore" }
+	]
+	title: "Miner's Bag"
+	use_title: true
+}

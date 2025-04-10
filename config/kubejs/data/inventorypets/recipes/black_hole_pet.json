@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "inventorypets:pet_black_hole"
+  },
+  "pattern": [
+    "OFO",
+    "ODO",
+    "OGO"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "tag": "forge:nether_stars"
+    },
+    "F": {
+      "item": "allthecompressed:obsidian_block_2x"
+    },
+    "G": {
+      "tag": "forge:gems/mana_diamond"
+    },
+    "O": {
+      "item": "allthecompressed:coal_block_2x"
+    }
+  }
+}

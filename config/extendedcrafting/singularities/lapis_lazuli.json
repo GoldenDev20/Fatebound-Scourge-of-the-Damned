@@ -1,0 +1,7 @@
+{
+  "name": "Lapis Lazuli",
+  "colors": ["5A82E2", "345EC3"],
+  "ingredient": {
+    "item": "minecraft:lapis_lazuli"
+  }
+}

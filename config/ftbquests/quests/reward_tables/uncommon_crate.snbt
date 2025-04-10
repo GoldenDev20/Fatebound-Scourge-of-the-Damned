@@ -1,0 +1,131 @@
+{
+	hide_tooltip: true
+	id: "5E8D58F457C49D53"
+	loot_crate: {
+		color: 31872
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "uncommon_crate"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 6, item: "minecraft:iron_ore" }
+		{ count: 2, item: "minecraft:diamond_ore" }
+		{ item: "botania:endoflame", random_bonus: 1 }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "vampirism:long_vampire_fire_resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tombstone:ankh_of_prayer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:upgrade_speed", random_bonus: 1 }
+		{ count: 2, item: "industrialforegoing:plastic", random_bonus: 2 }
+		{ item: "immersiveengineering:watermill" }
+		{ count: 6, item: "botania:yellow_mushroom" }
+		{
+			item: {
+				Count: 1
+				id: "naturescompass:naturescompass"
+				tag: { }
+			}
+		}
+		{ item: "minecraft:lectern" }
+		{ item: "thermal:drill_head" }
+		{ count: 2, item: "cyclic:generator_solar" }
+		{
+			item: {
+				Count: 1
+				id: "immersiveengineering:pickaxe_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "mekanism:basic_universal_cable", random_bonus: 2 }
+		{
+			item: {
+				Count: 1
+				id: "allthemodium:allthemodium_nugget"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "quark:pickarang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 2, item: "immersiveengineering:coil_lv" }
+		{ item: "chisel:chisel" }
+		{ count: 16, item: "mysticalagriculture:inferium_essence" }
+		{ item: "sophisticatedbackpacks:backpack" }
+		{ count: 4, item: "minecraft:chicken_spawn_egg" }
+		{ count: 4, item: "minecraft:cow_spawn_egg" }
+		{ count: 4, item: "minecraft:pig_spawn_egg" }
+		{ count: 4, item: "minecraft:rabbit_spawn_egg" }
+		{ count: 4, item: "minecraft:sheep_spawn_egg" }
+		{ count: 4, item: "minecraft:llama_spawn_egg" }
+		{ count: 4, item: "minecraft:horse_spawn_egg" }
+		{ count: 4, item: "minecraft:parrot_spawn_egg" }
+		{ item: "tombstone:scroll_of_purification" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "thermal:obsidian_glass"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:uncommon_material"
+				tag: { }
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "minecraft:grindstone" }
+		{ item: "minecraft:stonecutter" }
+		{ item: "immersiveengineering:workbench" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
+			random_bonus: 2
+		}
+		{
+			item: {
+				Count: 1
+				id: "explorerscompass:explorerscompass"
+				tag: { }
+			}
+		}
+		{ item: "minecraft:recovery_compass" }
+	]
+	title: "&3Uncommon Crate"
+	use_title: true
+}
