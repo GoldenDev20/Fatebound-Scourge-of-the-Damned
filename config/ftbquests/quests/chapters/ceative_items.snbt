@@ -1570,6 +1570,16 @@
 			x: 0.0d
 			y: 0.0d
 		}
+		{
+			id: "3E5567727DA86EA0"
+			tasks: [{
+				id: "6D7AA16C02C2755D"
+				title: "Creative Items"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
 	]
 	title: "&6&oCeative Items"
 }
