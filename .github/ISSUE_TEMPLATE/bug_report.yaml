@@ -1,0 +1,73 @@
+name: 🐞 Bug or Crash Report
+description: Help us squash bugs and improve the modpack.
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Read before reporting:
+        - Please make sure you're using the **latest version**.
+        - Do not report bugs from modified versions of the pack.
+
+  - type: checkboxes
+    id: general-info
+    attributes:
+      label: Context
+      description: Select all that apply.
+      options:
+        - label: I have not added or removed any mods
+        - label: This occurs in single-player
+        - label: This occurs in multiplayer
+        - label: I am using the latest version of the modpack
+        - label: I can consistently reproduce the issue
+
+  - type: input
+    id: launcher-info
+    attributes:
+      label: What launcher are you using?
+      placeholder: CurseForge, Prism, MultiMC, GDLauncher, etc.
+    validations:
+      required: true
+
+  - type: input
+    id: modpack-info
+    attributes:
+      label: What version of the modpack?
+      placeholder: e.g. 1.0.4
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: What happened?
+      description: Describe the bug or crash in detail.
+      placeholder: When I open the inventory, the game crashes...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: Steps to reproduce
+      description: Help us reproduce the issue.
+      placeholder: |
+        1. Start a new world
+        2. Open the quest book
+        3. Click on "X"
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or crash report
+      description: Provide your `latest.log` and/or crash log via [Pastebin](https://pastebin.com) or [GitHub Gist](https://gist.github.com)
+      placeholder: https://pastebin.com/...
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "**Reports without logs may be closed automatically. Please include relevant crash or log files.**"

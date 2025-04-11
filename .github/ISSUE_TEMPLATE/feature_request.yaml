@@ -1,0 +1,33 @@
+name: 🔮 Suggest a Feature or Mod
+description: Suggest new mods, quests, tweaks, or other improvements.
+title: "[Suggestion]: "
+labels: [enhancement, suggestion]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for your suggestion!
+        Please provide as much detail as possible.
+
+  - type: checkboxes
+    id: general-info
+    attributes:
+      label: What kind of suggestion?
+      description: You can select multiple options.
+      options:
+        - label: Add a new mod
+        - label: Add or change quests
+        - label: Change a mod config
+        - label: General gameplay tweak
+        - label: Other (describe below)
+    validations:
+      required: false
+
+  - type: textarea
+    id: suggestion-description
+    attributes:
+      label: What are you suggesting?
+      description: Provide as much context as you can.
+      placeholder: I think the pack should include...
+    validations:
+      required: true
