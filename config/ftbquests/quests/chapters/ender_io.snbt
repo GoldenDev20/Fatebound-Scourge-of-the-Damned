@@ -1984,9 +1984,15 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"&dEnder IO&r is a full-featured tech mod. It has armor, tools, weapons, machines, conduits, inventory management, mobs, etc."
+				"Welcome to &dEnder IO&r, a mod that transcends the known world and delves into the mysteries of alien technology. This is not merely a new form of power—this is something far beyond. Ender IO introduces you to a whole new realm of &o&badvanced machines&r, &o&bconduits&r, tools, armor, weapons, and even &o&bentities&r. It is a mod that incorporates the technology of beings far more intelligent and powerful than anything known in the world of Minecraft."
 				""
-				"&dEnder IO&r has been rewritten from the ground-up to support the latest version of Minecraft. Some features may be missing or work differently, however we are working to re-implement everything we know and love about the original."
+				"• Harness &dEnder IO's&r unique &o&bconduits&r and &o&benergy networks&r to transmit power, items, and fluids across vast distances."
+				"• Craft advanced &o&btools&r, &o&barmor&r, and weapons that could only be conceived by extraterrestrial minds."
+				"• Unlock &o&bmachines&r that seem to defy the very laws of physics, manipulating energy, matter, and space itself."
+				""
+				"As you delve deeper into this alien technology, you must question: where did it come from? Was it left behind by ancient beings, or is it something far older? Perhaps it is a warning—a relic of an advanced civilization that was lost in the cosmos, much like the world before the cataclysm."
+				""
+				"In a world where technology and magic collide, the power of Ender IO stands as a testament to what may be possible if one dares to harness the very essence of the unknown."
 			]
 			icon: "enderio:guardian_diode"
 			id: "5BCFF8D80F8A0B5F"
@@ -2003,7 +2009,7 @@
 				id: "13C5068A28A8DFA1"
 				type: "checkmark"
 			}]
-			title: "Welcome to &dEnder IO"
+			title: "&n&5⟡ The Ender Age: Harnessing Alien Technology ⟡&r"
 			x: -1.5d
 			y: -7.910714285714285d
 		}

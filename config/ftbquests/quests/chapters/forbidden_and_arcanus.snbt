@@ -76,9 +76,21 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"Forbidden \\&\\ Arcanus adds new ways to get better armor, enchants, and more!"
+				"Long before the fall, before the realms were shattered, a sect of sorcerers sealed away knowledge too volatile to be left in mortal hands. Their legacy remains hidden—&5bound by curse and pact&r—within ancient tomes and blackened ruins."
 				""
-				"This magic-themed mod has amazing animations, as well as some overpowered items like the &6Eternal Stella&r. "
+				"Now, those secrets begin to stir once more."
+				""
+				"&dForbidden \\&\\ Arcanus&r is a magic-born mod that blends ancient ritual with arcane innovation. Through its dark elegance, you’ll uncover:"
+				""
+				"• &oEnchanted gear and weapons&r rivaling the gods themselves"
+				"• &oRare relics&r, runestones, and &ddark materials&r born from forgotten rites"
+				"• &6The Eternal Stella&r—a legendary artifact whispered to &onegate death itself&r"
+				"• A mysterious aesthetic of &omystical structures&r and &bbound energies&r"
+				""
+				"But power such as this was never meant for common hands."
+				"The arcane may serve you well… or undo you entirely."
+				""
+				"&6Dare you step into the circle, and reclaim what was never meant to be yours?&r"
 			]
 			icon: {
 				Count: 1
@@ -109,7 +121,7 @@
 				title: "Welcome to Forbidden \\&\\ Arcanus!"
 				type: "checkmark"
 			}]
-			title: "Welcome to &5Forbidden \\& Arcanus!"
+			title: "&5✦Unearthed Sorcery from a Sealed Age✦&r"
 			x: -9.0d
 			y: 0.5d
 		}

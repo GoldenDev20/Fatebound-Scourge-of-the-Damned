@@ -37,13 +37,13 @@
 		{
 			dependencies: ["3A7FC41CC5B51F5F"]
 			description: [
-				"&4Cooking for Blockheads&r adds a cooking book along with a &o&bfunctional kitchen&r to Minecraft."
+				"Step into the world of culinary creation with &4Cooking for Blockheads&r, a mod that transforms your Minecraft kitchen into a place of endless possibilities. Craft delectable dishes using a variety of ingredients and discover the joy of cooking with ease."
 				""
-				"Use the book or the &aCooking Table&r to find out what you can cook with what ingredients you currently have available, and start cooking immediately through a &nsingle click&r."
+				"• Use the &aCooking Book&r or the &o&bCooking Table&r to uncover the secrets of each dish and craft meals with a single click."
+				"• Build and upgrade your &o&bmodular kitchen&r, expanding its capabilities with blocks that enhance storage, water access, and cooking efficiency."
+				"• Unlock whimsical kitchen tools, such as the &d&o&bCow in a Jar&r, to provide infinite milk and elevate your culinary experience."
 				""
-				"The &o&bkitchen is modular&r and can be upgraded through additional blocks, allowing for &o&bexpanded storage&r, &o&binfinite water&r for crafting provided by the &9Sink&r, or efficient and delicious cooking with the &2Oven&r."
-				""
-				"Some people even went as far as capturing a &d&o&b&rCow in a Jar&r to provide them with &ninfinite milk&r!"
+				"Embark on a journey to become the master chef of the blocky world, where every meal is a masterpiece!"
 			]
 			icon: "cookingforblockheads:oven"
 			id: "3AEAEDFF7736CBAB"
@@ -68,7 +68,7 @@
 				item: "minecraft:book"
 				type: "item"
 			}]
-			title: "Welcome to &4Cooking for Blockheads"
+			title: "&n&4⟡ The Gourmet's Awakening: Mastering the Art of Blockhead Cuisine ⟡&r"
 			x: -8.25d
 			y: -7.5d
 		}

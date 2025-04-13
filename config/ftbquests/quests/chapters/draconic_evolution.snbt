@@ -29,14 +29,21 @@
 		{
 			dependencies: ["488DBE69595F38F8"]
 			description: [
-				"&9Draconic Evolution&r adds a lot of &ahigh-tier items&r such as tools and armor as well as some &6high-tier energy&r storage and a lot of other random features such as:"
+				"From the ashes of the old world, fragments of a forgotten power whisper through the bedrock—&dDraconium&r, a crystalline substance humming with forbidden energy. Was it the &olegacy of an ancient celestial race&r? Or a remnant of a future that never came to pass?"
 				""
-				"• Teleportation"
-				"• Mob farming (&o&bSpawning+Killing&r)"
-				"• Player detection"
-				"• Time and weather control"
-				"• Powerful tools and armor"
-				"• High tier energy storage (&cRF&r)"
+				"What is known is this: &9Draconic Evolution&r is unlike anything else."
+				""
+				"• Harness &chigh-tier energy&r and storage systems that defy conventional limits."
+				"• Craft &apowerful tools and armor&r capable of reshaping combat and survival."
+				"• Manipulate the world itself—&oalter time, bend weather, detect life&r, and even &oteleport across dimensions&r."
+				"• Automate the impossible—&bspawn and farm mobs&r at industrial scale."
+				""
+				"But be warned—such power comes at a cost."
+				""
+				"Every system hums with volatile instability. One miscalculation, one breach in containment… and the balance may fracture."
+				""
+				"&5Is this the salvation of your people, or the final echo of a world already consumed?&r"
+				"Only you can decide—&obut once awakened, the Draconic path offers no retreat&r."
 			]
 			icon: "draconicevolution:info_tablet"
 			id: "0163C32CECD4BF84"
@@ -60,7 +67,7 @@
 				id: "425ADB6B31B6A1F3"
 				type: "checkmark"
 			}]
-			title: "Welcome to &9Draconic Evolution"
+			title: "&d⟡ Draconic Reckoning ⟡&r"
 			x: -5.5d
 			y: -18.0d
 		}
@@ -608,7 +615,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -657,7 +664,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -700,7 +707,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -749,7 +756,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -803,7 +810,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -851,7 +858,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -905,7 +912,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -959,7 +966,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1007,7 +1014,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1061,7 +1068,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1115,7 +1122,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1163,7 +1170,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1217,7 +1224,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1265,7 +1272,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1319,7 +1326,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1368,7 +1375,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1411,7 +1418,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1460,7 +1467,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1509,7 +1516,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1552,7 +1559,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1601,7 +1608,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1666,7 +1673,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]
@@ -1725,7 +1732,7 @@
 					ForgeCaps: {
 						Parent: {
 							energy: {
-								energy: 0L
+								energy: 0
 							}
 							module_host: {
 								modules: [ ]

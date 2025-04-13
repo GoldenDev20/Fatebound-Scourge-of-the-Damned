@@ -1187,7 +1187,15 @@
 		}
 		{
 			dependencies: ["4407A832E90678D3"]
-			description: ["&dMystical Agriculture&r is a mod based around the concept of growing your resources with crops. Use crops to grow essences used to make materials, mob drops, tools, armor and possibly even more!"]
+			description: [
+				"In the world of &dMystical Agriculture&r, the earth itself becomes the source of unimaginable power. Harness the ancient art of cultivating not just plants, but the very essence of the materials, mobs, and tools you need to conquer your world."
+				""
+				"• Grow crops to harvest essences, the foundation of everything from armor to tools, and even powerful mob drops."
+				"• Expand your agricultural empire by using the power of essence to create rare and valuable resources."
+				"• Unleash the potential of the land, turning humble seeds into the ultimate resource."
+				""
+				"Dive into this world where the soil beneath your feet holds the key to limitless power and prosperity!"
+			]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -1209,7 +1217,7 @@
 				id: "17F5C4B21CBF5F41"
 				type: "checkmark"
 			}]
-			title: "Welcome to &5Mystical Agriculture"
+			title: "&n&d⟡ The Seed of Creation: Mastering the Growth of Power ⟡&r"
 			x: -10.5d
 			y: -10.5d
 		}
@@ -1249,15 +1257,7 @@
 			tasks: [
 				{
 					id: "05CA2023E5C5B8EB"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "mysticalagriculture:soul_extractor"
-					}
+					item: "mysticalagriculture:soul_extractor"
 					type: "item"
 				}
 				{

@@ -28,9 +28,13 @@
 	quests: [
 		{
 			description: [
-				"&9Refined Storage&r is a mass storage mod that offers the player a network-based storage system, allowing them to store items and fluids on a massively expandable device network."
+				"In the heart of the &9Known World&r, chaos reigns in the form of scattered resources and overflowing inventories. Yet, there is a way to regain control. Welcome to the realm of &9Refined Storage&r, where the old methods of hoarding and organizing fall away to reveal a system of unparalleled efficiency."
 				""
-				"Items and fluids can be stored in one of the many storage capabilities that the mod offers. Any storage devices connected to the same network are accessible to the player through one simple Grid interface, allowing the player to access the inventories of many devices through a single unified &9GUI&r."
+				"• Build the &9Refined Storage Network&r and connect your items and fluids across an expanding, interconnected system."
+				"• Use the &9Storage Grid&r to access your items and materials with ease, making it simpler than ever to find what you need."
+				"• Expand your storage capabilities to meet the growing demands of your adventures, all from a single, unified interface."
+				""
+				"Harness the power of the Grid and transform your clutter into a well-organized nexus, freeing up your time for greater adventures."
 			]
 			icon: {
 				Count: 1
@@ -64,7 +68,7 @@
 				item: "refinedstorage:quartz_enriched_iron"
 				type: "item"
 			}]
-			title: "Welcome to &eRefined Storage"
+			title: "&n&9⟡ The Nexus of Organization: Harnessing the Grid ⟡&r"
 			x: -9.0d
 			y: -8.0d
 		}

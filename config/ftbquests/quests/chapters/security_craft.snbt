@@ -117,11 +117,15 @@
 		{
 			dependencies: ["66A364380D3AA7B5"]
 			description: [
-				"&6SecurityCraft&r adds &b&oreinforced blocks&r corresponding to many of the already existing &nvanilla blocks&r."
+				"In a world that was torn asunder by forces beyond comprehension, safety and security are no longer luxuries—they are necessities. Welcome to &6SecurityCraft&r, where the art of protection and defense has been taken to the extreme. The foundations of your home are now fortified by &b&oreinforced blocks&r, the ultimate safeguard against the chaos that lurks in the shadows."
 				""
-				"These reinforced blocks are &nunbreakable&r variants of their vanilla counterpart, and have a slightly darker tint to distinguish them from, but otherwise look the same as, their vanilla versions. "
+				"These unbreakable variants of familiar blocks are crafted with a special blend of materials, granting them enhanced durability and the ability to withstand even the most devastating of forces. Their slightly darker tint serves as a reminder that the world of old is long gone, replaced by a new era where security is paramount."
 				""
-				"There are numerous blocks, which allow the player to &o&bsecure their base&r from intruders. For a complete list of all of the blocks and items in the mod you can check out the ingame manual."
+				"• Use the &o&bReinforced Stone&r, &o&bReinforced Wood&r, and other reinforced blocks to create impenetrable walls and doorways."
+				"• Install &o&bSecurity Systems&r to keep intruders at bay, ensuring that nothing slips through the cracks."
+				"• Safeguard your valuables with reinforced doors, traps, and hidden entrances to keep the hostile world from taking what’s yours."
+				""
+				"But who were the architects of these reinforced fortifications? And why were they so desperately needed in the time before the fall of the old world? As you delve deeper into the art of security, you may uncover the secrets of the builders—or perhaps the reason why they sought to keep their world so tightly locked away."
 			]
 			icon: "securitycraft:sc_manual"
 			id: "7B954A1DD833FC98"
@@ -138,7 +142,7 @@
 				id: "3BFBBC8EA3D7EE91"
 				type: "checkmark"
 			}]
-			title: "Welcome to &6Security Craft"
+			title: "&n&7⟡ Fortifications of the Forgotten ⟡&r"
 			x: -7.5d
 			y: -3.5d
 		}
@@ -173,9 +177,6 @@
 				id: "15FDA4147D76268E"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "securitycraft:universal_block_remover"
 					tag: {
 						Damage: 0
@@ -217,9 +218,6 @@
 				id: "3243212232825A1E"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "securitycraft:wire_cutters"
 					tag: {
 						Damage: 0
@@ -258,13 +256,7 @@
 			]
 			tasks: [{
 				id: "0E22AD1D235E61F6"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:universal_key_changer"
-				}
+				item: "securitycraft:universal_key_changer"
 				type: "item"
 			}]
 			x: -3.5d
@@ -304,9 +296,6 @@
 				id: "6070D22223BBE001"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "securitycraft:universal_owner_changer"
 					tag: {
 						Damage: 0
@@ -352,9 +341,6 @@
 				id: "03B126BA1965D7C2"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "securitycraft:universal_block_reinforcer_lvl1"
 					tag: {
 						Damage: 0
@@ -390,9 +376,6 @@
 				id: "56084EE09C18E54A"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "securitycraft:universal_block_reinforcer_lvl2"
 					tag: {
 						Damage: 0
@@ -426,13 +409,7 @@
 			]
 			tasks: [{
 				id: "4699A90F32614795"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:universal_block_reinforcer_lvl3"
-				}
+				item: "securitycraft:universal_block_reinforcer_lvl3"
 				type: "item"
 			}]
 			x: -2.0d
@@ -465,9 +442,6 @@
 				id: "2002903ECCACF043"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
 					id: "securitycraft:codebreaker"
 					tag: {
 						Damage: 0
@@ -513,13 +487,7 @@
 			]
 			tasks: [{
 				id: "04B7CCF7C7122FA0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:claymore"
-				}
+				item: "securitycraft:claymore"
 				type: "item"
 			}]
 			x: 5.5d
@@ -561,13 +529,7 @@
 			]
 			tasks: [{
 				id: "396B71158F76242B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:ims"
-				}
+				item: "securitycraft:ims"
 				type: "item"
 			}]
 			x: 0.5d
@@ -604,13 +566,7 @@
 			]
 			tasks: [{
 				id: "4944F7FB38CAC374"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:bouncing_betty"
-				}
+				item: "securitycraft:bouncing_betty"
 				type: "item"
 			}]
 			x: 5.5d
@@ -708,13 +664,7 @@
 			]
 			tasks: [{
 				id: "100C09B441CAC7E2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:mine"
-				}
+				item: "securitycraft:mine"
 				type: "item"
 			}]
 			x: 6.5d
@@ -765,13 +715,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "1F68EFFD3A4C20D9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:keycard_reader"
-				}
+				item: "securitycraft:keycard_reader"
 				type: "item"
 			}]
 			x: -2.0d
@@ -813,13 +757,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "06D742D8C871DEA3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:portable_radar"
-				}
+				item: "securitycraft:portable_radar"
 				type: "item"
 			}]
 			x: 1.5d
@@ -853,13 +791,7 @@
 			]
 			tasks: [{
 				id: "2611466C93133448"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:panic_button"
-				}
+				item: "securitycraft:panic_button"
 				type: "item"
 			}]
 			x: -9.0d
@@ -904,13 +836,7 @@
 			]
 			tasks: [{
 				id: "4695726D647DECC0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:keypad"
-				}
+				item: "securitycraft:keypad"
 				type: "item"
 			}]
 			x: -8.5d
@@ -1076,13 +1002,7 @@
 			]
 			tasks: [{
 				id: "0586BEADAD84E42A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:username_logger"
-				}
+				item: "securitycraft:username_logger"
 				type: "item"
 			}]
 			x: 1.5d
@@ -1174,13 +1094,7 @@
 			]
 			tasks: [{
 				id: "72B8B3EEE3978A93"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:keypad_frame"
-				}
+				item: "securitycraft:keypad_frame"
 				type: "item"
 			}]
 			x: -7.5d
@@ -1221,13 +1135,7 @@
 			]
 			tasks: [{
 				id: "22B180D88383B5C2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:security_camera"
-				}
+				item: "securitycraft:security_camera"
 				type: "item"
 			}]
 			x: 5.5d
@@ -1274,13 +1182,7 @@
 			]
 			tasks: [{
 				id: "534C634BF90F24C7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:inventory_scanner"
-				}
+				item: "securitycraft:inventory_scanner"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1320,13 +1222,7 @@
 			]
 			tasks: [{
 				id: "48412D819C0AC45A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": { }
-					}
-					id: "securitycraft:cage_trap"
-				}
+				item: "securitycraft:cage_trap"
 				type: "item"
 			}]
 			x: 7.5d

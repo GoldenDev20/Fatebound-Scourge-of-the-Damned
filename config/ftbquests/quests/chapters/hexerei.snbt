@@ -87,7 +87,7 @@
 				title: "Welcome to Hexerei!"
 				type: "checkmark"
 			}]
-			title: "Welcome to &cHexerei"
+			title: "&5✦The Old Ways Stir Once More…✦&r"
 			x: -12.5d
 			y: -8.5d
 		}
@@ -343,15 +343,7 @@
 				consume_items: false
 				count: 16L
 				id: "7F49063FF9CCEE5E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "hexerei:willow_log"
-				}
+				item: "hexerei:willow_log"
 				only_from_crafting: false
 				type: "item"
 			}]
@@ -393,15 +385,7 @@
 				consume_items: false
 				count: 16L
 				id: "5953D4D43ADF5C72"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "hexerei:mahogany_log"
-				}
+				item: "hexerei:mahogany_log"
 				only_from_crafting: false
 				type: "item"
 			}]
@@ -526,29 +510,13 @@
 				{
 					count: 16L
 					id: "298E1A04A8B4BFA8"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:belladonna_flowers"
-					}
+					item: "hexerei:belladonna_flowers"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "06FD8930E9757E1C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:belladonna_berries"
-					}
+					item: "hexerei:belladonna_berries"
 					type: "item"
 				}
 			]
@@ -582,29 +550,13 @@
 				{
 					count: 16L
 					id: "49DD1912ED9A9A48"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:mandrake_flowers"
-					}
+					item: "hexerei:mandrake_flowers"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "46B693CAEC9343FD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:mandrake_root"
-					}
+					item: "hexerei:mandrake_root"
 					type: "item"
 				}
 			]
@@ -639,30 +591,14 @@
 					consume_items: false
 					count: 16L
 					id: "27CD35425D0271CD"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:mugwort_leaves"
-					}
+					item: "hexerei:mugwort_leaves"
 					only_from_crafting: false
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "64D8F7C60F92E0E4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:mugwort_flowers"
-					}
+					item: "hexerei:mugwort_flowers"
 					type: "item"
 				}
 			]
@@ -696,29 +632,13 @@
 				{
 					count: 16L
 					id: "3B1FD61702BEED52"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:yellow_dock_flowers"
-					}
+					item: "hexerei:yellow_dock_flowers"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "4167738FE4760996"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "hexerei:yellow_dock_leaves"
-					}
+					item: "hexerei:yellow_dock_leaves"
 					type: "item"
 				}
 			]
@@ -1540,11 +1460,6 @@
 				id: "4EF957893C221C26"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 					id: "hexerei:herb_jar"
 					tag: { }
 				}
@@ -1978,15 +1893,7 @@
 			]
 			tasks: [{
 				id: "7274BAB670D1DCB4"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "hexerei:book_of_shadows_altar"
-				}
+				item: "hexerei:book_of_shadows_altar"
 				type: "item"
 			}]
 			x: -12.5d
@@ -2018,11 +1925,6 @@
 				id: "32EDAC4F4CBA8894"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 					id: "hexerei:book_of_shadows"
 					tag: { }
 				}
@@ -2055,15 +1957,7 @@
 			]
 			tasks: [{
 				id: "4EB599CA0479BB44"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "hexerei:reading_glasses"
-				}
+				item: "hexerei:reading_glasses"
 				type: "item"
 			}]
 			x: -12.0d

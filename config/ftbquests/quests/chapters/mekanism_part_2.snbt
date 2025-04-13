@@ -528,9 +528,23 @@
 		{
 			dependencies: ["7E4A95B6443F23BC"]
 			description: [
-				"As a recap, we've set up an advanced Ore Processing facility using several gases, machinery, and more."
+				"&oMekanism: Phase Two&r"
 				""
-				"In this chapter, we'll be using more of those to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power. This will also lead to making &dAntimatter Pellets&r, as well as some of the strongest tools and weapons in the pack."
+				"The path of progress does not end with mere efficiency—it spirals into the realm of the unknowable, where energy is pulled from the very fabric of reality. You have mastered the first principles of atomic manipulation. Now, you stand before the precipice of true power."
+				""
+				"In this chapter, you will command &aMultiblock Reactors&r capable of generating &nincomprehensible amounts&r of energy. You will refine processes that draw upon &ogaseous catalysts&r, converting humble ores into purer forms with almost supernatural precision."
+				""
+				"But it does not stop there."
+				""
+				"You will unravel the secrets of the void to produce &dAntimatter Pellets&r—a substance so volatile, so impossibly rare, that only the bravest or most foolish dare to wield it. From it, you shall forge artifacts unlike any other: weapons that bend space, tools that outlast time."
+				""
+				"• Construct &aFusion Reactors&r to bend the stars to your will."
+				"• Automate the creation and storage of vast &cenergy reserves&r."
+				"• Begin synthesizing &dAntimatter&r, the key to weapons of godlike destruction."
+				"• Unlock &bendgame gear&r that will redefine your presence in the world."
+				""
+				"This is no longer technology. This is transgression."
+				"The age of &nAtomic Ascendancy&r has arrived."
 			]
 			icon: {
 				Count: 1
@@ -553,7 +567,7 @@
 				id: "3153288DCE1C4FEF"
 				type: "checkmark"
 			}]
-			title: "Welcome to&r &dMekanism:&r Phase two"
+			title: "&5⟡ The Forbidden Atom ⟡&r"
 			x: 0.0d
 			y: -3.0d
 		}

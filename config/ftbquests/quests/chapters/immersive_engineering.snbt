@@ -165,11 +165,15 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"&2Immersive Engineering&r is a tech mod."
+				"Welcome to &2Immersive Engineering&r, where technology meets realism in the world of Minecraft. This mod brings a sophisticated and immersive approach to power generation, inspired by real-world industrial designs. With the focus on the &cRF&r system, &2Immersive Engineering&r offers a unique experience of creating machines and structures that feel grounded and functional."
 				""
-				"Overall, it's about &o&brealism-inspired&r technology. It adds a number of structures that create a more realistic setting for power generation using the &cRF&r system."
+				"• Experience the creation of &o&bmultiblock machines&r with a true industrial look and feel."
+				"• Generate power using three &o&btiers&r of energy, with &elow voltage&r at &o&b256 RF/t&r, &9medium&r at &o&b1,024 RF/t&r, and &dhigh&r at &o&b4,096 RF/t&r."
+				"• Build complex structures that offer not just power, but a visual immersion that brings the world of industry into your world."
 				""
-				"It is best known for its multiblock machines, characterized by their &3Industrial&r look. Both single and multiblock machines operate on &o&b3&r Tiers of &cPower&r, &elow&r voltage being &o&b256&r &cRF&r/t, &9medium&r being &o&b1,024&r &cRF&r/t and &dhigh&r corresponding to &o&b4,096&r &cRF&r/t."
+				"As you step into this new age of power and creation, you may wonder how these structures came to be. Perhaps the rise of these technologies was a precursor to the downfall of the old world. Was this the tipping point that sparked the great calamity? The machines you build may answer that question in time."
+				""
+				"The rise of &2Immersive Engineering&r has sparked a revolution in power generation, but at what cost? As you delve deeper into this new era, you’ll uncover the potential for both advancement and destruction."
 			]
 			id: "2F8B1B5084313565"
 			min_width: 310
@@ -186,7 +190,7 @@
 				id: "5C318DBAF7CF4826"
 				type: "checkmark"
 			}]
-			title: "Welcome to &eImmersive Engineering"
+			title: "&n&2⟡ The Rise of Industry: Harnessing Real-World Power ⟡&r"
 			x: -8.25d
 			y: -9.75d
 		}
@@ -2586,15 +2590,7 @@
 			]
 			tasks: [{
 				id: "15AB16421BB70AC3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:circuit_board"
-				}
+				item: "immersiveengineering:circuit_board"
 				type: "item"
 			}]
 			x: -1.5d
@@ -2623,15 +2619,7 @@
 			]
 			tasks: [{
 				id: "2ACE7EB1623DF9A0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:logic_circuit"
-				}
+				item: "immersiveengineering:logic_circuit"
 				type: "item"
 			}]
 			x: -3.5d
@@ -3469,15 +3457,7 @@
 			]
 			tasks: [{
 				id: "524E7087D55202C0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:plate_duroplast"
-				}
+				item: "immersiveengineering:plate_duroplast"
 				type: "item"
 			}]
 			x: -2.5d
@@ -3673,15 +3653,7 @@
 			tasks: [{
 				count: 30L
 				id: "5FA7CCD8BBE3D2EF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "minecraft:paper"
-				}
+				item: "minecraft:paper"
 				type: "item"
 			}]
 			title: "Paper"
@@ -4290,15 +4262,7 @@
 			]
 			tasks: [{
 				id: "383BC8B4E56B9F93"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:logic_unit"
-				}
+				item: "immersiveengineering:logic_unit"
 				type: "item"
 			}]
 			x: -1.5d
@@ -4334,15 +4298,7 @@
 			]
 			tasks: [{
 				id: "0AF3DFE3D1AEAF72"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:jerrycan"
-				}
+				item: "immersiveengineering:jerrycan"
 				type: "item"
 			}]
 			x: -11.0d
@@ -4371,15 +4327,7 @@
 			]
 			tasks: [{
 				id: "3A1C65CB6A265041"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:earmuffs"
-				}
+				item: "immersiveengineering:earmuffs"
 				type: "item"
 			}]
 			x: -9.5d
@@ -4574,11 +4522,6 @@
 					id: "5F8B4C81C09371F3"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "immersiveengineering:rockcutter"
 						tag: {
 							Damage: 0
@@ -4590,11 +4533,6 @@
 					id: "4AE4CDC66BC9506C"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "immersiveengineering:grindingdisk"
 						tag: {
 							Damage: 0
@@ -4646,15 +4584,7 @@
 			subtitle: "Better Drill Head"
 			tasks: [{
 				id: "6DB9BA694153F655"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:drillhead_steel"
-				}
+				item: "immersiveengineering:drillhead_steel"
 				type: "item"
 			}]
 			x: -1.0d
@@ -4701,9 +4631,6 @@
 						Parent: {
 							Items: [ ]
 							Size: 3
-						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
 						}
 					}
 					id: "immersiveengineering:railgun"
@@ -4760,9 +4687,6 @@
 							Items: [ ]
 							Size: 21
 						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
 					}
 					id: "immersiveengineering:revolver"
 				}
@@ -4813,9 +4737,6 @@
 							Items: [ ]
 							Size: 4
 						}
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
 					}
 					id: "immersiveengineering:chemthrower"
 				}
@@ -4847,15 +4768,7 @@
 			]
 			tasks: [{
 				id: "311C5E5F013D1FBD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:turret_chem"
-				}
+				item: "immersiveengineering:turret_chem"
 				type: "item"
 			}]
 			x: 2.5d
@@ -4884,15 +4797,7 @@
 			]
 			tasks: [{
 				id: "53F42326EBE0CBEB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:turret_gun"
-				}
+				item: "immersiveengineering:turret_gun"
 				type: "item"
 			}]
 			x: 4.9285714285714235d
@@ -4931,80 +4836,32 @@
 			tasks: [
 				{
 					id: "6E5DE28DC7CD1E4B"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_drill_waterproof"
-					}
+					item: "immersiveengineering:toolupgrade_drill_waterproof"
 					type: "item"
 				}
 				{
 					id: "6409BD4DB50A8E88"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_drill_capacity"
-					}
+					item: "immersiveengineering:toolupgrade_drill_capacity"
 					type: "item"
 				}
 				{
 					id: "69B73AB77BB8C1A5"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_drill_fortune"
-					}
+					item: "immersiveengineering:toolupgrade_drill_fortune"
 					type: "item"
 				}
 				{
 					id: "39B195F0EE5F4D92"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_drill_lube"
-					}
+					item: "immersiveengineering:toolupgrade_drill_lube"
 					type: "item"
 				}
 				{
 					id: "0E14950290E0A950"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_drill_damage"
-					}
+					item: "immersiveengineering:toolupgrade_drill_damage"
 					type: "item"
 				}
 				{
 					id: "16EBF9AFB0BAF4FA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
-					}
+					item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
 					type: "item"
 				}
 			]
@@ -5048,106 +4905,42 @@
 			tasks: [
 				{
 					id: "300EFB1C23D088AA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_revolver_bayonet"
-					}
+					item: "immersiveengineering:toolupgrade_revolver_bayonet"
 					type: "item"
 				}
 				{
 					id: "7D629B70E039330C"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_revolver_magazine"
-					}
+					item: "immersiveengineering:toolupgrade_revolver_magazine"
 					type: "item"
 				}
 				{
 					id: "276405C4342739CE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_chemthrower_focus"
-					}
+					item: "immersiveengineering:toolupgrade_chemthrower_focus"
 					type: "item"
 				}
 				{
 					id: "695FA6927C3B6A0E"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_railgun_scope"
-					}
+					item: "immersiveengineering:toolupgrade_railgun_scope"
 					type: "item"
 				}
 				{
 					id: "319C3E250764C4DC"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_railgun_capacitors"
-					}
+					item: "immersiveengineering:toolupgrade_railgun_capacitors"
 					type: "item"
 				}
 				{
 					id: "630E34814EE43AB3"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_shield_shock"
-					}
+					item: "immersiveengineering:toolupgrade_shield_shock"
 					type: "item"
 				}
 				{
 					id: "5FA23803A71D7002"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_chemthrower_multitank"
-					}
+					item: "immersiveengineering:toolupgrade_chemthrower_multitank"
 					type: "item"
 				}
 				{
 					id: "33DFF7B3017367C4"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "immersiveengineering:toolupgrade_shield_flash"
-					}
+					item: "immersiveengineering:toolupgrade_shield_flash"
 					type: "item"
 				}
 			]
@@ -5285,15 +5078,7 @@
 			tasks: [{
 				count: 3L
 				id: "01A5CEF736EBEACB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:electron_tube"
-				}
+				item: "immersiveengineering:electron_tube"
 				type: "item"
 			}]
 			title: "Vacuum Tube"
@@ -5337,15 +5122,7 @@
 			]
 			tasks: [{
 				id: "641206CF70FBB845"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "immersiveengineering:component_electronic_adv"
-				}
+				item: "immersiveengineering:component_electronic_adv"
 				type: "item"
 			}]
 			x: 3.5d

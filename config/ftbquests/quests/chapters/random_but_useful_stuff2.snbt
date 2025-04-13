@@ -29,21 +29,37 @@
 			x: 2.5d
 			y: -1.0d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/tips_v1"
+			rotation: 0.0d
+			width: 6.0d
+			x: -2.5d
+			y: -7.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			description: [
-				"&9Ranged Pumps&r just pumps liquids in a range using &4Forge Energy&r. The pump accepts &credstone&r signal as well. "
+				"From ancient machines buried deep in dwarven forges to modern contraptions humming with unnatural life, the &9Ranged Pump&r stands as a testament to refined utility—harvesting the lifeblood of the world with unerring precision."
 				""
-				"The size of the pump's &o&binternal tank&r is &o&b32&r buckets, and it will stop running if the &o&binternal tank&r is &o&bfull&r. The liquids can be &o&bpiped out&r into &nexternal tanks&r."
+				"It draws &ofluids&r from the depths in a &orectangular spiral&r, scanning the stone beneath it in ever-widening circuits, starting &oone block below&r and digging steadily from &9Pump&r to &0Bedrock&r."
 				""
-				"&aRight-Click&r on the pump to check what it is doing or does it running. It'll pumping liquids in &o&brectangular&r spiral shape &o&b1&r block under the pump. The default range is &o&b64&r blocks in &nany&r direction, &nnearest-first&r, on a vertical (&o&bY&r) level, from the &9Pump&r to &0Bedrock&r. "
+				"• Operates using &4Forge Energy&r.  "
+				"• Reacts to &credstone&r signals for precise automation.  "
+				"• Comes with a &o&b32-bucket&r internal storage tank—automatically halts when full.  "
+				"• Easily connect external pipes to export gathered fluids into external tanks.  "
+				"• The pump's default range spans &o&b64 blocks&r in all horizontal directions."
+				""
+				"&7Operational Insight:&r  "
+				"&aRight-Click&r the pump to observe its behavior and track progress.  "
+				"Note: This mod &ndoes not chunkload&r pumps by default—ensure your pump remains active with external solutions if necessary."
 				""
 				"{image:kubejs:textures/item/scanning.png width:200 height:100 align:1}"
 				""
-				"The mod &ndoesn't chunkload&r pumps &o&bautomatically&r."
+				"Harness the rivers beneath stone and bring forth power from the earth's hidden reservoirs."
 			]
 			id: "1E938A2BE4746591"
 			min_width: 400
@@ -65,21 +81,30 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Pump"
 			tasks: [{
 				id: "0793090A8AE1F5C8"
 				item: "rangedpumps:pump"
 				type: "item"
 			}]
+			title: "&n&9⟡ Heart of the Deep: The Endless Draw Below ⟡&r"
 			x: -5.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"The &cTwilight Cloak&r makes you invisible only in darkness."
+				"Harness the ancient art of concealment with cloaks crafted for stealth and silence. These mystical garments render you hidden from prying eyes—each with its own secret."
 				""
-				"The &bInvisibility Cloak&r makes you completely invinsible."
+				"&cTwilight Cloak:&r  "
+				"• Grants invisibility &oonly in darkness&r. The perfect veil for those who walk the night."
 				""
-				"The &9Cloak of Invisibility&r grants consistent invisibility."
+				"&bInvisibility Cloak:&r  "
+				"• Bestows complete invisibility, &nshrouding you entirely&r regardless of light."
+				""
+				"&9Cloak of Invisibility:&r  "
+				"• Offers a stable, &nconsistent invisibility&r—no conditions, no limits."
+				""
+				"Only the most elusive survive the longest. Choose your cloak, and become a shadow among shadows."
 			]
 			id: "2DE68C3A80B93BDB"
 			min_width: 300
@@ -101,6 +126,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Invisible Cloaks"
 			tasks: [{
 				id: "47C2375E1B87C55F"
 				item: {
@@ -129,19 +155,22 @@
 				title: "Invisible Cloaks"
 				type: "item"
 			}]
-			title: "Invisible Cloaks"
+			title: "&n&5⟡ Shroud of Shadows: The Cloaks Unseen ⟡&r"
 			x: 1.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"&2Nature's Compass&r is a utility item that allows you to search for a biome's location anywhere in the world and view information about it."
+				"For those who wander not aimlessly, but with purpose, there exist tools forged to answer the silent question: &o\"Where?\"&r"
 				""
-				"&3Explorer's Compass&r is an item that allows you to locate structures anywhere in the world."
+				"&2Nature's Compass&r is your guide through the wild—seeking distant &abiomes&r across continents.  "
+				"&3Explorer's Compass&r points the way to long-forgotten &9structures&r buried beneath the earth or hidden in far-flung corners of the world."
 				""
-				"&eRight-Clicking&r with &o&bCompass&r in hand will open the selection &o&bGUI&r, from which you can search for a biome/structure or view information about it."
+				"&7Usage:&r  "
+				"• &eRight-Click&r to open the &o&bSelection GUI&r and choose your destination.  "
+				"• &eShift+Right-Click&r to clear your current search and begin anew."
 				""
-				"&eShift+Right-Clicking&r will &nreset&r the compass's state."
+				"Whether you're chasing the whisper of a Jungle Temple or the mystery of a Mushroom Fields, these compasses are your true north."
 			]
 			id: "68EA43ABEF0C8B63"
 			min_width: 300
@@ -163,6 +192,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Compasses"
 			tasks: [
 				{
 					id: "5371C413D2779DC9"
@@ -195,17 +225,23 @@
 					type: "item"
 				}
 			]
-			title: "The Compasses"
+			title: "&n&6⟡ The Instruments of the Lost ⟡&r"
 			x: -7.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&dExtended Bone Meal&r is a minimalistic mod which &o&bextends&r bone meal behaviour."
+				"The humble bone meal, empowered. With &dExtended Bone Meal&r, even nature's most stubborn plants now heed your command."
 				""
-				"Grow &cnetherwart&r, &2cactus&r, &avines&r and &esugarcane&r."
+				"• Grow plants that &onormally resist&r bone meal:  "
+				"  – &cNether Wart&r  "
+				"  – &2Cactus&r  "
+				"  – &avines&r  "
+				"  – &eSugar Cane&r"
 				""
-				"Instant grow crops while holding the &eSneak&r button."
+				"• &eSneak&r while using bone meal to &oinstantly&r grow crops to full maturity!"
+				""
+				"&r🌱 Master the rhythms of growth and bring forth a lush paradise—even in the Nether."
 			]
 			icon: "minecraft:bone_meal"
 			id: "2E0B6D3EDE0C0665"
@@ -228,27 +264,32 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Extended Bone Meal"
 			tasks: [{
 				id: "742A6C06018F7E58"
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
-			title: "Extended Bone Meal"
+			title: "&n&f🌿 Bloom Beyond Bounds: The Power of Extended Bone Meal &r"
 			x: 1.5d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&6Item Collectors&r adds collectors which collect items in a specified range! Item Collectors can be &bwhitelisted&r or &0blacklisted&r!"
+				"In lands where chaos spills across floors and treasures lie unattended, the &6Item Collectors&r stand vigilant."
 				""
-				"&aBasic Item Collector"
-				"• The &o&bBasic Item Collector&r has a range of up to &o&b5&r blocks!"
-				"• &eRight-Click&r a &o&bBasic Item Collector&r to open its &o&bGUI&r."
+				"Their unseen hands reach outward, reclaiming the scattered, the lost, the forgotten—keeping your realm tidy and efficient."
 				""
-				"&dAdvanced Item Collector"
-				"• The &o&bAdvanced Item Collector&r has a range of up to &o&b7&r blocks!"
-				"• &eRight-Click&r an &o&bAdvanced Item Collector&r to open its &o&bGUI&r."
-				"• The &o&bAdvanced Item Collector&r can &3filter&r items."
+				"&aBasic Item Collector&r  "
+				"• Grasping up to &o&b5&r blocks around it, this humble collector ensures your base remains uncluttered.  "
+				"• &eRight-Click&r to open its &o&bGUI&r and adjust the radius."
+				""
+				"&dAdvanced Item Collector&r  "
+				"• An evolved sentinel, it extends its influence up to &o&b7&r blocks.  "
+				"• Features &3filtering&r for selective gathering—choose what stays and what is discarded.  "
+				"• &eRight-Click&r to configure its elegant logic."
+				""
+				"With these arcane vessels of tidiness, your kingdom will never again drown in excess."
 			]
 			id: "4C7A545E1AAC91E2"
 			min_width: 300
@@ -270,6 +311,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Item Collectors"
 			tasks: [{
 				id: "64E097954DBAAADF"
 				item: {
@@ -291,21 +333,24 @@
 				title: "Item Collectors"
 				type: "item"
 			}]
-			title: "Item Collectors"
+			title: "&n&6⟡ The Silent Custodians of Order ⟡&r"
 			x: -6.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&cPlatforms&r mod adds platforms with a range of customization."
-				"You can make &o&bdecks&r, &broofs&r, &o&bbridges&r, &o&bmine shafts&r, or even &o&bwooden coaster&r."
+				"In the world of Minecraft, few tools provide as much freedom as the &cPlatforms&r mod, which introduces a vast array of customizable platforms for construction and transport. Whether you seek to build mighty &o&bdecks&r that overlook the sea, sturdy &broofs&r to shelter your homes, intricate &o&bbridges&r spanning deep ravines, or even &o&bmineshafts&r that delve into the heart of the earth, the power of the platform is now at your fingertips. "
 				""
-				"The Wrench:"
-				"- &eRight-Click&r to &o&brotate&r a platform"
-				"- &eShift+Right-Click&r to &o&bchange&r the &o&bstyle&r of a platform"
-				"- &beShift+Left-Click&r a platform to &o&bremove&r the rail"
+				"For the bold adventurers and builders, the mod even includes the ability to create &o&bwooden coasters&r—perfect for thrilling rides through the skies or across your sprawling kingdom."
 				""
-				"When a &4Wrench&r is in your &o&boffhand&r the placement overlay is &ndisplayed&r."
+				"The &cWrench&r: A tool of unparalleled versatility:"
+				"- &eRight-Click&r to &o&brotate&r a platform and shift its orientation."
+				"- &eShift+Right-Click&r to &o&bchange&r the platform’s style, giving it a fresh, unique look."
+				"- &beShift+Left-Click&r a platform to &o&bremove&r the rail, making it customizable to your needs."
+				""
+				"The &4Wrench&r can also be held in your &o&boffhand&r, where it reveals a placement overlay, allowing you to visualize the next addition to your creation with precision."
+				""
+				"Embrace the &cPlatforms&r mod to expand your creative horizon, whether it’s for building, transport, or adding that extra flair to your landscapes. There are no limits to what you can create when the world is your platform."
 			]
 			id: "12E6F93DA2E27AC0"
 			min_width: 350
@@ -327,6 +372,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Platforms"
 			tasks: [
 				{
 					id: "6E1DEAE7025D5584"
@@ -345,19 +391,21 @@
 					type: "item"
 				}
 			]
-			title: "Platforms"
+			title: "&cThe Platforms of Craftsmanship&r"
 			x: -3.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"&2Notes&r provides a fully functional in-game &nnotepad&r."
+				"Even the greatest minds require a place to capture fleeting thoughts. With &2Notes&r, your ideas, plans, and discoveries are never more than a keystroke away."
 				""
-				"- Open the &2Notes&r &o&bGUI&r by pressing &aAlt+N&r"
-				"- View all notes relevant to your current world or server"
-				"- Create and edit notes through a simple in-game &o&bGUI&r"
-				"- Save notes per-world, per-server, or globally"
-				"- Pin important notes to the &o&bHUD&r"
+				"- Open the &2Notes&r &o&bGUI&r at any time with &aAlt+N&r"
+				"- View entries tied to your current world or server"
+				"- Easily &ocreate and edit&r your records in-game"
+				"- Save notes &nper-world&r, &nper-server&r, or &nglobally&r"
+				"- Pin vital reminders directly to your &o&bHUD&r"
+				""
+				"A sharp memory is good. A written one is better. Let the Codex remember what your mind must not forget."
 			]
 			id: "73CA44C9640CD063"
 			min_width: 300
@@ -379,24 +427,29 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Notes"
 			tasks: [{
 				id: "2D0DA98BE9F98E2C"
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			title: "Notes"
+			title: "&n&9✎ Whispered Words: The Notation Codex ✎&r"
 			x: 2.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"The &eDummy&r can be placed in the world, where it'll stand silently, judging your every action."
+				"In every warrior's journey, there stands a silent sentinel—unmoving, unyielding, and strangely judgmental. The &eTarget Dummy&r is your ever-loyal sparring partner, designed to endure countless blows without a single complaint (except maybe a dramatic wiggle)."
 				""
-				"It'll wiggle funny if you hit it, screaming large numbers of damage at you. It can be &o&bdressed&r up to look even more awesome. This will please the dummy, making the numbers smaller."
+				"Place the Dummy anywhere in the world and swing away! Each hit displays your damage dealt, letting you refine your strength and skills with precision."
 				""
-				"You can start dressing the little dude with all kind of armors and equipment. Just &eRight-Click&r him with the desired item. To unequip a certain armor piece just &eClick&r on his corresponding body part."
+				"&8Key Features:&r  "
+				"• Reacts with dramatic flair to attacks—perfect for damage testing.  "
+				"• Can be equipped with &aArmor&r and &7Weapons&r by &eRight-Clicking&r with the item.  "
+				"• Unequip items by &eClicking&r the desired armor slot directly.  "
+				"• Remove the dummy by &eShift+Left-Clicking&r it with an empty hand."
 				""
-				"You can remove the dummy just by &eShift+Left-Clicking&r him with an empty hand!"
+				"Equip it with full &bNetherite&r, or leave it in its humble default state—your training companion is ready to stand by your side in glorious silence."
 			]
 			id: "634B47FFF306FBCB"
 			min_width: 300
@@ -418,23 +471,29 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Target Dummy"
 			tasks: [{
 				id: "27983ACF60B57CF0"
 				item: "dummmmmmy:target_dummy"
 				type: "item"
 			}]
+			title: "&n&6⟡ The Stoic Observer: Training Companion Eternal ⟡&r"
 			x: -7.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"The &aBuilding Gadget&r allows you to &o&bbuild structures&r using a set of different &o&bBuilding Modes&r."
+				"In the hands of a skilled builder, the power to shape the world is limitless. With &dThe Gadgets&r mod, you are granted access to a suite of powerful tools, each with its own unique function designed to aid you in your creative journey. "
 				""
-				"The &2Exchanging Gadget&r provides basic &o&bexchanging abilities&r using a set of different &o&bExchanging Modes&r."
+				"- &aBuilding Gadget&r: The &o&bMaster of Structures&r, this device allows you to construct entire buildings with ease. Choose from a variety of &o&bBuilding Modes&r, and let the gadget work its magic as it effortlessly places blocks to form your desired creations."
 				""
-				"The &9Copy Paste Gadget&r allows you to select a large radius to &o&bcopy and paste&r in a different location."
+				"- &2Exchanging Gadget&r: Need to swap one block for another? The &o&bExchanging Gadget&r gives you the power to effortlessly replace blocks with different materials. Whether you’re altering terrain or fine-tuning your structures, the gadget’s selection of &o&bExchanging Modes&r provides all the flexibility you need."
 				""
-				"The &cDestruction Gadget&r allows you to &o&bvoid&r a large area."
+				"- &9Copy Paste Gadget&r: A tool of precision, the &o&bCopy Paste Gadget&r allows you to capture and duplicate vast areas. Select a large radius, copy the area you wish to preserve, and paste it elsewhere. Perfect for large-scale builds and intricate designs that require repetition or quick relocation."
+				""
+				"- &cDestruction Gadget&r: Sometimes, creation requires destruction. The &o&bDestruction Gadget&r allows you to clear massive areas with ease. Void a large section of land or structure, paving the way for your next grand design or clearing the clutter to make room for something new."
+				""
+				"With these &dGadgets&r in your arsenal, the world of Minecraft becomes your canvas, and every block you place, swap, copy, or destroy is a stroke in your masterpiece."
 			]
 			id: "651CAB91222323A8"
 			min_width: 300
@@ -456,6 +515,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "The Gadgets"
 			tasks: [{
 				id: "7636C47DE8720A2E"
 				item: {
@@ -493,17 +553,23 @@
 				title: "Building Gadgets"
 				type: "item"
 			}]
-			title: "The Gadgets"
+			title: "&dThe Gadgets of Creation&r"
 			x: -2.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"&6Hero's Medallion&r stores experience."
+				"The &6Hero's Medallion&r is an ancient artifact forged to store the essence of a hero’s experience. This mystical medallion holds the power to both absorb and release the energies of those who wear it."
 				""
-				"When turned &9on&r it &o&bdrains&r it from player."
+				"When activated, the &6Hero's Medallion&r &9drains&r experience from the player, locking it within the medallion’s depths, where it can be stored for later use. With a simple &cRight-Click&r, the wearer can then &o&brelease&r this stored experience, allowing them to reclaim a portion of their power."
 				""
-				"When turned &coff&r player can &o&btake&r one level out of it per &eRight-Click&r."
+				"&9Activation (On):"
+				"- The medallion absorbs experience points from the player, storing them within its core."
+				""
+				"&cDeactivation (Off):"
+				"- The player can extract one level of experience for every &eRight-Click&r, drawing from the accumulated power."
+				""
+				"&bOnly those truly worthy can command the Hero's Medallion's full potential, storing their hard-earned experience until the time is right to harness it again."
 			]
 			id: "37E4B6BC77880CEA"
 			min_width: 300
@@ -525,33 +591,29 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Hero's Medallion"
 			tasks: [{
 				id: "6A352A9C50CDB913"
 				item: "reliquary:hero_medallion"
 				type: "item"
 			}]
+			title: "&6Hero's Medallion&r"
 			x: -3.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&2FramedBlocks&r adds blocks of various shapes that can be made to look like almost any other block in the game."
+				"Master the art of deception with the power of &2Framed Blocks&r, a mod that allows you to craft blocks with the appearance of nearly anything you desire."
 				""
-				"Usage:"
-				"&eRight-Click&r the block with almost any solid block to make it look alike."
-				"&eRight-Click&rthe block with a fluid container to make it look like the fluid in the container."
-				"&eRight-Click&r the block with &6Glowstone Dust&r to make it produce light."
-				"&eRight-Click&r the block with a &cFramed Hammer&r to remove the camo."
-				"&eRight-Click&r the block with an empty fluid container to remove a fluid camo."
+				"Whether it’s for blending seamlessly into the environment or creating an elaborate illusion, these framed blocks are the key to your creative vision."
 				""
-				"The &cFramed Wrench&r (and any other item in the \"&o&bforge:tools/wrench&r\" tag) can be used to rotate the &2Framed Block&r. On most blocks, the &o&brotation&r behaviour is dependent on the face that was clicked."
+				"• Right-click with a solid block to mask the frame with the desired material.  "
+				"• Make it look like fluid by right-clicking with a fluid container.  "
+				"• Add a glow to your framed creation with &6Glowstone Dust&r.  "
+				"• Remove camouflages with the &cFramed Hammer&r or &cFramed Wrench&r.  "
+				"• Use the &9Framed Blueprint&r to copy and replicate your framed masterpieces."
 				""
-				"The &cFramed Screwdriver&r can be used to &o&bcycle&r through different states of the camo block."
-				""
-				"The &9Framed Blueprint&r allows &o&bcopying&r &2Framed Blocks&r including their camo and glowing state. The rotation of the &o&bFramed Block&r itself is not &o&bcopied&r."
-				""
-				"To see how it works, I'll suggest to watch FramedBlocks mod Tutorial by &aclicking&r the &o&blink&r below:"
-				"{\"text\":\"FramedBlocks: Tutorial/Guide\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=5HCs23N5FSc\"}}"
+				"Unveil the endless possibilities, and master the craft of disguise."
 			]
 			id: "0E9F90624AA0A0CB"
 			min_width: 400
@@ -573,6 +635,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Framed Blocks"
 			tasks: [
 				{
 					id: "2DD99F3F2CFF8A1C"
@@ -625,33 +688,38 @@
 					type: "item"
 				}
 			]
-			title: "Framed Blocks"
+			title: "&n&6⟡ The Art of Illusionary Construction ⟡&r"
 			x: -6.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"&6Tesseract&r allows you to transport &aItems&r, &9Fluid&r and &cEnergy&r. &6Tesseracts&r work at &o&bany distance&r and even &o&bacross dimensions&r! Use &nmultiple channels&r to have &o&bdifferent groups&r of &6Tesseracts&r!"
+				"The &6Tesseract&r is an ancient and powerful device that transcends the laws of space and time, allowing you to transport &aItems&r, &9Fluids&r, and &cEnergy&r across vast distances and even between dimensions. A true marvel of interdimensional engineering, this artifact is a must-have for those who seek to defy the limits of space."
+				""
+				"Through the Tesseract, you can tap into multiple &nchannels&r, organizing your cargo into distinct groups for greater control and precision. With &o&bdifferent channels&r, you can safely manage your resources, items, and energy without fear of confusion or overlap. The Tesseract operates seamlessly across any distance, even spanning the boundaries of the dimensional planes themselves."
+				""
+				"To unlock the true potential of the Tesseract, here’s how you can manage your channels:"
 				""
 				"&bAdding a channel:"
-				"1. &eRight-Click&r a &o&bTesseract&r to open its &o&bGUI&r"
-				"2. &eClick&r on the desired category &o&btab&r at the &o&btop&r of the &o&bGUI&r"
-				"3. &eClick&r the '&aCreate&r' button to open a new &o&bGUI&r"
-				"4. Select the text field and enter the &o&bchannel name&r"
-				"5. Set the &o&block&r button to the desired state, locked means &nprivate&r, unlocked means &npublic&r"
-				"6. Click the '&2CREATE&r' button to &o&bconfirm&r"
+				"1. &eRight-Click&r the &6Tesseract&r to unlock its hidden power and open its &o&bGUI&r."
+				"2. &eSelect&r the desired category tab at the top of the GUI, revealing your options."
+				"3. &eClick&r the '&aCreate&r' button to initiate the creation of a new channel."
+				"4. Enter a name for your new channel in the text field and define its identity."
+				"5. Choose whether the channel is &nlocked&r (private) or &n unlocked&r (public) to control access."
+				"6. Confirm the creation by clicking the '&2CREATE&r' button."
 				""
 				"&bRemoving a channel:"
-				"1. &eRight-Click&r a Tesseract to open its &o&bGUI&r"
-				"2. &eClick&r on the category &o&btab&r corresponding to the &o&bchannel&r at the &o&btop&r of the &o&bGUI&r"
-				"3. &eClick&r on the &o&bchannel&r in the list"
-				"4. &eClick&r the &4REMOVE&r button"
+				"1. &eRight-Click&r the Tesseract again to access its GUI."
+				"2. &eClick&r on the appropriate tab for the channel you wish to remove."
+				"3. Select the channel from the list and &eClick&r the &4REMOVE&r button to erase it."
 				""
-				"&bSetting the channel on a Tesseract:"
-				"1. &eRight-Click&r a &o&bTesseract&r to open its &o&bGUI&r"
-				"2. &eClick&r on the desired category &o&btab&r at the &o&btop&r of the &o&bGUI&r"
-				"3. &eClick&r on the desired &o&bchannel&r in the list"
-				"4. &eClick&r the &9SET&r button"
+				"&bSetting a channel on a Tesseract:"
+				"1. &eRight-Click&r the Tesseract to open its interface."
+				"2. &eSelect&r the desired category tab."
+				"3. Choose the channel you wish to use from the list and &eClick&r on it."
+				"4. Finally, click the &9SET&r button to lock the channel into place."
+				""
+				"The &6Tesseract&r is a tool for those who seek mastery over distance and dimension, enabling you to move resources, liquids, and energy with ease. With this device in your hands, no corner of the world—or the realms beyond—is beyond your reach."
 			]
 			id: "051C7913A7F74D10"
 			min_width: 400
@@ -673,19 +741,24 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Tesseract"
 			tasks: [{
 				id: "5A24A14FC1BC8888"
 				item: "tesseract:tesseract"
 				type: "item"
 			}]
+			title: "&6The Tesseract of Infinite Transport&r"
 			x: -4.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"&4Entangled&r gives you the materials needed to &o&bbind&r two blocks together, allowing you to &o&binteract&r with either one as if they were the same block!"
+				"The art of &4Entanglement&r is an ancient technique rediscovered in the modern age. With the &4Entangled&r tool, you can bind two blocks together, creating a seamless link between them."
 				""
-				"This will allow you to transfer &aitems&r, &cenergy&r, &9fluids&r or &dwhatever&r you want &ninstantly&r, you can have more than &o&bsix sides&r to work with or you could just hide your &o&bmessy cables&r, the possibilities are &nendless&r!"
+				"- When two blocks are &o&bbound&r, you can interact with either as though they were one. Whether it’s transferring &aitems&r, &cenergy&r, or &9fluids&r, the connection is instantaneous."
+				"- The possibilities are limitless—connect more than &o&bsix sides&r, hide your unsightly cables, or create elaborate systems that flow with efficiency."
+				""
+				"The true potential of &4Entangled Blocks&r lies in their versatility. With just a click, you can streamline your builds, design complex networks, and transform your world into a web of interconnected possibilities. What once seemed impossible is now at your fingertips, waiting to be explored."
 			]
 			id: "0F58C843F02F3B18"
 			min_width: 400
@@ -707,6 +780,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Entangled Block"
 			tasks: [
 				{
 					id: "355B7379AA1A5C63"
@@ -727,14 +801,19 @@
 					type: "item"
 				}
 			]
+			title: "&4Entangled Blocks&r"
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"&6Domum Ornamentum&r is a mod that provides &o&bskinnable&r blocks to be used in buildings. The core of this mod is a reskinning supporting model loader that gets the skin information passed from a &o&bnone ticking&r block entity."
+				"Step into the world of architectural artistry with &6Domum Ornamentum&r—a mod that brings beauty and customization to your buildings. This mod introduces &o&bskinnable&r blocks, allowing you to give your structures a unique, personalized appearance."
 				""
-				"Craft an &9Architects Cutter&r and place the materials in as requested. Then &o&bselect&r the &o&btype of skinned block&r in the middle, and &npick up the result&r on the &o&bright&r."
+				"At the heart of the mod lies a powerful reskinning system, utilizing a model loader that works seamlessly with non-ticking block entities, providing endless possibilities for your creative designs."
+				""
+				"To get started, craft the legendary &9Architect's Cutter&r. With it in hand, place the necessary materials into the cutter, and in the center, select your desired block skin. With a simple &o&bright-click&r, you can pick up your customized skinned block, ready to enhance your building projects with a touch of elegance."
+				""
+				"Let your imagination run wild as you transform ordinary blocks into stunning pieces of art that reflect your style and craftsmanship. From grand palaces to humble cottages, the power of design is now at your fingertips."
 			]
 			id: "15A848495A8D7881"
 			min_width: 370
@@ -756,20 +835,24 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Domum Ornamentum"
 			tasks: [{
 				id: "0A715D5A8196BF20"
 				item: "domum_ornamentum:architectscutter"
 				type: "item"
 			}]
-			title: "Domum Ornamentum"
+			title: "&6Domum Ornamentum&r"
 			x: -5.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&cEnergy Meter&r can be used for measuring &o&benergy transfer rates&r."
+				"In a world where power drives both creation and destruction, understanding the flow of energy is paramount. The &cEnergy Meter&r is a device of unparalleled importance, allowing you to measure the &o&benergy transfer rates&r between your machines, devices, and structures."
 				""
-				"The &o&bscreen&r always displaying the current rate in order to keep you &o&bup-to-date&r."
+				"• Equipped with a specialized &o&bscreen&r, the meter continuously displays the current rate of energy flow, ensuring that you are always in tune with the pulse of your systems.  "
+				"• Whether you're harnessing the power of the elements or channeling the forces of technology, keeping an eye on energy flow is critical to optimizing your devices and ensuring they perform at their best."
+				""
+				"With this tool, you will gain the insight necessary to control the lifeblood of your creations, transforming raw power into a well-oiled network of mechanical perfection."
 			]
 			id: "107B795AB854543B"
 			min_width: 300
@@ -791,21 +874,25 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Energy Meter"
 			tasks: [{
 				id: "6C7CE86AD1A90205"
 				item: "energymeter:meter"
 				type: "item"
 			}]
+			title: "&n&c⟡ The Pulse of Power: Mastering Energy Flow ⟡&r"
 			x: 0.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&6Chipped&r is a building mod that expands on the variety of blocks."
+				"In the world of building, few can match the craftsmanship required to truly reshape the environment. The &6Chipped&r mod introduces a staggering variety of building blocks, each one meticulously crafted to inspire both architects and adventurers alike."
 				""
-				"The mod offers overs &o&b10,000+&r unique building blocks, from stained glass variations, all the way to &o&bconcrete&r, &o&btuff&r, &o&bamethyst&r, &o&bprismarine&r, and even &o&bgilded blackstone&r!"
+				"• With over &o&b10,000+&r unique building materials at your disposal, including everything from vibrant stained glass to rich &o&bconcrete&r, textured &o&btuff&r, sparkling &o&bamethyst&r, and the ever-elusive &o&bprismarine&r, the possibilities for creating your own masterpiece are endless."
+				"• As you explore further, you will discover the intricate beauty of &o&bgilded blackstone&r, an otherworldly material that gleams with ancient power, perfect for crafting your most formidable structures."
+				"• Every texture within &6Chipped&r is hand-painted in the &o&bnew vanilla style&r, ensuring each block fits seamlessly into the world. The connected textures will allow your creations to come to life with fluid transitions, transforming your building experience into an art form."
 				""
-				"Not only are all the textures &o&bhand-painted&r in the new vanilla style, but they also &o&binclude&r a whole lot of &nconnected textures&r!"
+				"Embrace the endless possibilities of design with these stunning blocks, and become the master artisan of your world."
 			]
 			id: "53D9F1CDF5B9B0B1"
 			min_width: 300
@@ -827,6 +914,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Chipped"
 			tasks: [{
 				id: "25FE7C0D196B47B4"
 				item: {
@@ -868,25 +956,32 @@
 				title: "Chipped Workbenches"
 				type: "item"
 			}]
-			title: "Chipped"
+			title: "&n&6⟡ The Artisan's Palette: Expanding the Horizon of Construction ⟡&r"
 			x: -0.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&6Mega Torch:&r"
-				"• Prevents natural spawning of hostile monsters in a big radius (&o&b64&r blocks) around the torch."
-				"• Mega Torch also prevents the death of monsters inside its radius. Monsters outside the Mega Torch can still enter its area of effects."
+				"In ancient times, light was a shield, a ward against the beasts that lurked in the shadows. With the artifacts of the &6Torchmaster&r, you too can bend illumination to your will and command peace through radiance."
 				""
-				"&5Dread Lamp:&r"
-				"• Prevents natural spawning of passive animals like squids, bats or ocelots in a big radius around the lamp."
+				"&6Mega Torch:&r  "
+				"• Suppresses natural hostile mob spawns within a &o&b64-block&r radius.  "
+				"• Creatures that spawn outside this radius may still wander in, but none shall rise within.  "
+				"• Monsters already inside will not perish—they remain, neutralized but undisturbed."
 				""
-				"&eFeral Flare Lantern:&r"
-				"• Places invisible lights."
+				"&5Dread Lamp:&r  "
+				"• Quells the natural spawning of &apassive entities&r such as &bats&r, &asquids&r, and &6ocelots&r.  "
+				"• Useful for keeping areas pristine or preventing entity clutter in farms and structures."
 				""
-				"&dFrozen Pearl:&r"
-				"• Clears residual lights from a Feral Flame Lantern."
-				"• Formerly terrain lighter block."
+				"&eFeral Flare Lantern:&r  "
+				"• Automatically emits &oinvisible light sources&r in its vicinity, brightening the darkest corners without the clutter of torches.  "
+				"• Ideal for safe, seamless lighting of large bases or builds."
+				""
+				"&dFrozen Pearl:&r  "
+				"• Removes the invisible lights placed by a Feral Flare Lantern.  "
+				"• Perfect for cleaning up after redecoration or precision adjustments."
+				""
+				"Master these flames, and no shadow shall threaten you again."
 			]
 			id: "5F287F3D69BDFA29"
 			min_width: 420
@@ -938,15 +1033,22 @@
 				title: "Torchmaster"
 				type: "item"
 			}]
-			title: "Torchmaster"
+			title: "&n&6⟡ Flames of Control: Banish the Darkness, Shape the Light ⟡&r"
 			x: -6.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"With a &dConstruction Wand&r you can place multiple blocks (up to &o&b1,024&r) at once, extending your build on the side you're facing."
+				"With the &dConstruction Wand&r in hand, mere mortals become master builders. Place up to &o&b1,024&r blocks at once, extending your vision outward with a single gesture—no scaffolding, no parkour, just pure architectural finesse."
 				""
-				"If that's not enough: you can &aupgrade&r your wand with additional cores, allowing you to place a block behind the block you are facing, conjure blocks in mid air or destroy lots of blocks &nvery fast&r."
+				"But power doesn't end there."
+				""
+				"• &aUpgrade&r your wand with magical &ocores&r to:"
+				"  - Place blocks &nbehind&r the one you're facing."
+				"  - Conjure blocks &oin mid-air&r."
+				"  - &cErase&r structures with &ndevastating&r speed."
+				""
+				"When the land must be tamed, or the skies claimed—this wand is your will made manifest."
 			]
 			id: "40FBC1433AE31E05"
 			min_width: 300
@@ -969,6 +1071,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Construction Wands"
 			tasks: [{
 				id: "423A4D32096994D3"
 				item: {
@@ -1013,17 +1116,19 @@
 				title: "Construction Wands"
 				type: "item"
 			}]
-			title: "Construction Wands"
+			title: "&n&6⚒️ Architect's Reach: The Wand of Infinite Scaffold ⚒️&r"
 			x: 3.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"The &eTape Measure&r canbe used to measure the &o&bdistance&r between positions."
+				"In a world of endless possibilities, precision is key. The &eTape Measure&r is your trusted companion for measuring distances with unmatched accuracy, making it an essential tool for any builder or adventurer."
 				""
-				"• After obtaining the &o&bTape Measure&r you can start measuring by &eRight-Clicking&r on a block once."
-				"• Then moving to the second position and &eRight-Clicking&r the block on that position."
-				"• If you want to&n get rid&r of the measurements you &eShift+Right-Click&r the ground."
+				"- &eRight-Click&r a block to begin your measurement journey. The &eTape Measure&r will record the position, setting the starting point for your task."
+				"- Move to the second position and &eRight-Click&r again to mark the end point. Instantly, the &eTape Measure&r will reveal the exact &o&bdistance&r between the two locations."
+				"- If you ever need to clear the measurements, simply &eShift+Right-Click&r the ground to reset the tool and start anew."
+				""
+				"With the &eTape Measure&r in hand, every inch of your world becomes quantifiable. Whether you're building grand structures or plotting precise pathways, this tool ensures every block is placed with perfect intent."
 			]
 			id: "0B3C5B623A76C60A"
 			min_width: 425
@@ -1046,6 +1151,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Tape Measure"
 			tasks: [{
 				id: "3C94436DBE4F1C62"
 				item: {
@@ -1055,18 +1161,21 @@
 				}
 				type: "item"
 			}]
+			title: "&eThe Tape Measure&r"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"&dTime in a Bottle&r allows you to &o&baccelerate&r the rate at which blocks tick."
+				"The &dTime in a Bottle&r is a powerful artifact that allows the wielder to manipulate the passage of time itself. By harnessing the flow of moments, the user can accelerate the natural rhythm of the world around them."
 				""
-				"It passively collects time while in your &einventory&r which you can consume by &eRight-Clicking&r a block with it."
+				"The &dChronomancer's Elixir&r passively collects the essence of time while tucked away in your &einventory&r. With each passing moment, this bottle absorbs the fleeting seconds, ready to be released at your will."
 				""
-				"The first click requires &o&b30&r Seconds, the second &o&b60&r, the third &o&b120&r the fourth &o&b240&r and the fifth &o&b480&r."
+				"To unleash its power, &eRight-Click&r a block with the bottle, consuming its stored time. The first use will require &o&b30 seconds&r of your collected time. Each successive use requires more energy: &o&b60 seconds&r, &o&b120 seconds&r, &o&b240 seconds&r, and &o&b480 seconds&r."
 				""
-				"The &o&bspeed&r at which the block &nticks doubles&r with each click. The effect lasts &o&b30&r seconds."
+				"With each activation, the &o&bspeed&r at which the block's actions are performed doubles, amplifying the effect exponentially. This time-altering effect lasts for &o&b30 seconds&r, bending the very fabric of reality for a brief moment."
+				""
+				"Use this power wisely, as the more you manipulate time, the more precious seconds it demands."
 			]
 			id: "4AAD9C4F80232D7A"
 			min_width: 300
@@ -1089,6 +1198,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Time in a Bottle"
 			tasks: [{
 				id: "7273CFB845C45B6C"
 				item: {
@@ -1098,18 +1208,19 @@
 				}
 				type: "item"
 			}]
+			title: "&dChronomancer's Elixir&r:"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&2Player Plates&r mod adds an &o&bobsidian&r pressure plate and a &o&bmossy cobblestone&r pressure plate."
+				"Venture deeper into the mechanics of defensive design with the &2Player Plates&r mod, where ancient engineering meets magical protection. Two unique pressure plates await your mastery, each imbued with purpose, capable of securing the path ahead—or ensnaring those who dare cross it."
 				""
-				"The &5Obsidian&r plate can only be &o&btriggered by players&r and is able to &nwithstand&r &cTNT&r."
+				"• The &5Obsidian&r Plate, forged from the toughest of materials, can only be triggered by players, making it the perfect choice for fortresses and traps. The plate's indestructibility in the face of &cTNT&r makes it an unyielding guardian, ensuring your defenses stand firm against even the mightiest forces."
+				"• The &aMossy Cobblestone&r Plate, naturally attuned to the rhythm of the world, responds only to the touch of items and mobs, allowing you to craft cunning traps and automated defenses. The sound of footsteps and the rustle of items will be your warning—this plate will spring to life when least expected."
+				"• Both plates, when crafted with a piece of &o&bGlass Pane&r, can become invisible, blending into their surroundings and fooling even the most cautious adventurer. Hide your traps in plain sight, and watch as those who walk unsuspectingly fall into your grasp."
 				""
-				"The &aMossy Cobblestone&r plate can only be &o&btriggered by items \\& mobs&r."
-				""
-				"Both plates can also be crafted &o&binvisible&r with a single piece of &o&bglass pain&r."
+				"Master these pressure plates, and you will be prepared for any threat that dares approach."
 			]
 			id: "0C1316FEAFE5598F"
 			min_width: 380
@@ -1132,6 +1243,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Player Plates"
 			tasks: [{
 				id: "5C00D2E73800438F"
 				item: {
@@ -1161,27 +1273,34 @@
 				title: "Player Plates"
 				type: "item"
 			}]
-			title: "Player Plates"
+			title: "&n&6⟡ The Sentinel's Trigger: Harnessing the Pressure Plates ⟡&r"
 			x: -1.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&6Wireless Chargers&r can charge nearby blocks and players!"
+				"&6Wireless Chargers&r"
+				"Unlock the power of wireless energy with &6Wireless Chargers&r—devices designed t"
+				"&6Wireless Chargers&r"
+				"Unlock the power of wireless energy with &6Wireless Chargers&r—devices designed to seamlessly deliver &cFE&r energy to blocks and players alike, without the need for traditional cables or connections. "
 				""
 				"&cBasic Wireless Block Charger&r:"
-				"- Charges blocks in a &o&b5x5x5&r area"
-				"- Charges at &o&b50&r &cFE&r/t per block"
+				"- Projects an energy field that charges blocks within a &o&b5x5x5&r area."
+				"- Delivers energy at a rate of &o&b50&r &cFE&r/t per block, perfect for smaller setups and efficient energy distribution."
+				""
 				"&cAdvanced Wireless Block Charger&r:"
-				"- Charges blocks in a &o&b7x7x7&r area"
-				"- Charges at &o&b200&r &cFE&r/t per block"
+				"- Expands its reach to charge blocks within a &o&b7x7x7&r area."
+				"- Charges at an enhanced rate of &o&b200&r &cFE&r/t per block, providing even more power for larger systems and networks."
 				""
 				"&aBasic Wireless Player Charger&r:"
-				"- Charges players' items in a &o&b9x9x9&r area"
-				"- Charges at &o&b50&r &cFE&r/t per player"
+				"- Energizes players’ items within a &o&b9x9x9&r radius."
+				"- Provides a steady charge of &o&b50&r &cFE&r/t per player, ensuring your adventurers stay powered up during long expeditions."
+				""
 				"&aAdvanced Wireless Player Charger&r:"
-				"- Charges players' items in a &o&b13x13x13&r area"
-				"- Charges at &o&b200&r &cFE&r/t per player"
+				"- Extends its charge radius to a vast &o&b13x13x13&r area."
+				"- Supplies an impressive &o&b200&r &cFE&r/t per player, keeping your most valued explorers fully charged for their most dangerous journeys."
+				""
+				"With the &6Wireless Chargers&r, say goodbye to cumbersome cables and enjoy the freedom of limitless energy, wherever and whenever you need it. Whether you're powering up a complex base or keeping your gear charged during your travels, these advanced devices have you covered."
 			]
 			id: "0D51D5B4D96E04C2"
 			min_width: 300
@@ -1204,6 +1323,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Wireless Chargeers"
 			tasks: [{
 				id: "053B45E80FC7EF1D"
 				item: {
@@ -1233,32 +1353,30 @@
 				title: "Wireless Chargers"
 				type: "item"
 			}]
+			title: "&6Wireless Chargers&r"
 			x: -4.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"&6Pipez&r mod adds &o&bsimple&r and &o&bhighly configurable&r pipes that are designed to create"
-				"&nas little lag as possible&r."
+				"&6Pipez&r is the backbone of automated logistics in this world—its sleek, efficient design whispers of arcane machinery from long-lost civilizations. Whether channeling energy or siphoning fluids from distant alchemical crucibles, mastery over this modular network is key to industrial progress."
 				""
-				"Pipe Types:"
-				"• &eItem&r Pipes"
-				"• &9Fluid&r Pipes"
-				"• &cEnergy&r Pipes"
-				"• &3Gas&r Pipes (Mekanism)"
-				"• &0Universal&r Pipes (All &o&b4&r Pipes in one!)"
+				"&7Pipez&r adds &o&bmodular, configurable pipes&r designed to be &nlag-efficient&r. It includes:"
+				"• &eItem Pipes&r  "
+				"• &9Fluid Pipes&r  "
+				"• &cEnergy Pipes&r  "
+				"• &3Gas Pipes&r (for use with Mekanism)  "
+				"• &0Universal Pipes&r – combining all four into one!"
 				""
-				"Pipes &o&bdon't transfer anything&r if they are not set to &nextract&r."
-				"You can &eSneak-click&r onto the end of a connected pipe with a &2Wrench&r to set it to &o&bextract&r."
+				"&8Important Notes:&r  "
+				"- Pipes will &cNOT&r transfer unless the connection is set to &o&nExtract&r using a &2Wrench&r.  "
+				"- &eSneak-click&r on a connection to toggle extract mode.  "
+				"- Click the extracting node to add &3filters&r or apply &aupgrades&r.  "
+				"- &cDisconnect&r/&9Reconnect&r pipes by &eSneak-clicking&r with a &2Wrench&r.  "
+				"- Default transfer speed is slow—&nupgrades are essential&r for scaling throughput.  "
+				"- &3Filters&r allow precise control for item, fluid, and gas transport. You can click an item into the filter GUI or enter its ID manually."
 				""
-				"Click the &nextracting&r part of the pipe to &o&bchange modes&r, add &3filters&r or add &aupgrades&r."
-				""
-				"Pipes can be &cdisconnected&r/&9reconnected&r by &eSneak-clicking&r with a &2Wrench&r."
-				""
-				"By default pipes are &o&brelatively slow&r. The speed can &nonly&r be increased by &o&badding an upgrade&r."
-				"Higher tiers of upgrades mean a higher transfer rate."
-				""
-				"&3Filters&r can be used with &aitem&r pipes, &9fluid&r pipes and &7gas&r pipes. To add a specific item, just &eClick&r it on the slot in the filter &o&bGUI&r. Alternatively you can type the item &o&bID&r in the text field next to it."
+				"☑️ Whether powering a factory or redistributing the lifeblood of machines, make Pipez your conduit to progress."
 			]
 			id: "45CAAF65D2553921"
 			min_width: 420
@@ -1359,27 +1477,31 @@
 					type: "item"
 				}
 			]
-			title: "Pipez"
+			title: "&n&6⟡ The Arteries of Industry: Mastering Pipez ⟡&r"
 			x: -8.5d
 			y: -5.5d
 		}
 		{
 			description: [
-				"With &eChalk&r you can mark your way through the vast world of Minecraft!"
+				"With a piece of &eChalk&r in hand, chart your journey across the world, one symbol at a time."
 				""
-				"- To make a chalk you'll need a piece of &2Calcite&r and &5Dye&r, any color will do."
-				"- &eChalks&r can also be found in underground chests, as well as in some villages."
-				"- Mark will point at a direction depending on which part of a block was clicked. &eSneak+Right-Click&r will draw an &o&bX&r-mark."
-				"- You'll need a good flat surface to draw a mark on. Any full side of a block will suffice."
-				"- If you made a mistake - just draw a new mark on top of it, no need to brake it first."
+				"• Crafted from &2Calcite&r and any &5Dye&r."
+				"• Also found in &ounderground chests&r and &ovilager houses&r."
+				"• &eRight-Click&r to mark a direction based on where you clicked."
+				"• &eSneak + Right-Click&r draws an &o&bX&r to mark danger or discovery."
+				"• Works best on flat, full-faced blocks."
+				"• Made a mistake? Just draw over it—no need to erase first."
 				""
-				"Store your chalks in a &6Chalk Box&r:"
-				"- Open Chalk Box by &eclicking&r while &o&bnot looking&r at a block."
-				"- Quick-change selected chalk in Chalk Box by &eShift+Clicking&r while &o&bnot looking&r at a block."
+				"&r🔐 &6Chalk Box Utility:"
+				"• Open the &6Chalk Box&r by &eRight-Clicking&r while not looking at a block."
+				"• &eShift+Click&r with it to cycle through chalk colors instantly."
 				""
-				"To make a mark glow - use &eGlowstone Dust&r or &3Glowing Ink Sac&r on it. It will even slightly light up surrounding area."
+				"&r💡 &eGlowing Marks:"
+				"• Use &eGlowstone Dust&r or &3Glowing Ink Sac&r on a mark to make it shine."
+				"• Hold a glowing item in your &ooffhand&r to automatically draw glowing marks."
+				"• Glowing marks emit a subtle light to guide your way in darkness."
 				""
-				"If &eGlowstone&r of &3Glowing Ink&r is held in offhand - marks will be drawn glowing."
+				"Etch the world with memory—your own trail of symbols to guide, warn, or inspire."
 			]
 			id: "47BE62B971950462"
 			min_width: 400
@@ -1402,6 +1524,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Chalk"
 			tasks: [
 				{
 					id: "1F246E59689271CC"
@@ -1464,15 +1587,23 @@
 					type: "item"
 				}
 			]
-			title: "Chalk"
+			title: "&n&f✏️ Wayfarer's Glyph: The Art of Chalk &r"
 			x: 4.0d
 			y: -5.5d
 		}
 		{
 			description: [
-				"&2Hang Glider&r adds a hang glider (surprise!) to soar through the skies! Just jump off a cliff and let your glider do the rest."
+				"The skies whisper to those bold enough to leap..."
 				""
-				"Features very fluid and natural flight controls and nice models. And when you wanna go even quicker reinforce your glider!"
+				"&6The Hang Glider&r allows for controlled, graceful descent and gliding over vast distances."
+				""
+				"• Equip it in your chestplate slot or offhand."
+				"• &o&bJump from a high place&r, then &eHold Jump&r (or Sneak, depending on your settings) to open the glider."
+				"• Use it to descend cliffs, cross ravines, or glide from mountain peaks like a drifting leaf."
+				""
+				"🛠️ &oCraftable early in progression&r—perfect for explorers and nomads alike."
+				""
+				"&7Master the winds, and the world will open its arms to you."
 			]
 			id: "54D2A2D1914FA719"
 			min_width: 300
@@ -1495,6 +1626,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Hang Glider"
 			tasks: [{
 				id: "1A40B011E9A9D1DA"
 				item: {
@@ -1506,14 +1638,25 @@
 				}
 				type: "item"
 			}]
+			title: "&n&f🪂 Wings of the Wind: Hang Glider &r"
 			x: 3.5d
 			y: -4.5d
 		}
 		{
 			description: [
-				"This mod adds &6Trash Cans&r which can be used to &o&bvoid&r &eitems&r, &9fluids&r and &cenergy&r!"
+				"Not all burdens must be carried. Some, like cursed relics or endless buckets of sludge, are better consigned to the void."
 				""
-				"&eItems&r and &9Fluids&r can be &bwhitelisted&r or &0blacklisted&r and an &cenergy&r &ntransfer limit&r can be set!"
+				"The &6Trash Cans&r offer a clean and efficient way to dispose of your excess—be it physical, liquid, or raw power. These arcane bins are engineered with selective destruction in mind."
+				""
+				"• &eItem Trash Can&r — Void unwanted items.  "
+				"• &9Fluid Trash Can&r — Dispose of unwanted liquids.  "
+				"• &cEnergy Trash Can&r — Drain excess FE/Energy with optional throughput control."
+				""
+				"&7Features:&r  "
+				"• Use &bWhitelists&r or &0Blacklists&r to define exactly what should be removed.  "
+				"• For the energy trash can, set a &ntransfer limit&r to prevent accidental power starvation."
+				""
+				"Perfect for automation setups, resource filtering, or just cleaning house without tossing everything into lava. Feed the void responsibly."
 			]
 			id: "0149044F5F2C46CA"
 			min_width: 300
@@ -1536,6 +1679,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Trash Can"
 			tasks: [{
 				id: "35FD50BE4ADA819E"
 				item: {
@@ -1565,12 +1709,21 @@
 				title: "Trash Cans"
 				type: "item"
 			}]
-			title: "The Trash Cans"
+			title: "&n&8⟡ Echoes of Oblivion: The Void Hungers ⟡&r"
 			x: -8.0d
 			y: -4.5d
 		}
 		{
-			description: ["A &dTotem&r that prevents you from dying in the &o&bvoid&r."]
+			description: [
+				"In the darkest depths, where the void swallows all, a single relic offers hope: the &dVoid Totem&r."
+				""
+				"This mystical totem stands as the final shield, protecting its bearer from the cruel fate of falling into the abyss."
+				""
+				"• When held, it prevents death in the &o&bvoid&r, ensuring the abyss cannot claim your life.  "
+				"• Its power only activates when the peril is greatest."
+				""
+				"A symbol of resilience, the Void Totem is the only guard between you and endless darkness."
+			]
 			id: "0123AFDEB63F380F"
 			min_width: 250
 			rewards: [
@@ -1592,23 +1745,32 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Void Totem"
 			tasks: [{
 				id: "53C43C972A9EDFE2"
 				item: "voidtotem:totem_of_void_undying"
 				type: "item"
 			}]
-			title: "Void Totem"
+			title: "&n&6⟡ The Last Defense Against the Abyss ⟡&r"
 			x: -7.5d
 			y: -3.5d
 		}
 		{
 			description: [
-				"- &cRED HEARTS&r - Drop From Enemy Mobs"
-				"- &eYELLOW HEARTS&r - Drop From Boss Mobs (I.E. Wither)"
-				"- &aGREEN HEARTS&r - Drop from the Enderdragon"
-				"- &9BLUE HEARTS&r - Drop from Envoker inside Woodland Mansion"
+				"&cRed Heart of the Fallen&r:"
+				"Dropped from the remnants of defeated enemies, the &cRed Hearts&r carry the essence of vanquished foes. Consuming one of these will grant the bearer a surge of life force, a testament to the battles fought and won."
 				""
-				"- &6HEART AMULET&r - Holds all Heart Canister's in One Bauble Slot "
+				"&eGolden Heart of the Warlord&r:"
+				"&6Boss mobs&r, such as the &9Wither&r, drop the &eYellow Hearts&r. These hearts pulse with power drawn from the mightiest of adversaries. Only those brave enough to challenge such powerful foes can claim the strength within."
+				""
+				"&aEmerald Heart of the Dragonlord&r:"
+				"The &aGreen Hearts&r are forged from the essence of the mighty Enderdragon. These rare and precious hearts are imbued with the ancient power of the dragon, granting the user unparalleled resilience against the harshest of blows."
+				""
+				"&9Azure Heart of the Trickster&r:"
+				"The &9Blue Hearts&r are dropped by the sinister Evokers within the Woodland Mansions. Shrouded in mystery and magic, these hearts are said to contain the elusive power of the dark wizards, providing the wearer with cunning vitality."
+				""
+				"&6Heart Amulet of the Ancients&r:"
+				"The &6Heart Amulet&r is a sacred artifact that can hold multiple heart canisters. Wearing this amulet will allow the adventurer to carry the powers of many hearts in a single bauble, ensuring their survival in even the most perilous of quests."
 			]
 			id: "678584A9D9CFFD89"
 			min_width: 300
@@ -1631,22 +1793,25 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Baubley Hearts"
 			tasks: [{
 				id: "1F41C7246CD5B74E"
 				item: "bhc:heart_amulet"
 				type: "item"
 			}]
-			title: "Baubley Heart Canisters"
+			title: "&6Heart of the Ancients&r:"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&6Cardboard Box&r is used for &o&bboxing up&r other blocks to move them, preserving the inventory while being &o&bmoved&r."
+				"In a world of magic and machinery, the &6Cardboard Box&r serves as a wondrous tool for safe transport and relocation. Whether you're a tinkerer, a builder, or an adventurer, this humble yet powerful artifact allows you to &o&bbox up&r your most valuable items, blocks, and machines with ease and care."
 				""
-				"By &eRight-Clicking&r it on any &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r, you &nwrap&r it in this protective box that you can break while still preserving everything about that &o&bblock&r, &o&btank&r, &o&bchest&r or &o&bmachine&r. This includes its &o&binventory&r, &o&borientation&r, &o&binstalled upgrades&r, and &o&bmore&r. You can later place it safely into the world. &eSneak+Right-Click&r to &nunwrap&r a box, causing the &6Cardboard Box&r to drop as an item."
+				"By &eRight-Clicking&r the &6Cardboard Box&r on any &o&bblock&r, &o&btank&r, &o&bchest&r, or &o&bmachine&r, you can &nwrap&r it in a protective shell, ensuring that it will be preserved in its current form—inventory, upgrades, and orientation all intact. This magical box doesn’t just carry the object; it holds its essence."
 				""
-				"With &6Cardboard Boxes&r you can pick up &nspawners&r too."
+				"The best part? The box remains safe for transport! Break it open later, and you can &nunwrap&r your treasures with a simple &eSneak+Right-Click&r, and the box will return to you as an item, ready for another round of storage."
+				""
+				"And for those who seek to transport the most dangerous of entities, the &6Cardboard Box&r can even encapsulate &nspawners&r, allowing you to move them across realms without fear. Let the journey begin with the &6Arcane Box of Relocation&r—because in a world of endless possibilities, nothing is too heavy to move!"
 			]
 			id: "2B8941B6C4028EEB"
 			min_width: 400
@@ -1669,31 +1834,31 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Cardboard Box"
 			tasks: [{
 				id: "2EEB924A04825462"
 				item: "mekanism:cardboard_box"
 				type: "item"
 			}]
+			title: "&6The Arcane Box of Relocation&r"
 			x: -5.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"Welcome to the future of &o&bvanilla-friendly&r ships!"
+				"Set sail into the boundless ocean and explore the vast seas with &2Nifty Ships&r, a masterpiece of &o&bvanilla-friendly&r shipbuilding! Immerse yourself in the era of grand exploration and naval combat as you craft your vessel and traverse the waters."
 				""
-				"&2Nifty Ships&r brings beautiful, detailed ships with loads of features to Minecraft."
+				"&9Unfinished Ships&r can be found scattered across the beaches and rivers, awaiting your skilled hands to finish them. Learn the secrets of their construction and bring them to life!"
 				""
-				"Find &nunfinished&r rowboats and ships on &o&ebeaches&r and &o&9rivers&r, and learn how to complete them!"
+				"Build your &2ship&r, load it with &9treasures&r, animals, or even cannons, and experience a &o&brealistic sailing simulation&r, where the wind, currents, and your skill will determine your journey."
 				""
-				"Build your ship, fill it with cargo, creatures, or cannons, and sail it across the seas with a &o&brealistic sailing&r simulation!"
+				"Personalize your ship by painting its hull, dyeing the sails in vibrant colors, and hoisting your banner high atop the mast to mark your flag. For those who wish to conquer the coldest seas, upgrade your vessel into an &dIcebreaker&r by adding &o&3iron&r to the design."
 				""
-				"Make it your own by painting the hull, dyeing the sails, naming your ship, and flying a banner from the mast. Upgrade it into an &dIcebreaker&r by adding an &o&3iron block&r!"
+				"Engage in thrilling &cNaval Battles&r, where your cannons roar to life on both sea and land. Defeat your foes, or join forces with friends, and claim your place as a legendary captain of the waves."
 				""
-				"Defeat your enemies (or friends) in epic &cNaval Battles&r, with cannons that work on sea or land!"
+				"When it’s time to return to port, lower your anchor or tie up at the dock, knowing that your ship is ready to sail again when the tides call."
 				""
-				"When it's time to return to port, you can lower the anchor or tie up at the dock."
-				""
-				"Place any container in the hold or on deck, from shulker boxes, to furnaces, to crafting tables, and more!"
+				"Store all your treasures in the hold, from &bshulker boxes&r to furnaces and crafting tables, making your ship not just a vessel of war, but a mobile base of operations for your adventures."
 			]
 			icon: "alekiships:anchor"
 			id: "32118A870FC40812"
@@ -1717,6 +1882,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Nifty Ships"
 			tasks: [{
 				id: "368E53BE94A5B321"
 				item: {
@@ -1738,25 +1904,23 @@
 				title: "Shipwright's Acaffolding"
 				type: "item"
 			}]
-			title: "Nifty Ships"
+			title: "&2Nifty Ships&r: The Art of Seafaring"
 			x: -0.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&2Immersive Aircraft&r adds bunch of rustic aircraft to &o&btravel&r, &o&btransport&r, and &o&bexplore&r!"
+				"&9The Skyward Biplane&r:"
+				"Let us begin with the &nclassic biplane&r. Fast, one seat, &o&bmedium&r difficulty. A marvel of early aviation, it soars the skies with grace and precision."
 				""
-				"&9Biplane&r:"
-				"Let's start with the &nclassic biplane&r. Fast, one seat, &o&bmedium&r difficulty."
+				"&aThe Airship of the Skies&r:"
+				"Slower, but with two seats. Quite &neasy to maneuver&r, with &o&bacceptable speed&r thanks to the engine in the back. A reliable vessel for those who wish to explore the skies at a more leisurely pace."
 				""
-				"&aAirship&r:"
-				"Slower, but with two seats. Quite &neasy to maneuver&r, with &o&bacceptable speed&r thanks to the engine in the back."
+				"&cThe Gyrodyne of the Ancients&r:"
+				"Human-powered &nprimitive dual seater&r. Trusty, yet neither &o&bthe fastest&r nor &o&bthe easiest&r to fly. Needs a &o&bgood initial push&r to get the rotor spinning. An invention of old, pushing the limits of flight without the aid of modern technology."
 				""
-				"&cGyrodyne&r:"
-				"Human-powered &nprimitive dual seater&r. Trusty, yet neither &o&bthe fastest&r nor &o&bthe easiest&r to fly. Needs a &o&bgood initial push&r to get the rotor spinning."
-				""
-				"&eQuadrocopter&r:"
-				"A &nmasterwork&r of engineering! Four propellers strapped on a bunch of bamboos. It's &o&bquite handy&r for building."
+				"&eThe Quadrocopter of the Future&r:"
+				"A &nmasterwork&r of engineering! Four propellers strapped on a bunch of bamboos. It's &o&bquite handy&r for building. A marvel of modern ingenuity, the quadrocopter allows for precise movement and construction in the air."
 			]
 			id: "123FDD18324109B5"
 			min_width: 500
@@ -1779,6 +1943,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Immersive Aircraft"
 			tasks: [{
 				id: "2AC8E5F69B0C472C"
 				item: {
@@ -1812,11 +1977,26 @@
 				title: "Immersive Aircraft"
 				type: "item"
 			}]
+			title: "&2Immersive Aircraft&r"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
-			description: ["This mod adds &9Waystone&r blocks that the player &o&bcan return&r to once they've been &o&bactivated&r, either through a &2Warp Scroll&r, a rechargeable &dWarp Stone&r, or by using an existing &9Waystone&r to hop from one to the other."]
+			description: [
+				"Scattered across the world lie ancient stones humming with dormant power…"
+				""
+				"&9Waystones&r are mystical teleportation anchors. Once &o&bactivated&r, they allow you to return to their location using:"
+				""
+				"• A single-use &2Warp Scroll&r  "
+				"• A rechargeable &dWarp Stone&r  "
+				"• Or by traveling from one &9Waystone&r to another"
+				""
+				"🪨 Simply &eRight-Click&r a Waystone to bind to it. Once bound, you can teleport from anywhere—provided you have the means."
+				""
+				"🧭 Ideal for fast travel between distant lands, or for marking important places."
+				""
+				"&7Reclaim the forgotten art of instant travel and build your own network of magical gateways."
+			]
 			id: "4A5F52236301E05B"
 			min_width: 310
 			rewards: [
@@ -1838,6 +2018,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Waystones"
 			tasks: [
 				{
 					id: "470F72ED6F02790F"
@@ -1885,10 +2066,24 @@
 					type: "item"
 				}
 			]
+			title: "&n&f🌀 Pillars of Passage: Waystones &r"
 			x: 2.0d
 			y: -3.5d
 		}
 		{
+			description: [
+				"The art of construction is more than stone and timber—it is style, refinement, and expression."
+				""
+				"&6Builders Crafts and Additions&r introduces a massive library of decorative and functional blocks tailored for the true artisan:"
+				""
+				"• Elegant &o&bFurniture&r: Tables, chairs, benches, drawers, and more—perfect for decorating your abode."
+				"• Stylish &o&bStorage Solutions&r: Functional shelving and cabinetry that blend seamlessly into your designs."
+				"• Multiple &o&bWood Variants&r: Every wood type has matching furniture sets."
+				"• Decorative &o&bStonework&r: From polished tiles to detailed stone blocks, elevate your builds."
+				"• A variety of &o&bKitchen and Home Decor&r to transform any build into a lived-in masterpiece."
+				""
+				"&r🎨 Combine with other mods to express your unique style—your builds deserve to be more than just functional."
+			]
 			id: "5EE2B9ADDC851F35"
 			rewards: [
 				{
@@ -1909,6 +2104,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Bulders Crafts"
 			tasks: [
 				{
 					id: "63ED779A4A28A5FB"
@@ -2062,12 +2258,12 @@
 					type: "item"
 				}
 			]
-			title: "Builders Crafts \\& Additions"
+			title: "&n&f🔨 Craftsman's Sanctuary: Builders Crafts & Additions &r"
 			x: 2.5d
 			y: -4.5d
 		}
 		{
-			description: ["&aNo More Trampling&r prevents any &nmob&r/&nplayer&r from being able to &o&btrample&r and &o&bdestroy farmland&r."]
+			description: ["The &ncurse of Trampling&r has been broken. No longer will the &nmob&r or &nplayer&r be able to &o&btrample&r and &o&bdestroy farmland&r. With this enchanted ward, the soil remains undisturbed, ensuring that the crops grow in peace and prosperity."]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -2096,16 +2292,38 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "No More Trampling"
 			tasks: [{
 				id: "4A5E8D54857F7FE8"
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			title: "No More Trampling"
+			title: "&aThe Protector's Ward&r:"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
+			description: [
+				"The mystics of old crafted charms to ward, protect, and empower—compact relics of great utility."
+				""
+				"&dDark Utilities&r offers a collection of &o&bUseful Charms&r, each providing a passive effect while in your inventory or charm slot:"
+				""
+				"&b• Portal Charm&r  "
+				"Delays your teleportation to the Nether or End by a few seconds—&o&bpress Shift to cancel&r.  "
+				"Perfect for gathering your thoughts—or escaping last-second danger."
+				""
+				"&5• Sleep Charm&r  "
+				"Gently guides you into sleep the moment you enter a bed. No waiting, no tossing or turning.  "
+				"A traveler’s best friend in the wilds."
+				""
+				"&c• Warding Charm&r  "
+				"Repels hostile entities within a small radius, keeping you safe from unwanted company.  "
+				"Ideal for peace while mining, building, or resting."
+				""
+				"🌟 Simply having these in your inventory activates their power—no need to equip or activate."
+				""
+				"&7Small charms, subtle effects… powerful results."
+			]
 			id: "178483AFD83A320C"
 			rewards: [
 				{
@@ -2126,6 +2344,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Useful Charms'"
 			tasks: [
 				{
 					id: "2AE8941594705A65"
@@ -2143,7 +2362,7 @@
 					type: "item"
 				}
 			]
-			title: "Useful Charms"
+			title: "&n&5🔮 Enchanted Trinkets: Charms of Utility &r"
 			x: 3.0d
 			y: -3.5d
 		}
@@ -2174,6 +2393,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Mob Grinding Utils"
 			tasks: [
 				{
 					id: "561423006AF575BA"
@@ -2191,15 +2411,19 @@
 					type: "item"
 				}
 			]
-			title: "Mob Grinding Utils"
+			title: "&n&6⟡ The Grinder's Call: Harnessing the Chaos ⟡&r"
 			x: -2.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"The &6Easy Mob Farm&r is a server &o&bfriendly way&r to capture different kind of animals and mobs to gather their loot."
+				"Harness the power of nature and the creatures within it with the &6Easy Mob Farm&r. This mod introduces a server-friendly way to capture and farm various mobs, turning your foes into a valuable source of loot."
 				""
-				"This mod provides &o&bserval catching items&r and &o&bmob farms&r to make it more entertaining."
+				"• Use special &o&bmob-catching items&r to capture animals and monsters alike.  "
+				"• Build &o&bmob farms&r to harvest drops efficiently and sustainably.  "
+				"• Enjoy a fun and engaging experience with minimal lag, designed to keep your server running smoothly."
+				""
+				"Begin your journey as a master of mob farming, turning danger into opportunity."
 			]
 			id: "257136366CBFAFAC"
 			min_width: 300
@@ -2222,6 +2446,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Easy Mob Farms"
 			tasks: [{
 				id: "61920E08E9617436"
 				item: {
@@ -2275,16 +2500,22 @@
 				title: "Mob Farms"
 				type: "item"
 			}]
-			title: "Easy Mob Farms"
+			title: "&n&6⟡ The Hunter's Harvest: Mastering Mob Farming ⟡&r"
 			x: -7.0d
 			y: -2.5d
 		}
 		{
 			description: [
-				"Want to have an &o&beasy-to-craft&r &2Storage Block&r with &o&b117&r storage space?"
+				"Need storage without the fuss of pipes, controllers, or complex networks?"
 				""
+				"The &9Reinforced Crate&r is a faithful return of the classic storage crate from &eActually Additions&r (1.12.2)—&o&bsimple, sturdy, and efficient&r."
 				""
-				"This mod adds in the &9Storage Crate&r from the &o&b1.12.2&r version of &eActually Additions&r, relabelled as the \"&2Reinforced Crate&r\"."
+				"• Holds a whopping &o&b117&r stacks of items in a single block  "
+				"• Designed for players who want &o&beasy, accessible storage&r  "
+				"• Crafted with &2early-game&r materials—no high-tech setup required"
+				""
+				"A perfect solution for bulk storage, mob farms, mining trips, or even a tidy base.  "
+				"&7When you're tired of chests but not ready for a storage system—grab a Reinforced Crate."
 			]
 			id: "717E6090DC38DBFB"
 			min_width: 300
@@ -2307,11 +2538,13 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Reinforced Crate"
 			tasks: [{
 				id: "7EE966752C622B93"
 				item: "reinforcedcrate:reinforced_crate"
 				type: "item"
 			}]
+			title: "&2📦 Reinforced Storage Crates &r"
 			x: 2.5d
 			y: -2.5d
 		}

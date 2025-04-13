@@ -2240,11 +2240,13 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"&6Cataclysm&r is a mod that adds &o&bdifficult&r dungeons, &o&bchallenging&r boss-fights and &o&bpowerful&r items."
+				"The &6Cataclysm&r mod brings forth a storm of difficulty, where adventurers must prepare for the most grueling of trials. In this chaotic world, you will face &o&bdungeons&r filled with powerful enemies, &o&bcomplex&r boss encounters, and a host of &o&bpowerful&r items waiting for those brave enough to conquer them."
 				""
-				"This mod's bosses are inspired by &dMinecraft Dungeons&r, being much more &o&aunique&r, &o&9complex&r and &o&cpowerful&r compared to &eVanilla's&r."
+				"• Fight through &o&bdifficult&r dungeons that will test your every skill."
+				"• Engage in battles with &o&bchallenging&r bosses, each more &o&bunique&r and &o&bpowerful&r than anything you've faced before."
+				"• Earn legendary gear by defeating these foes and claim your place as a true hero."
 				""
-				"Defeat them in battle to prove yourself and earn &o&bpowerful gear&r!"
+				"Prepare yourself, for the &6Cataclysm&r is not for the faint of heart."
 			]
 			hide_dependent_lines: true
 			icon: {
@@ -2269,7 +2271,7 @@
 				title: "{atm9.quest.cataclysm.cataclysm}"
 				type: "checkmark"
 			}]
-			title: "Welcome to &4Cataclysm"
+			title: "&n&6⟡ The Cataclysm's Challenge: Unleashing the Storm ⟡&r"
 			x: 1.5d
 			y: -1.874999999999993d
 		}

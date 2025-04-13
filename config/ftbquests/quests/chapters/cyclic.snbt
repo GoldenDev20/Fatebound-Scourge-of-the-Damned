@@ -134,6 +134,14 @@
 			x: 10.0d
 			y: -17.5d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/cyclic_v1"
+			rotation: 0.0d
+			width: 6.0d
+			x: 4.5d
+			y: -21.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -141,11 +149,15 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"&6Cyclic&r is a mod by &dLothrazar&r. It features helpful items, blocks, inventory features, world generation, simple machines, gameplay tweaks, new villagers, and more changes that do not follow any particular theme."
+				"Welcome to &6Cyclic&r, where the boundaries of what’s possible are only defined by the limits of creativity. Created by the visionary &dLothrazar&r, this mod brings forth a treasure trove of tools, blocks, and mechanics designed to enhance your world in unexpected ways. It’s a collection of all the things you never knew you needed, and perhaps, the things that could change everything."
 				""
-				"In the words of the author:"
+				"• &o&bRandom Features&r designed to enhance your gameplay experience without conforming to a single theme."
+				"• Add &o&bsimple machines, inventory tweaks, world generation changes, and new villagers&r to enrich your Minecraft adventure."
+				"• Embrace the chaos and fun of new mechanics that were crafted with one simple goal: to make the game more exciting."
 				""
-				"\"&o&bI just went ahead and added all the features that I wished were in the base game into one mod. So just a ton of random items and changes that have no consistent theme other than I thought they would be fun&r\"."
+				"Like the scattered blueprints of a forgotten inventor, these tools and inventions were born from a mind that sought to fill the gaps of the unknown. The legacy of these creations has no grand purpose—except to make your world richer, more varied, and full of surprises."
+				""
+				"The mod’s creator once said, “I just went ahead and added all the features that I wished were in the base game into one mod.” Perhaps that’s the key to the true nature of this mod—there are no rules, only possibilities."
 			]
 			id: "6725FEA36C75E603"
 			min_width: 300
@@ -168,7 +180,7 @@
 				id: "5CB01BF4976EB60C"
 				type: "checkmark"
 			}]
-			title: "Welcome to &aCyclic"
+			title: "&n&6⟡ The Tinkerer’s Toolbox: Embracing the Unexpected ⟡&r"
 			x: -0.5d
 			y: -15.0d
 		}

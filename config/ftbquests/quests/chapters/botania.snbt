@@ -29,13 +29,23 @@
 		{
 			dependencies: ["7B9E96F499FB20AA"]
 			description: [
-				"&aBotania&r is a tech mod themed around natural magic."
+				"Welcome to Botania, a world where the essence of life itself—Mana—is drawn from the very heartbeat of the Earth. This is not your typical technology, for it is rooted in ancient, natural magics. The world around you whispers with power, and only those attuned to its voice can harness it."
 				""
-				"Gameplay is centered around creating &5Magical Flowers&r and devices using &bMana&r, the power of the &eEarth&r."
+				"At the heart of this journey lies the creation of Magical Flowers—rare, mystical plants that bloom with incredible energy known as &bMana&r. These blossoms are the key to unlocking incredible powers, from conjuring blocks of pure energy to summoning guardians from the depths of the forest."
 				""
-				"To start your journey in Botania, you'll need plenty of &5Mystical Flowers&r!"
+				"Your adventure will guide you through the process of cultivating these flowers, learning their secrets, and using their gifts to craft extraordinary devices that harness the very forces of nature. As you progress, you will understand the delicate balance between life and energy—and how the Earth’s power must be respected and nurtured."
 				""
-				"For more information on the items in the mod, make sure to check out the &aLexica Botania&r. "
+				"Key aspects of your journey:"
+				"• Mystical Flowers: Begin by gathering these unique blooms, each one imbued with a special aspect of nature’s power."
+				"• Mana: The lifeblood of the land, drawn from the soil, the wind, and the sun itself. You will learn to channel this ethereal force through various devices and rituals."
+				"• The Lexica Botania: Your guide to all things Botania. Consult it often to uncover the hidden uses of flowers, devices, and advanced techniques."
+				"• Mana Production: Construct &bMana Pools&r, &5Mana Spreader&r, and other magical devices to store and transport Mana throughout your world."
+				"• Magical Constructs: Use the power of Mana to craft powerful tools, machines, and even summon powerful guardians to protect and aid you in your quest."
+				"• The Guardians of Nature: Ancient beings who may offer guidance, but they also demand respect for the natural balance. Use their powers wisely."
+				""
+				"But beware... Not all magic is without consequence. The flow of Mana can have unintended effects on the land. Overuse can disrupt nature’s harmony, drawing the ire of ancient forces that once ruled this world. To walk the path of Botania is to walk the line between harmony and chaos."
+				""
+				"So, gather your first Mystical Flowers, forge your path, and let the power of the Earth guide you to greatness. But remember—this power must never be taken lightly. "
 			]
 			icon: {
 				Count: 1
@@ -58,7 +68,7 @@
 				id: "071B5C826F3084B0"
 				type: "checkmark"
 			}]
-			title: "Welcome to &3Botania"
+			title: "&a✦ The Magic of Earth, the Blooming Power of Nature... ✦&r"
 			x: -8.5d
 			y: -9.5d
 		}

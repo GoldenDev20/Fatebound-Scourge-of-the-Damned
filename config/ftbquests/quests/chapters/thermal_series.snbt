@@ -28,7 +28,19 @@
 	quests: [
 		{
 			dependencies: ["263ADC92D1D72D46"]
-			description: ["&9Thermal Series&r is a modular series of mods that adds a content-rich blend of &dmagic&r and &2technology&r to your Minecraft experience!"]
+			description: [
+				"Long before the Cataclysm, scholars of the ancient world pioneered a union between the arcane and the mechanical—a harmony of &dmagic&r and &2technology&r once lost to time. From the crumbled pages of their forgotten blueprints emerges the &9Thermal Series&r, a modular network of wondrous machines and enchanted tools, now rediscovered by those daring enough to wield both science and sorcery."
+				""
+				"The &9Thermal Series&r is no mere collection of machines. It is an intricate system of modular components, built to handle every need—be it resource processing, energy generation, item transport, or even environmental manipulation."
+				""
+				"• Refine ores and materials using machines powered by blazing &cfurnace cores&r and elemental energy."
+				"• Transport, store, and regulate both items and fluids using precision-crafted devices."
+				"• Harness the power of magic-infused augments to enhance machines beyond their limits."
+				"• Mix automation with adaptability—customize every device to fit your evolving needs."
+				"• Bridge the gap between ancient arcana and industrial innovation, reshaping the world one mechanism at a time."
+				""
+				"As you reawaken the forgotten knowledge buried in these constructs, ask yourself—was it mankind that tamed the elements... or the elements that tamed mankind?"
+			]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -58,7 +70,7 @@
 				item: "thermal:wrench"
 				type: "item"
 			}]
-			title: "Welcome to &9Thermal Series"
+			title: "&n&7⟡ The Artifice of Flame and Frost ⟡&r"
 			x: 2.5d
 			y: -5.0d
 		}

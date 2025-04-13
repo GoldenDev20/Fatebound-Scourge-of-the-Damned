@@ -30,6 +30,14 @@
 			x: 1.0d
 			y: 1.5d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/aquaculture__v1"
+			rotation: 0.0d
+			width: 6.0d
+			x: 2.0d
+			y: -7.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -1536,15 +1544,7 @@
 			]
 			tasks: [{
 				id: "7E3389280DA74866"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:fishing_line"
-				}
+				item: "aquaculture:fishing_line"
 				type: "item"
 			}]
 			x: -5.5d
@@ -2343,11 +2343,13 @@
 		{
 			dependencies: ["75A7F6E7A82C6FD6"]
 			description: [
-				"&9Aquaculture&r adds new fishing rods to the game."
+				"Dive into the depths of &9Aquaculture&r, where the art of fishing evolves beyond the mundane. This mod introduces new fishing rods designed to amplify your fishing capabilities, turning the simple act of fishing into a pursuit of mastery."
 				""
-				"You can still use the vanilla wooden fishing rod and modded fishing rods to catch Aquaculture fish."
+				"• Use both &nvanilla wooden fishing rods&r and the new &o&bAquaculture rods&r to catch a variety of new aquatic creatures."
+				"• Attach &o&bspecial equipment&r to your fishing rods to unlock unique mechanics that enhance your fishing experience."
+				"• Explore deeper fishing systems, from rare catches to mechanical enhancements, ensuring every cast brings the potential for greatness."
 				""
-				"But only the Aquaculture fishing rods are able to get equipment attached, that adds various mechanics that improve your fishing capabilities."
+				"The waters hold many secrets—are you ready to reel in your destiny?"
 			]
 			icon: "aquaculture:fish_bones"
 			id: "29B8B607653A5DCF"
@@ -2364,7 +2366,7 @@
 				id: "65751E28D91F1BD7"
 				type: "checkmark"
 			}]
-			title: "Welcome to &9Aquaculture"
+			title: "&n&9⟡ The Fisher's Reign: Unlocking the Secrets of Aquatic Bounty ⟡&r"
 			x: -7.0d
 			y: -5.5d
 		}
@@ -2393,15 +2395,7 @@
 			]
 			tasks: [{
 				id: "747D8E53DBE64D1C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:worm_farm"
-				}
+				item: "aquaculture:worm_farm"
 				type: "item"
 			}]
 			x: -5.5d
@@ -2472,11 +2466,6 @@
 					id: "3DEDFD93B6B3E7F0"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "aquaculture:worm"
 						tag: {
 							Damage: 0
@@ -2488,11 +2477,6 @@
 					id: "5C2755FCCF2A8A33"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "aquaculture:minnow"
 						tag: {
 							Damage: 0
@@ -2504,11 +2488,6 @@
 					id: "6FB0E54A8FE31E73"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "aquaculture:leech"
 						tag: {
 							Damage: 0
@@ -2533,15 +2512,7 @@
 			}]
 			tasks: [{
 				id: "4BFF36980CDD8C80"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:driftwood"
-				}
+				item: "aquaculture:driftwood"
 				type: "item"
 			}]
 			x: -0.5d
@@ -2559,15 +2530,7 @@
 			}]
 			tasks: [{
 				id: "1F6CFCD4AF1B10C0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:tin_can"
-				}
+				item: "aquaculture:tin_can"
 				type: "item"
 			}]
 			x: -2.5d
@@ -2585,15 +2548,7 @@
 			}]
 			tasks: [{
 				id: "78A6EC9157814F0E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:message_in_a_bottle"
-				}
+				item: "aquaculture:message_in_a_bottle"
 				type: "item"
 			}]
 			x: -1.5d
@@ -2626,15 +2581,7 @@
 			subtitle: "Arid"
 			tasks: [{
 				id: "0665CB61F12EDE4B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:boulti"
-				}
+				item: "aquaculture:boulti"
 				type: "item"
 			}]
 			x: 7.7d
@@ -2666,15 +2613,7 @@
 			size: 0.7d
 			tasks: [{
 				id: "3E9486769B6DB14F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:arrau_turtle"
-				}
+				item: "aquaculture:arrau_turtle"
 				type: "item"
 			}]
 			x: 10.5d
@@ -2713,15 +2652,7 @@
 			subtitle: "Twilight Forest"
 			tasks: [{
 				id: "737AFACAC1A30A2B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:starshell_turtle"
-				}
+				item: "aquaculture:starshell_turtle"
 				type: "item"
 			}]
 			x: 7.714285714285715d
@@ -2755,15 +2686,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "46850ECAEB94EBC8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:fish_fillet_cooked"
-				}
+				item: "aquaculture:fish_fillet_cooked"
 				type: "item"
 			}]
 			x: -1.5d
@@ -2797,15 +2720,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "670B273AE88BE641"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:turtle_soup"
-				}
+				item: "aquaculture:turtle_soup"
 				type: "item"
 			}]
 			x: -2.0d
@@ -2839,15 +2754,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6F01667469B610B7"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:sushi"
-				}
+				item: "aquaculture:sushi"
 				type: "item"
 			}]
 			x: -1.0d
@@ -2890,15 +2797,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "4A62D4ED65C4A5E6"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:neptunes_bounty"
-				}
+				item: "aquaculture:neptunes_bounty"
 				type: "item"
 			}]
 			title: "&aNeptune's Bounty"
@@ -2929,15 +2828,7 @@
 			]
 			tasks: [{
 				id: "439F989F9D7A07C8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:neptunium_ingot"
-				}
+				item: "aquaculture:neptunium_ingot"
 				type: "item"
 			}]
 			x: -7.0d
@@ -2966,15 +2857,7 @@
 			]
 			tasks: [{
 				id: "5D0C50565E5BAFB6"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:neptunium_block"
-				}
+				item: "aquaculture:neptunium_block"
 				type: "item"
 			}]
 			x: -7.0d
@@ -2985,15 +2868,7 @@
 			id: "67B5D04DDD4C617C"
 			tasks: [{
 				id: "0A4FB75491570274"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "aquaculture:fish_fillet_raw"
-				}
+				item: "aquaculture:fish_fillet_raw"
 				type: "item"
 			}]
 			x: -4.0d

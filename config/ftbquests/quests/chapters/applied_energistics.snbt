@@ -29,9 +29,13 @@
 		{
 			dependencies: ["5C2F31B1E1B34BE2"]
 			description: [
-				"&9Applied Energistics 2&r (&bAE2&r) is a comprehensive mod for Minecraft that introduces a unique approach to in-game inventory management."
+				"In a world where resources are scattered and inventory management a constant challenge, a new force emerges—&9Applied Energistics 2&r. This mod will transform the very essence of how you interact with your world, allowing you to convert matter into energy and store your precious resources in an entirely new way."
 				""
-				"Its theme is centered around the concept of converting matter into energy and vice versa, to store and transport your items and fluids instantaneously!"
+				"• Use the power of the &9Energy Acceptor&r to harness and convert energy, enabling instant storage and transportation of your items and fluids."
+				"• Build the &9ME System&r, a vast network to store, retrieve, and organize everything you need, using the conversion of matter to energy."
+				"• Expand your capabilities as you create advanced components, turning your inventory into a limitless energy-based storage system."
+				""
+				"Master the flow of energy, and let the &9ME Network&r revolutionize your world, bringing unparalleled efficiency and power to your fingertips."
 			]
 			icon: {
 				Count: 1
@@ -54,7 +58,7 @@
 				id: "44F1A9CCA01F132B"
 				type: "checkmark"
 			}]
-			title: "Welcome to &eApplied Energistics 2"
+			title: "&n&9⟡ The Essence of Matter: Mastering Energy and Inventory ⟡&r"
 			x: -7.125892857142858d
 			y: -8.94642857142857d
 		}

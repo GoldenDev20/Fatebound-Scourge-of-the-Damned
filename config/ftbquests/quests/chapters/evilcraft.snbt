@@ -113,11 +113,22 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"&4EvilCraft&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!"
+				"Long before the stars aligned to shape our world, there existed a force—&nan ancient malevolence&r—that whispered to those bold or foolish enough to listen. Now, its echo resurfaces in forgotten tombs, bloodstained relics, and cursed soil."
 				""
-				"Everything in this mod can be found in the guidebook, the &aOrigins of Darkness&r. "
+				"&4EvilCraft&r beckons you to harness the profane—the remnants of an age drowned in corruption and blood sorcery."
 				""
-				"To get started, find yourself some &9Dark Gems&r. "
+				"Within this forbidden path, you will uncover:"
+				""
+				"• The &9Dark Gems&r—crystalline remnants of sealed malevolence"
+				"• The &aOrigins of Darkness&r—a guidebook etched in cursed knowledge"
+				"• Unholy tools that manipulate &4blood essence&r, weather, death, and decay"
+				"• Arcane contraptions to drain life, summon storms, or corrupt the earth itself"
+				""
+				"To wield this power is to embrace a shadowed inheritance. The deeper you dig, the more the dark watches back."
+				""
+				"Are you the heir to this legacy... or simply its next vessel?"
+				""
+				"&8The path begins not with a spark of light, but with a single drop of blood.&r"
 			]
 			icon: "evilcraft:origins_of_darkness"
 			id: "14B352C4DDA5B235"
@@ -141,7 +152,7 @@
 				id: "7031E9EDC4308830"
 				type: "checkmark"
 			}]
-			title: "Welcome to &4EvilCraft"
+			title: "&4✦The Blood Remembers…✦&r"
 			x: 5.5d
 			y: -9.0d
 		}
@@ -247,6 +258,9 @@
 				id: "08DA080FBB98B1D4"
 				item: {
 					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
 					id: "evilcraft:blood_infuser"
 					tag: { }
 				}
@@ -527,6 +541,9 @@
 				id: "76780C45635D8594"
 				item: {
 					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
 					id: "evilcraft:blood_extractor"
 					tag: { }
 				}
@@ -566,6 +583,9 @@
 				id: "34A6D12D5F1C02F0"
 				item: {
 					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
 					id: "evilcraft:dark_tank"
 					tag: {
 						capacity: 16000
@@ -613,6 +633,9 @@
 				id: "5308F3E0575E1796"
 				item: {
 					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
 					id: "evilcraft:blood_chest"
 					tag: { }
 				}
@@ -1006,6 +1029,9 @@
 				id: "28AF2EB734FCC1BA"
 				item: {
 					Count: 1
+					ForgeCaps: {
+						Parent: { }
+					}
 					id: "evilcraft:flesh_rejuvenated"
 					tag: { }
 				}
@@ -1301,20 +1327,10 @@
 					item: {
 						Count: 1
 						ForgeCaps: {
-							Parent: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-								capacity: 10000
-							}
+							Parent: { }
 						}
 						id: "evilcraft:colossal_blood_chest"
-						tag: {
-							Fluid: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-							}
-							capacity: 10000
-						}
+						tag: { }
 					}
 					match_nbt: false
 					type: "item"
@@ -1381,11 +1397,7 @@
 					item: {
 						Count: 1
 						ForgeCaps: {
-							Parent: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-								capacity: 10000
-							}
+							Parent: { }
 						}
 						id: "evilcraft:spirit_furnace"
 						tag: { }
@@ -1432,11 +1444,7 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 10000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:spirit_reanimator"
 					tag: { }
@@ -1574,20 +1582,10 @@
 					item: {
 						Count: 1
 						ForgeCaps: {
-							Parent: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-								capacity: 3000
-							}
+							Parent: { }
 						}
 						id: "evilcraft:purifier"
-						tag: {
-							Fluid: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-							}
-							capacity: 3000
-						}
+						tag: { }
 					}
 					type: "item"
 				}
@@ -1638,15 +1636,10 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 4000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:entangled_chalice"
 					tag: {
-						capacity: 4000
 						tankID: "creative"
 					}
 				}
@@ -1691,20 +1684,10 @@
 					item: {
 						Count: 1
 						ForgeCaps: {
-							Parent: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-								capacity: 1000
-							}
+							Parent: { }
 						}
 						id: "evilcraft:kineticator"
-						tag: {
-							Fluid: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-							}
-							capacity: 1000
-						}
+						tag: { }
 					}
 					type: "item"
 				}
@@ -1713,20 +1696,10 @@
 					item: {
 						Count: 1
 						ForgeCaps: {
-							Parent: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-								capacity: 1000
-							}
+							Parent: { }
 						}
 						id: "evilcraft:kineticator_repelling"
-						tag: {
-							Fluid: {
-								Amount: 0
-								FluidName: "minecraft:empty"
-							}
-							capacity: 1000
-						}
+						tag: { }
 					}
 					type: "item"
 				}
@@ -1768,19 +1741,10 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 5000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:primed_pendant"
 					tag: {
-						Fluid: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-						}
-						capacity: 5000
 						inventoryItem: [ ]
 					}
 				}
@@ -1818,20 +1782,10 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 5000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:invigorating_pendant"
-					tag: {
-						Fluid: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-						}
-						capacity: 5000
-					}
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -1867,20 +1821,10 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 1000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:blood_pearl_of_teleportation"
-					tag: {
-						Fluid: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-						}
-						capacity: 1000
-					}
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -1920,20 +1864,10 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 4000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:mace_of_distortion"
-					tag: {
-						Fluid: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-						}
-						capacity: 4000
-					}
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -2001,20 +1935,10 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 10000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:necromancer_staff"
-					tag: {
-						Fluid: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-						}
-						capacity: 10000
-					}
+					tag: { }
 				}
 				type: "item"
 			}]
@@ -2050,20 +1974,10 @@
 				item: {
 					Count: 1
 					ForgeCaps: {
-						Parent: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-							capacity: 4000
-						}
+						Parent: { }
 					}
 					id: "evilcraft:mace_of_destruction"
-					tag: {
-						Fluid: {
-							Amount: 0
-							FluidName: "minecraft:empty"
-						}
-						capacity: 4000
-					}
+					tag: { }
 				}
 				type: "item"
 			}]

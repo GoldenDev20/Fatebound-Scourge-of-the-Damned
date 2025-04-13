@@ -3836,7 +3836,23 @@
 		}
 		{
 			dependencies: ["6D37151EC650DF0D"]
-			description: [""]
+			description: [
+				"&oExtended Crafting&r"
+				""
+				"When the ancients reached the limits of mortal creation, they built crafting forges so vast, so intricate, that entire civilizations were required to operate them. These were the &dMythic Assemblers&r—constructs capable of shaping reality itself."
+				""
+				"Now, those same tools lie at your fingertips."
+				""
+				"With &5Extended Crafting&r, you will unlock &ohyper-advanced crafting tables&r, capable of weaving together hundreds of components into singular artifacts of impossible complexity. This is where the path to true godhood begins."
+				""
+				"• Construct &9Ultimate Crafting Tables&r, built for recipes that dwarf all others."
+				"• Assemble &6Singularities&r—dense manifestations of resource mastery."
+				"• Begin crafting &eCreative Items&r, the apex of engineering and magic."
+				"• Dive into &nrecipes that require entire empires&r of automation to complete."
+				""
+				"These are not mere tools. These are &oacts of divine creation&r."
+				"Forge the unfathomable. Transcend the endgame."
+			]
 			icon: {
 				Count: 1
 				id: "patchouli:guide_book"
@@ -3866,7 +3882,7 @@
 				id: "5A2B1BC3223E3031"
 				type: "checkmark"
 			}]
-			title: "Welcome to &5Extended Crafting"
+			title: "&5⟡ The Crucible of Ascension ⟡&r"
 			x: 4.0d
 			y: -12.5d
 		}

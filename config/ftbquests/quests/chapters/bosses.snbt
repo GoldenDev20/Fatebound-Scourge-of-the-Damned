@@ -8,7 +8,7 @@
 	images: [
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/boss.png"
+			image: "kubejs:item/bosses_v1"
 			rotation: 0.0d
 			width: 7.5d
 			x: 0.1785714285714306d

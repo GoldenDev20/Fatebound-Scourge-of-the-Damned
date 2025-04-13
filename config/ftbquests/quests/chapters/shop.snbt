@@ -15,7 +15,7 @@
 	images: [
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/playershop.png"
+			image: "kubejs:item/player-shop_v1"
 			rotation: 0.0d
 			width: 7.5d
 			x: -2.5d

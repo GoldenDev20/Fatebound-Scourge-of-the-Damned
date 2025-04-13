@@ -54,6 +54,14 @@
 			x: -6.0d
 			y: -4.0d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/storage_v1"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.5d
+			y: -14.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]

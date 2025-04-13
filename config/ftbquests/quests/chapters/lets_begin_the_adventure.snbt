@@ -82,51 +82,69 @@
 	quests: [
 		{
 			description: [
-				"&n&9Welcome to Fatebound: Scourge of the Damned !&r"
+				"&n&4⚜ Welcome, Seeker of the Forgotten Flame ⚜&r"
 				""
-				"The &4Fatebound: Scourge of the Damned&r is a Minecraft modpack brimming with thrilling adventures, treasure hunting, exploration, and a seamless fusion of magic, fantasy, and technology."
+				"&7It begins with silence. The world lies scorched, the heavens mute. The old empires are dust, their marvels long consumed by war and ruin. Only ashes remain... and you."
 				""
-				"You'll begin your adventure in an unknown world of danger and horror. From dragons and witches to vampires, werewolves, and unseen creatures lurking in the shadows, this unforgiving terrain will test your courage and resolve."
-				""
-				"Fighting the forces of evil, you must have a purpose; that purpose is to create the legendary &6Crystal of Creation&r."
+				"You awaken amidst the remnants of a world reset, stripped of memory, bound by fate. You carry nothing but will—and a single tome, written by no mortal hand."
 				""
 				"{@pagebreak}"
 				""
-				"&n&bThe Journey to the Crystal of Creation&r"
+				"&n&6⚙ The First Whisper of Creation ⚙&r"
 				""
-				"Your adventure begins with the quest for the &2Stone of Transcendence&r, the cornerstone of your journey. This mystical artifact is essential for crafting the &dEssence of Fate&r, a key component in the creation of the &6Crystal of Creation&r."
+				"This realm teems with peril: dragons that rule the skies, witches who drink the stars, vampires veiled in cursed night, and horrors with no name."
 				""
-				"The &2Stone of Transcendence&r is a legendary relic capable of exceeding ordinary limits. It unlocks its full potential when combined with &o&b20&r unique and rare stones, each imbued with distinct and magical properties."
+				"Yet you are not without purpose."
 				""
+				"A legend endures, etched into the bones of the earth—a prophecy of the &6Crystal of Creation&r, a relic said to shape destiny itself. To forge it is to master all that once was and reclaim the keys to unbound knowledge."
 				""
-				"{@pagebreak}"
-				""
-				"To gather these extraordinary stones, you must venture into incredible and perilous dimensions, each brimming with its unique dangers, riddles, and treasures."
-				""
-				"Braving these realms is essential to retrieve each invaluable ingredient needed to craft the &2Stone of Transcendence&r."
-				""
-				"&n&bThe Creation of the Essence of Fate&r"
-				""
-				"Once you’ve fused the &o&b20&r rare stones with the &2Stone of Transcendence&r, the result is the &dEssence of Fate&r. This artifact embodies the ultimate harmony of magical energies and symbolizes limitless potential to shape your destiny."
+				"But the path is not yours alone. It is fate's decree."
 				""
 				"{@pagebreak}"
 				""
-				"&n&bCombining the Essence of Fate and Lightning Crystals&r"
+				"&n&2⟡ The Stone of Transcendence ⟡&r"
 				""
-				"The journey doesn’t end with the &dEssence of Fate&r. To forge the &6Crystal of Creation&r, you must combine the Essence with &o&b8&r &eLightning-Empowered Crystals&r, each pulsating with unique energy."
+				"Your first trial lies in the finding of the &2Stone of Transcendence&r, a forgotten core of ancient power. It is inert alone, but when wedded to &o&b20&r sacred stones—each hidden across fractured dimensions—it stirs."
 				""
-				"These &eLightning-Empowered Crystals&r are similarly scattered across the dimensions, demanding further courage and skill to gather. Only by navigating these realms' challenges can you collect the rarest materials to complete your creation."
+				"These stones, infused with primal essence, must be gathered from worlds steeped in riddle, flame, void, and shadow."
+				""
+				"Only when the twenty are bound to the Transcendent Stone shall you unlock the next phase of fate."
 				""
 				"{@pagebreak}"
 				""
-				"&n&bThe Crystal of Creation&r"
+				"&n&d✧ The Essence of Fate ✧&r"
 				""
-				"When the &o&b8&r &eLightning-Empowered Crystals&r are skillfully fused with the &dEssence of Fate&r, they create the &6Crystal of Creation&r. This artifact is not just a relic of immense power; it unlocks infinite possibilities, enabling the crafting of &9Creative&r items and technology fueled by pure imagination and mastery."
+				"From this convergence is born the &dEssence of Fate&r—a vessel of sublime harmony, an echo of the world-before shattered into potential."
 				""
-				"The &6Crystal of Creation&r symbolizes the triumph of courage, persistence, and creativity. With it, you can mold not only your destiny but also the very fabric of the reality around you."
+				"To bear it is to carry the weight of all things lost. It is your soul, recast in magic."
 				""
-				"So, brave soul, do you dare to embark on this perilous journey?"
-				"The &4Fatebound: Scourge of the Damned&r is calling, and your destiny awaits."
+				"But even this is not the end."
+				""
+				"{@pagebreak}"
+				""
+				"&n&e⚡ The Lightning-Empowered Crystals ⚡&r"
+				""
+				"To ignite creation, you must seek &o&b8&r &eLightning-Empowered Crystals&r—gems struck by godless thunder, pulsing with volatile energy."
+				""
+				"Each lies cloaked in challenge, hidden in domains where even memory dares not tread."
+				""
+				"Fuse them with the &dEssence of Fate&r, and only then may you shape the divine."
+				""
+				"{@pagebreak}"
+				""
+				"&n&6⟡ The Crystal of Creation ⟡&r"
+				""
+				"When power, soul, and storm become one, the &6Crystal of Creation&r shall be born."
+				""
+				"It is more than a tool—it is a mirror to your mastery. Through it, you may bend creation itself, crafting what was once deemed myth, artifact, or dream."
+				""
+				"It grants access to the &9Boundless Forge&r, where imagination fuels invention, and knowledge knows no chains."
+				""
+				"But be warned... such power demands a price. Are you worthy?"
+				""
+				"The Scourge may rise again. But so too may you."
+				""
+				"&n&4Fatebound&r calls. Will you answer?"
 			]
 			icon: {
 				Count: 1
@@ -152,24 +170,29 @@
 				title: "Sign the contract"
 				type: "checkmark"
 			}]
-			title: "&c&nWelcome brave warrior of fate!"
+			title: "&c&nThe Fatebound Prophecy"
 			x: -4.2d
 			y: 0.0d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"Oops, did I forget to mention that the crafting recipe was &o&bchanged&r, didn't I?"
+				"Whoops, did I forget to mention that the crafting recipe for the &9Crafting Table&r has been &o&bchanged&r? My bad..."
 				""
-				"How on earth am I supposed to get a &9Crafting Table&r!?"
+				"Now you’re probably thinking, \"How in the world am I supposed to get my hands on a &9Crafting Table&r?\" "
 				""
-				"It's not as complicated as it seems, just follow these steps:"
-				"&o&b1&r) You'll need a bunch of &3Sticks&r. To get sticks... yeah... just punch some &aLeaves&r."
-				"&o&b2&r) With &o&b4&r sticks you'll be able to craft &eImprovised Planks&r."
-				"&o&b3&r) Use those planks to make an &2Oak Log&r."
-				"&o&b4&r) &o&b2x&r &eImprovised Planks&r + &o&b2x&r &2Oak Log&r = &9Crafting Table&r"
+				"Don't panic! It’s not as complicated as it sounds. Follow these simple steps:"
 				""
-				"See? That wasn't so bad! "
+				"&o&b1&r) First, you'll need a bunch of &3Sticks&r. To gather them... well, just punch a few &aLeaves&r. Nature’s finest materials, right?"
+				"&o&b2&r) With &o&b4&r sticks, you can craft &eImprovised Planks&r. Not much, but it's a start!"
+				"&o&b3&r) Now, take those &eImprovised Planks&r and use them to craft a &2Oak Log&r. Yes, you read that right. We’re going full circle."
+				"&o&b4&r) Finally, combine your &eImprovised Planks&r and &2Oak Log&r with this simple recipe: "
+				"   - 2x &eImprovised Planks&r"
+				"   - 2x &2Oak Log&r"
+				""
+				"Voila! You’ll now have your own shiny &9Crafting Table&r. See? That wasn’t so bad after all!"
+				""
+				"Go ahead, get crafting!"
 			]
 			id: "19B4AF80C4E96C64"
 			min_width: 420
@@ -198,9 +221,13 @@
 		{
 			dependencies: ["19B4AF80C4E96C64"]
 			description: [
-				"Instead of immediately sprinting to your nearest tree and &npunching&r it, you now have to start with sprinting to your nearest &nmob&r."
+				"In the harsh wilderness, you will not immediately find the comforts of wood and stone. Instead, begin your journey by turning to the bones of your prey."
 				""
-				"After murdering these mobs for their &bbones&r, you can gather some sticks by breaking &aleaves&r."
+				"&o&b1&r) Venture forth and hunt the &bcreatures of the wild&r, whose bones will form the cornerstone of your survival."
+				"&o&b2&r) Gather sticks by breaking &aLeaves&r—nature's humble offering."
+				"&o&b3&r) Craft the &o&bBone Sword&r, &o&bBone Shovel&r, and &o&bBone Pickaxe&r. These basic tools will serve as your first defense and aid."
+				""
+				"With the bones of your enemies in hand, you can carve a path forward. But remember—these tools are fragile. Soon, you'll seek stronger materials, but for now, let the bones guide your way."
 			]
 			id: "6D37151EC650DF0D"
 			min_width: 300
@@ -266,16 +293,22 @@
 				title: "Any of Primitive Basic Tools"
 				type: "item"
 			}]
-			title: "&ePrimitive Basic Tools"
+			title: "&n&6⟡ A Hunter's Beginning: Bone Tools ⟡&r"
 			x: -10.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"&6Culinary Construct&r is a mod that lets you make custom sandwiches or &nbowls&r/&nstews&r out of &nany&r food items you have lying around."
+				"&n&5⟡ Feast of Endless Creation ⟡&r"
 				""
-				"&n&bThat's right, any of them&r!"
+				"In a world where the art of nourishment is as vital as the sword, the &6Culinary Construct&r emerges as your guide."
+				""
+				"With this enchanted construct, you can craft sandwiches, stews, and bowls, combining any ingredients you possess—&n&bYes, any food you find&r!—into nourishing meals fit for a hero."
+				""
+				"The potential to create sustenance from the land's bounty is yours. Explore the flavors, experiment with what the world offers, and create dishes that will fuel your journey."
+				""
+				"&7Remember: A well-fed soul is a well-prepared adventurer."
 			]
 			icon: {
 				Count: 1
@@ -309,18 +342,30 @@
 				item: "culinaryconstruct:culinary_station"
 				type: "item"
 			}]
-			title: "&6The Food"
+			title: "&n&5⟡ Feast of Endless Creation ⟡&r"
 			x: -1.5714285714285765d
 			y: -1.0892857142857153d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"To change what percentage of players are required to sleep in order to skip the night enter followed command:"
+				"&n&6⟡ Sweet Dreams: The Bed of Rest and Rejuvenation ⟡&r"
 				""
-				"&b&o/gamerule playersSleepingPercentage <value>&r (without &3angle brackets&r)"
+				"In the dark and tumultuous lands of &4Fatebound: Scourge of the Damned&r, the night is your enemy. The air grows cold, the winds howl, and monstrous creatures stir under the cover of darkness. Yet, amidst the dangers, there is solace to be found. Every weary adventurer must rest, and there is no greater reprieve than the comfort of a bed."
 				""
-				"You may set a percentage value between 0 - 100 (Default: 100)."
+				"The humble &6Bed&r is more than a place of rest—it is a sanctuary, a shield against the terrors that stalk the night. By crafting a bed from wool and wood, you will not only find relief from the dangers of the world but also mark your place in this forgotten realm, a place to call your own."
+				""
+				"But rest is not always so simple. The journey towards comfort starts with the &6Sleeping Bag&r, a temporary refuge, a bed of cloth and thread. It will keep you safe from the cold nights, but it is no match for the true strength of a well-crafted bed. Only with the &6Hammock&r will you find the ultimate rest, swinging gently as you dream of the challenges to come."
+				""
+				"To craft your bed, you will need:"
+				""
+				"- Wool from the sheep of this land"
+				"- The finest wood, harvested from the forests"
+				"- Ingenuity and a steady hand to weave and create"
+				""
+				"A bed is a simple thing, yet in this world of constant strife, it becomes a symbol of peace and the strength to continue. So, brave soul, craft your bed, your sleeping bag, and your hammock—rest and restore, for tomorrow’s battles will test you in ways you cannot yet imagine."
+				""
+				"&6Sweet dreams, adventurer. The world will still be here when you awake."
 			]
 			id: "2D4EE2B866D8CE35"
 			min_width: 300
@@ -349,12 +394,25 @@
 				title: "Craft any bed"
 				type: "item"
 			}]
-			title: "&6Sweet Dreams"
+			title: "&n&6⟡ Sweet Dreams: The Bed of Rest and Rejuvenation ⟡&r"
 			x: -9.25d
 			y: 1.2678571428571388d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&n&6⟡ The Hearth of Creation ⟡&r"
+				""
+				"In every great civilization, the hearth is where life begins anew. The &6Furnace&r, a symbol of craftsmanship and industry, is where raw materials are transformed into tools of power and purpose. Within its fiery embrace, ores are smelted, stones are hardened, and the foundation of your kingdom is laid."
+				""
+				"As you forge your path in this new and mysterious world, the &6Furnace&r will be your trusted companion. With but a few resources — &7Stone, &6Coal, and the strength of your will — you shall craft a hearth that will stand as a testament to your survival and ingenuity."
+				""
+				"When fueled by fire, the Furnace will grant you the means to refine the ores and minerals you gather, turning them into materials of greater value. Whether you seek to smelt iron for armor, gold for riches, or even craft your own weapons and tools, the furnace will be essential for all your crafting needs."
+				""
+				"But beware, adventurer: the fire of creation is a double-edged sword. With it, you can bring life, but also destruction. Use the furnace wisely, for its heat can both forge and burn, creating the tools that will shape your destiny—or consume it."
+				""
+				"So, craft your furnace, stoke its flames, and let the heat of creation guide your way forward, for with it, your journey truly begins."
+			]
 			id: "27C2B59611A27ABE"
 			rewards: [
 				{
@@ -375,12 +433,25 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			title: "&eFurnace"
+			title: "&n&6⟡ The Hearth of Creation ⟡&r"
 			x: -6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&n&6⟡ The Vault of the Brave ⟡&r"
+				""
+				"In a world fraught with peril, every hero must have a place to keep their spoils — treasures from distant lands, relics of fallen foes, and the tools needed for survival. The &6Chest&r is the cornerstone of your hoard, a sturdy vault to safeguard your most prized possessions."
+				""
+				"Crafted from the strong woods of the land, or perhaps the iron from deep within the earth, the &6Chest&r is a humble yet vital ally. It stands as a guardian of your wealth, protecting your loot from thieves and the dangers of the wilderness."
+				""
+				"As you journey forth, the chest will become a trusted companion — a place to store weapons, armor, rare artifacts, and the spoils of your many adventures. From the mundane to the legendary, it holds all that you’ve earned, ready for the day when you’ll need it most."
+				""
+				"But remember, the chest is not invincible. Its strength is tied to your own journey — the better the craftsmanship, the more it can hold and withstand. Whether simple or grand, a well-stocked chest is the mark of a true adventurer."
+				""
+				"May your chest always be full, and may it protect your riches until the end of your days."
+			]
 			id: "2F75111FF8C7FEE5"
 			rewards: [
 				{
@@ -407,18 +478,22 @@
 				title: "Any Chest"
 				type: "item"
 			}]
-			title: "&fChest"
+			title: "&n&6⟡ The Vault of the Brave ⟡&r"
 			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"If you are not familiar with &6Doggy Talents&r mod to watch those two tutorials by &aclicking&r those two &o&blinks&r below:"
+				"&n&6⟡ The Bond of the Beast ⟡&r"
 				""
-				"{\"text\":\"Doggy Talents: Pt 1 - Everything but Skills!\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=8YhjHd--2Ow\"}}"
+				"In the ancient, untamed lands of Fatebound, the bond between humans and their loyal animal companions is forged through trials, loyalty, and shared struggles. With the &6Doggy Talents&r mod, you can find a trusted companion in the form of a dog, a noble beast ready to fight by your side, explore the wilderness, and bring joy to the harshest of days."
 				""
-				"{\"text\":\"Doggy Talents: Pt 2 - Skills!\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=8YhjHd--2Ow\"}}"
+				"These faithful companions aren't just pets—they are allies in your grand adventure. As your bond with them grows, so too will their abilities. Through the &o&bDoggy Talents&r system, you can teach them new skills, enhance their talents, and tailor their strengths to complement your own journey."
+				""
+				"&6However, do not take this bond lightly&r—just as you shape their abilities, so too will they shape the course of your adventure."
+				""
+				"With a companion at your side, you will never walk alone. Whether battling beasts, scouring dungeons, or trekking through the wilderness, your loyal companion will be there every step of the way."
 			]
 			id: "41AABD2060E95538"
 			min_width: 300
@@ -465,19 +540,25 @@
 				title: "Dog Bad"
 				type: "item"
 			}]
-			title: "&9Companion for Life"
+			title: "&n&6⟡ The Bond of the Beast ⟡&r"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"In your &9Eccentric Tome&r are all books included."
+				"&n&5⟡ The Tome of Countless Echoes ⟡&r"
 				""
-				"&6Right-click&r while holding Tome to open the book selection screen."
-				"&6Left-click&r on air to revert a book back into the Tome."
+				"Within your grasp lies the &9Eccentric Tome&r—a vessel of bound knowledge, stitched together by forgotten magic and eccentric design."
 				""
-				"If you lose it you can always craft it back with a regular minecraft book using any crafting grid."
+				"This arcane tome holds the wisdom of many—&oit is all books, yet none at once&r."
+				""
+				"&6Right-click&r the Tome to commune with its many voices and choose the volume you seek.  "
+				"&6Left-click&r the air to return the chosen knowledge into the binding."
+				""
+				"Should the tome vanish or be torn from you by misfortune, fear not—its essence lingers. A humble &rMinecraft Book&r, when placed into any crafting grid, shall restore the Tome anew."
+				""
+				"&7To lose it is an inconvenience. To ignore it is folly."
 			]
 			icon: {
 				Count: 1
@@ -500,26 +581,28 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oYour personal portable library"
+			subtitle: "The Eccentric Tome"
 			tasks: [{
 				id: "624E1FE4F9278ED5"
 				title: "Akashic Tome"
 				type: "checkmark"
 			}]
-			title: "&eThe Eccentric Tome"
+			title: "&n&5⟡ The Tome of Countless Echoes ⟡&r"
 			x: -3.142857142857146d
 			y: -2.982142857142854d
 		}
 		{
 			dependencies: ["6D37151EC650DF0D"]
 			description: [
-				"You can now make &3Stone&r tools, however, stone isn't as strong as you'd like it to be, and it sadly &ncan't&r mine &7Iron&r."
+				"Having forged your first tools from bone, the time has come to seek greater power. Stone may offer you a semblance of strength, but it is no match for the durability you need to face the trials ahead."
 				""
-				"You can mine a different metal though, &eCopper&r. "
+				"&o&b1&r) Venture forth and mine &3Stone&r tools, but beware—they cannot harness the might of &7Iron&r. "
+				"&o&b2&r) Seek the &eCopper&r veins deep in the earth. This humble metal is your gateway to greater might."
+				"&o&b3&r) Use the newly discovered &eCopper&r to craft a &dSmithing Table&r, a workshop where bones and metal shall meet."
+				"&o&b4&r) With the power of the &dSmithing Table&r, you can &nreinforce&r your humble Bone Tools, turning them into &6Reinforced Bone Tools&r. These new weapons and instruments rival &7Iron&r in their strength."
 				""
-				"You can use &eCopper&r to make a &dSmithing Table&r, which can then be used to &nreinforce&r your bone tools."
-				""
-				"&6Reinforced Bone Tools&r are on par with &7Iron&r tools, so you can now continue into the midgame as normal."
+				"With these tools now at your disposal, you are ready to delve deeper into the world, prepared for what dangers await."
+				"."
 			]
 			id: "4407A832E90678D3"
 			min_width: 300
@@ -532,15 +615,7 @@
 				{
 					count: 2
 					id: "15218B50CF126A32"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:copper_ingot"
-					}
+					item: "minecraft:copper_ingot"
 					random_bonus: 3
 					type: "item"
 				}
@@ -601,12 +676,23 @@
 					type: "item"
 				}
 			]
-			title: "&eReinforced Primitive Tools"
+			title: "&n&6⟡ The Reinforcement of the Ancients: Strengthening Bone Tools ⟡&r"
 			x: -12.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3A7FC41CC5B51F5F"]
+			description: [
+				"&n&4⟡ The Call of the Hunt ⟡&r"
+				""
+				"In the wilds of this forsaken land, survival is as much about skill as it is about courage."
+				""
+				"Hunting is more than a necessity; it is a rite of passage. The beasts of this realm, whether great or small, roam free, and it is your challenge to track and slay them."
+				""
+				"Hunt with honor, for the creatures you encounter offer more than meat and hide. Each conquest brings strength, resources, and the promise of survival in a world that hungers for the brave."
+				""
+				"&7Take up your blade, your bow, or your craft, and answer the primal call: the hunt awaits."
+			]
 			id: "4EA94E2F6636AE31"
 			rewards: [
 				{
@@ -657,13 +743,23 @@
 					type: "item"
 				}
 			]
-			title: "&bLet's hunt"
+			title: "&n&4⟡ The Call of the Hunt ⟡&r"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
-			description: ["&aHealing Campfire&r creates an area around the campfire where players and/or passive mobs receive the &bregeneration&r effect in a configurable radius."]
+			description: [
+				"&n&6⟡ The Sacred Flame ⟡&r"
+				""
+				"In a world plagued by endless dangers, there are few things more comforting than the warm embrace of a fire. But the &aHealing Campfire&r is no ordinary flame. This sacred fire possesses the power to heal, bringing comfort and rejuvenation to those who gather around it."
+				""
+				"When ignited, the campfire creates an area of warmth and healing, where weary adventurers and even passive creatures can find solace. Within its flickering light, the &bRegeneration&r effect is granted to all who stand near, restoring health to those in need."
+				""
+				"The fire's radius is configurable, allowing you to decide just how far its healing reach extends. In the darkest times, this campfire can become a beacon of hope, a place to rest and recover before venturing back into the fray."
+				""
+				"&7May your journeys be long, but never without the warmth of this sacred flame to guide you through."
+			]
 			icon: "minecraft:campfire"
 			id: "7AF9B28AE6B073A8"
 			min_width: 300
@@ -679,12 +775,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "&oAs the title says, it heals you"
+			subtitle: "Healing Campfire"
 			tasks: [{
 				id: "54DED3429053F896"
 				type: "checkmark"
 			}]
-			title: "&2Healing Campfire"
+			title: "&n&6⟡ The Sacred Flame ⟡&r"
 			x: -3.5d
 			y: 3.5d
 		}
@@ -764,19 +860,21 @@
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"Welcome to &6Age of Fate&r Quests!"
+				"&n&6⟡ The Journey Awaits ⟡&r"
 				""
-				"The Quest book is included in your &9Eccentric Tome&r. If you prefer you can also create a key binding to open the &cQuest Book&r."
+				"Welcome, adventurer, to the heart of your destiny—the &6Fatebound: Scourge of the Damned&r Quests!"
 				""
-				"To get started with questing, check out the tabs on the left. The Quests are divided into groups and each group has chapters."
+				"In this world of shadows and mystery, the &9Quest Book&r awaits you within the pages of your &9Eccentric Tome&r. If you seek swift access, create a key binding to open the &cQuest Book&r whenever the need arises."
 				""
-				"Mods in the pack are not gated by quests. Quests are optional but &nfully&r recommended."
+				"&7The quests are divided into chapters, each more perilous than the last. Within these chapters, you will uncover secrets, conquer trials, and unlock new powers. The quests are not a path you must follow—&nthey are the path you should choose&r, for they are entirely optional, though &nfully&r recommended for those who seek mastery over their fate."
 				""
-				"To view &aDependencies&r to unlock the particular quest, click on little &cred&r blinking arrow on top left corner. By clicking on the text will bring you on the dependency quest."
+				"You may notice &aDependencies&r—specific quests that must be completed before you can undertake others. Look for the &cred&r blinking arrow on the top left corner to uncover these interwoven challenges. Each dependency reveals a piece of the larger puzzle."
 				""
-				"To view Dependants to the quest, click on little &bwhite&r arrow on top right corner."
+				"And beware, for not all quests are obvious—&nthere are hidden quests&r waiting to be discovered, &o&b22&r hidden trials, to be precise. Do you have the courage to find them all? The rewards will be great, but the journey is long, and the challenges are steep."
 				""
-				"There are also &nhidden&r &2Quests&r. In this chapter are &o&b22&r hidden &2Quests&r. So... can you find them?"
+				"So, brave soul, the call has been made—will you accept it and seek out the hidden and known quests alike?"
+				""
+				"&7The world is full of adventures... which one will you take first?"
 			]
 			icon: "ftbquests:book"
 			id: "45E783F0D8A1736D"
@@ -786,16 +884,30 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "The Quests"
 			tasks: [{
 				id: "1F2C60A442F7BB52"
 				type: "checkmark"
 			}]
-			title: "&cThe Quests"
+			title: "&n&6⟡ The Journey Awaits ⟡&r"
 			x: -8.464285714285715d
 			y: 2.232142857142861d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&n&6⟡ The Adventurer's Pack ⟡&r"
+				""
+				"A true adventurer must always be prepared, for the path ahead is fraught with dangers and unexpected turns. The &6Bundle&r is your first step towards this preparedness, a humble yet versatile vessel that holds your supplies, tools, and resources."
+				""
+				"Crafted from the natural materials around you — sturdy leather, woven vines, and the bounties of the land — the &6Bundle&r is more than just a container. It is an extension of yourself, a portable trove that can carry the tools needed to survive, conquer, and thrive in this untamed world."
+				""
+				"As you journey forth, the bundle will prove itself invaluable. Whether you are gathering herbs, collecting minerals, or preparing for battle, it will always have room for your most essential items. It’s the adventurer’s greatest ally, able to hold items when your inventory is full or when you simply need a quick way to organize your gear."
+				""
+				"But beware: a true adventurer knows when to lighten the load and when to carry more. The &6Bundle&r's capacity is not infinite, and how much you can carry depends on how wisely you pack it. Yet, in the right hands, it will be the difference between victory and defeat, survival and failure."
+				""
+				"So, brave soul, make sure your bundle is ready, for every adventure begins with the right supplies."
+			]
 			id: "58C741E44DF06E15"
 			rewards: [
 				{
@@ -816,12 +928,29 @@
 				item: "minecraft:bundle"
 				type: "item"
 			}]
-			title: "&cThe Bundle"
+			title: "&n&6⟡ The Adventurer's Pack ⟡&r"
 			x: -0.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2D4EE2B866D8CE35"]
+			description: [
+				"&n&6⟡ The Sleeping Bag of Rest: A Traveler's Haven ⟡&r"
+				""
+				"In the unforgiving world of &4Fatebound: Scourge of the Damned&r, rest is a luxury few can afford. Beneath the endless skies filled with looming dangers, the weary adventurer must find moments of solace, even in the wildest of landscapes. The &6Sleeping Bag&r serves as the perfect companion for those journeys where every step is fraught with peril."
+				""
+				"Compact and easily portable, the &6Sleeping Bag&r allows you to rest even in the most hostile environments. Lay it down on the cold, unforgiving ground, and in an instant, the harsh world fades away as you drift into a peaceful slumber, if only for a few hours. While not as luxurious as the hammock, it offers the crucial ability to restore your strength when there is no shelter in sight, keeping you ready for the challenges ahead."
+				""
+				"To craft your &6Sleeping Bag&r, gather the following materials:"
+				""
+				"- Wool to create the soft, warm lining"
+				"- Leather to stitch it into something durable and portable"
+				"- And your resilience to face another night under the stars"
+				""
+				"The &6Sleeping Bag&r represents the spirit of a true adventurer—always ready to press forward, even when the world shows no mercy. It is a testament to your determination, for each night you rest in its folds, you prepare for the trials that await on the horizon."
+				""
+				"&6Lay down, adventurer, and rest your weary bones. The dawn brings new challenges, but tonight, the world is at peace."
+			]
 			hide_until_deps_complete: true
 			id: "403527DC1B8E4FBC"
 			optional: true
@@ -851,12 +980,29 @@
 				title: "Any #comforts:sleeping_bags"
 				type: "item"
 			}]
-			title: "&1The Sleeping Bag"
+			title: "&n&6⟡ The Sleeping Bag of Rest: A Traveler's Haven ⟡&r"
 			x: -10.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["2D4EE2B866D8CE35"]
+			description: [
+				"&n&6⟡ The Hammock of Serenity: Rest Beyond the Ordinary ⟡&r"
+				""
+				"In the lands of &4Fatebound: Scourge of the Damned&r, there is no greater luxury than a peaceful rest. After long days of perilous adventure, surviving against creatures of nightmare and storms that rage without end, you deserve more than a mere bed. The &6Hammock&r represents the pinnacle of relaxation—suspended between two sturdy trees, it offers comfort and rejuvenation like no other."
+				""
+				"While a &6Sleeping Bag&r offers quick relief, the hammock promises true restoration. Here, beneath the stars, rocked gently by the winds of fate, you will find not only rest but clarity. It is in moments like these that heroes gain their strength, contemplating the paths they must tread and the enemies they will face."
+				""
+				"To craft your &6Hammock&r, you will need:"
+				""
+				"- Wool to weave the bed of comfort"
+				"- Sturdy ropes to bind it securely between the trees"
+				"- The finest wood, for the frame that will support your rest"
+				""
+				"The hammock is more than an item—it is a symbol of resilience. When the trials of the world weigh heavily upon your shoulders, this will be the place you return to, finding peace before venturing out into the unknown once more."
+				""
+				"&6Relax, adventurer. The world awaits, but for now, embrace the serenity of the hammock."
+			]
 			hide_until_deps_complete: true
 			id: "78D285EF0AC46A6B"
 			optional: true
@@ -893,12 +1039,25 @@
 					type: "item"
 				}
 			]
-			title: "&3The Hammocks"
+			title: "&n&6⟡ The Hammock of Serenity: Rest Beyond the Ordinary ⟡&r"
 			x: -10.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["27C2B59611A27ABE"]
+			description: [
+				"&n&6⟡ The Blast Furnace of Forge and Flame ⟡&r"
+				""
+				"In the age of &4Fatebound: Scourge of the Damned&r, metal is the foundation of empires, the armor of kings, and the weapon of heroes. To forge the mightiest tools, weapons, and armor, you must harness the intense power of the forge, and there is no greater tool than the &6Blast Furnace&r."
+				""
+				"More than a simple furnace, the Blast Furnace uses roaring fires fueled by charcoal or coal, reaching temperatures so high that only the strongest metals can endure. It will smelt ores faster and more efficiently than any mere hearth, turning raw materials into solid, durable ingots capable of withstanding the harshest environments."
+				""
+				"The &6Blast Furnace&r is the forge of legends. From the gleam of iron to the brilliance of gold and the strength of steel, the items you craft here will serve you well in your quest for the &6Crystal of Creation&r. It is here that you will fashion the tools that will shape your fate—tools to mine deeper, fight fiercer, and endure longer in the perilous lands of this world."
+				""
+				"But know this: the furnace does not easily yield its secrets. It demands precision, and only the most focused smiths can tame its flames. The forging process is dangerous and requires careful attention to timing and fuel. One misstep, and the metal may be lost forever."
+				""
+				"So, gather your ores, stoke the fires, and harness the power of the &6Blast Furnace&r to shape your destiny in the brutal world of &4Fatebound: Scourge of the Damned&r."
+			]
 			hide_until_deps_complete: true
 			id: "6192897387317260"
 			rewards: [
@@ -920,12 +1079,25 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			title: "&dBlast Furnace"
+			title: "&n&6⟡ The Blast Furnace of Forge and Flame ⟡&r"
 			x: -7.714285714285715d
 			y: 4.910714285714292d
 		}
 		{
 			dependencies: ["27C2B59611A27ABE"]
+			description: [
+				"&n&6⟡ The Smoker of Sustenance ⟡&r"
+				""
+				"In the world of &4Fatebound: Scourge of the Damned&r, food is not simply nourishment; it is survival. While many seek to sate their hunger by simple means, the wise know that food, properly prepared, can restore not just the body but the spirit as well."
+				""
+				"The &6Smoker&r is the key to transforming your bounty into hearty meals that will last and fortify you on your long journey. Crafted from humble wood and fire, it will cook your meats and fish to perfection, preserving them for the trials that lie ahead."
+				""
+				"As you embark on this treacherous quest, do not underestimate the power of well-cooked food. A simple meal from the smoker can provide you with vital strength, stamina, and health, keeping you one step ahead of the dangers that lurk in every shadow. Whether you’re preparing for a long expedition into unknown realms or recovering after a fierce battle, the smoker will be your ally in ensuring that your supplies last when you need them most."
+				""
+				"But be warned: the fires of the smoker are not easily tamed. Though it may seem a simple tool, it demands your attention and care. A poor meal may do more harm than good. But with proper preparation, the smoker will offer sustenance that could very well change the course of your fate."
+				""
+				"So gather your firewood, prepare your food, and let the Smoker of Sustenance be your guide as you forge onward through the dangerous world of &4Fatebound: Scourge of the Damned&r."
+			]
 			hide_until_deps_complete: true
 			id: "61DF41B4BDFB0904"
 			rewards: [
@@ -947,12 +1119,30 @@
 				item: "minecraft:smoker"
 				type: "item"
 			}]
-			title: "&fSmoker"
+			title: "&n&6⟡ The Smoker of Sustenance ⟡&r"
 			x: -8.07142857142857d
 			y: 3.6607142857142847d
 		}
 		{
 			dependencies: ["19B4AF80C4E96C64"]
+			description: [
+				"Ah, the &9Enchanting Table&r — an essential tool for those wishing to imbue their gear with powerful enchantments! But before you can unlock its magical potential, there are a few steps you’ll need to follow."
+				""
+				"Here’s how you craft it:"
+				""
+				"&o&b1&r) First, you'll need &o&b2 diamonds&r. These aren’t just any diamonds; they’ve been infused with a trace of magic that’s essential for the crafting process."
+				"&o&b2&r) Next, gather &3Obsidian&r. This dark, mysterious stone is known for its durability and affinity with the arcane. You’ll need 4 blocks of it."
+				"&o&b3&r) And finally, of course, don’t forget the &o&bBook&r! It may not seem magical at first, but it's the key to unlocking the enchanting power."
+				""
+				"Now, follow this simple recipe:"
+				"   - 2x &o&bDiamonds&r"
+				"   - 4x &3Obsidian&r"
+				"   - 1x &o&bBook&r"
+				""
+				"Once crafted, place the &9Enchanting Table&r in the world, surrounded by &o&bBookshelves&r to increase its power and gain access to even more potent enchantments. The deeper the knowledge surrounding it, the stronger your enchantments will be!"
+				""
+				"So, gather your materials, and dive into the world of enchantments. Your journey toward powerful gear has just begun!"
+			]
 			hide_until_deps_complete: true
 			id: "24FB12C77B8D5BF9"
 			rewards: [
@@ -964,29 +1154,13 @@
 				{
 					count: 8
 					id: "18FDC21CD5D309BE"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:lapis_lazuli"
-					}
+					item: "minecraft:lapis_lazuli"
 					random_bonus: 2
 					type: "item"
 				}
 				{
 					id: "0E72D366FBFD5DF2"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:book"
-					}
+					item: "minecraft:book"
 					random_bonus: 1
 					type: "item"
 				}
@@ -1003,6 +1177,24 @@
 		}
 		{
 			dependencies: ["19B4AF80C4E96C64"]
+			description: [
+				"To begin your journey as a &9Potion Maker&r, you'll need the &6Brewing Stand&r — a simple yet essential tool for creating potions that can alter the course of your adventure!"
+				""
+				"Here’s how you can craft your own:"
+				""
+				"&o&b1&r) Gather &2Blaze Powder&r, the heart of any brewing process. You’ll need one of these fiery ingredients to fuel your brewing stand."
+				"&o&b2&r) Next, collect &3Cobblestone&r. The sturdy material will serve as the base for your Brewing Stand."
+				"&o&b3&r) Don’t forget the &o&bBlaze Rod&r, a key component that channels the magical powers needed to create potions. You’ll need just one Blaze Rod to get started."
+				""
+				"Here’s the recipe:"
+				"   - 1x &o&bBlaze Rod&r"
+				"   - 3x &3Cobblestone&r"
+				"   - 1x &2Blaze Powder&r (used to fuel)"
+				""
+				"Once you have crafted the Brewing Stand, place it on the ground and right-click to open the brewing interface. With it, you can brew various potions that grant unique abilities, from healing to enhancing strength."
+				""
+				"As you gain more experience, you can unlock &6Advanced Brewing&r techniques and even brew potions with more potent effects. But for now, start simple, and become an apprentice of the brewing arts!"
+			]
 			hide_until_deps_complete: true
 			id: "68693BFBFF578320"
 			rewards: [
@@ -1014,30 +1206,14 @@
 				{
 					count: 2
 					id: "396C8444E7C8E3EA"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:blaze_powder"
-					}
+					item: "minecraft:blaze_powder"
 					random_bonus: 1
 					type: "item"
 				}
 				{
 					count: 6
 					id: "010DCDD655E9F0F1"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:glass_bottle"
-					}
+					item: "minecraft:glass_bottle"
 					type: "item"
 				}
 			]
@@ -1053,6 +1229,19 @@
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
+			description: [
+				"&n&6⟡ The Forge Awaits ⟡&r"
+				""
+				"In the heart of every great kingdom, the forge is where legends are made. The roar of the furnace, the rhythmic hammering on the anvil—these are the sounds that have shaped civilizations. Now, the forge calls to you, traveler."
+				""
+				"To craft your own weapons, tools, and armor, you must first master the art of smithing. The &6Smithing Table&r is your gateway to this ancient craft. It is here that raw materials are transformed into tools of power and purpose."
+				""
+				"With the &6Smithing Table&r in your hands, you can begin to shape your destiny—crafting mighty swords to cleave through your enemies, or forging armor that will shield you from the most horrific of foes. "
+				""
+				"But beware, adventurer. The forge is not a simple place; it demands both patience and skill. Each strike on the anvil brings you closer to mastery, but you must refine your techniques. Start with the basics and allow your creations to grow with you."
+				""
+				"The road ahead is fraught with challenges, but with the &6Smithing Table&r, you shall be prepared to face them. Are you ready to forge your future?"
+			]
 			id: "0C696C02464BD69E"
 			rewards: [
 				{
@@ -1067,17 +1256,29 @@
 					type: "loot"
 				}
 			]
+			subtitle: "Smithing Table "
 			tasks: [{
 				id: "5A16454016C73CD8"
 				item: "minecraft:smithing_table"
 				type: "item"
 			}]
-			title: "&5Smithing Table"
+			title: "&n&6⟡ The Forge Awaits ⟡&r"
 			x: 0.3571428571428612d
 			y: 0.9464285714285694d
 		}
 		{
 			dependencies: ["0C696C02464BD69E"]
+			description: [
+				"&n&6⟡ The Edge of Perfection ⟡&r"
+				""
+				"In the hands of a skilled warrior, a blade can be a thing of unparalleled power. But even the finest sword must be honed, its edge sharpened to perfection, to cut through the hardest of foes. This is the purpose of the &6Grindstone&r — the ancient tool that refines the rough and gives true meaning to the phrase \"edge of battle.\""
+				""
+				"The &6Grindstone&r is more than a mere tool; it is a symbol of precision and craftsmanship. With its whetted surface and grinding wheel, it takes what was once dull and turns it into something capable of cutting through steel, stone, and even the darkest of enchantments."
+				""
+				"In your journey, you will face beasts and warriors, monsters and titans, all of whom will demand more than just basic tools. The &6Grindstone&r will allow you to restore your weapons to their former glory or imbue them with new, sharpened purpose. The sharpened edge can make the difference between life and death, between victory and defeat."
+				""
+				"To wield a weapon of mastery, you must first sharpen it with care. May the &6Grindstone&r guide your hand as you refine your path to greatness."
+			]
 			hide_until_deps_complete: true
 			id: "1AFBBB797AE2F644"
 			rewards: [
@@ -1093,17 +1294,29 @@
 					type: "random"
 				}
 			]
+			subtitle: "Grindstone"
 			tasks: [{
 				id: "4CC01F806C34DBF3"
 				item: "minecraft:grindstone"
 				type: "item"
 			}]
-			title: "&eGrindstone"
+			title: "&n&6⟡ The Edge of Perfection ⟡&r"
 			x: 2.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0C696C02464BD69E"]
+			description: [
+				"&n&6⟡ The Heart of the Forge ⟡&r"
+				""
+				"To become a true master of the forge, you must first understand the power of the &6Anvil&r. Where the Smithing Table shapes the basic forms, the &6Anvil&r is where your creations are perfected. It is upon this mighty tool that your blade will be tempered, your armor will be strengthened, and your tools will be honed for the trials ahead."
+				""
+				"An ancient relic in the art of blacksmithing, the &6Anvil&r is forged from the hardest materials and imbued with the strength to withstand the heat of the greatest furnaces. Here, you will bend metal to your will, shaping weapons and tools that will carry you through the darkest dungeons and the most perilous journeys."
+				""
+				"To craft more advanced items, the &6Anvil&r is indispensable. From combining materials to enhancing your creations with unique properties, the &6Anvil&r is where the true magic of the forge happens. But be warned, forging is not for the faint-hearted. The forge tests the will of the bold and the patience of the diligent. Every creation made here is a testament to your resolve."
+				""
+				"Forge onward, brave soul, and let the &6Anvil&r be your guide to mastery."
+			]
 			hide_until_deps_complete: true
 			id: "3FF285B77B20C7D8"
 			rewards: [
@@ -1119,17 +1332,27 @@
 					type: "loot"
 				}
 			]
+			subtitle: "Anvil"
 			tasks: [{
 				id: "33A934EF7F779A56"
 				item: "minecraft:anvil"
 				type: "item"
 			}]
-			title: "&9Anvil"
+			title: "&n&6⟡ The Heart of the Forge ⟡&r"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4407A832E90678D3"]
+			description: [
+				"The world now demands tools of greater resilience and power. No longer can your reinforced bone tools bear the weight of the journey ahead. It is time to forge something even mightier—&6Plated Primitive Tools&r, combining bone and metal to create tools that surpass the limits of mere mortals."
+				""
+				"&o&b1&r) After reinforcing your Bone Tools, you’ll now need to seek out &7Iron&r. This iron will be the foundation upon which your next creation rests."
+				"&o&b2&r) Use your newly acquired &7Iron&r to craft &6Plated Bone Tools&r, fusing &eCopper&r, &7Iron&r, and your reinforced bone tools into formidable equipment."
+				"&o&b3&r) The Plated Tools now possess enhanced durability, giving you the edge to conquer even the most challenging foes and resource-rich locations."
+				" "
+				"These tools, born from the forge of ancient knowledge and steel, will be your companions as you venture forth into new realms of the unknown."
+			]
 			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			id: "11D60840DA1FB603"
@@ -1142,15 +1365,7 @@
 				}
 				{
 					id: "255241256AEA63AF"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "ironfurnaces:gold_furnace"
-					}
+					item: "ironfurnaces:gold_furnace"
 					type: "item"
 				}
 			]
@@ -1209,13 +1424,23 @@
 					type: "item"
 				}
 			]
-			title: "&ePlated Primitive Tools"
+			title: "&n&6⟡ Plated Primitive Tools: A Forge of Steel and Bone ⟡&r"
 			x: -13.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
-			description: ["The &dStore Chapter Group&r offers you &b&n8 Shops&r where you can buy rare items, equip yourself with powerful stuff, get some food, books... even creative items are optainable in &0The Pirate Bay&r shop."]
+			description: [
+				"&n&3⟡ The Market of Endless Possibilities ⟡&r"
+				""
+				"Amidst the chaos of the world, there lies a place where wealth and wonder meet—the &dStore Chapter Group&r. Within its walls, you will find &b&n8 unique shops&r, each filled with treasures and tools to aid you on your journey."
+				""
+				"From &rrare artifacts&r to &epowerful weapons&r, the shops offer a vast array of items to help you conquer the dangers ahead. Whether you're in need of food, enchanted books, or other worldly supplies, &b&nThe Pirate Bay&r even offers creative treasures that transcend the mortal realm."
+				""
+				"Trade your spoils, barter your goods, and equip yourself for the trials to come. In this market, anything is possible—if you have the means."
+				""
+				"&7The world is yours to explore, but sometimes, even the bravest need the right tools."
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1237,24 +1462,30 @@
 					type: "item"
 				}
 			]
+			subtitle: "The Store "
 			tasks: [{
 				id: "0A05592D6BC3C187"
 				type: "checkmark"
 			}]
-			title: "&cThe Store"
+			title: "&n&3⟡ The Market of Endless Possibilities ⟡&r"
 			x: -0.2857142857142847d
 			y: -0.2321428571428612d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"Don't forget to set your home first."
+				"&n&6⟡ Home: A Beacon in the Chaos ⟡&r"
 				""
-				"Use command &d/sethome&r for setting home."
+				"In this world adrift in shadow and ruin, one truth remains eternal: &o&bEvery wanderer needs a sanctuary&r."
 				""
-				"Use command &d/home&r to teleport your back to home."
+				"Before venturing too far, anchor your essence with the &d/sethome&r command—&oit marks the soil where your spirit shall return&r."
 				""
-				"Use command &d/back&r to teleport your to previous location. Can be used multiple times."
+				"Should peril consume you, utter the command &d/home&r to call upon that tether and return to safety."
+				""
+				"And if fate tears you from a place you must revisit, invoke &d/back&r to retrace your steps through the veil of space and time.  "
+				"This incantation can be used again and again—as long as your will remains unbroken."
+				""
+				"&7A wise soul sets their mark before the storm arrives."
 			]
 			icon: {
 				Count: 1
@@ -1274,13 +1505,23 @@
 				id: "07508401EE912F59"
 				type: "checkmark"
 			}]
-			title: "&6Home Sweet Home!"
+			title: "&n&6⟡ Home: A Beacon in the Chaos ⟡&r"
 			x: -0.4642857142857153d
 			y: -2.6964285714285694d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
-			description: ["The &9Personal ID Card&r is a key component in certain recipes."]
+			description: [
+				"&n&3⟡ Sigil of Selfhood ⟡&r"
+				""
+				"In this fractured realm, where memories have crumbled to dust, you must reclaim your sense of identity."
+				""
+				"The &9Personal ID Card&r is more than parchment and ink—it is a sigil of your existence, a tether to who you are… or who you were."
+				""
+				"Some ancient mechanisms and arcane forges recognize only those bound by such marks. It is a vital component in rituals and recipes both mundane and profound."
+				""
+				"Guard it well. In a world lost to time, identity is power."
+			]
 			icon: "kubejs:personal_id"
 			id: "66A364380D3AA7B5"
 			min_width: 250
@@ -1296,20 +1537,29 @@
 					type: "item"
 				}
 			]
+			subtitle: "&9Personal ID Card"
 			tasks: [{
 				id: "176FB21603F3CC30"
 				type: "checkmark"
 			}]
-			title: "&9Personal ID Card"
+			title: "&n&3⟡ Sigil of Selfhood ⟡&r"
 			x: -4.714285714285715d
 			y: -3.803571428571427d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"The money can be earned by completing &2Quests&r or by &o&bselling&r certain materials in the &9Player Shop&r."
+				"&n&7⟡ The Coins of Fate ⟡&r"
 				""
-				"It won't be easy, there are many &2Quests&r."
+				"In this fractured world, gold and silver are but a means to an end—&b&nCurrency&r is the key to unlocking your potential."
+				""
+				"Earn your wealth by completing the trials and challenges scattered across the land—&2Quests&r that test your strength, wit, and perseverance. "
+				""
+				"Alternatively, you can &o&bsell&r valuable materials in the &9Player Shop&r, where the fruits of your labor can be exchanged for riches. "
+				""
+				"But beware, for the path to fortune is no easy road. The many &2Quests&r will demand more than you might expect, and only those who persevere will see their coffers grow."
+				""
+				"&7Wealth is a tool, not a goal—use it wisely, for it is a fleeting ally in the face of true power."
 			]
 			icon: "kubejs:note_100"
 			id: "5EF0BA900A68FF54"
@@ -1326,24 +1576,33 @@
 					type: "item"
 				}
 			]
+			subtitle: "Currency System "
 			tasks: [{
 				id: "7D897A5E18C17BCB"
 				type: "checkmark"
 			}]
-			title: "&aCurrency System"
+			title: "&n&7⟡ The Coins of Fate ⟡&r"
 			x: -8.428571428571423d
 			y: -1.2678571428571388d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"Once forged by antediluvian &4God&r, it beckons mortals and higher beings alike with promise of untold riches and immeasurable might..."
+				"&n&6⟡ The Ring of Seven Curses ⟡&r"
 				""
-				"Be it &o&barrogance&r or &o&bignorance&r that leads them to believe they can harness ring's power, both are paid for in &o&bsuffering&r the extent of which defies description."
+				"Once crafted by the hands of the &4Ancient Gods&r, long before the Great Cataclysm that reshaped the world, the &6Ring of Seven Curses&r calls to those daring enough to seek it—promising riches beyond mortal comprehension and strength that rivals the might of the gods themselves. "
 				""
-				"Once it is put on, it &ccannot be removed&r. Wearing it &o&bsignificantly&r and &o&bpermanently&r changes gameplay to be &o&6extremely challenging&r."
+				"But as with all things born of ambition, this is not a gift freely given. The &6Ring of Seven Curses&r holds the eternal stain of greed and arrogance, for those who wear it are forever bound to its will. "
 				""
-				"Are you brave enough to wear it?"
+				"&4The Curse of the Ring&r is not merely a malediction—it is a pact. The moment the ring is placed upon the finger, the wearer is irrevocably changed, and the consequences are immediate. Its power twists the very fabric of your existence. Each breath will feel heavier, each challenge more punishing, yet the rewards are tantalizing. "
+				""
+				"Wearing the &6Ring of Seven Curses&r &cANNOT&r be undone. Once it is adorned, there is no going back, for the curse’s grip is eternal. The hardships it brings will make the very world seem like an unyielding adversary, testing your resolve with every step. "
+				""
+				"Will you take the risk? Will you let arrogance and desire for power guide you into embracing the ring’s trials? "
+				""
+				"You have been warned, adventurer—this is a path walked by few, and those who walk it seldom return unchanged. "
+				""
+				"If you are brave enough, proceed. But remember: The &6Ring of Seven Curses&r demands more than you may ever be willing to give."
 			]
 			icon: "enigmaticlegacy:cursed_ring"
 			id: "23AA20F16618CF1F"
@@ -1371,16 +1630,24 @@
 				title: "The Ring of the Seve Curses"
 				type: "checkmark"
 			}]
-			title: "&cThe Ring of the Seven Curses"
+			title: "&n&6⟡ The Ring of Seven Curses ⟡&r"
 			x: -8.607142857142861d
 			y: -0.1607142857142847d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"&2The Mining Dimension&r is useful to set up &o&bquarries to mine in&r. It is also useful to use as a testing area since it is a &o&bsuperflat dimension&r."
+				"&n&6⟡ The Gateway to Unknown Realms ⟡&r"
 				""
-				"The &6Teleport Pad&r is used to teleport to &2The Mining Dimension&r, and &4The Other&r you need to &eShift+Right-click&r with both an &o&bempty hand&r and &o&boff hand&r."
+				"In your journey, you will encounter many strange and otherworldly places, where the laws of reality bend and shift. Among these realms, &2The Mining Dimension&r stands out—a vast, &o&bsuperflat dimension&r, ripe for the taking. Here, you can set up quarries and mine vast amounts of resources, free from the distractions of the world above."
+				""
+				"To access this dimension, you will need the &6Teleport Pad&r, a creation of arcane technology that can pierce the fabric of the world and open a gateway to &2The Mining Dimension&r and even to &4The Other&r."
+				""
+				"But be warned—this pad requires careful use. To activate it, &eShift+Right-click&r with both an &o&bempty hand&r and an &o&boff hand&r. Only then will the gateway open before you, granting you access to the realms beyond."
+				""
+				"Use this tool wisely, for the dimensions you unlock may harbor dangers and treasures in equal measure."
+				""
+				"&7Venture forth, and may the portals you open lead to both riches and understanding."
 			]
 			id: "750C0E2628CDE2EB"
 			min_width: 310
@@ -1408,11 +1675,34 @@
 				item: "allthemodium:teleport_pad"
 				type: "item"
 			}]
+			title: "&n&6⟡ The Gateway to Unknown Realms ⟡&r"
 			x: -5.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["68693BFBFF578320"]
+			description: [
+				"You've now mastered the basics of potion-making, but it's time to take your brewing skills to the next level with the &6Compound Brewing Stand&r! This advanced piece of equipment allows you to craft more potent and complex potions, using multiple ingredients in one batch to create unique effects."
+				""
+				"To craft the &6Compound Brewing Stand&r, follow these steps:"
+				""
+				"&o&b1&r) Gather &6Hopper&r, a component essential for transporting your brewing ingredients into the stand."
+				"&o&b2&r) Collect &1Brewing Stand&r, the foundation of all potion-making, to serve as the core of your compound stand."
+				"&o&b3&r) Obtain &5Crying Obsidian&r, a mystical material that adds a magical aura to your brewing process."
+				"&o&b4&r) Collect &3Basalt&r, a durable stone that enhances the stability and efficiency of the brewing process."
+				""
+				"Here's the recipe:"
+				"   - 1x &6Brewing Stand&r"
+				"   - 1x &6Hopper&r"
+				"   - 2x &5Crying Obsidian&r"
+				"   - 3x &3Basalt&r"
+				""
+				"Once crafted, place the &6Compound Brewing Stand&r and right-click to access its advanced brewing interface. With this stand, you can combine multiple ingredients, crafting potions that merge various effects or create entirely new and powerful brews!"
+				""
+				"This stand unlocks the ability to craft potions that affect not only the individual but also the environment or even other players in new ways. Explore the full potential of your potion-making skills, and become a true Potion Master!"
+				""
+				"The possibilities are endless — but remember, the more complex the potion, the greater the risk and reward!"
+			]
 			hide_until_deps_complete: true
 			id: "364E3307FC50AA87"
 			rewards: [
@@ -1454,6 +1744,19 @@
 		}
 		{
 			dependencies: ["364E3307FC50AA87"]
+			description: [
+				"You have now reached the peak of potion crafting—&6The Potion Injector&r, a masterpiece of alchemical innovation. This device will allow you to craft potions with incredible precision and power, distilling their effects into a form previously unseen."
+				""
+				"&o&b1&r) To craft the Potion Injector, gather the following ingredients:"
+				"   - &f4x Diorite&r"
+				"   - &f2x Glass&r"
+				"   - &f2x Leather&r"
+				"   - &f1x Stone Button&r"
+				"&o&b2&r) With these materials, you will create the Potion Injector, capable of refining potions into concentrated forms, infusing them with even more potent effects."
+				"&o&b3&r) Now, you can harness the full power of your brews—this tool will change the way you approach combat, exploration, and survival. "
+				""
+				"Use it wisely, for mastery of the Potion Injector can turn the tide of any encounter, but it demands both knowledge and caution."
+			]
 			hide_until_deps_complete: true
 			id: "43CD8F07A1EC697D"
 			rewards: [
@@ -1480,12 +1783,24 @@
 				item: "davespotioneering:potion_injector"
 				type: "item"
 			}]
-			title: "The Potion Maker: &d&oMaster"
+			title: "&n&6⟡ Potion Maker: Master - The Alchemist's Injector ⟡&r"
 			x: -5.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["43CD8F07A1EC697D"]
+			description: [
+				"With your growing expertise in crafting, it's time to forge your first piece of wearable protection: the &6Rudimentary Gauntlet&r."
+				""
+				"This basic but effective gauntlet offers some protection while allowing for future upgrades."
+				""
+				"&o&b1&r) To craft the Rudimentary Gauntlet, gather the following ingredients:"
+				"   - &e6x Copper Ingot&r"
+				""
+				"&o&b2&r) Once crafted, this gauntlet will provide you with modest defense, making it useful for the early stages of your adventures."
+				""
+				"As you progress, you will discover ways to enhance and refine your gauntlet into a powerful piece of equipment."
+			]
 			hide_until_deps_complete: true
 			id: "2855DE3BE2A3E3F0"
 			rewards: [
@@ -1512,11 +1827,26 @@
 				}
 				type: "item"
 			}]
+			title: "&n&6⟡ Rudimentary Gauntlet - The First Step to Armament ⟡&r"
 			x: -3.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["2855DE3BE2A3E3F0"]
+			description: [
+				"You have conquered the depths of the Nether and unlocked the secrets of its molten riches. Now, it's time to forge a gauntlet of unparalleled strength, made from the rare and mighty &7Netherite&r."
+				""
+				"This gauntlet will not only enhance your strength but will also serve as a symbol of your mastery over both fire and steel."
+				""
+				"&o&b1&r) To craft the &7Netherite Gauntlet&r, gather the following ingredients:"
+				"   - &71x Smithing Template&r"
+				"   - &e1x Rudimentary Gauntlet&r"
+				"   - &71x Netherite Ingot&r"
+				""
+				"&o&b2&r) Once crafted, the &7Netherite Gauntlet&r will grant you unmatched durability and protection, with abilities that scale with your growing power."
+				""
+				"With this gauntlet, no foe in the realms will stand unchallenged."
+			]
 			hide_until_deps_complete: true
 			id: "0F8DA9304DA8E2FE"
 			rewards: [
@@ -1543,11 +1873,27 @@
 				}
 				type: "item"
 			}]
+			title: "&n&6⟡ Netherite Gauntlet - The Forge of Eternal Power ⟡&r"
 			x: -2.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0F8DA9304DA8E2FE"]
+			description: [
+				"Having already mastered the art of forging the &7Netherite Gauntlet&r, it is now time to merge the power of alchemy with your gauntlet, creating the &6Potioneer Gauntlet&r."
+				""
+				"This potent tool will allow you to harness the power of potions with the mere flick of your wrist, turning combat and exploration into an even greater adventure."
+				""
+				"&o&b1&r) To craft the &6Potioneer Gauntlet&r, gather the following ingredients:"
+				"   - &71x Netherite Gauntlet&r"
+				"   - &8 1x Hopper&r"
+				"   - &d 1x Lever&r"
+				"   - &7 6x Glass Bottles&r"
+				""
+				"&o&b2&r) Once crafted, the &6Potioneer Gauntlet&r will enable you to store and deploy potions at will, a powerful enhancement for any adventurer or alchemist."
+				""
+				"With this gauntlet, your mastery over the elements and your enemies will reach new heights. The art of alchemy is now at your fingertips."
+			]
 			hide_until_deps_complete: true
 			id: "6FD9EDF3ABF0D65D"
 			rewards: [
@@ -1572,17 +1918,25 @@
 				}
 				type: "item"
 			}]
+			title: "&n&6⟡ Potioneer Gauntlet - The Alchemist’s Armament ⟡&r"
 			x: -0.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"To &b&oclaim chunks&r, the default key to open the &6Claim Map&r is &9M&r."
+				"&n&3⟡ Binding the Land to Your Will ⟡&r"
 				""
-				"To &o&bclaim a chunk&r, &eLeft-click&r and &ndrag&r to claim."
+				"In a land abandoned by order, the power to &o&bclaim dominion&r over the wilds is yours to wield."
 				""
-				"To &o&bforce load a chunk&r, &eShift+Left-click&r the chunk. If done properly, you'll see &o&blines&r across the chunk."
+				"To open the &6Arcane Map of Holdings&r, press &9M&r by default."
+				""
+				"With a &eLeft-click&r and a &ndrag of your hand&r across the land, you inscribe your mark upon the realm—staking a claim none may contest."
+				""
+				"To ensure the very fabric of time and motion bends to your will in your domain, &o&bforce-load&r a chunk by pressing &eShift + Left-click&r upon it.  "
+				"A shimmer of lines across the claimed land confirms its eternal vigilance."
+				""
+				"Guard your territory wisely—&oit may be the only sanctuary you possess&r."
 			]
 			icon: {
 				Count: 1
@@ -1598,17 +1952,28 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Claiming Chunks"
 			tasks: [{
 				id: "0F1596C2D7B2E323"
 				type: "checkmark"
 			}]
-			title: "&bClaiming Chunks"
+			title: "&n&3⟡ Binding the Land to Your Will ⟡&r"
 			x: -1.642857142857146d
 			y: -3.3035714285714306d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
-			description: ["If you want to create a &2Team&r for you and your friends, use the command &d/ftbteams party create (name of team)&r to create the team!"]
+			description: [
+				"&n&2⟡ Oaths of the Bound ⟡&r"
+				""
+				"Though you awaken alone in this cursed realm, fate does not bind you to solitude."
+				""
+				"By invoking the ancient rite of the &oOathbound Pact&r, you may forge an alliance—a sacred bond among fellow wanderers lost to time."
+				""
+				"Together, you shall share not only your spoils and strength, but also the trials ahead. A unified will may yet alter the tides of damnation."
+				""
+				"&7To begin the rite and form your fellowship, invoke: &d/ftbteams party create <team name>&r"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1623,11 +1988,12 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Creating a Team"
 			tasks: [{
 				id: "249F0A73AAE6B183"
 				type: "checkmark"
 			}]
-			title: "&dCreating a Team"
+			title: "&n&2⟡ Oaths of the Bound ⟡&r"
 			x: -7.0d
 			y: -3.0d
 		}
@@ -1798,9 +2164,19 @@
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"&6GoProne&r adds a keybind (default \"&o&bC&r\") which sets the player to the &o&bcrawling pose&r, allowing them to sneak through &o&b1-block high gaps&r, without needing to squash something on top of them."
+				"&n&6⟡ The Art of Stealth ⟡&r"
 				""
-				"Also adds a second keybind (&o&bnot bound to anything&r by default) which allows you to toggle being prone."
+				"In a world teeming with monsters, hidden dangers, and treacherous terrain, survival often requires more than just brute strength."
+				""
+				"The &6GoProne&r mod grants you the ancient art of stealth—an invaluable skill for slipping past enemies undetected and navigating through the narrowest of gaps."
+				""
+				"To use this art, press &o&bC&r to enter the crawling pose, allowing you to slink through &o&b1-block high gaps&r with ease, avoiding the notice of your enemies. This pose may be your lifeline when you find yourself surrounded by foes or in need of quiet passage."
+				""
+				"Additionally, there exists a second keybind—the toggle for prone—that can be activated at will, granting you the full flexibility to lie flat and wait for the perfect moment to strike or evade."
+				""
+				"Master this skill, for not every battle is won by force. Sometimes, the wisest course of action is to move unseen and unheard."
+				""
+				"&7Use the shadows to your advantage, for the world is vast, and there are more threats lurking than you can imagine."
 			]
 			icon: {
 				Count: 1
@@ -1816,25 +2192,31 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "GoProne"
 			tasks: [{
 				id: "5A4382CC9FF4C2DD"
 				type: "checkmark"
 			}]
-			title: "&7GoProne"
+			title: "&n&6⟡ The Art of Stealth ⟡&r"
 			x: -7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["31F65F523E4DB7A7"]
 			description: [
-				"&6Passive Skill Tree&r mod, mostly inspired by &o&bPath of Exile&r game."
+				"&n&5⟡ The Forgotten Paths of Power ⟡&r"
 				""
-				"To get started, gather some &eExperience&r to acquire &o&byour first skill point&r."
-				"Then press &o&bKeypad 1&r (if it doesn't work - check your key bindings)."
-				"Then select your &9Class&r but &nchoose carefully&r, you cannot change it."
-				"You can &o&bpath to other classes&r later if you think it is worth it."
+				"In ages past, the ancients whispered of hidden lines of power—threads of fate woven into the very soul. "
 				""
-				"&2Maximum&r skill points are &b85&r, so plan your tree carefully."
+				"These forgotten paths, remnants of a broken world, now awaken within you."
+				""
+				"To begin your ascension, gather &eExperience&r and unlock your first point of destiny."
+				""
+				"Then, press &o&bKeypad 1&r to gaze upon the &9Astral Constellation&r of forgotten skills. If this fails, seek guidance within your key bindings."
+				""
+				"Choose your &9Class&r with care, for this decision is etched into the very essence of your being. Though the future may yet allow you to walk among other paths, your origin will define your legend."
+				""
+				"&7Max skill points: &b85&r — plan your rise wisely, for every step may shape your fate."
 			]
 			icon: "create:experience_nugget"
 			icon_scale: 1.5d
@@ -1845,11 +2227,12 @@
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Passive Skill Tree"
 			tasks: [{
 				id: "70AB8F7785F5A645"
 				type: "checkmark"
 			}]
-			title: "Passive Skill Tree"
+			title: "&n&5⟡ The Forgotten Paths of Power ⟡&r"
 			x: -5.535714285714285d
 			y: -2.8035714285714306d
 		}

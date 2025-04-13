@@ -93,19 +93,18 @@
 		{
 			dependencies: ["0DA972D85BB3C86C"]
 			description: [
-				"&6Industrial Foregoing&r is a mod that allows you to &o&aautomate&r most of minecraft's functions."
+				"After the world plunged into chaos, the once-thriving industries of old vanished into the dust. Yet, from the ashes of the fallen world, a new age of machines and automation has arisen. Welcome to &6Industrial Foregoing&r, where technology and nature converge in ways once thought impossible."
 				""
-				"It has machines for everything!"
+				"Harnessing the power of machines, you can now automate nearly every process within the world. From the basics of mob farming to the intricacies of enchanting and ore collection, &6Industrial Foregoing&r brings you the tools needed to reshape the land. But these machines are not just tools—they are the lifeblood of the new world order, a society built on automation and efficiency."
 				""
-				"- &2Mob&r and &2Animal&r farming"
-				"- &aPlant&r farming"
-				"- A suite of &bInfinity Tools&r"
-				"- Big &eItem&r/&9Fluid&r &nStorage&r and &eItem&r/&9Fluid&r &nTransporters&r"
-				"- &cPower&r generation"
-				"- &dEnchantments&r sorting and creation"
-				"- &3Ore&r collection"
+				"• Automate mob and animal farming, producing resources in endless supply."
+				"• Cultivate vast fields with automated plant farming systems that never stop working."
+				"• Use the &o&bInfinity Tools&r to make your work easier and more efficient."
+				"• Store and transport vast amounts of items and fluids, ensuring that nothing goes to waste."
+				"• Generate power through advanced &cEnergy Generation&r to keep your machines running."
+				"• Collect ores with ease and refine them with precision, powering your next step in industrial evolution."
 				""
-				"And &o&bmuch more&r..."
+				"Yet, with great power comes great responsibility. Who controls the machines? And who built them? Was this automation created to save the world—or to control it? As you delve deeper into the workings of these marvels, you may uncover the true purpose of this new industrial age."
 			]
 			icon: {
 				Count: 1
@@ -135,7 +134,7 @@
 				id: "5CDCDDFD361DFFBD"
 				type: "checkmark"
 			}]
-			title: "Welcome to &3Industrial Foregoing"
+			title: "&n&7⟡ The Rebirth of Industry ⟡&r"
 			x: -4.0d
 			y: -12.0d
 		}
@@ -2245,15 +2244,7 @@
 			]
 			tasks: [{
 				id: "779EEA5CB0181A70"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "industrialforegoing:plant_fertilizer"
-				}
+				item: "industrialforegoing:plant_fertilizer"
 				type: "item"
 			}]
 			x: 2.0d
@@ -2282,15 +2273,7 @@
 			]
 			tasks: [{
 				id: "2B4B47208FFD9392"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "industrialforegoing:meat_feeder"
-				}
+				item: "industrialforegoing:meat_feeder"
 				type: "item"
 			}]
 			x: -4.5d
@@ -2326,15 +2309,7 @@
 			]
 			tasks: [{
 				id: "7AC4A2599ED43A0C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "industrialforegoing:mechanical_dirt"
-				}
+				item: "industrialforegoing:mechanical_dirt"
 				type: "item"
 			}]
 			x: -4.5d
@@ -2363,15 +2338,7 @@
 			]
 			tasks: [{
 				id: "5150198CAFCD9AA2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "industrialforegoing:sludge_refiner"
-				}
+				item: "industrialforegoing:sludge_refiner"
 				type: "item"
 			}]
 			x: -10.0d

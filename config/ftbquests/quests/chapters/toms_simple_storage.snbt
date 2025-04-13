@@ -28,6 +28,15 @@
 	quests: [
 		{
 			dependencies: ["6366C83E82CF5FB1"]
+			description: [
+				"In the land of the &6Known World&r, resources are plentiful but organization is rare. Enter the realm of &6Tom's Simple Storage&r, where the chaos of scattered chests and unorganized materials can be tamed with simplicity and efficiency. Take control of your clutter and create an orderly system that will empower your adventures and crafting."
+				""
+				"• Craft and place &o&bSimple Storage Units&r to easily organize your materials and resources."
+				"• Use &o&bStorage Network&r blocks to access all your items from a single location, bringing organization to your fingertips."
+				"• Enjoy a streamlined inventory system that is both user-friendly and highly functional, perfect for all your resource management needs."
+				""
+				"Transform your chaotic storage system into a sleek, organized vault, and gain the power of efficiency."
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -49,7 +58,7 @@
 				id: "53D19971B43869A8"
 				type: "checkmark"
 			}]
-			title: "Welcome to &eTom's Simple Storage "
+			title: "&n&6⟡ The Keeper's Vault: Organizing the Chaos ⟡&r"
 			x: -6.0d
 			y: -8.25d
 		}
@@ -82,15 +91,7 @@
 			]
 			tasks: [{
 				id: "64311E854D9C943D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_connector"
-				}
+				item: "toms_storage:ts.inventory_connector"
 				type: "item"
 			}]
 			x: -4.5d
@@ -120,15 +121,7 @@
 			]
 			tasks: [{
 				id: "5C015A7DEAF65C23"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.storage_terminal"
-				}
+				item: "toms_storage:ts.storage_terminal"
 				type: "item"
 			}]
 			x: -2.0d
@@ -163,15 +156,7 @@
 			]
 			tasks: [{
 				id: "0FD10AA8BE987870"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.crafting_terminal"
-				}
+				item: "toms_storage:ts.crafting_terminal"
 				type: "item"
 			}]
 			x: -0.5d
@@ -201,15 +186,7 @@
 			]
 			tasks: [{
 				id: "2FE86E1296D433C1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.trim"
-				}
+				item: "toms_storage:ts.trim"
 				type: "item"
 			}]
 			x: -6.5d
@@ -239,15 +216,7 @@
 			]
 			tasks: [{
 				id: "51943D657352CA1D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.open_crate"
-				}
+				item: "toms_storage:ts.open_crate"
 				type: "item"
 			}]
 			x: -5.0d
@@ -277,15 +246,7 @@
 			]
 			tasks: [{
 				id: "6AA30A3D4D1F7C4C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_cable"
-				}
+				item: "toms_storage:ts.inventory_cable"
 				type: "item"
 			}]
 			x: -2.5d
@@ -315,15 +276,7 @@
 			]
 			tasks: [{
 				id: "789781B474CA8EA4"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_cable_framed"
-				}
+				item: "toms_storage:ts.inventory_cable_framed"
 				type: "item"
 			}]
 			x: -1.0d
@@ -353,15 +306,7 @@
 			]
 			tasks: [{
 				id: "471862657C5AE4E0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_hopper_basic"
-				}
+				item: "toms_storage:ts.inventory_hopper_basic"
 				type: "item"
 			}]
 			x: -3.0d
@@ -391,15 +336,7 @@
 			]
 			tasks: [{
 				id: "392F5E7B5FDB1A8F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.level_emitter"
-				}
+				item: "toms_storage:ts.level_emitter"
 				type: "item"
 			}]
 			x: -2.0d
@@ -435,29 +372,13 @@
 			tasks: [
 				{
 					id: "231E3B51BB948374"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:beacon"
-					}
+					item: "minecraft:beacon"
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "588E8EA89ECA9D58"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:iron_block"
-					}
+					item: "minecraft:iron_block"
 					type: "item"
 				}
 			]
@@ -494,15 +415,7 @@
 			]
 			tasks: [{
 				id: "32EA6F6682A7A8D0"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_cable_connector"
-				}
+				item: "toms_storage:ts.inventory_cable_connector"
 				type: "item"
 			}]
 			x: -0.5d
@@ -532,15 +445,7 @@
 			]
 			tasks: [{
 				id: "38E3E0F2C2F11FF9"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_cable_connector_framed"
-				}
+				item: "toms_storage:ts.inventory_cable_connector_framed"
 				type: "item"
 			}]
 			x: 1.0d
@@ -570,15 +475,7 @@
 			]
 			tasks: [{
 				id: "520D17181C11D22D"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_cable_connector_filtered"
-				}
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
 				type: "item"
 			}]
 			x: 2.0d
@@ -610,11 +507,6 @@
 				id: "35492E25BF860EA4"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 					id: "toms_storage:ts.paint_kit"
 					tag: {
 						Damage: 0
@@ -649,15 +541,7 @@
 			]
 			tasks: [{
 				id: "192894F0F8817766"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.inventory_proxy"
-				}
+				item: "toms_storage:ts.inventory_proxy"
 				type: "item"
 			}]
 			x: -4.5d
@@ -693,15 +577,7 @@
 			subtitle: "&oRequires level 2 Beacon"
 			tasks: [{
 				id: "2FF107FE344A4067"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.wireless_terminal"
-				}
+				item: "toms_storage:ts.wireless_terminal"
 				type: "item"
 			}]
 			x: 1.0d
@@ -737,15 +613,7 @@
 			subtitle: "&oRequires level 4 Beacon"
 			tasks: [{
 				id: "0FA084774BFB8B00"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "toms_storage:ts.adv_wireless_terminal"
-				}
+				item: "toms_storage:ts.adv_wireless_terminal"
 				type: "item"
 			}]
 			x: 2.5d
@@ -781,29 +649,13 @@
 			tasks: [
 				{
 					id: "57BBF507122B90B5"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:beacon"
-					}
+					item: "minecraft:beacon"
 					type: "item"
 				}
 				{
 					count: 164L
 					id: "74150352360E2F6A"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "minecraft:iron_block"
-					}
+					item: "minecraft:iron_block"
 					type: "item"
 				}
 			]

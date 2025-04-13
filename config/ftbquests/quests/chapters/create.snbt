@@ -34,6 +34,14 @@
 			x: -7.0d
 			y: -9.0d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/create_v1"
+			rotation: 0.0d
+			width: 6.0d
+			x: 3.0d
+			y: -13.5d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -41,13 +49,13 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"Welcome to &bCreate&r! At its core, &bCreate&r follows the same primary purpose as vanilla &cRedstone&r: Give the player items to enable &o&bfanciful creations&r. "
+				"Welcome to &bCreate&r, where the art of invention comes to life! Much like the ancient mechanics of &cRedstone&r, &bCreate&r empowers you to unlock new ways to build, craft, and harness the power of engineering. This mod introduces a wealth of tools that let you craft &o&bfanciful creations&r beyond imagination."
 				""
-				"What sort of creations, you ask? Well, just about anything. Make rideable trains, tunnel bores, massive functional windmills, or even a working &9Rubik’s Cube&r!"
+				"• Construct &o&brideable trains&r, tunnel-boring machines, and massive functional windmills to fuel your ingenuity."
+				"• Build intricate devices such as working &9Rubik’s Cube&r and other mind-bending creations that push the boundaries of possibility."
+				"• Your only limit is your &dimagination&r. The only question is, what will you create next?"
 				""
-				"Your &dimagination&r is the &nlimit&r. "
-				""
-				"If you have doubts about any blocks or items, hold &o&bW&r to ponder and see an amazing &o&b3D&r in-game &nwiki&r!"
+				"But beware, for the power of creation comes with great responsibility. The machines you build may be the very instruments that shape your future—or seal the fate of your world. It’s said that in times long past, such creations were the key to the world’s prosperity… and its downfall. Will your inventions lead to salvation or destruction?"
 			]
 			icon: {
 				Count: 1
@@ -79,7 +87,7 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			title: "Welcome to &bCreate"
+			title: "&n&6⟡ The Crafting Renaissance: Mastering Creation ⟡&r"
 			x: 2.5d
 			y: -7.5d
 		}

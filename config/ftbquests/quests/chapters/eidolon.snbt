@@ -60,7 +60,26 @@
 	quests: [
 		{
 			dependencies: ["071125FC42EBEAB9"]
-			description: ["Eidolon is a magic mod that draws on a lot of different inspirations, with aspects of alchemy and theurgy. It takes a bit of a dark perspective, also featuring mechanics themed around necromancy and soul manipulation."]
+			description: [
+				"In the age before memory, when gods still bled and mortals reached for the stars, there were those who turned inward—to the soul, to death, and to the shadows between. Eidolon is the legacy of their art: a grim and powerful magic steeped in alchemy, necromancy, and forbidden rites."
+				""
+				"This is not magic born of nature or light. This is the study of essence itself—&o&9the soul unraveled&r."
+				""
+				"In this arcane pursuit, you will master:"
+				""
+				"• &8Soul Shards&r, fragments of lingering spirits, used to power your occult works"
+				"• &7Ritual Circles&r and &5Dark Altars&r, conduits for summoning, sacrifice, and rebirth"
+				"• &cCrucible Alchemy&r, where reagents are refined through heat, timing, and death"
+				"• &dNecromantic Rites&r to bend lifeless flesh and command what should not stir"
+				"• Forbidden texts and hidden knowledge, waiting to be &onot read, but consumed&r"
+				""
+				"This is magic for those willing to delve where the gods turned their gaze away."
+				""
+				"Perhaps it was this dark path—unchecked and unbound—that fractured the veil and let ruin seep into the world. Or perhaps it is the only hope left to challenge it."
+				""
+				"&8Light the candle. Draw the circle. Speak the name long forgotten.&r"
+				"&5The Eidolon answers.&r"
+			]
 			icon: "eidolon:codex"
 			id: "65C922C81EA9C369"
 			min_width: 300
@@ -84,7 +103,7 @@
 				id: "0DECDD2ED9D9A583"
 				type: "checkmark"
 			}]
-			title: "Welcome to &cEidolon"
+			title: "&5✦Whispers from Beyond the Veil…✦&r"
 			x: -7.5d
 			y: -11.25d
 		}

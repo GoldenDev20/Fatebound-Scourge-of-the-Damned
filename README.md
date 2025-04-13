@@ -3,6 +3,11 @@
 
 This is the official repository and issue-tracker for Fatebound Scourge of the Damned
 
+## 🔗 Quick Links
+
+*   [**GitHub Repository**](https://github.com/GoldenDev20/Fatebound-Scourge-of-the-Damned) – Source code, issues, and updates
+*   **Discord** _(Coming Soon!)_ – Support and community  
+
 Fatebound: Scourge of the Damned
 A hardcore RPG modpack where fate is a curse, and salvation is a lie.
 

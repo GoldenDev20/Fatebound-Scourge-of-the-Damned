@@ -110,11 +110,13 @@
 		{
 			dependencies: ["347C16F0F7CFAACF"]
 			description: [
-				"&2Extreme Reactors&r is the original port of the &eBig Reactors&r mod."
+				"Welcome to &2Extreme Reactors&r, a powerful mod where the energy of the atom is harnessed to fuel your technological advances. Will you build colossal reactors to tap into nuclear energy, or harness the might of &aTurbines&r to turn steam into power? Why not both?"
 				""
-				"Giants Reactors to harness the power of the atom or mighty &aTurbines&r to turn steam into energy? Why not both?"
+				"• Construct &o&bmultiblock machines&r that generate vast amounts of energy, giving you the power to fuel your growing empire."
+				"• With native support for the &cForge Energy Power&r system, you’ll be able to power virtually any modded machine in your world."
+				"• The flexibility of this mod means that, should you need it, additional power systems can be supported, ensuring you never run out of options for your energy needs."
 				""
-				"Build huge &o&bmultiblock machines&r to produce produce energy in a very efficient way. &2Extreme Reactor&r support natively the &cForge Energy Power&r system with the &cForge Energy Power Taps&r so you would be able to power the vast majority of modded machines. The mod is designed in such a way that, if needed, more power system &o&bcan be supported&r."
+				"But be warned, the path to ultimate power is fraught with danger. Some say it was the use of such immense energy that tore apart the very fabric of the world, leading to the catastrophic event that reset everything to this medieval state. Will you dare to seek the power that once brought the world to its knees? Or will you learn from the mistakes of the past?"
 			]
 			icon: {
 				Count: 1
@@ -145,7 +147,7 @@
 				item: "alltheores:uranium_ingot"
 				type: "item"
 			}]
-			title: "Welcome to &2Extreme Reactors"
+			title: "&n&6⟡ The Core of Creation: Unleashing Extreme Power ⟡&r"
 			x: -6.5d
 			y: -9.5d
 		}

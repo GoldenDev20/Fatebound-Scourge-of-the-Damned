@@ -362,9 +362,13 @@
 		{
 			dependencies: ["6178AEDCD61AECD0"]
 			description: [
-				"&2Flux Networks&r gives you the ability to build &cWireless Energy Networks&r. It allows you to customise these networks and manage the flow of energy across your world."
+				"Step into a new era of power transmission with &2Flux Networks&r, where the old ways of cumbersome cables are replaced by elegant, wireless energy networks."
 				""
-				"Removing the need to have cables going everywhere, hence decreasing lag and saving you time. &cEnergy&r can also be transferred &dacross dimensions&r making energy management simple."
+				"• Build, customize, and manage vast &cWireless Energy Networks&r that span your entire world, allowing you to control the flow of energy without the need for complex wiring."
+				"• Minimize lag and save time by reducing the physical clutter of energy cables, creating sleek and efficient energy systems."
+				"• Harness the ability to transfer &cEnergy&r across dimensions, making interdimensional power management simpler and more versatile than ever before."
+				""
+				"With Flux Networks, the power to shape your world is in your hands, freed from the constraints of traditional power lines."
 			]
 			icon: {
 				Count: 1
@@ -387,7 +391,7 @@
 				id: "0A5DAF2F42E5BEB5"
 				type: "checkmark"
 			}]
-			title: "Welcome to &2Flux Networks"
+			title: "&n&6⟡ The Web of Power: Mastering Wireless Energy ⟡&r"
 			x: -4.0d
 			y: -6.0d
 		}

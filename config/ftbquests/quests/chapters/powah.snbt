@@ -33,11 +33,13 @@
 		{
 			dependencies: ["3289FED615552BF0"]
 			description: [
-				"&9Powah!&r is a tech mod that adds &o&bVarious ways&r to generate, store, and transmit &cForge Energy&r."
+				"Welcome to &9Powah!&r, a mod that introduces a diverse array of technologies designed to harness and control the flow of &cForge Energy&r in new and exciting ways."
 				""
-				"&9Powah!&r adds &o&bFurnators&r, &o&bMagmators&r, &o&bSolar Panels&r, &o&bThermo Generators&r, and of course the &o&bReactor&r multiblocks!"
+				"• Generate, store, and transmit energy with a variety of systems including &o&bFurnators&r, &o&bMagmators&r, &o&bSolar Panels&r, and the mighty &o&bReactor&r multiblocks."
+				"• Upgrade your network with &aEnergy Cells&r, classic &eEnergy Cables&r, and the unique &dEnder Network&r to power your creations across the world."
+				"• Engage in new mechanics like the &6Player Transmitters&r, &2Energizing&r crafting system, and discover a collection of gadgets and items, including the quirky &o&bCharged Snowball&r."
 				""
-				"&9Powah!&r also adds the classic &eEnergy Cables&r and &aEnergy Cells&r, but also cool and unique mechanics such as the upgradable &dEnder Network&r, &6Player Transmitters&r, the &2Energizing&r crafting system, and a bunch of cool gadgets and items such as the &o&bCharged Snowball&r!"
+				"The future of energy is in your hands, as you delve into the various ways to channel the force of Powah!"
 				""
 				"{image:kubejs:textures/item/powah.png width:185 height:71 align:1}"
 			]
@@ -78,7 +80,7 @@
 				id: "4E863D6DA5A9B789"
 				type: "checkmark"
 			}]
-			title: "Welcome to &1Powah"
+			title: "&n&6⟡ The Spark of Innovation: Unlocking Powah! ⟡&r"
 			x: -8.0d
 			y: -14.0d
 		}

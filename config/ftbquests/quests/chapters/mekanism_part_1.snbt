@@ -3060,11 +3060,19 @@
 		{
 			dependencies: ["2CA78C74FC24502D"]
 			description: [
-				"&dMekanism&r is a tech mod that will change the way you play &aMinecraft&r."
+				"&oMekanism: Phase One&r"
 				""
-				"The mod focuses on breaking down materials to their chemical makeup, and getting the best out of every material you come across. "
+				"Long buried beneath the ruins of the Old World lies a discipline both feared and revered—a science so advanced, it borders on the arcane. The scholars of old did not simply mine—they transmuted. They did not merely build—they engineered machines with minds of their own. You now walk the first path of this forgotten enlightenment: &dMekanism&r."
 				""
-				"This mod features Hydrogen-Powered &cJetpacks&r, a &bMini-Robotic&r friend, &6Reactors&r, a &2Digital Miner&r to automate mining, and much more."
+				"Unlike crude contraptions of coal and fire, &dMekanism&r teaches the manipulation of matter at its most fundamental level. Through pressure, gas, and electron, the boundaries of reality can be bent to your will."
+				""
+				"• Break materials into their &ochemical components&r, extracting far more than ever before."
+				"• Glide above the battlefield with &cHydrogen-Powered Jetpacks&r."
+				"• Forge &bMini-Robotic allies&r to follow, assist, and even defend you."
+				"• Channel the fury of the stars with &6Reactors&r harnessing massive amounts of energy."
+				"• Deploy the &2Digital Miner&r—a machine capable of sensing and excavating ores from deep below, bypassing the need for manual toil."
+				""
+				"This is only the beginning. The mechanisms of the ancients are awakening. Will you master them—or be consumed by their power?"
 			]
 			icon: {
 				Count: 1
@@ -3095,7 +3103,7 @@
 				item: "alltheores:raw_osmium"
 				type: "item"
 			}]
-			title: "Welcome to&r &dMekanism:&r Phase one"
+			title: "&5⟡ The Alchemy of Progress ⟡&r"
 			x: -15.0d
 			y: -6.75d
 		}

@@ -208,13 +208,13 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"&dApotheosis&r is a content mod that allows you &o&bto become stronger&r than ever before, while trying to stay true to vanilla mechanics at heart."
+				"Welcome, traveler, to the path of Apotheosis, where the very essence of power is within your reach. This mod is not merely a tool for progression, but a gateway to ascend beyond the limits of mortal strength."
 				""
-				"Features range from simple changes, like &ntaller&r &2Sugarcane&r, to &nmassive&r overhauls of &o&bcore systems&r such as &5Enchanting&r."
+				"As you delve into this world, the familiar will twist, and the unknown will beckon with its mysteries. From the simplest of changes, like the towering growth of &2Sugarcane&r, to profound shifts in the very fabric of enchanting, you will become a true master of the arcane."
 				""
-				"&dApotheosis&r is divided into &o&6Modules&r, each of which has a specific focus."
+				"The &dApotheosis&r mod divides its power into &o&6Modules&r, each shaping different aspects of your journey. From enhancing your enchantments to unlocking new possibilities, these modules offer you the tools to shape your destiny."
 				""
-				"For detailed information, refer to the &o&bin-game guidebook&r, the &9Chronicle of Shadows&r.  You have one in your &3Eccentric Tome&r."
+				"Remember, knowledge is key. Refer to the &o&bin-game guidebook&r, the &9Chronicle of Shadows&r, which resides within your &3Eccentric Tome&r, for further wisdom on this quest of transformation."
 			]
 			id: "5A0305BB1F8EA932"
 			min_width: 250
@@ -240,7 +240,7 @@
 				id: "61A0FDFECECB6FFF"
 				type: "advancement"
 			}]
-			title: "Welcome to &2Apotheosis"
+			title: "&n&dThe Path of Apotheosis: The Chronicle Unfolds&r"
 			x: -3.5d
 			y: 0.0d
 		}

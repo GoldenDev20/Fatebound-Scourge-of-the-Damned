@@ -108,15 +108,7 @@
 			]
 			tasks: [{
 				id: "5258AF80B5567FAC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:iron_frame"
-				}
+				item: "advgenerators:iron_frame"
 				type: "item"
 			}]
 			x: -4.0d
@@ -148,15 +140,7 @@
 			]
 			tasks: [{
 				id: "60EBB99110AEF320"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:power_io"
-				}
+				item: "advgenerators:power_io"
 				type: "item"
 			}]
 			x: 0.0d
@@ -193,15 +177,7 @@
 			]
 			tasks: [{
 				id: "72B19319BF540D15"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:iron_tubing"
-				}
+				item: "advgenerators:iron_tubing"
 				type: "item"
 			}]
 			x: 4.0d
@@ -238,15 +214,7 @@
 			]
 			tasks: [{
 				id: "789BC743A5DB38D8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:iron_wiring"
-				}
+				item: "advgenerators:iron_wiring"
 				type: "item"
 			}]
 			x: 6.0d
@@ -287,15 +255,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5138167786334724"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:controller"
-				}
+				item: "advgenerators:controller"
 				type: "item"
 			}]
 			x: 0.0d
@@ -331,15 +291,7 @@
 			]
 			tasks: [{
 				id: "048F82ACC4EB661E"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:pressure_valve"
-				}
+				item: "advgenerators:pressure_valve"
 				type: "item"
 			}]
 			x: 5.0d
@@ -375,15 +327,7 @@
 			]
 			tasks: [{
 				id: "0A9EA3706901B277"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:advanced_pressure_valve"
-				}
+				item: "advgenerators:advanced_pressure_valve"
 				type: "item"
 			}]
 			x: 6.5d
@@ -420,15 +364,7 @@
 			]
 			tasks: [{
 				id: "596C51494ABBC1BD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:upgrade_kit"
-				}
+				item: "advgenerators:upgrade_kit"
 				type: "item"
 			}]
 			x: -6.0d
@@ -459,15 +395,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "5240C264CB1E299C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:turbine_kit_tier2"
-				}
+				item: "advgenerators:turbine_kit_tier2"
 				type: "item"
 			}]
 			x: -7.0d
@@ -498,15 +426,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "020DBA9C552828F6"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:turbine_kit_tier3"
-				}
+				item: "advgenerators:turbine_kit_tier3"
 				type: "item"
 			}]
 			x: -7.5d
@@ -537,15 +457,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "70625F39A7926ABF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:turbine_kit_tier4"
-				}
+				item: "advgenerators:turbine_kit_tier4"
 				type: "item"
 			}]
 			x: -7.5d
@@ -576,15 +488,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "22EF809E7C331E3F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:turbine_kit_tier5"
-				}
+				item: "advgenerators:turbine_kit_tier5"
 				type: "item"
 			}]
 			x: -8.0d
@@ -614,15 +518,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "2AF4D9703913EC53"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:capacitor_kit_tier2"
-				}
+				item: "advgenerators:capacitor_kit_tier2"
 				type: "item"
 			}]
 			x: 9.0d
@@ -652,15 +548,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "293B2D5A23A79789"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:capacitor_kit_tier3"
-				}
+				item: "advgenerators:capacitor_kit_tier3"
 				type: "item"
 			}]
 			x: 9.0d
@@ -697,15 +585,7 @@
 			]
 			tasks: [{
 				id: "717869A1BB4D7C0F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:turbine_blade"
-				}
+				item: "advgenerators:turbine_blade"
 				type: "item"
 			}]
 			x: -7.5d
@@ -736,15 +616,7 @@
 			subtitle: "These modules can be added to Gas and Steam Turbine Generators to increase energy capacity"
 			tasks: [{
 				id: "17EE2375B74320EF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:power_capacitor_tier1"
-				}
+				item: "advgenerators:power_capacitor_tier1"
 				type: "item"
 			}]
 			x: 8.0d
@@ -773,15 +645,7 @@
 			]
 			tasks: [{
 				id: "27C503F7497EB324"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:turbine_tier1"
-				}
+				item: "advgenerators:turbine_tier1"
 				type: "item"
 			}]
 			x: -7.5d
@@ -1065,15 +929,7 @@
 			]
 			tasks: [{
 				id: "22CE4B883F4E184B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:turbine_rotor_tier1"
-				}
+				item: "advgenerators:turbine_rotor_tier1"
 				type: "item"
 			}]
 			x: -7.5d
@@ -1104,15 +960,7 @@
 			subtitle: "This module output the energy produced by the generator"
 			tasks: [{
 				id: "5D6099D6A7440D89"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:fe_output"
-				}
+				item: "advgenerators:fe_output"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1121,10 +969,13 @@
 		{
 			dependencies: ["27C2B59611A27ABE"]
 			description: [
-				"- Can produce RF and EU."
-				"- Run on various liquid fuel types or steam."
-				"- Heat Exchanger can transfer heat between various substances"
-				"- Syngas Producer makes fluid fuel from solid ones"
+				"Venture into the next level of energy production with &6Advanced Generators&r, where fuel and power are transformed into the lifeblood of your technological empire."
+				""
+				"• Unlock the potential of both RF and EU power sources, and discover how to harness various liquid fuels or steam to generate an abundance of energy."
+				"• Master the art of heat exchange with the &eHeat Exchanger&r, enabling the transfer of thermal energy between substances, creating efficient systems of energy management."
+				"• Tame the elements with the &oSyngas Producer&r, turning solid fuels into fluid-based power sources for the future of your infrastructure."
+				""
+				"As you delve deeper into these advanced systems, you’ll wield the power to fuel every machine, furnace, and mechanism in your world, all while maintaining balance and sustainability."
 			]
 			icon: {
 				Count: 1
@@ -1147,7 +998,7 @@
 				id: "422D794CAB421E57"
 				type: "checkmark"
 			}]
-			title: "Welcome to &cAdvanced Generators"
+			title: "&n&6⟡ The Heart of Power: Harnessing Advanced Energy ⟡&r"
 			x: 0.0d
 			y: -11.5d
 		}
@@ -1175,15 +1026,7 @@
 			subtitle: "Produces up to 50 mb steam per tick when heated up"
 			tasks: [{
 				id: "3BA38FBD0D3A4BAF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:heating_chamber"
-				}
+				item: "advgenerators:heating_chamber"
 				type: "item"
 			}]
 			x: 5.0d
@@ -1218,15 +1061,7 @@
 			subtitle: "Increases efficiency to 135%"
 			tasks: [{
 				id: "40955E683837270A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:efficiency_upgrade_tier1"
-				}
+				item: "advgenerators:efficiency_upgrade_tier1"
 				type: "item"
 			}]
 			x: 6.0d
@@ -1256,15 +1091,7 @@
 			subtitle: "Adds 16 buckets to fuel capacity"
 			tasks: [{
 				id: "1BA75F4CA6302985"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:fuel_tank"
-				}
+				item: "advgenerators:fuel_tank"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1294,15 +1121,7 @@
 			subtitle: "Consumes up to 10 mb steam and 50 carbon and produces 1 mb of syngas per tick"
 			tasks: [{
 				id: "00022F9C0AA3C6AD"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:mixing_chamber"
-				}
+				item: "advgenerators:mixing_chamber"
 				type: "item"
 			}]
 			x: 7.0d
@@ -1339,15 +1158,7 @@
 			subtitle: "Increases efficiency to 185%"
 			tasks: [{
 				id: "627C88A1EE04018C"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:efficiency_upgrade_tier2"
-				}
+				item: "advgenerators:efficiency_upgrade_tier2"
 				type: "item"
 			}]
 			x: 8.0d
@@ -1384,15 +1195,7 @@
 			subtitle: "Allows control of various processes inside machines using redstone signal"
 			tasks: [{
 				id: "7CA1237AD22F1165"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:control"
-				}
+				item: "advgenerators:control"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1422,15 +1225,7 @@
 			subtitle: "Allows fluid input"
 			tasks: [{
 				id: "362A1F579058C560"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:fluid_input"
-				}
+				item: "advgenerators:fluid_input"
 				type: "item"
 			}]
 			x: -5.0d
@@ -1460,15 +1255,7 @@
 			subtitle: "Allows fluid output"
 			tasks: [{
 				id: "5353C3D645D11CBB"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:fluid_output_select"
-				}
+				item: "advgenerators:fluid_output_select"
 				type: "item"
 			}]
 			x: -5.0d
@@ -1498,15 +1285,7 @@
 			subtitle: "Allows item input"
 			tasks: [{
 				id: "22DA828DE85E3E92"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:item_input"
-				}
+				item: "advgenerators:item_input"
 				type: "item"
 			}]
 			x: -3.0d
@@ -1536,15 +1315,7 @@
 			subtitle: "Allows item output"
 			tasks: [{
 				id: "15381A8F53995ED1"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:item_output"
-				}
+				item: "advgenerators:item_output"
 				type: "item"
 			}]
 			x: -3.0d
@@ -1574,15 +1345,7 @@
 			subtitle: "Allows gas input from Mekanism gas tubes"
 			tasks: [{
 				id: "1FD92BB9E5C59B5B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:gas_input"
-				}
+				item: "advgenerators:gas_input"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1619,15 +1382,7 @@
 			subtitle: "Can check for different conditions on the machine and emit redstone signal when a condition is met"
 			tasks: [{
 				id: "392A62AA3E74F1EF"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:sensor"
-				}
+				item: "advgenerators:sensor"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1657,15 +1412,7 @@
 			subtitle: "Increases the maximum heat transfer per tick by 16 HU"
 			tasks: [{
 				id: "57C664F7F50953EC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "advgenerators:heat_exchanger"
-				}
+				item: "advgenerators:heat_exchanger"
 				type: "item"
 			}]
 			x: -4.0d

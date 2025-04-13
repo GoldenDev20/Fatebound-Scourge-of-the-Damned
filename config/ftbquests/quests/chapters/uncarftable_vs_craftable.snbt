@@ -14,7 +14,7 @@
 	images: [
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/creative.png"
+			image: "kubejs:item/the-final-countdown_v1"
 			rotation: 0.0d
 			width: 7.5d
 			x: 1.5d

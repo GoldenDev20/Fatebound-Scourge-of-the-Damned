@@ -14,7 +14,7 @@
 	images: [
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/bboard.png"
+			image: "kubejs:item/bounty-boards_v1"
 			rotation: 0.0d
 			width: 7.5d
 			x: 2.5d

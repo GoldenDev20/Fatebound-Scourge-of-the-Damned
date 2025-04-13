@@ -112,7 +112,7 @@
 		}
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/agcul.png"
+			image: "kubejs:item/agriculture_v1"
 			rotation: 0.0d
 			width: 7.5d
 			x: -7.5d
@@ -2581,15 +2581,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "720BAEBDC728FAAC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "farmingforblockheads:market"
-				}
+				item: "farmingforblockheads:market"
 				type: "item"
 			}]
 			x: -7.5d
@@ -2626,15 +2618,7 @@
 			tasks: [{
 				count: 4L
 				id: "6089A7A48D8D8DE3"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "farmingforblockheads:green_fertilizer"
-				}
+				item: "farmingforblockheads:green_fertilizer"
 				type: "item"
 			}]
 			title: "&aGreen Fertilizer"
@@ -2672,15 +2656,7 @@
 			tasks: [{
 				count: 4L
 				id: "607F8888C86AFE13"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "farmingforblockheads:red_fertilizer"
-				}
+				item: "farmingforblockheads:red_fertilizer"
 				type: "item"
 			}]
 			title: "&cRed Fertilizer"
@@ -2718,15 +2694,7 @@
 			tasks: [{
 				count: 4L
 				id: "45E4464FAD56B2FA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "farmingforblockheads:yellow_fertilizer"
-				}
+				item: "farmingforblockheads:yellow_fertilizer"
 				type: "item"
 			}]
 			title: "&eYellow Fertilizer"
@@ -2763,15 +2731,7 @@
 			]
 			tasks: [{
 				id: "0DA3160B4F33ECD4"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "farmingforblockheads:feeding_trough"
-				}
+				item: "farmingforblockheads:feeding_trough"
 				type: "item"
 			}]
 			x: -8.5d
@@ -2807,15 +2767,7 @@
 			]
 			tasks: [{
 				id: "05EE840CF91C71FE"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "farmingforblockheads:chicken_nest"
-				}
+				item: "farmingforblockheads:chicken_nest"
 				type: "item"
 			}]
 			x: -6.5d

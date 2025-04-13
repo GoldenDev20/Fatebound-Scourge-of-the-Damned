@@ -167,15 +167,7 @@
 			]
 			tasks: [{
 				id: "4B91053AA9CDA2BA"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:diamond_furnace"
-				}
+				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
 			x: 0.0d
@@ -1229,7 +1221,15 @@
 		}
 		{
 			dependencies: ["27C2B59611A27ABE"]
-			description: ["&eGenerator Galore&r adds a &o&bvariety&r of &nsimple generators&r."]
+			description: [
+				"In a world where power is key, &eGenerator Galore&r opens the gates to an array of simple yet powerful generators, allowing you to harness the energy of your environment to fuel your ambitions."
+				""
+				"• Begin with the basic &eCoal Generator&r, a simple but reliable source of energy for your early needs."
+				"• Expand your horizons with a variety of generators, each designed to fit your world’s needs, from the humble &eSolar Generator&r to the &eGeothermal Generator&r, tapping into the natural forces around you."
+				"• With each generator, you’ll unlock new ways to power your creations and build the foundation for more advanced technologies."
+				""
+				"Harness the elements and let them fuel your adventure as you build a powerful, self-sustaining energy network."
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1251,13 +1251,21 @@
 				id: "13B5968763910E80"
 				type: "checkmark"
 			}]
-			title: "Welcome to &6Generator Galore"
+			title: "&n&e⟡ The Power of Creation: Generating Your Future ⟡&r"
 			x: -10.0d
 			y: -16.0d
 		}
 		{
 			dependencies: ["27C2B59611A27ABE"]
-			description: ["Push smelting to the absolute limit with extraordinary &asmelting speed&r, reconfigurable sides, &daugments&r for &csmoking&r and &2blasting&r and much more."]
+			description: [
+				"Unlock the full potential of smelting with &6Iron Furnaces&r, where power and precision collide to create the ultimate in furnace technology."
+				""
+				"• Begin with the &aIron Furnace&r, designed to drastically increase smelting speed while keeping energy usage efficient."
+				"• Upgrade to the &2Blazing Furnace&r or &dSmoking Furnace&r to enhance your production even further, incorporating powerful &aaugments&r to meet the demands of your growing empire."
+				"• The furnaces can be fully customized, with reconfigurable sides allowing for a new level of flexibility in your smelting process."
+				""
+				"With each upgrade, you'll refine your smelting capabilities, enabling you to forge the materials of tomorrow, faster and more efficiently than ever before."
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -1279,7 +1287,7 @@
 				id: "2B49076FE189A4CF"
 				type: "checkmark"
 			}]
-			title: "Welcome to &dIron Furnaces"
+			title: "&n&6⟡ The Forge of Ages: Mastering the Art of Smelting ⟡&r"
 			x: -3.5d
 			y: -16.0d
 		}
@@ -1313,15 +1321,7 @@
 			]
 			tasks: [{
 				id: "2D73B0F196627FB8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:item_spooky"
-				}
+				item: "ironfurnaces:item_spooky"
 				type: "item"
 			}]
 			x: 7.5d
@@ -1357,15 +1357,7 @@
 			]
 			tasks: [{
 				id: "3547403FD96FE35F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:allthemodium_furnace"
-				}
+				item: "ironfurnaces:allthemodium_furnace"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1401,15 +1393,7 @@
 			]
 			tasks: [{
 				id: "5875B2A90CC9F243"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:vibranium_furnace"
-				}
+				item: "ironfurnaces:vibranium_furnace"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1445,15 +1429,7 @@
 			]
 			tasks: [{
 				id: "29034C51BBD084A2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:unobtainium_furnace"
-				}
+				item: "ironfurnaces:unobtainium_furnace"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1490,15 +1466,7 @@
 			size: 0.7d
 			tasks: [{
 				id: "48FA540BC05A5F19"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:upgrade_allthemodium"
-				}
+				item: "ironfurnaces:upgrade_allthemodium"
 				type: "item"
 			}]
 			x: 2.1d
@@ -1535,15 +1503,7 @@
 			size: 0.7d
 			tasks: [{
 				id: "1EFCFD771AF952CC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:upgrade_vibranium"
-				}
+				item: "ironfurnaces:upgrade_vibranium"
 				type: "item"
 			}]
 			x: 2.8000000000000003d
@@ -1580,15 +1540,7 @@
 			size: 0.7d
 			tasks: [{
 				id: "07F6E76ABE3BFB5A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:upgrade_unobtainium"
-				}
+				item: "ironfurnaces:upgrade_unobtainium"
 				type: "item"
 			}]
 			x: 3.4999999999999996d
@@ -1626,15 +1578,7 @@
 			size: 0.8d
 			tasks: [{
 				id: "2D36B2E187EFCCEC"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:augment_factory"
-				}
+				item: "ironfurnaces:augment_factory"
 				type: "item"
 			}]
 			x: 7.6d
@@ -1672,15 +1616,7 @@
 			size: 0.8d
 			tasks: [{
 				id: "2B2F57EC4C3D48F8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "ironfurnaces:augment_generator"
-				}
+				item: "ironfurnaces:augment_generator"
 				type: "item"
 			}]
 			x: 6.0d

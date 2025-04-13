@@ -8,7 +8,7 @@
 	images: [
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/taa.png"
+			image: "kubejs:item/treasures_v1"
 			rotation: 0.0d
 			width: 10.0d
 			x: 0.1071428571428612d

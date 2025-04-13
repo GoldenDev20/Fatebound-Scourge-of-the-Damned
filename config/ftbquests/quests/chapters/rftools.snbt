@@ -84,6 +84,14 @@
 			x: -3.5d
 			y: -4.5d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/rftools_v1"
+			rotation: 0.0d
+			width: 6.0d
+			x: -0.5d
+			y: -17.0d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -91,14 +99,14 @@
 		{
 			dependencies: ["1C214DD51C58BE4D"]
 			description: [
-				"&9RFTools&r is a technological mod which main feature is the ability to create and maintain dimensions using &cRF&r energy."
+				"Welcome to &9RFTools&r, a technological marvel that allows you to transcend the boundaries of the world around you. This isn't just about creating new gadgets or machines—this is about reshaping the very fabric of reality itself. With the immense power of &cRF&r energy, you have the ability to create, maintain, and explore entire dimensions."
 				""
-				"This includes:"
+				"• Harness the power of &o&bRFTools Utility&r to build and manipulate worlds, from creating new dimensions to generating power across vast distances."
+				"• Use &o&bRFTools Power&r to collect, store, and manage the vast quantities of &cRF&r energy required to maintain these incredible feats."
+				"• Unleash the power of &o&bRFTools Builder&r to craft intricate structures and reshape landscapes with precision."
+				"• Leverage &o&bxNet&r for interdimensional connectivity and remote access to your creations, transcending the limitations of space and time."
 				""
-				"- &o&bRFTools Utility&r"
-				"- &o&bRFTools Power&r"
-				"- &o&bRFTools Builder&r"
-				"- &o&bxNet&r"
+				"In the aftermath of the world's reset, &9RFTools&r gives you the power to wield the forces that once tore the world apart—creating new realities or controlling the one you inhabit. But this power comes with its own mysteries: Where did the knowledge of such technology come from? Who were the original creators of these devices, and why did they abandon them? As you explore the possibilities, you may uncover secrets far darker than any mere tool or machine."
 			]
 			icon: "rftoolsbase:manual"
 			id: "6C41E2026808192B"
@@ -115,7 +123,7 @@
 				id: "322920B144ECD8CB"
 				type: "checkmark"
 			}]
-			title: "Welcome to &cRFTools"
+			title: "&n&5⟡ The Architects of Reality ⟡&r"
 			x: -1.5d
 			y: -8.0d
 		}
@@ -1379,15 +1387,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "05065293DD883643"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "rftoolsbase:tablet"
-				}
+				item: "rftoolsbase:tablet"
 				type: "item"
 			}]
 			x: -9.0d
@@ -1430,11 +1430,6 @@
 				id: "051C855CC6B57223"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 					id: "rftoolscontrol:console_module"
 					tag: {
 						Damage: 0
@@ -1485,11 +1480,6 @@
 				id: "7B7CB7C2E79E08FA"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
 					id: "rftoolsutility:screen_link"
 					tag: {
 						Damage: 0

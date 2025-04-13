@@ -39,7 +39,7 @@
 		}
 		{
 			height: 1.7d
-			image: "kubejs:item/creative_items"
+			image: "kubejs:item/creative_v1"
 			rotation: 0.0d
 			width: 7.5d
 			x: 0.0d

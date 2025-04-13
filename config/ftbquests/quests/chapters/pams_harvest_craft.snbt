@@ -102,6 +102,14 @@
 			x: -4.0d
 			y: 1.0d
 		}
+		{
+			height: 2.0d
+			image: "kubejs:item/farming_v1"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: -8.0d
+		}
 	]
 	order_index: 3
 	quest_links: [ ]
@@ -963,15 +971,14 @@
 		{
 			dependencies: ["1E9718F6A93F923A"]
 			description: [
-				"&eFarmer's Delight&r is a mod that gently expands upon &o&bfarming&r and &o&bcooking&r in Minecraft."
+				"Step into a world where farming meets culinary artistry with &eFarmer's Delight&r, a mod that expands the horizons of both farming and cooking. From humble vegetables to delectable feasts, this mod invites you to grow, cook, and explore in ways you never imagined."
 				""
-				"Using a simple cooking system and a few familiar ingredients, you'll be able to prepare a wide variety of hearty meals: from sandwiches to salads and stews, from beautiful desserts to mouth-watering feasts, no ingredient will be left behind in your kitchen!"
+				"• Master the art of cooking with a variety of hearty meals, from simple sandwiches to elaborate stews and desserts."
+				"• Utilize the &o&bnew farming tools&r and techniques to improve your crops and make the land more fertile."
+				"• Unlock a treasure trove of decorations and utilities to enhance your homestead, including new crops, tools, and even the power to scavenge resources in creative ways."
+				"• Embrace the abundance of &6Croptopia&r, adding 58 ground crops, 26 tree crops, and over 250 delicious foods to craft and savor."
 				""
-				"It also introduces a rich set of utilities: a way to improve the very soil your crops grow in, a brand new kind of tool to scavenge resources with, cute decorations for your builds, and many blocks and items to help you on your adventure!"
-				""
-				"It's time to farm a little bit of &o&beverything&r!"
-				""
-				"&6Croptopia&r adds &o&b58&r ground crops, &o&b26&r tree crops, and over &o&b250&r foods to craft and eat."
+				"Prepare for a journey that will transform your farming adventures into a tale of growth, flavor, and discovery!"
 			]
 			icon: {
 				Count: 1
@@ -1004,7 +1011,7 @@
 				title: "Pam's Food"
 				type: "checkmark"
 			}]
-			title: "Welcome to &eFarmer's Delight \\& Croptopia"
+			title: "&n&e⟡ The Bounty of the Earth: Cultivating the Land of Abundance ⟡&r"
 			x: -12.0d
 			y: -6.0d
 		}

@@ -14,7 +14,7 @@
 	images: [
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/the_pet_master.png"
+			image: "kubejs:item/the-pet-master_v1"
 			rotation: 0.0d
 			width: 7.5d
 			x: 2.4642857142857153d

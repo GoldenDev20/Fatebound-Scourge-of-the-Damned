@@ -3393,6 +3393,25 @@
 		}
 		{
 			dependencies: ["071125FC42EBEAB9"]
+			description: [
+				"From the ashes of the Arcane Cataclysm, there emerged scattered remnants of a forgotten magical discipline—one not born of nature or divine favor, but of study, will, and ink-bound mastery."
+				""
+				"&dIron’s Spells ‘n Spellbooks&r invites you to become a true spellcaster—not through artifacts or rituals, but through the written word and the power of knowledge itself."
+				""
+				"Within this mod, you will uncover:"
+				""
+				"• &oSpellbooks&r that serve as your personal codex of arcane power"
+				"• &bDozens of spells&r—from elemental fury to protective wards and utility enchantments"
+				"• A customizable casting system built on &omana, focus, and control&r"
+				"• Magical gear and items forged for the &ntrue mage&r"
+				""
+				"Craft your own path of sorcery—combine spell effects, augment your abilities, and rewrite the very rules of reality."
+				""
+				"But beware… in these forgotten tomes, not all knowledge comes without a price."
+				"Some spells whisper in tongues best left unspoken."
+				""
+				"&5Master the arcane ink, or become its next footnote.&r"
+			]
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"
@@ -3414,7 +3433,7 @@
 				id: "76F9E2E657F03211"
 				type: "checkmark"
 			}]
-			title: "Welcome to &6Iron's Spells 'n Spellbooks"
+			title: "&d✦ A Grimoire of Forgotten Incantations ✦&r"
 			x: -0.5d
 			y: -9.5d
 		}
@@ -3628,9 +3647,16 @@
 				Count: 1
 				id: "irons_spellbooks:scroll"
 				tag: {
-					ISB_spell: {
-						id: "irons_spellbooks:counterspell"
-						level: 1
+					ISB_Spells: {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 0b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 0b
 					}
 				}
 			}

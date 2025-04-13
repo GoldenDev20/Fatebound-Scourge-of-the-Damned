@@ -8,7 +8,7 @@
 	images: [
 		{
 			height: 1.7d
-			image: "kubejs:textures/item/uc.png"
+			image: "kubejs:item/ultimate-challenges_v1"
 			rotation: 0.0d
 			width: 10.0d
 			x: 1.0d

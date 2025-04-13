@@ -46,9 +46,22 @@
 		{
 			dependencies: ["071125FC42EBEAB9"]
 			description: [
-				"&2Nature's Aura&r is a druidic themed magi-tech mod that uses the omnipresent '&daura&r' to derive its power. "
+				"In the deepest groves and among the ancient trees, the earth has always whispered secrets to those attuned to its pulse. Nature’s Aura is a druidic power, flowing through all living things, a magic forged by the world itself—an ethereal force known only as &dAura&r."
 				""
-				"Be warned, &dAura&r is a limited resource which must be managed and replenished lest the natural order be disturbed. Draining too much can cause dire consequences."
+				"This energy, omnipresent and vital, is the lifeblood of the planet, sustaining the balance of flora, fauna, and the forces of nature itself. Those who have learned to wield it, however, understand that it is a gift both abundant and fleeting."
+				""
+				"Power drawn from the Aura is drawn from life itself. Abuse of this gift—draining too deeply or too recklessly—can cause the land to wither, the air to sour, and the very balance of the world to fracture."
+				""
+				"The Druid’s Path includes: • The use of &dAura&r to fuel all manner of nature-based magics and creations, from the simplest of plants to grand &aElemental Guardians&r."
+				"• Harnessing the flow of &dAura&r through &2Druidic Nodes&r to stabilize, channel, and direct it."
+				"• Crafting powerful &9Aura-infused Tools&r, that allow you to shape the world around you—be it growing forests, summoning animals, or cleansing the land."
+				"• A sacred responsibility to maintain balance, as the excessive use of Aura may invite &8Dire Consequences&r from the unseen forces that watch over this world."
+				"• The mysterious ways of &aAncient Totems&r, which tie the land itself to your power, but can easily turn against you if you forget their warning."
+				""
+				"The druids of old spoke in hushed tones of the Last Warning:"
+				"\"Do not drain the Aura too deeply, for it feeds not just the plants and the beasts, but the very heart of the earth itself. Let greed drive you, and the land shall turn to ash.\""
+				""
+				"And yet... you are drawn to this power. Can you wield it wisely, or will you fall prey to the dangers that lie beneath the surface? Only time will tell."
 			]
 			icon: {
 				Count: 1
@@ -71,7 +84,7 @@
 				id: "3B58A7DA71C8D336"
 				type: "checkmark"
 			}]
-			title: "Welcome to &2Nature's Aura"
+			title: "&2✦The Breath of the World, the Essence of Life...✦&r"
 			x: -0.5d
 			y: -9.0d
 		}
@@ -1436,15 +1449,7 @@
 			]
 			tasks: [{
 				id: "139980F22178FB8B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:spring"
-				}
+				item: "naturesaura:spring"
 				type: "item"
 			}]
 			x: 9.0d
@@ -1469,15 +1474,7 @@
 			]
 			tasks: [{
 				id: "73BA09B27DBF40ED"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:bottle_two_the_rebottling"
-				}
+				item: "naturesaura:bottle_two_the_rebottling"
 				type: "item"
 			}]
 			x: -2.5d
@@ -1507,15 +1504,7 @@
 			]
 			tasks: [{
 				id: "092EAA21E09450C2"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:outpost_finder"
-				}
+				item: "naturesaura:outpost_finder"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1545,15 +1534,7 @@
 			]
 			tasks: [{
 				id: "77ED7BB9991CAA70"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:end_city_finder"
-				}
+				item: "naturesaura:end_city_finder"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1599,15 +1580,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "5E5AFA367633AB4B"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:ender_crate"
-				}
+				item: "naturesaura:ender_crate"
 				type: "item"
 			}]
 			title: "&5Abaddon's Gate"
@@ -1638,15 +1611,7 @@
 			]
 			tasks: [{
 				id: "34165E482D5D94D8"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:fortress_finder"
-				}
+				item: "naturesaura:fortress_finder"
 				type: "item"
 			}]
 			x: -4.5d
@@ -1685,15 +1650,7 @@
 			tasks: [{
 				count: 8L
 				id: "20B197BE95CE5B7F"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:crimson_meal"
-				}
+				item: "naturesaura:crimson_meal"
 				type: "item"
 			}]
 			title: "Crimson Meal"
@@ -1730,15 +1687,7 @@
 			]
 			tasks: [{
 				id: "5F22E3AA81F7AF0A"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "naturesaura:rf_converter"
-				}
+				item: "naturesaura:rf_converter"
 				type: "item"
 			}]
 			x: -2.0d
@@ -1856,11 +1805,6 @@
 					id: "07FA2F25DF37EB7F"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:infused_iron_helmet"
 						tag: {
 							Damage: 0
@@ -1872,11 +1816,6 @@
 					id: "69EBAE80E22BC593"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:infused_iron_chest"
 						tag: {
 							Damage: 0
@@ -1888,11 +1827,6 @@
 					id: "36231A56C157F037"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:infused_iron_pants"
 						tag: {
 							Damage: 0
@@ -1904,11 +1838,6 @@
 					id: "1261E4904030A658"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:infused_iron_shoes"
 						tag: {
 							Damage: 0
@@ -2039,11 +1968,6 @@
 					id: "5400391AEC43ADE6"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:sky_helmet"
 						tag: {
 							Damage: 0
@@ -2055,11 +1979,6 @@
 					id: "1A90E7BC5FA26429"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:sky_chest"
 						tag: {
 							Damage: 0
@@ -2071,11 +1990,6 @@
 					id: "784BBECAF2FC2D13"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:sky_pants"
 						tag: {
 							Damage: 0
@@ -2087,11 +2001,6 @@
 					id: "4BDBBB042B77E529"
 					item: {
 						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
 						id: "naturesaura:sky_shoes"
 						tag: {
 							Damage: 0

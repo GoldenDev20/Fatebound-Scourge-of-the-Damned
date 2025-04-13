@@ -99,11 +99,13 @@
 		{
 			dependencies: ["4407A832E90678D3"]
 			description: [
-				"The &2Tinkers' Construct&r mod focuses on weapon and tool manufacturing."
+				"Enter the world of the &2Tinkers' Construct&r, where craftsmanship meets invention. This mod brings the ancient art of weapon and tool forging to new heights, allowing you to craft &o&bcustom&r tools with unique abilities and designs."
 				""
-				"The mod adds &o&bpatterns&r for tool and weapon &o&bparts&r that allow the player to create &nhundreds of combinations&r; each with their own &o&bstrengths&r, &o&bweaknesses&r, and &o&beffects&r."
+				"• Craft &o&bpatterns&r for weapon and tool parts, assembling them into creations of great power."
+				"• Experiment with &n&hundreds of combinations&r, each offering distinct strengths, weaknesses, and effects."
+				"• Enhance your creations further by installing &o&badditional materials&r that boost their abilities or simulate powerful &o&bvanilla enchantments&r."
 				""
-				"After the tool or weapon is created, &nadditional&r materials may be installed &o&bto boost the item's abilities&r, or to simulate &o&bvanilla enchantments&r."
+				"The forge awaits—are you ready to shape your destiny with your own hands?"
 			]
 			icon: {
 				Count: 1
@@ -126,7 +128,7 @@
 				id: "25C27D7B63CFAA20"
 				type: "checkmark"
 			}]
-			title: "Welcome to &2Tinkers' Construct"
+			title: "&n&2⟡ The Art of Forging: Mastering the Craft of Tinkers ⟡&r"
 			x: -7.0d
 			y: -9.0d
 		}

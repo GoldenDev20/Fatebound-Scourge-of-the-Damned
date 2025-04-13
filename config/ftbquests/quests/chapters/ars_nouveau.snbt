@@ -28,9 +28,24 @@
 	quests: [
 		{
 			description: [
-				"Ars Nouveau is a magic mod that allows players to craft their own spells, create magical artifacts, perform rituals, and much more."
+				"Welcome to Ars Nouveau, a realm where magic is not just a force, but an art—an art you can shape and mold to your will. Here, Mana flows through every living thing, a potent, invisible force waiting to be harnessed by those who seek to master it. As you embark on your journey, you will learn to craft your own spells, summon powerful magical artifacts, and delve into ancient rituals to unlock the true potential of the arcane."
 				""
-				"With Ars Nouveau you will learn to harness the mana infused in all things to cast powerful spells, drive arcane machinery, and even to empower some cute friends along the way."
+				"In Ars Nouveau, magic is more than just casting spells—it is about crafting your destiny, building your own legacy of power, and connecting with the very fabric of the world. Mana is the key to it all, and as you delve deeper into the mysteries of this magic, you'll learn how to manipulate and channel it for your own purposes."
+				""
+				"Key Features of Ars Nouveau:"
+				"• Spellcrafting: Harness the Mana that permeates the world to craft and cast your own spells. From simple fireballs to complex, multi-layered incantations, you'll be able to shape the very fabric of magic itself."
+				"• Magical Artifacts: Create powerful, unique magical items that are attuned to your personal style of magic. These artifacts will assist you in your journey, each one infused with potent enchantments to aid in spellcasting or enhancing your abilities."
+				"• Arcane Machinery: Unlock the secrets of ancient machinery powered by Mana. These machines will allow you to perform intricate tasks and perform large-scale enchantments, infusing the world around you with arcane energy."
+				"• Mana-infused Companions: Along the way, you'll encounter adorable Mana Creatures—companions that you can empower and guide, each bringing their own set of abilities to aid you in your magical endeavors."
+				"• Rituals of the Ancients: Tap into ancient, forgotten rituals to summon immense power and uncover lost secrets of the arcane world. These rituals are complex, requiring precise timing and a deep understanding of magic."
+				"• Mana Mastery: As you grow more proficient in your craft, you will learn to control larger and more powerful sources of Mana, enabling you to cast spells of unimaginable power and alter reality itself."
+				""
+				"Getting Started:"
+				"To begin your journey into the world of Ars Nouveau, you must first craft the Arcane Workbench, a vital tool that will allow you to begin learning the art of spellcraft. With it, you can create your first basic spells and start crafting the magical artifacts that will shape your future."
+				""
+				"From there, the world of magic is at your fingertips—dive into the arcane arts, experiment with different magical styles, and grow your power as you delve deeper into this wondrous, boundless world of Mana."
+				""
+				"Will you unlock the full potential of the Mana that flows through all things, or will you become lost in the endless pursuit of arcane mastery? The choice—and the power—is yours to command."
 			]
 			icon: "ars_nouveau:creative_spell_book"
 			id: "0FF49F7DD4D172CF"
@@ -75,12 +90,12 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "*Unlocked by completing the &b&n&oIron Pickaxe&r quest*"
+			subtitle: "&oMaster the Arcane, Shape Reality, and Harness Mana's Infinite Powerr*"
 			tasks: [{
 				id: "69842ED24C694005"
 				type: "checkmark"
 			}]
-			title: "Welcome to &eArs Nouveau"
+			title: "&5Ars Nouveau ✦ The Art of Spellcraft ✦&r"
 			x: -5.25d
 			y: -10.5d
 		}
@@ -308,7 +323,11 @@
 			]
 			tasks: [{
 				id: "1D5860D4E1D3322A"
-				item: "ars_nouveau:spell_parchment"
+				item: {
+					Count: 1
+					id: "ars_nouveau:spell_parchment"
+					tag: { }
+				}
 				type: "item"
 			}]
 			x: 4.0d

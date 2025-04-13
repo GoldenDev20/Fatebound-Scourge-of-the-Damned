@@ -1050,7 +1050,23 @@
 		}
 		{
 			dependencies: ["071125FC42EBEAB9"]
-			description: ["This mod is designed to provide tools that will aid you in exploring seemingly endless reaches of Minecraft's worlds."]
+			description: [
+				"Welcome to Enigmatic Legacy, a mod designed to guide you through the seemingly endless reaches of the Minecraft world. The world around you is vast, filled with mysteries and untapped potential. Enigmatic Legacy provides you with the tools and knowledge to navigate and master these expanses, whether you're traversing unexplored biomes, uncovering hidden secrets, or discovering far-flung realms beyond your imagination."
+				""
+				"The mod's core philosophy is exploration—whether you're diving deep into the heart of new dimensions, uncovering ancient technologies, or harnessing the hidden forces of the world, Enigmatic Legacy is about enabling your journey through the unknown."
+				""
+				"Key Features of Enigmatic Legacy:"
+				"• Advanced Exploration Tools: Equip yourself with a series of powerful tools that will aid you in your travels. From powerful exploration devices to unique transportation methods, you'll have everything you need to explore the farthest reaches of the world."
+				"• Dimensional Travel: Unlock the power to travel between dimensions. With Enigmatic Legacy, you’ll be able to discover new, uncharted worlds, each with its own challenges, resources, and secrets waiting to be uncovered."
+				"• Ancient Technologies: Find and harness the power of ancient technologies scattered throughout your world. These forgotten secrets may be the key to unlocking new pathways, providing invaluable assistance on your journey."
+				"• World-Enhancing Mechanics: Experience enhanced world generation and exploration mechanics designed to make your travels feel more immersive. Whether it's new biomes, structures, or hidden secrets, the world will feel more alive and mysterious than ever before."
+				"• Progressive Discovery: As you journey through the vastness of Minecraft, you’ll encounter a variety of challenges that will require clever thinking and resourcefulness. Each new discovery will bring you closer to understanding the full extent of the legacy that awaits you."
+				""
+				"Getting Started:"
+				"To begin your journey, start by crafting the Explorer's Compass. This essential tool will help guide you through the unknown, pointing you toward new adventures and undiscovered lands. From there, you will begin unlocking more tools and abilities to help you navigate the expanding world."
+				""
+				"Will you embrace the unknown and become a master of the mysteries the world has to offer? The secrets of Minecraft’s endless reaches are waiting for you."
+			]
 			icon: "enigmaticlegacy:the_acknowledgment"
 			id: "3ABFE29062852FD6"
 			min_width: 300
@@ -1095,12 +1111,12 @@
 			]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "*Unlocked by completing the &b&n&oSign the contract&r quest*"
+			subtitle: "&oUnveil the Secrets of Minecraft's Infinite Realms and Master the Unknownr*"
 			tasks: [{
 				id: "353D92FB5AA053CE"
 				type: "checkmark"
 			}]
-			title: "Welcome to &5Enigmatic Legacy"
+			title: "&8Enigmatic Legacy ✦ Explore the Unknown ✦&r"
 			x: -1.0d
 			y: -6.5d
 		}

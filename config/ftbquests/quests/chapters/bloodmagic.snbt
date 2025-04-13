@@ -143,12 +143,25 @@
 		{
 			dependencies: ["23ADD20D9B1AE0F3"]
 			description: [
-				"Welcome to &4Blood Magic&r!"
+				"Welcome to the dark and ancient art of Blood Magic, where the line between life and death is blurred, and power is drawn from the very essence of one's soul. Blood, the source of all life, is also the key to unimaginable power—if you dare to pay the price."
 				""
-				"It adds an expansive life-based magic system which spans rituals, sacrifices, summoning, alchemy and spell creation. In &4Blood Magic&r, the player collects &2Life Essence&r by sacrificing their &o&bown health&r or the &o&bhealth of mobs&r to power their &4Blood Magic&r creations on their quest to become an &dArchmage&r."
+				"In Blood Magic, you will embark on a journey that pushes the boundaries of what’s possible. You will call upon the forces of life and death, sacrifice your own vitality, and summon ancient rituals that can reshape the very fabric of the world. But beware: this magic is not without its toll."
 				""
-				"&o&bWhat do I need to get started&r?"
-				"Well, you can really get your first start as soon as you have some &cRedstone&r, &3Iron&r, &6Gold&r, &9Lapis Lazuli&r, and a couple of &bDiamonds&r. But delving deeper into the mod can get quite... &nexpensive&r."
+				"The core of Blood Magic revolves around the collection of Life Essence—the very essence of life force itself. Sacrifice your health, or that of creatures around you, to power your spells, rituals, and alchemical creations. The more you give, the greater the power you can wield. But be cautious—too much sacrifice can leave you vulnerable, or even worse… your soul may be claimed by the ancient forces you’ve tapped into."
+				""
+				"Key features of your journey:"
+				"• Life Essence: The lifeblood of this system. Drawn from the depths of your own vitality or from that of mobs, this essence will fuel your most potent creations and rituals."
+				"• Rituals and Sacrifices: From simple blood sacrifices to complex rituals that summon mighty entities, you will learn to control your own life force and use it to fuel immense power."
+				"• Alchemy and Spell Creation: Use blood to transmute elements, craft powerful potions, and even craft your own spells—each more potent than the last."
+				"• Summoning: As you delve deeper into the art, you’ll learn to summon powerful beings, draw on their energy, and bend them to your will."
+				"• Becoming an Archmage: Your ultimate goal is to ascend to the rank of Archmage, unlocking the full potential of Blood Magic. But be wary, for this title comes with great responsibility—and an even greater cost."
+				"• The Crimson Altar: The heart of your power, where you will perform your most dangerous and rewarding rituals."
+				"• The Price of Power: Every spell, every ritual, demands a sacrifice. The more you give, the greater your potential— but every drop of blood you spill is one step closer to madness or even death."
+				""
+				"Getting Started:"
+				"To begin your journey, you’ll need a handful of basic materials: Redstone, Iron, Gold, Lapis Lazuli, and Diamonds. These materials will help you craft your first Blood Altar, the key to unlocking your new, forbidden powers. But be warned—once you begin, there is no turning back. The deeper you dive into Blood Magic, the more it will demand of you."
+				""
+				"Will you master the ancient art and become the Archmage of legend? Or will the thirst for power consume you? The choice—and the sacrifice—lies in your hands."
 			]
 			icon: {
 				Count: 1
@@ -166,12 +179,12 @@
 			}]
 			shape: "gear"
 			size: 1.5d
-			subtitle: "*Unlocked by completing the &b&oLivingrock&r quest*"
+			subtitle: "*&oThe Power of Blood, the Price of Life…r"
 			tasks: [{
 				id: "27529E8EA019A89A"
 				type: "checkmark"
 			}]
-			title: "Welcome to &4Blood Magic"
+			title: "&4Blood Magic ✦ The Art of Sacrifice ✦&r"
 			x: -30.0d
 			y: -3.0d
 		}
