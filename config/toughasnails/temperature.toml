@@ -1,7 +1,7 @@
 
 [toggles]
 	#Enable or disable temperature.
-	enable_temperature = disable
+	enable_temperature = true
 
 [general]
 	#Number of ticks to delay changing the player's temperature after their temperature changes.

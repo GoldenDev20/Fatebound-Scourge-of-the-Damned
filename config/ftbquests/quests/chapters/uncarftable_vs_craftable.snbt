@@ -1175,16 +1175,6 @@
 			x: -0.25d
 			y: -3.5d
 		}
-		{
-			id: "525CC5F5347BB227"
-			tasks: [{
-				id: "207F3FDDF7C23F7A"
-				title: "The Final Quest"
-				type: "custom"
-			}]
-			x: 1.5d
-			y: -11.5d
-		}
 	]
 	title: "&6&oThe Final Quest"
 }

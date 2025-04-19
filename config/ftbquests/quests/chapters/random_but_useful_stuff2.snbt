@@ -2548,6 +2548,17 @@
 			x: 2.5d
 			y: -2.5d
 		}
+		{
+			id: "7659093AC91FDFF3"
+			shape: "hexagon"
+			tasks: [{
+				id: "601C799763D61E08"
+				item: "ae2netanalyser:network_analyser"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
 	]
 	title: "&fTips, utilities \\& QoL stuff"
 }

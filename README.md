@@ -6,41 +6,41 @@ This is the official repository and issue-tracker for Fatebound Scourge of the D
 ## 🔗 Quick Links
 
 *   [**GitHub Repository**](https://github.com/GoldenDev20/Fatebound-Scourge-of-the-Damned) – Source code, issues, and updates
-*   **Discord** _(Coming Soon!)_ – Support and community  
+*   **Discord** _(Coming Soon!)_ – Support and community
 
-Fatebound: Scourge of the Damned
-A hardcore RPG modpack where fate is a curse, and salvation is a lie.
+### **PS.**
 
-The Premise
-You are not the hero. You are the damned—a soul bound to a world rotting under an ancient Scourge. Demons hunt you. Curses fester in your gear. Every "gift" of power comes with a price. Survive long enough to unravel the truth: the only way out is to embrace the darkness.
+I Feel like I should mention this as I've had a few people comment on it when I first started working on this pack about 7 months ago I intailly planned on naming it Age of Fate, so everything was based around that name, now 2 months ago I learned there was already a pack by that name, so I had to change it. So, any aspects of the pack that you see mention the former age of Fate name, if possible, can you make a suggestion ticket on GitHub so that I can find it and update it? Thank you, and enjoy.  
 
-Features
-Brutal Progression: Permadeath mechanics, soul-bound items, and twisted RPG classes.
+### **Fatebound: Scourge of the Damned**
 
-The Scourge Grows: Each boss slain corrupts the world further (custom mechanics).
+_A hardcore RPG modpack where fate is a curse, and salvation is a lie._
 
-No Safe Havens: Dimensions shift over time—even "sanctuary" is an illusion.
+#### **The Premise**
 
-Fate-Altering Quests: Choices lock out paths or doom NPCs.
+You are **not the hero**. You are the **damned**—a soul bound to a world rotting under an ancient Scourge. Demons hunt you. Curses fester in your gear. Every "gift" of power comes with a price. Survive long enough to unravel the truth: **the only way out is to embrace the darkness**.
 
-Cursed Loot: Legendary weapons... with horrific side effects.
+#### **Features**
 
-Mod Highlights
-Combat: Tetra, Apotheosis, Vampirism.
+*   **Brutal Progression**: Permadeath mechanics, soul-bound items, and twisted RPG classes.
+*   **The Scourge Grows**: Each boss slain corrupts the world further (custom mechanics).
+*   **No Safe Havens**: Dimensions shift over time—even "sanctuary" is an illusion.
+*   **Fate-Altering Quests**: Choices lock out paths or doom NPCs.
+*   **Cursed Loot**: Legendary weapons… with horrific side effects.
 
-Magic: Ars Nouveau, Blood Magic.
+#### **Mod Highlights**
 
-Horror: Graveyard, The Betweenlands.
+*   **Combat**: _Tetra, Apotheosis, Vampirism_.
+*   **Magic**: _Ars Nouveau, Blood Magic_.
+*   **Horror**: _Graveyard, The Betweenlands_.
+*   **Survival**: _Spice of Life, Tough as Nails_.
 
-Survival: Spice of Life, Tough as Nails.
+#### **Technical Notes**
 
-Technical Notes
-RAM: 8GB minimum (12GB recommended).
+*   **RAM**: 12GB minimum (15GB recommended).
+*   **OptiFine**: **Incompatible** (use _Rubidium + Oculus_ for shaders).
+*   **Performance**: Includes _Canary, Entity Culling_.
 
-OptiFine: Incompatible (use Rubidium + Oculus for shaders).
+#### **Final Warning**
 
-Performance: Includes Canary, Entity Culling.
-
-Final Warning
-"The Scourge whispers to those who fail. Will you conquer it—or become its herald?"
-
+> _"The Scourge whispers to those who fail. Will you conquer it—or become it
