@@ -1,6 +1,146 @@
 # Modpack Changelog
 
+---
+## [v1.3.0] - Part 1: Expansion & Optimization (2025-0-11) 
 
+As with all updates, please backup your saves and worlds just in case, keep in mind that new structures may not generate in existing chunks of previous worlds. "Happy Mothers Day"
+---
+
+## 📦 Added Mods
+- [`spark`](https://www.curseforge.com/minecraft/mc-mods/spark) – Performance profiling & diagnostics.
+- `noisium` – Noise optimization improvements.
+- `krypton reforged` – Enhances network performance.
+- `better chunk loading` – Improves chunk loading behavior.
+- `better burning` – Tweaks fire and burn mechanics.
+- `limited chunk loading` – Automatically unloads chunks **60 minutes** after player logout.
+
+## ❌ Removed Mods
+- `chat heads` 
+- `entity model features`
+- `entity sound features`
+- `entity texture features` – Temporarily unnecessary.
+- `ok zoomer`
+- `savage ender dragon`
+- `particle core` 
+- `packet fixer`
+- `skin layers 3d`
+
+## 🔁 Updated Mods
+Below is a list of mods that have received version updates or patches:
+
+- `AEInfinity Booster`
+- `AllTheLeaks`
+- `Allthemodium`
+- `Almost Unified`
+- `Ambient Sounds 6`
+- `Apotheosis`
+- `Apotheotic Additions`
+- `Applied Energistics 2`
+- `Applied Flux`
+- `Artifacts`
+- `Autochef's Delight`
+- `Balm`
+- `Biome Music`
+- `Biomes O' Plenty`
+- `Blueprint`
+- `Born in Chaos`
+- `Botania`
+- `Brutal Bosses`
+- `Chloride`
+- `Choice Overhauled Village`
+- `Collective`
+- `Common Capabilities`
+- `Construct's Casting`
+- `Corail Tombstone`
+- `Crash Assistant`
+- `Create: Stuff & Additions`
+- `Create: Central Kitchen`
+- `Create: New Age`
+- `CreativeCore`
+- `Croptopia Delight`
+- `Curios APIU`
+- `Cyclic`
+- `Cyclops Core`
+- `Data Anchor`
+- `Deep Aether`
+- `Doggy Talents Next`
+- `Drippy Loading Screen`
+- `Elysium API`
+- `Enchant With Mobs`
+- `Enigmatic Delicacy`
+- `EvilCraft`
+- `Extended AE`
+- `FancyMenu`
+- `Fast Item Frames`
+- `FLib`
+- `Forestry: Community Edition`
+- `FTB Chunks`
+- `FTB Filter System`
+- `FTB Quests`
+- `FTB Ranks`
+- `FTB XMod Compat`
+- `Fusion`
+- `Fzzy Config`
+- `Gorovey Mod Loader`
+- `GuideMe`
+- `Hostile Mobs and Girls`
+- `Ice and Fire Patcher`
+- `Immersive Messenger API`
+- `Immersive Optimization`
+- `Integrated API`
+- `Iron Spells n Spellbooks`
+- `Jaden's Nether Expansion`
+- `Kiwin`
+- `L'Ender Cataclysm`
+- `LDLib`
+- `McAW’s Fences and Walls`
+- `McAW’s Lights and Lamps`
+- `McAW’s Roofs`
+- `Measurements`
+- `Mining Madness`
+- `MineColonies`
+- `Moderately Enough Effect Description`
+- `ModernFix`
+- `Moonlight Lib`
+- `Mowzie's Mobs`
+- `Mystical Additions`
+- `Mystical Agriculture`
+- `Oh The Biomes You’ll Go`
+- `Oh The Trees You'll Grow`
+- `Packaged Ex Crafting`
+- `Polymorph`
+- `Powah!`
+- `Puzzles`
+- `Quark`
+- `Refined Storage Manual`
+- `Relics`
+- `SecurityCraft`
+- `Serene Seasons`
+- `Snow Under Trees`
+- `Sophisticated Backpacks`
+- `Sophisticated Core`
+- `Sophisticated Storage`
+- `Structure Essentials`
+- `Structurize`
+- `Supplementaries`
+- `Tinkers' Complement (TConJeiu)`
+- `The Deep Void`
+- `The Undead Revamped`
+- `Thermal Extra`
+- `Tom's Simple Storage`
+- `Treasure2`
+- `Valarian Conquest`
+- `Vanillin`
+- `Waystones`
+- `Zeta`
+
+---
+
+
+
+
+
+---
 ## [v1.2.0] - Part 1: Expansion & Optimization (2025-04-19)  
 *(Part 1 of a multi-phase update — stay tuned for more!)*  
 
