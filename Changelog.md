@@ -1,12 +1,11 @@
 # Modpack Changelog
 
 ---
-## [v1.3.0] - Part 1: Expansion & Optimization (2025-0-11) 
+## [v1.3.0] 
 
 
-As with all updates, please backup your saves and worlds just in case, keep in mind that new structures may not generate in existing chunks of previous worlds. "Happy Mothers Day"
 ---
-# 🛠️ Fatebound: Scourge of the Damned v1.3.0 (2025-05-10)
+# 🛠️ Fatebound: Scourge of the Damned v1.3.0 (2025-05-15)
 
 ## 📦 Added Mods
 - [`spark`](https://www.curseforge.com/minecraft/mc-mods/spark) – Performance profiling & diagnostics.
@@ -137,14 +136,6 @@ Below is a list of mods that have received version updates or patches:
 - `Zeta`
 
 ---
-
-<<<<<<< HEAD
-
-=======
-📘 *Note: Ensure any removed features are not critical to your existing world state or builds before applying these changes.*
->>>>>>> fef7ebe71b0022b69da6c7e7c7f1c72556496004
-
-
 
 ---
 ## [v1.2.0] - Part 1: Expansion & Optimization (2025-04-19)  
