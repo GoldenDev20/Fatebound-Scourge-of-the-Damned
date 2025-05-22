@@ -1,4 +1,12 @@
 # Modpack Changelog
+--------
+## [v1.3.1] - 2025-05-22
+
+### Changed
+- Removed **Serene Seasons: Extended** due to performance issues and lag reported by players during seasonal transitions and biome ticks.
+
+### Notes
+- This change is intended to improve overall framerate and reduce tick-related lag in seasonal environments.
 
 ---
 ## [v1.3.0] 
